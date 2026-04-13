@@ -267,6 +267,15 @@ El Solution Profile de SafeFlow presenta la definición del problema que aborda 
 
 ### 1.2.1 Antecedentes y problemática
 
+La cadena de frío constituye un proceso fundamental en industrias como la farmacéutica y alimentaria, donde es indispensable mantener los productos dentro de rangos específicos de temperatura para preservar su calidad, seguridad y efectividad. A lo largo del tiempo, las empresas han implementado distintos mecanismos de control durante el almacenamiento y transporte; sin embargo, estos métodos no siempre garantizan un monitoreo continuo ni una supervisión eficiente de las condiciones ambientales.
+
+En la actualidad, muchas organizaciones aún enfrentan limitaciones para controlar de manera constante las variables críticas, especialmente la temperatura, lo que dificulta la detección temprana de anomalías. Como consecuencia, las incidencias suelen identificarse cuando el producto ya ha sido afectado, generando pérdidas económicas significativas y posibles riesgos para la salud de los consumidores.
+
+Asimismo, la ausencia de sistemas integrados que permitan una trazabilidad completa de la cadena logística impide identificar con precisión en qué punto ocurrió la falla y quién fue el responsable del evento. Esta falta de visibilidad reduce la capacidad de respuesta ante incidentes y limita la toma de decisiones oportunas.
+
+En este contexto, se evidencia la necesidad de contar con una solución tecnológica que permita monitorear, registrar y analizar las condiciones de la cadena de frío de manera eficiente, con el fin de prevenir pérdidas, mejorar la trazabilidad y optimizar la gestión de productos sensibles.
+
+
 ### 1.2.2 Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
