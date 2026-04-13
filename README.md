@@ -224,6 +224,43 @@ La plataforma analiza continuamente las condiciones registradas y detecta desvia
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
+
+| *Integrante*            |         |
+|---------------------------|---------------------------------------------------------------------------------------------------|
+| *Código del Estudiante* |           |
+| *Carrera*               |          |
+| *Descripción*           |     |
+| Foto                      |          |
+
+| *Integrante*            |            |
+|---------------------------|---------------------------------------------------------------------------------------------------|
+| *Código del Estudiante* |            |
+| *Carrera*               |            |
+| *Descripción*           |            |
+| Foto                      |            |
+
+| *Integrante*            |            |
+|---------------------------|---------------------------------------------------------------------------------------------------|
+| *Código del Estudiante* |            |
+| *Carrera*               |            |
+| *Descripción*           |            |
+| Foto                      |            |
+
+| *Integrante*            |            |
+|---------------------------|---------------------------------------------------------------------------------------------------|
+| *Código del Estudiante* |            |
+| *Carrera*               |            |
+| *Descripción*           |            |
+| Foto                      |            |
+
+| *Integrante*            |            |
+|---------------------------|---------------------------------------------------------------------------------------------------|
+| *Código del Estudiante* |            |
+| *Carrera*               |            |
+| *Descripción*           |            |
+| Foto                      |            |
+
+
 ## 1.2. Solution Profile
 
 ### 1.2.1 Antecedentes y problemática
