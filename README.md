@@ -332,8 +332,19 @@ El proyecto utiliza los siguientes pesos de fuente para crear jerarquía y énfa
 
 **Branding e ícono** El logo de SafeFlow es un ícono abstracto y dinámico que integra elementos simbólicos de movimiento, seguridad y control. Las líneas curvas suavemente ondulantes representan el movimiento constante y el flujo ininterrumpido de la cadena de frío. La combinación de elementos geométricos y orgánicos simboliza la vigilancia precisa de la temperatura. El diseño limpio y moderno transmite confianza a empresas logísticas, distribuidoras y laboratorios. 
 
-
 ### 4.1.2. Web Style Guidelines
+La versión web de SafeFlow está diseñada para ofrecer una experiencia fluida e intuitiva, tanto para administradores de logística como para operarios de almacén y laboratorio. Su diseño es responsivo y dinámico, adaptándose a las necesidades de usuarios en entornos críticos de control de temperatura.
+
+- **Diseño Responsivo**: La plataforma se adapta perfectamente a dispositivos de escritorio, tabletas y móviles, garantizando una experiencia de usuario consistente, ya sea que se encuentre en una oficina central, en una cámara frigorífica o en movimiento. La interfaz mantiene su funcionalidad y claridad en todos los tamaños de pantalla.
+
+- **Hover Effects**: Los elementos interactivos como botones, tarjetas de sensores y alertas cambian sutilmente de color al pasar el cursor sobre ellos. Por ejemplo, los botones de llamado a la acción azul pueden oscurecerse ligeramente o cambiar a un azul secundario para indicar que son seleccionables. Las tarjetas de monitoreo de temperatura pueden elevarse con una sombra suave para indicar interactividad.
+
+- **Barra de Navegación Superior**: La barra de navegación principal está ubicada en la parte superior e incluye accesos clave como Inicio, Reportes, Inventario y Perfil. Esto asegura que los usuarios puedan acceder a las secciones más críticas de manera rápida y eficiente, minimizando pasos para tomar decisiones sobre la cadena de frío.
+
+- **Animaciones Sutiles**: Se emplean transiciones suaves para mejorar la experiencia de usuario sin distraer de la información crítica. Las animaciones sutiles como el deslizamiento de paneles al expandir menús, el cambio de estado de un botón al ser presionado, o la aparición gradual de alertas, hacen que la interacción se sienta más fluida, moderna y profesional. Las animaciones nunca interfieren con la legibilidad de datos críticos.
+
+- **Paneles Modulares**: El contenido como los datos de sensores, el historial de temperaturas, las alertas activas o los reportes de cumplimiento, se organizará en paneles modulares y tarjetas. Esto facilita tanto la lectura y escaneo rápido de información, como la adaptación a diferentes tamaños de pantalla. Cada panel tiene límites claros usando el color de borde (#E5E7EB) y espaciado consistente.
+
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems
 ### 4.2.2. Labeling Systems
