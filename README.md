@@ -257,6 +257,82 @@ https://github.com
 Con el objetivo de asegurar coherencia visual y comunicacional a lo largo de todos los puntos de contacto con los usuarios, se define una guía de estilo centralizada para el equipo de diseño y desarrollo. Esta guía permitirá mantener una presentación consistente tanto en plataformas web como móviles, alineada con los valores de sostenibilidad, inclusión y responsabilidad promovidos por **safeFlow**.
 
 ### 4.1.1. General Style Guidelines
+
+Teniendo en cuenta nuestro público objetivo (empresas logísticas, distribuidoras y laboratorios) y el nicho de la cadena de frío, nos decidimos por la siguiente paleta de colores:
+
+**Paleta de colores: **Teniendo en cuenta nuesto publico objetivo y el nicho a apuntar, nos decidimos por la siguiente paleta de colores:
+
+- **Azul Primario - #0066CC**: Es nuestro color principal y representa confianza, profesionalismo y seguridad. Se utiliza en botones principales (CTAs), encabezados destacados, links y elementos interactivos. Este azul transmite la fiabilidad que los usuarios buscan en una solución de control de temperatura crítica.
+
+- **Azul Secundario - #1AA8E6**: Un tono más claro y vibrante del azul, utilizado para crear gradientes visuales, estados hover, y elementos secundarios. Funciona perfectamente con el azul primario para crear una jerarquía visual clara. Se usa también en secciones secundarias y para resaltar información complementaria.
+
+- **Gris Oscuro (Texto Primario) - #1F2937**: Color para el texto principal del cuerpo. Proporciona excelente legibilidad sobre fondos claros y transmite profesionalismo y estabilidad.
+
+- **Gris Claro (Texto Secundario) - #6B7280**: Se utiliza para subtítulos, descripciones, leyendas y texto secundario. Esta práctica crea una jerarquía visual clara y ayuda a que el contenido principal destaque.
+
+- **Blanco - #FFFFFF**: Fondo principal de la aplicación. Proporciona una base limpia y profesional para todo el contenido.
+
+- **Gris Muy Claro (Secciones Alternadas) - #F9FAFB**: Se usa como fondo alterno en secciones secundarias, bloques de contenido o tarjetas para crear dinamismo y separación visual sin ser demasiado agresivo.
+
+- **Gris Ultra Claro - #F5F7FA**: Color de fondo complementario para elementos como el selector de idioma, campos de entrada o áreas con información adicional.
+
+- **Gris Muy Oscuro (Fondos Oscuros) - #0F1419**: Utilizado en fondos oscuros para mantener coherencia y sofisticación en cualquier tema futuro.
+
+- **Verde de Éxito - #10B981**: Indica operaciones exitosas, temperaturas dentro del rango permitido, o estados positivos. Genera confianza al usuario.
+
+- **Naranja/Amarillo de Advertencia - #F59E0B**: Señala advertencias o temperaturas que requieren atención pero no son críticas. Captura la atención sin alarmar.
+
+- **Rojo de Peligro - #EF4444**: Indica errores, temperaturas fuera de rango o alertas críticas. Representa urgencia y requiere acción inmediata.
+
+- **Color de Borde - #E5E7EB**: Utilizado para separaciones sutiles entre elementos, bordes de tarjetas, campos de entrada y líneas divisorias. Mantiene la cohesión visual sin ser invasivo.
+
+**Tipografía** La tipografía principal para safeFlow es Fira Sans, seleccionada por su legibilidad en pantalla y su estilo moderlo y profesional. Es una fuente ideal para encabezados y elementos de interfaz importantes. Para el cuerpo del texto y elementos secundarios se emplea Open Sans, ya que de igual forma es una fuente legible y versátil, además que se complementa a la perfección con Fira Sans, esto garantiza una lectura cómoda y una jerarquía visual clara en toda la plataforma.
+- **Fira Sans** (para encabezados): Seleccionada por su estilo moderno, profesional y excelente legibilidad. Ideal para títulos y elementos de interfaz importantes que necesitan captar atención.
+
+- **Open Sans** (para cuerpo de texto): Fuente legible, versátil y que se complementa perfectamente con Fira Sans. Garantiza una lectura cómoda y justa para contenido extenso.
+
+- **System Fonts** (fallback): Se incluyen fuentes del sistema (-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, etc.) para asegurar compatibilidad multiplataforma.
+
+**Escala**
+- **Base**: 16px
+- **Ratio**: 1.25 (Proporción Mayor)
+
+**Nomenclatura**
+| Nombre | Tamaño | Peso | Familia |
+|--------|--------|------|---------|
+| H1 | 56px | SemiBold (600) | Fira Sans |
+| H2 | 44.8px | Medium (500) | Fira Sans |
+| H3 | 35.84px | Regular (400) | Fira Sans |
+| Section Title | 40px | Bold (700) | Fira Sans |
+| Subtitle | 28.8px | Light (300) | Open Sans |
+| Body | 16px | Regular (400) | Open Sans |
+| Caption | 12.8px | Light (300) | Open Sans |
+
+**Propiedades de Espaciado y Línea**
+
+- **Interlineado (line-height) Global**: 1.6 para facilitar la lectura y mantener espacios respirable en el texto.
+- **Interlineado en Encabezados**: 1.2 para un aspecto más compacto y poderoso.
+- **Margin/Padding Base**: 8px (usar múltiplos de 8 para coherencia: 8px, 16px, 24px, 32px, 48px, etc.)
+
+
+
+**Pesos Tipográficos Disponibles**
+
+El proyecto utiliza los siguientes pesos de fuente para crear jerarquía y énfasis:
+
+- Thin (100)
+- ExtraLight (200)
+- Light (300)
+- Regular (400)
+- Medium (500)
+- SemiBold (600)
+- Bold (700)
+- ExtraBold (800)
+- Black (900)
+
+**Branding e ícono** El logo de SafeFlow es un ícono abstracto y dinámico que integra elementos simbólicos de movimiento, seguridad y control. Las líneas curvas suavemente ondulantes representan el movimiento constante y el flujo ininterrumpido de la cadena de frío. La combinación de elementos geométricos y orgánicos simboliza la vigilancia precisa de la temperatura. El diseño limpio y moderno transmite confianza a empresas logísticas, distribuidoras y laboratorios. 
+
+
 ### 4.1.2. Web Style Guidelines
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems
