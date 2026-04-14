@@ -227,10 +227,10 @@ La plataforma analiza continuamente las condiciones registradas y detecta desvia
 
 | *Integrante*            |         |
 |---------------------------|---------------------------------------------------------------------------------------------------|
-| *Código del Estudiante* |           |
-| *Carrera*               |          |
-| *Descripción*           |     |
-| Foto                      |          |
+| *Código del Estudiante* | U202116018          |
+| *Carrera*               | Ingeneria de Software         |
+| *Descripción*           | Soy estudiante de Ingeniería de Software y me caracterizo por mi compromiso con el trabajo en equipo. Cuento con conocimientos en HTML, CSS, JavaScript y SQL, lo cual puede aportar al desarrollo del proyecto en las áreas de frontend y bases de datos. Además, tengo experiencia en Python, lo que me permite apoyar en tareas de programación, automatización y análisis cuando sea necesario.    |
+| Foto                      | <div align="center"><img src="assets/chapter-01/foto-andree.jpg" alt="Integrante Mel" width="400" /> </div>         |
 
 | *Integrante*            |            |
 |---------------------------|---------------------------------------------------------------------------------------------------|
