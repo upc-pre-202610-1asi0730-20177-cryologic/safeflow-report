@@ -542,6 +542,97 @@ Cada resultado se mostrará en forma de **card o fila matricial** con:
 Con este sistema, SafeFlow ofrece búsquedas precisas, filtros contextuales y presentación clara de resultados que permiten a administradores y operarios localizar información crítica de cadena de frío de forma rápida y eficiente.
 
 ### 4.2.5. Navigation Systems
+
+Está diseñada para guiar a los usuarios (administradores logísticos, operarios de campo y supervisores) de manera fluida, asegurando que encuentren las herramientas de monitoreo y control de forma natural e intuitiva.
+
+### Principios de navegación
+
+- **Navegación principal fija**: barra superior presente en todo momento, accesible desde cualquier parte de la aplicación.
+- **Accesos rápidos**: a las secciones principales: Dashboard, Monitoreo en Tiempo Real, Alertas, Reportes, Inventario, Configuración.
+- **Navegación progresiva**: acciones críticas (establecer alertas, generar reportes, configurar sensores) se presentan en momentos contextuales apropiados, evitando saturación informativa.
+- **Pistas visuales**: utilización de colores, íconos y estados activos en menús para indicar dónde se encuentra el usuario. Indicadores de criticidad (rojo, naranja, verde) en navegación para alertas urgentes.
+- **Breadcrumbs**: en procesos secuenciales como la configuración de sensores o la generación de reportes, para mostrar al usuario en qué etapa del flujo se encuentra.
+
+### Flujo de navegación en la Landing Page
+
+1. El visitante accede a la Landing Page.
+2. Puede navegar rápidamente a:
+   - Información sobre SafeFlow y sus beneficios
+   - Casos de uso (almacenamiento, distribución, laboratorios)
+   - Características técnicas y de cumplimiento
+   - Testimonios de clientes
+
+3. Se invita a la acción con CTAs claros como:
+   - "Solicitar demostración"
+   - "Comenzar prueba gratuita"
+   - "Contactar equipo de ventas"
+
+### Flujo de navegación en la Web Application
+
+#### Menú Principal (Top Navigation Bar)
+
+Menú con **íconos + texto** en la barra superior:
+- **Dashboard** (ícono de home): Vista general del estado del sistema
+- **Monitoreo en Tiempo Real** (ícono de sensor/gráfico): Supervisión activa de zonas
+- **Alertas** (ícono de campana): Historial y gestión de desviaciones
+- **Reportes** (ícono de documento): Análisis y auditoría de cumplimiento
+- **Inventario** (ícono de caja): Gestión de productos en cadena de frío
+- **Configuración** (ícono de engranaje): Parámetros del sistema y usuarios
+
+#### Flujos específicos por módulo
+
+**Dashboard**
+- Resumen visual de todas las zonas monitoreadas
+- Indicadores de estado (verde/naranja/rojo)
+- Acceso rápido a zonas con alertas activas
+- Desde aquí, el usuario puede navegar a detalles específicos
+
+**Monitoreo en Tiempo Real**
+- Seleccionar zona o sensor específico
+- Aplicar filtros por ubicación, estado, rango de temperatura
+- Ver gráficos y tendencias de temperatura en tiempo real
+- Opción de configurar alertas directamente desde esta vista
+
+**Alertas**
+- Listado de alertas activas y resueltas
+- Filtrar por criticidad (crítica, advertencia, resuelto)
+- Ver detalles completos y tomar acciones (notificar, investigar, resolver)
+- Desde aquí, navegación rápida a la zona o sensor que generó la alerta
+
+**Reportes**
+- Seleccionar tipo de reporte (auditoría, cumplimiento, análisis de tendencias)
+- Elegir período y zonas a incluir
+- Generar y descargar reporte
+- Opción de programar generación automática de reportes
+
+**Inventario**
+- Listar productos en cadena de frío
+- Filtrar por zona, categoría, lote
+- Ver historial de temperatura de cada producto
+- Registrar movimientos y cambios
+
+**Configuración**
+- Gestión de sensores y dispositivos IoT
+- Definición de zonas de monitoreo
+- Configuración de umbrales de alerta
+- Gestión de usuarios y permisos
+- Parámetros de sistema y notificaciones
+
+#### Navegación secundaria y contextual
+
+- **Sidebar lateral** (opcional, colapsable): Acceso a sub-secciones dentro del módulo actual
+- **Menú de contexto**: Acciones adicionales (exportar, compartir, configurar) accesibles mediante botones o menús desplegables
+- **Búsqueda global**: Disponible en todo momento desde la barra superior para búsquedas rápidas
+
+### Indicadores de estado y navegación
+
+- **Notificaciones en tiempo real**: Badge con número de alertas no leídas en navegación
+- **Indicador de zona crítica**: Resalte visual en el menú si existe una alerta crítica sin atender
+- **Presencia visual de usuario**: Foto de perfil y rol del usuario logueado en la esquina superior derecha
+- **Logout**: Opción claramente visible para cerrar sesión
+
+Con este sistema, SafeFlow proporciona navegación intuitiva y eficiente que permite a administradores logísticos y operarios de campo acceder rápidamente a herramientas críticas de monitoreo y control de cadena de frío, minimizando pasos y evitando confusión en entornos de operación intensiva.
+
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 ### 4.3.2. Landing Page Mock-up
