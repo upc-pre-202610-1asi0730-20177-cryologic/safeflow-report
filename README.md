@@ -236,7 +236,7 @@ La plataforma analiza continuamente las condiciones registradas y detecta desvia
 |---------------------------|---------------------------------------------------------------------------------------------------|
 | *Código del Estudiante* | U202114701      |
 | *Carrera*               | Ingenieria de Software           |
-| *Descripción*           | Soy estudiante de Ingeniería de Software. Tendre el compromiso con mi equipo. Cuento con conocimientos en html, css, javascript y SQL, lo cual puede ser de ayuda en el desarrollo del proyecto           |
+| *Descripción*           | Soy estudiante de Ingeniería de Software. Tendre el compromiso con mi equipo en ser proactivo, siempre apoyar en lo que se necesite y mantener una comunicación fluida. Cuento con conocimientos en html, css, javascript y SQL, lo cual puede ser de ayuda en el desarrollo del proyecto.           |
 | Foto                      | <div algin="center"><img src="assets/chapter-01/Angel_Berrospi_Profile.jpg" alt="Integrante Angel" width="400" />  </div>        |
 
 | *Integrante*            |            |
@@ -279,14 +279,53 @@ En este contexto, se evidencia la necesidad de contar con una solución tecnoló
 ### 1.2.2 Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
+
+El estado actual de la gestión de la cadena de frío en las industrias farmacéutica y alimentaria es deficiente debido a la falta de monitoreo en tiempo real y sistemas de trazabilidad integrados. Muchas empresas dependen de registros manuales o dispositivos que solo detectan fallos post-mortem, lo que genera pérdidas económicas y riesgos sanitarios.
+
+¿Cómo podríamos ofrecer a los gestores logísticos y responsables de calidad una herramienta que proporcione visibilidad completa y alertas preventivas sobre el estado de sus productos, para que puedan intervenir antes de que la temperatura salga del rango permitido y asegurar la integridad de la carga?
+
 #### 1.2.2.2. Lean UX Assumptions
+
+Contexto de Inventario: El registro manual de productos sensibles impide conocer sus requisitos térmicos específicos al momento del despacho.
+
+Assumption: Centralizar el registro de productos con perfiles térmicos predefinidos garantizará que el sistema sepa exactamente qué rango monitorear sin intervención humana.
+
+Contexto de Monitoreo Ambiental: Los fallos en la cadena de frío suelen detectarse cuando el producto ya llegó a su destino, lo que causa pérdidas irreversibles.
+
+Assumption: La detección automática de anomalías ambientales durante el trayecto permitirá identificar riesgos de forma inmediata y preventiva.
+
+Contexto de Alertas: Los supervisores no pueden estar revisando pantallas 24/7 para encontrar problemas.
+
+Assumption: Generar notificaciones automáticas y multicanal dirigidas a los roles responsables reducirá el tiempo de reacción ante una ruptura de temperatura.
+
+Contexto Logístico: Existe una desconexión entre el estado del transporte (ubicación) y el estado del producto (temperatura).
+
+Assumption: Actualizar el estado térmico del despacho en tiempo real dentro del flujo logístico proporcionará una trazabilidad total de la integridad de la carga.
+
+Contexto de Gestión del Sistema: La toma de decisiones estratégicas se basa en datos fragmentados y reportes tardíos.
+
+Assumption: Un dashboard unificado que consolide inventarios, logística y alertas facilitará una gestión operativa basada en datos reales y no en suposiciones.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+##### Hipótesis de Prevención (Monitoreo + Alertas):
+Creemos que al integrar el Contexto de Monitoreo Ambiental con el Contexto de Alertas, lograremos reducir la pérdida de carga en un 25%. Sabremos que estamos en lo correcto cuando el tiempo entre la detección de una anomalía y la acción correctiva del conductor sea menor a 15 minutos.
+
+##### Hipótesis de Trazabilidad (Inventario + Logístico):
+Creemos que al vincular el Contexto de Inventario con el Contexto Logístico (actualizando el estado térmico del despacho), aumentaremos la confianza del cliente B2B. Sabremos que tenemos razón cuando los reportes finales de entrega no muestren discrepancias entre lo prometido en el inventario y lo registrado en el trayecto.
+
+##### Hipótesis de Eficiencia (Gestión del Sistema):
+Creemos que al proporcionar un Dashboard de Gestión que centralice todos los contextos, los jefes de logística reducirán el tiempo dedicado a la supervisión diaria. Lo validaremos cuando los usuarios reporten una disminución del 40% en el uso de herramientas externas (como Excel o llamadas telefónicas) para verificar el estado de los despachos.
+
+##### Hipótesis de Integridad (Logístico):
+Confiamos en que al automatizar el cambio de estado del despacho basado en datos de sensores, eliminaremos el error humano en los registros de calidad. Estaremos en lo cierto cuando el 100% de los despachos completados cuenten con un historial térmico verificado e inalterable.
+
 #### 1.2.2.4. Lean UX Canvas
+
+ <div align="center"><img src="assets/chapter-01/Lean UX canvas.png" alt="Lean Ux Canvas" width="400" /> </div>
+
 ## 1.3. Segmentos objetivo
-
 # Capítulo II: Requirements Elicitation & Analysis
-
-
 ## 2.1. Competidores
 ### 2.1.1. Análisis competitivo
 ### 2.1.2. Estrategias y tácticas frente a competidores
@@ -300,14 +339,11 @@ En este contexto, se evidencia la necesidad de contar con una solución tecnoló
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
-
 # Capítulo III: Requirements Specification
-
 ## 3.1. To-Be Scenario Mapping
 ## 3.2. User Stories
 ## 3.3. Impact Mapping
 ## 3.4. Product Backlog
-
 #  Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
