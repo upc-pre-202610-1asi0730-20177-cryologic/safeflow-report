@@ -416,6 +416,50 @@ Según el tipo de contenido, se aplicarán distintos esquemas:
 Esto permite un acceso eficiente y contextualizado, adaptado a las distintas necesidades y roles de los usuarios en la cadena de frío.
 
 ### 4.2.2. Labeling Systems
+
+La representación de los datos en la plataforma busca ser clara, intuitiva y evitar confusión. Para ello se establecen las siguientes directrices de etiquetado:
+
+### Principios de Etiquetado
+
+- Utilizar un **mínimo número de palabras**.
+- Preferir términos **comunes en logística y control de temperatura** y **fáciles de comprender**.
+- Mantener **consistencia** en la terminología a lo largo de la aplicación.
+- Usar verbos de acción claros para funcionalidades críticas.
+
+### Etiquetas principales propuestas
+
+| Área                    | Etiqueta asignada              | Propósito                                          |
+| ----------------------- | ------------------------------ | -------------------------------------------------- |
+| Vista Principal         | "Dashboard"                    | Resumen general del estado de todas las zonas.    |
+| Monitoreo Activo        | "Monitoreo en Tiempo Real"     | Seguimiento continuo de sensores y temperaturas.  |
+| Notificaciones          | "Alertas"                      | Historial y gestión de desviaciones detectadas.   |
+| Análisis Histórico      | "Reportes"                     | Cumplimiento normativo y análisis de tendencias.  |
+| Gestión de Inventario   | "Inventario"                   | Control de productos en cadena de frío.           |
+| Parámetros del Sistema  | "Configuración"                | Ajustes de sensores, usuarios y umbrales.         |
+| Información del Usuario | "Mi Perfil"                    | Datos personales y preferencias del usuario.      |
+| Búsqueda Global         | "Buscar"                       | Entrada de texto para localizar sensores y zonas. |
+
+### Etiquetas dentro de filtros
+
+Los filtros utilizarán palabras clave simples y contextuales:
+
+- **"Tipo de Zona"** (cámara frigorífica, almacén, vehículo, laboratorio).
+- **"Ubicación"** (edificio, sala, dirección o código de ubicación).
+- **"Rango de Temperatura"** (temperatura mínima, temperatura máxima).
+- **"Estado del Sensor"** (activo, inactivo, en mantenimiento, fallo).
+- **"Crítica"** (crítica, advertencia, normal).
+- **"Producto"** (categoría de producto almacenado).
+- **"Período"** (últimas 24 horas, última semana, último mes).
+- **"Responsable"** (nombre del operario o administrador asignado).
+
+### Convenciones de Nomenclatura
+
+- **Estados de Alerta**: "Crítica" (rojo), "Advertencia" (naranja), "Normal" (verde) — alineado con la paleta de colores semántica.
+- **Acciones**: Usar imperativos claros: "Generar Reporte", "Configurar Umbral", "Exportar Datos", "Notificar Equipo".
+- **Referencias de Datos**: Ejemplo: "Zona A - Cámara 01" o "Sensor #S-2847", manteniendo formato consistente.
+
+Esto facilita que tanto **administradores logísticos** como **operarios de campo** interpreten de inmediato las opciones disponibles sin necesidad de explicaciones adicionales, mejorando la eficiencia operativa en entornos críticos de cadena de frío.
+
 ### 4.2.3. SEO Tags and Meta Tags
 ### 4.2.4. Searching Systems
 ### 4.2.5. Navigation Systems
