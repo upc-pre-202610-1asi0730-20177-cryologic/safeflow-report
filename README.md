@@ -642,13 +642,16 @@ Con este sistema, SafeFlow proporciona navegación intuitiva y eficiente que per
 #### About-Us
 <img src="assets/chapter-04/About-Us.png"/>
 
-#### Suscribe
+#### Suscribes
 <img src="assets/chapter-04/Suscribe.png"/>
 
-#### Home
+#### Features
 <img src="assets/chapter-04/Features.png"/>
 
 ### 4.3.2. Landing Page Mock-up
+
+
+
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 ### 4.4.2. Web Applications Wireflow Diagrams
