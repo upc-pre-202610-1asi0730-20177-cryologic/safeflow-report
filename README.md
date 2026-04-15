@@ -358,6 +358,9 @@ Las propuestas de arquitectura están diseñadas siguiendo principios de usabili
 - **Navigation Systems**
 
 ### 4.2.1. Organization Systems
+
+Se establecen las siguientes decisiones sobre la organización del contenido:
+
 ### 4.2.2. Labeling Systems
 ### 4.2.3. SEO Tags and Meta Tags
 ### 4.2.4. Searching Systems
