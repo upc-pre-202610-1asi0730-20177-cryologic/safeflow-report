@@ -346,6 +346,17 @@ La versión web de SafeFlow está diseñada para ofrecer una experiencia fluida 
 - **Paneles Modulares**: El contenido como los datos de sensores, el historial de temperaturas, las alertas activas o los reportes de cumplimiento, se organizará en paneles modulares y tarjetas. Esto facilita tanto la lectura y escaneo rápido de información, como la adaptación a diferentes tamaños de pantalla. Cada panel tiene límites claros usando el color de borde (#E5E7EB) y espaciado consistente.
 
 ## 4.2. Information Architecture
+
+En esta sección se definen las decisiones de arquitectura de información que dirigen cómo se organizará el contenido en las experiencias web de **safeFlow**, incluyendo el Landing Page y futuras aplicaciones. El objetivo principal es garantizar que los visitantes y usuarios se adapten de manera intuitiva a la funcionalidad de cada producto, puedan encontrar fácilmente lo que necesitan y logren una navegación fluida y satisfactoria.
+
+Las propuestas de arquitectura están diseñadas siguiendo principios de usabilidad, claridad y accesibilidad, abordando los siguientes componentes:
+
+- **Organization Systems**
+- **Labeling Systems**
+- **SEO Tags and Meta Tags**
+- **Searching Systems**
+- **Navigation Systems**
+
 ### 4.2.1. Organization Systems
 ### 4.2.2. Labeling Systems
 ### 4.2.3. SEO Tags and Meta Tags
