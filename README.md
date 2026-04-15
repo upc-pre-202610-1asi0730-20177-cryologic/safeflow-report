@@ -650,6 +650,17 @@ Con este sistema, SafeFlow proporciona navegación intuitiva y eficiente que per
 
 ### 4.3.2. Landing Page Mock-up
 
+#### Home
+<img src="assets/chapter-04/Home-Mockup.png"/>
+
+#### About-Us
+<img src="assets/chapter-04/About-Us-Mockup.png"/>
+
+#### Suscribes
+<img src="assets/chapter-04/Suscribe-Mockup.png"/>
+
+#### Features
+<img src="assets/chapter-04/Features-Mockup.png"/>
 
 
 ## 4.4. Web Applications UX/UI Design
