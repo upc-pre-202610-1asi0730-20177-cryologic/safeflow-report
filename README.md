@@ -278,8 +278,11 @@ En este contexto, se evidencia la necesidad de contar con una solución tecnoló
 
 ### 1.2.2 Lean UX Process
 
+En esta parte se implementa el Lean UX Process, abordando la visión del modelo de negocio que respaldará al producto de software. Se incluyen los Problem Statements, que contemplan elementos como el dominio, los segmentos de clientes, los puntos de dolor, las brechas, la visión/estrategia y el segmento inicial. Además, se definen las Assumptions y los Hypothesis Statements de acuerdo con la metodología Lean UX. Finalmente, se presenta el Lean UX Canvas que resume y organiza estos elementos.
+
 #### 1.2.2.1. Lean UX Problem Statements
 
+<<<<<<< HEAD
 El estado actual de la gestión de la cadena de frío en las industrias farmacéutica y alimentaria es deficiente debido a la falta de monitoreo en tiempo real y sistemas de trazabilidad integrados. Muchas empresas dependen de registros manuales o dispositivos que solo detectan fallos post-mortem, lo que genera pérdidas económicas y riesgos sanitarios.
 
 ¿Cómo podríamos ofrecer a los gestores logísticos y responsables de calidad una herramienta que proporcione visibilidad completa y alertas preventivas sobre el estado de sus productos, para que puedan intervenir antes de que la temperatura salga del rango permitido y asegurar la integridad de la carga?
@@ -305,6 +308,63 @@ Assumption: Actualizar el estado térmico del despacho en tiempo real dentro del
 Contexto de Gestión del Sistema: La toma de decisiones estratégicas se basa en datos fragmentados y reportes tardíos.
 
 Assumption: Un dashboard unificado que consolide inventarios, logística y alertas facilitará una gestión operativa basada en datos reales y no en suposiciones.
+=======
+El estado actual en la gestión y monitoreo de la cadena de frío en industrias como la farmacéutica y alimentaria se basa principalmente en controles manuales, registros periódicos y sistemas poco integrados que no garantizan una supervisión continua durante todo el proceso logístico. Estas prácticas dificultan la detección oportuna de variaciones de temperatura, especialmente durante el transporte, donde las condiciones pueden cambiar de forma imprevista.
+
+Nuestro producto SafeFlow, desarrollado por la startup Cryologic Systems, abordará esta brecha mediante el desarrollo de una plataforma web de monitoreo de la cadena de frío basada en tecnologías IoT. Este sistema integrará sensores inteligentes capaces de medir continuamente la temperatura de los productos durante su almacenamiento y transporte. Los datos serán transmitidos en tiempo real a una infraestructura en la nube, donde serán procesados y analizados para detectar desviaciones respecto a los rangos establecidos. Además, la plataforma generará alertas automáticas, permitirá visualizar información mediante dashboards interactivos y ofrecerá trazabilidad completa del recorrido de los productos, facilitando la toma de decisiones rápidas y efectivas.
+
+Inicialmente, centraremos nuestra atención en pequeñas y medianas empresas (PYMES) del sector logístico, farmacéutico y alimentario que buscan mejorar el control de sus productos sensibles, optimizar sus procesos y reducir pérdidas asociadas a fallas en la cadena de frío, brindándoles herramientas accesibles, visuales y fáciles de implementar.
+
+Sabremos que hemos tenido éxito cuando logremos:
+
+- Incrementar el número de empresas que monitorean sus productos en tiempo real mediante la plataforma.
+- Reducir las pérdidas económicas asociadas a fallas en la cadena de frío en los clientes que utilizan SafeFlow.
+- Disminuir el tiempo de respuesta ante incidencias gracias a las alertas en tiempo real.
+- Mejorar la trazabilidad de los productos, permitiendo identificar con precisión los puntos críticos de falla.
+- Obtener retroalimentación positiva sobre la facilidad de uso, claridad de la información y utilidad de la plataforma
+
+#### 1.2.2.2. Lean UX Assumptions
+
+En esta sección se detallan las suposiciones relacionadas con los resultados esperados del sistema de monitoreo en tiempo real de la cadena de frío. Estas suposiciones se organizan en tres categorías: Business Outcomes, que contemplan los beneficios comerciales y mejoras en la gestión logística; User Outcomes, enfocados en cómo las empresas y usuarios se beneficiarán al monitorear y controlar la temperatura de sus productos; y User Outcomes Assumptions, que examinan las necesidades, intereses y comportamientos de los usuarios que fundamentan las suposiciones anteriores. Cada categoría busca garantizar que la plataforma cumpla tanto con los objetivos comerciales como con las expectativas de quienes la utilizarán.
+
+Business Outcomes
+- Creemos que al implementar nuestra plataforma de monitoreo continuo de la cadena de frío basada en IoT, podremos aumentar en un 50% la cantidad de empresas que supervisan en tiempo real la temperatura de sus productos.
+- Creemos que al ofrecer alertas automáticas en tiempo real, lograremos reducir en un 30% las pérdidas de productos ocasionadas por fallas en la cadena de frío.
+- Creemos que al proporcionar dashboards visuales y reportes claros, incrementaremos en un 40% la eficiencia en la toma de decisiones logísticas y operativas.
+- Creemos que al ofrecer una plataforma accesible e intuitiva, obtendremos una satisfacción del usuario superior al 85% en cuanto a facilidad de uso y utilidad.
+- Creemos que al integrar trazabilidad completa de los productos, permitiremos a las empresas reducir en un 25% los tiempos de respuesta ante incidencias.
+
+Business Outcomes Assumptions
+- Creemos que la falta de monitoreo continuo de la temperatura en la cadena de frío es un problema crítico que genera pérdidas económicas y riesgos sanitarios.
+- Creemos que las empresas del sector logístico, farmacéutico y alimentario estarán interesadas en adoptar una solución tecnológica que les permita mejorar el control de sus productos.
+- Creemos que el uso de sensores IoT con monitoreo en tiempo real facilitará la detección temprana de problemas en la cadena de frío.
+- Creemos que las empresas valoran soluciones que automaticen alertas y reportes, ya que optimizan tiempo y reducen errores humanos.
+- Creemos que las organizaciones buscan herramientas que les permitan tener visibilidad completa de su operación logística.
+
+User Outcomes
+- Creemos que al ofrecer monitoreo en tiempo real, los usuarios podrán tomar decisiones rápidas para evitar pérdidas de productos.
+- Creemos que mediante dashboards intuitivos, los usuarios podrán interpretar fácilmente el estado de sus productos.
+- Creemos que al permitir el acceso remoto, los usuarios podrán supervisar sus operaciones desde cualquier lugar.
+- Creemos que al ofrecer historial de datos, los usuarios podrán identificar patrones y prevenir futuras incidencias.
+- Creemos que al generar alertas automáticas, los usuarios podrán actuar de manera inmediata ante desviaciones de temperatura.
+
+
+User Outcomes Assumptions
+- Creemos que los usuarios necesitan información clara y en tiempo real para gestionar adecuadamente la cadena de frío.
+- Creemos que los usuarios prefieren soluciones simples que no requieran conocimientos técnicos avanzados.
+- Creemos que los usuarios se sienten limitados por sistemas actuales que no ofrecen monitoreo continuo.
+- Creemos que los usuarios valoran herramientas que reduzcan riesgos y optimicen sus procesos operativos.
+- Creemos que las empresas necesitan sistemas confiables que les permitan garantizar la calidad de sus productos.
+
+
+Features Assumptions
+- Creemos que un dashboard en tiempo real permitirá a los usuarios monitorear múltiples productos y ubicaciones de manera eficiente.
+- Creemos que las alertas automáticas ayudarán a prevenir pérdidas al detectar desviaciones de temperatura de forma inmediata.
+- Creemos que el acceso remoto permitirá una gestión más flexible y eficiente de la cadena de frío.
+- Creemos que el historial de datos permitirá analizar tendencias y mejorar procesos logísticos.
+- Creemos que una interfaz intuitiva facilitará la adopción del sistema sin necesidad de capacitación especializada.
+
+>>>>>>> ecd771dbc4722694e430d94d7da02165be307c53
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
