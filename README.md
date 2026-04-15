@@ -635,6 +635,19 @@ Con este sistema, SafeFlow proporciona navegación intuitiva y eficiente que per
 
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
+
+#### Home
+<img src="assets/chapter-04/Home.png"/>
+
+#### About-Us
+<img src="assets/chapter-04/About-Us.png"/>
+
+#### Suscribe
+<img src="assets/chapter-04/Suscribe.png"/>
+
+#### Home
+<img src="assets/chapter-04/Features.png"/>
+
 ### 4.3.2. Landing Page Mock-up
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
