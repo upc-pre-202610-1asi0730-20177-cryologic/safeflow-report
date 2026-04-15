@@ -281,6 +281,22 @@ En este contexto, se evidencia la necesidad de contar con una solución tecnoló
 En esta parte se implementa el Lean UX Process, abordando la visión del modelo de negocio que respaldará al producto de software. Se incluyen los Problem Statements, que contemplan elementos como el dominio, los segmentos de clientes, los puntos de dolor, las brechas, la visión/estrategia y el segmento inicial. Además, se definen las Assumptions y los Hypothesis Statements de acuerdo con la metodología Lean UX. Finalmente, se presenta el Lean UX Canvas que resume y organiza estos elementos.
 
 #### 1.2.2.1. Lean UX Problem Statements
+
+El estado actual en la gestión y monitoreo de la cadena de frío en industrias como la farmacéutica y alimentaria se basa principalmente en controles manuales, registros periódicos y sistemas poco integrados que no garantizan una supervisión continua durante todo el proceso logístico. Estas prácticas dificultan la detección oportuna de variaciones de temperatura, especialmente durante el transporte, donde las condiciones pueden cambiar de forma imprevista.
+
+Nuestro producto SafeFlow, desarrollado por la startup Cryologic Systems, abordará esta brecha mediante el desarrollo de una plataforma web de monitoreo de la cadena de frío basada en tecnologías IoT. Este sistema integrará sensores inteligentes capaces de medir continuamente la temperatura de los productos durante su almacenamiento y transporte. Los datos serán transmitidos en tiempo real a una infraestructura en la nube, donde serán procesados y analizados para detectar desviaciones respecto a los rangos establecidos. Además, la plataforma generará alertas automáticas, permitirá visualizar información mediante dashboards interactivos y ofrecerá trazabilidad completa del recorrido de los productos, facilitando la toma de decisiones rápidas y efectivas.
+
+Inicialmente, centraremos nuestra atención en pequeñas y medianas empresas (PYMES) del sector logístico, farmacéutico y alimentario que buscan mejorar el control de sus productos sensibles, optimizar sus procesos y reducir pérdidas asociadas a fallas en la cadena de frío, brindándoles herramientas accesibles, visuales y fáciles de implementar.
+
+Sabremos que hemos tenido éxito cuando logremos:
+
+- Incrementar el número de empresas que monitorean sus productos en tiempo real mediante la plataforma.
+- Reducir las pérdidas económicas asociadas a fallas en la cadena de frío en los clientes que utilizan SafeFlow.
+- Disminuir el tiempo de respuesta ante incidencias gracias a las alertas en tiempo real.
+- Mejorar la trazabilidad de los productos, permitiendo identificar con precisión los puntos críticos de falla.
+- Obtener retroalimentación positiva sobre la facilidad de uso, claridad de la información y utilidad de la plataforma
+
+
 #### 1.2.2.2. Lean UX Assumptions
 #### 1.2.2.3. Lean UX Hypothesis Statements
 #### 1.2.2.4. Lean UX Canvas
