@@ -359,7 +359,61 @@ Las propuestas de arquitectura están diseñadas siguiendo principios de usabili
 
 ### 4.2.1. Organization Systems
 
-Se establecen las siguientes decisiones sobre la organización del contenido:
+Se establecen las siguientes decisiones sobre la organización del contenido en SafeFlow:
+
+### Visual Hierarchy
+
+Se aplicará una **jerarquía visual clara** en todas las páginas, priorizando:
+
+- **Dashboard**: Vista principal con métricas críticas de temperatura
+- **Monitoreo en Tiempo Real**: Seguimiento activo de sensores y ubicaciones
+- **Alertas**: Notificaciones de desviaciones de temperatura
+- **Reportes**: Análisis histórico y cumplimiento normativo
+- **Inventario**: Gestión de productos en cadena de frío
+- **Configuración**: Parámetros de sistema y usuarios
+
+El tamaño, color y peso de los elementos gráficos ayudarán a guiar la atención del usuario hacia información crítica de monitoreo y control de temperatura.
+
+### Secuencial Organization
+
+En procesos clave como:
+
+- **Configuración de Sensores**: Instalación y calibración de dispositivos
+- **Creación de Zonas de Monitoreo**: Definición de áreas y parámetros de temperatura
+- **Establecimiento de Alertas**: Configuración de umbrales y notificaciones
+- **Generación de Reportes de Cumplimiento**: Análisis periódico de conformidad
+
+Se usará una **organización paso a paso**, facilitando al usuario completar acciones en orden lógico:
+
+**Ejemplo del proceso de configuración de alertas:**
+
+1. Seleccionar zona o sensor a monitorear.
+2. Definir rangos de temperatura permitidos (mínimo y máximo).
+3. Configurar escalas de alerta (crítica, advertencia, normal).
+4. Establecer canales de notificación y destinatarios.
+5. Revisar y guardar configuración.
+
+### Matricial Organization
+
+Para listas de sensores, zonas de almacenamiento o reportes históricos, se aplicará un modelo **matricial**:
+
+- Comparar múltiples fuentes de datos al mismo nivel.
+- Uso de filtros por: ubicación, rango de temperatura, estado operativo, fecha, tipo de producto almacenado.
+- Ordenamiento flexible: por temperatura actual, anomalías detectadas, eficiencia, proximidad a umbrales críticos.
+
+Esto permite que los operarios y administradores comparen rápidamente el estado de diferentes zonas y sensores para identificar problemas.
+
+### Esquemas de Categorización
+
+Según el tipo de contenido, se aplicarán distintos esquemas:
+
+- **Por Ubicación**: diferentes cámaras frigoríficas, almacenes, vehículos de distribución o laboratorios monitoreados.
+- **Por Audiencia**: vistas simplificadas para "Operarios de Campo" vs. vistas detalladas para "Administradores de Logística" y "Supervisores de Cumplimiento".
+- **Cronológico**: alertas recientes, tendencias de temperatura en las últimas 24 horas, histórico de eventos.
+- **Por Estado**: sensores activos, inactivos, con fallos, en mantenimiento.
+- **Por Criticidad**: alertas críticas (rojo), advertencias (naranja), normales (verde).
+
+Esto permite un acceso eficiente y contextualizado, adaptado a las distintas necesidades y roles de los usuarios en la cadena de frío.
 
 ### 4.2.2. Labeling Systems
 ### 4.2.3. SEO Tags and Meta Tags
