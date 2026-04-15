@@ -234,10 +234,10 @@ La plataforma analiza continuamente las condiciones registradas y detecta desvia
 
 | *Integrante*            |            |
 |---------------------------|---------------------------------------------------------------------------------------------------|
-| *Código del Estudiante* |            |
-| *Carrera*               |            |
-| *Descripción*           |            |
-| Foto                      |            |
+| *Código del Estudiante* | U202114701      |
+| *Carrera*               | Ingenieria de Software           |
+| *Descripción*           | Soy estudiante de Ingeniería de Software. Tendre el compromiso con mi equipo. Cuento con conocimientos en html, css, javascript y SQL, lo cual puede ser de ayuda en el desarrollo del proyecto           |
+| Foto                      | <div algin="center"><img src="assets/chapter-01/Angel_Berrospi_Profile.jpg" alt="Integrante Angel" width="400" />  </div>        |
 
 | *Integrante*            |            |
 |---------------------------|---------------------------------------------------------------------------------------------------|
