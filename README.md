@@ -474,6 +474,73 @@ Para optimizar la visibilidad y accesibilidad de SafeFlow en motores de búsqued
 | Web Application - Configuración     | SafeFlow Configuración - Gestión de Sensores y Umbrales           | Configura sensores IoT, define rangos de temperatura permitidos, establece umbrales de alerta y gestiona usuarios del sistema.                                            | configuración sensores, gestión umbrales, parámetros temperatura, administración sistema | Equipo SafeFlow   |
 
 ### 4.2.4. Searching Systems
+
+Para mejorar la **capacidad de búsqueda** dentro del sitio web y la aplicación, se implementarán sistemas claros, efectivos y centrados en la experiencia operativa y administrativa.
+
+### Tipos de búsqueda ofrecidos
+
+#### Búsqueda Global (Header Search Box)
+
+- Visible en todas las páginas principales de la aplicación.
+- Permite buscar:
+  - **Sensores** (por ID, ubicación o zona).
+  - **Zonas de almacenamiento** (cámaras frigoríficas, almacenes, vehículos).
+  - **Productos** (por código, categoría o lote).
+  - **Alertas recientes** (búsqueda por criticidad o fecha).
+  - **Reportes** (búsqueda por período o zona).
+- Incluye **autocompletado** con sugerencias relevantes (ejemplo: "Sensor #S-2847", "Cámara Zona A", "Alerta Crítica - Almacén 01").
+
+#### Filtros de búsqueda en "Monitoreo en Tiempo Real"
+
+- **Tipo de Zona** (cámara frigorífica, almacén, vehículo, laboratorio).
+- **Ubicación** (edificio, sala, dirección física o código de ubicación).
+- **Rango de Temperatura** (mínima, máxima, permitida).
+- **Estado del Sensor** (activo, inactivo, en mantenimiento, fallo).
+- **Producto Almacenado** (categoría, tipo de insumo, medicamento, alimento).
+- **Período** (últimas 24 horas, última semana, último mes, rango personalizado).
+- **Responsable** (operario o administrador asignado).
+- **Criticidad** (solo crítico, solo advertencias, todo).
+
+#### Búsqueda específica en "Reportes"
+
+- Por **tipo de reporte** (auditoría, cumplimiento, temperatura, eventos).
+- Por **período de generación** (rango de fechas).
+- Por **zona o sensor específico**.
+- Por **estado de cumplimiento** (completamente conforme, conforme con desviaciones, no conforme).
+
+### Presentación de resultados
+
+#### Resultados dinámicos
+
+El listado se actualizará en tiempo real al aplicar filtros o realizar búsquedas, proporcionando retroalimentación inmediata al usuario.
+
+#### Organización matricial
+
+Cada resultado se mostrará en forma de **card o fila matricial** con:
+
+- **Identificador del elemento** (nombre del sensor, código de zona, nombre de producto).
+- **Información de estado** (temperatura actual, estado operativo, última actualización).
+- **Indicador visual de criticidad** (ícono/color: verde, naranja, rojo).
+- **Detalles secundarios** (ubicación, responsable, producto almacenado).
+- **Botón de acción destacado** (Ver detalles, Configurar alerta, Generar reporte).
+
+#### Resultados ordenables por
+
+- **Relevancia** (coincidencia con términos de búsqueda).
+- **Criticidad** (alertas críticas primero).
+- **Última actividad** (registros más recientes).
+- **Temperatura** (desviaciones extremas primero).
+- **Nombre o ID** (orden alfabético).
+
+### Características adicionales de búsqueda
+
+- **Búsqueda guardada:** Los administradores pueden guardar filtros frecuentes para acceso rápido.
+- **Búsqueda avanzada:** Enlace a opciones de búsqueda compleja con lógica booleana (AND, OR, NOT).
+- **Exportación de resultados:** Opción para descargar resultados en CSV o PDF.
+- **Historial de búsquedas:** Acceso rápido a búsquedas previas (últimas 10).
+
+Con este sistema, SafeFlow ofrece búsquedas precisas, filtros contextuales y presentación clara de resultados que permiten a administradores y operarios localizar información crítica de cadena de frío de forma rápida y eficiente.
+
 ### 4.2.5. Navigation Systems
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
