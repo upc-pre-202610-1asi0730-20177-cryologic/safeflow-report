@@ -461,6 +461,18 @@ Los filtros utilizarán palabras clave simples y contextuales:
 Esto facilita que tanto **administradores logísticos** como **operarios de campo** interpreten de inmediato las opciones disponibles sin necesidad de explicaciones adicionales, mejorando la eficiencia operativa en entornos críticos de cadena de frío.
 
 ### 4.2.3. SEO Tags and Meta Tags
+
+Para optimizar la visibilidad y accesibilidad de SafeFlow en motores de búsqueda, se establecen los siguientes **SEO Tags** y **Meta Tags** que serán implementados tanto en el **Landing Page** como en la **Web Application**:
+
+| Página                              | Title                                                              | Meta Description                                                                                | Meta Keywords                                                                | Author            |
+| ----------------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ----------------- |
+| Landing Page                        | Control de Cadena de Frío en Tiempo Real - SafeFlow                | SafeFlow es la plataforma líder para monitoreo y control de temperatura en logística, almacenamiento y distribución. Garantiza el cumplimiento normativo y la seguridad de productos refrigerados.                                              | control cadena de frío, monitoreo temperatura, logística refrigerada, sensores IoT, cumplimiento normativo, almacenamiento en frío | Equipo SafeFlow   |
+| Web Application - Dashboard         | SafeFlow Dashboard - Monitoreo de Cadena de Frío                  | Supervisa en tiempo real el estado de todas tus zonas de almacenamiento, sensores y alertas de temperatura desde un único panel intuitivo.                                            | dashboard monitoreo, control temperatura, alertas logística, monitoreo sensores | Equipo SafeFlow   |
+| Web Application - Reportes          | SafeFlow Reportes - Análisis y Cumplimiento Normativo             | Genera reportes detallados de temperatura, auditoría de cumplimiento y análisis histórico para validación regulatoria en cadena de frío.                                            | reportes cadena frío, auditoría normativa, análisis temperatura, cumplimiento regulatorio | Equipo SafeFlow   |
+| Web Application - Alertas           | SafeFlow Alertas - Notificaciones de Desviaciones de Temperatura  | Recibe alertas instantáneas cuando detectamos desviaciones críticas de temperatura que requieren acción inmediata.                                            | alertas temperatura, notificaciones logística, monitoreo crítico, detección anomalías | Equipo SafeFlow   |
+| Web Application - Perfil Usuario    | SafeFlow - Mi Perfil                                               | Gestiona tus datos de usuario, permisos, preferencias de notificación y acceso a zonas de monitoreo en SafeFlow.                                            | perfil usuario SafeFlow, gestión permisos, preferencias notificación, acceso logística | Equipo SafeFlow   |
+| Web Application - Configuración     | SafeFlow Configuración - Gestión de Sensores y Umbrales           | Configura sensores IoT, define rangos de temperatura permitidos, establece umbrales de alerta y gestiona usuarios del sistema.                                            | configuración sensores, gestión umbrales, parámetros temperatura, administración sistema | Equipo SafeFlow   |
+
 ### 4.2.4. Searching Systems
 ### 4.2.5. Navigation Systems
 ## 4.3. Landing Page UI Design
