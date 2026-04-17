@@ -224,14 +224,192 @@ https://github.com
 #### 1.2.2.2. Lean UX Assumptions
 #### 1.2.2.3. Lean UX Hypothesis Statements
 #### 1.2.2.4. Lean UX Canvas
+
 ## 1.3. Segmentos objetivo
 
 # Capítulo II: Requirements Elicitation & Analysis
 
 
 ## 2.1. Competidores
+
+En esta sección se identifican y describen los principales competidores de Cryologic Systems  dentro del mercado de soluciones tecnológicas para el monitoreo de la cadena de frío. El análisis de competidores permite comprender el entorno en el que se desarrollará la propuesta, así como reconocer las características, fortalezas y enfoques de otras soluciones existentes.
+
 ### 2.1.1. Análisis competitivo
+
+El análisis competitivo tiene como objetivo evaluar y comparar a Cryologic Systems  con sus principales competidores en función de distintos criterios, tales como propuesta de valor, mercado objetivo, estrategias de marketing, productos y servicios ofrecidos, costos y canales de distribución.
+
+<table>
+    <tr>
+        <td colspan="6" class="section-title">
+            <h3>Competitive Analysis Landscape</h3>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="2">
+            ¿Por qué llevar a cabo este análisis?
+        </td>
+        <td colspan="4">
+            Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis.
+        </td>
+    </tr>
+    <tr>
+        <td colspan="4">
+            Analizar cómo se posiciona  Cryologic Systems  frente a sus competidores en el mercado de monitoreo de la cadena de frío, en términos de propuesta de valor, tecnología y accesibilidad.
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">(Productos)</td>
+        <td align="center"> Cryologic Systems  (Startup)</td>
+        <td align="center">Sensitech</td>
+        <td align="center">Controlant</td>
+        <td align="center">Monnit</td>
+    </tr>
+    <tr>
+       <td align="center" rowspan="2">Perfil</td>
+        <td>Overview</td>
+        <td> Cryologic Systems  es una plataforma web que permite monitorear en tiempo real la cadena de frío mediante sensores IoT, generando alertas y ofreciendo trazabilidad completa de los productos.</td>
+        <td>Sensitech ofrece soluciones globales de monitoreo de la cadena de frío con alta precisión y análisis avanzado para grandes empresas.</td>
+        <td>Controlant es una plataforma IoT enfocada en la industria farmacéutica, que permite visibilidad en tiempo real y análisis de datos.</td>
+        <td>Monnit proporciona sensores inalámbricos para monitoreo ambiental en múltiples industrias.</td>
+    </tr>
+    <tr>
+        <td>Ventaja Competitiva ¿Qué valor ofrece a los clientes?</td>
+        <td>Accesibilidad, facilidad de uso, monitoreo en tiempo real y alertas preventivas que reducen pérdidas.</td>
+        <td>Alta precisión, cumplimiento normativo y experiencia global.</td>
+        <td>Integración avanzada de IoT y analítica en tiempo real.</td>
+        <td>Bajo costo y flexibilidad en implementación de sensores.</td>
+    </tr>
+    <tr>
+       <td align="center" rowspan="2">Perfil de Marketing</td>
+        <td>Mercado Objetivo</td>
+        <td>PYMEs, empresas farmacéuticas y operadores logísticos.</td>
+        <td>Grandes corporaciones y empresas globales.</td>
+        <td>Industria farmacéutica y logística avanzada.</td>
+        <td>Empresas que requieren soluciones de monitoreo económico.</td>
+    </tr>
+    <tr>
+        <td>Estrategias de Marketing</td>
+        <td>Marketing digital, enfoque en facilidad de adopción y escalabilidad.</td>
+        <td>Posicionamiento como líder global y soluciones enterprise.</td>
+        <td>Alianzas estratégicas con farmacéuticas.</td>
+        <td>Venta directa de hardware y soluciones accesibles.</td>
+    </tr>
+    <tr>
+       <td align="center" rowspan="3">Productos & Servicios</td>
+        <td>Productos & Servicios</td>
+        <td>Plataforma web con monitoreo en tiempo real, alertas, dashboard y trazabilidad.</td>
+        <td>Servicios completos de monitoreo, análisis y cumplimiento.</td>
+        <td>Plataforma IoT con sensores y analítica avanzada.</td>
+        <td>Sensores inalámbricos y software básico.</td>
+    </tr>
+    <tr>
+        <td>Precios & Costos</td>
+        <td>Modelo de suscripción accesible.</td>
+        <td>Alto costo (enterprise).</td>
+        <td>Alto costo especializado.</td>
+        <td>Bajo costo.</td>
+    </tr>
+    <tr>
+        <td>Canales de Distribución (Web y/o Móvil)</td>
+        <td>Web (SaaS).</td>
+        <td>Web y soluciones empresariales.</td>
+        <td>Web con integración IoT.</td>
+        <td>Web y dispositivos físicos.</td>
+    </tr>
+    <tr>
+       <td align="center" rowspan="4">Análisis SWOT</td>
+        <td>Fortalezas</td>
+        <td>Plataforma accesible, monitoreo en tiempo real, alertas automáticas y trazabilidad completa.</td>
+        <td>Alta precisión, experiencia global y marca reconocida.</td>
+        <td>Tecnología IoT avanzada y enfoque especializado.</td>
+        <td>Bajo costo y facilidad de implementación.</td>
+    </tr>
+    <tr>
+        <td>Debilidades</td>
+        <td>Startup en crecimiento y baja presencia en el mercado.</td>
+        <td>Costos elevados y complejidad de implementación.</td>
+        <td>Dependencia de hardware y alto costo.</td>
+        <td>Menor especialización en cadena de frío.</td>
+    </tr>
+    <tr>
+        <td>Oportunidades</td>
+        <td>Crecimiento del IoT, regulación sanitaria y digitalización logística.</td>
+        <td>Expansión en mercados emergentes.</td>
+        <td>Demanda creciente en farmacéutica.</td>
+        <td>Crecimiento del mercado IoT.</td>
+    </tr>
+    <tr>
+        <td>Amenazas</td>
+        <td>Competidores consolidados y barreras de adopción.</td>
+        <td>Nuevas startups más accesibles.</td>
+        <td>Competencia de soluciones más económicas.</td>
+        <td>Competidores especializados.</td>
+    </tr>
+</table>
+
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+En esta sección se definen las estrategias y tácticas que Cryologic Systems implementará para posicionarse frente a sus competidores dentro del mercado de soluciones para la cadena de frío. Estas acciones se basan en el análisis de fortalezas, debilidades, oportunidades y amenazas, permitiendo establecer un enfoque estratégico que aproveche las ventajas competitivas de la startup y reduzca los riesgos del entorno.
+
+
+<table border="1" cellpadding="8" cellspacing="0">
+    <tr>
+        <td>Cryologic Systems</td>
+        <td align="center"><strong>Fortalezas</strong><br>
+            - Monitoreo en tiempo real<br>
+            - Plataforma accesible y fácil de usar<br>
+            - Alertas automáticas<br>
+            - Trazabilidad completa
+        </td>
+        <td align="center"><strong>Debilidades</strong><br>
+            - Startup con baja presencia en el mercado<br>
+            - Dependencia de adopción tecnológica<br>
+            - Recursos limitados frente a competidores grandes
+        </td>
+    </tr>
+    <tr>
+        <td align="center"><strong>Oportunidades</strong><br>
+            - Crecimiento del IoT<br>
+            - Regulaciones sanitarias<br>
+            - Digitalización logística<br>
+            - Expansión al sector alimentario
+        </td>
+        <td align="center">
+            <strong>Estrategia FO</strong><br>
+            - Aprovechar el monitoreo en tiempo real para captar empresas que buscan digitalización<br>
+            - Escalar la solución a sectores farmacéutico y alimentario<br>
+            - Integrar sensores IoT accesibles para facilitar adopción
+        </td>
+        <td align="center">
+            <strong>Estrategia DO</strong><br>
+            - Incrementar visibilidad mediante marketing digital<br>
+            - Realizar pruebas piloto con empresas<br>
+            - Generar contenido educativo sobre cadena de frío
+        </td>
+    </tr>
+    <tr>
+        <td align="center"><strong>Amenazas</strong><br>
+            - Competidores consolidados<br>
+            - Soluciones de bajo costo<br>
+            - Barreras de confianza<br>
+            - Rápido avance tecnológico
+        </td>
+        <td align="center">
+            <strong>Estrategia FA</strong><br>
+            - Diferenciarse por simplicidad frente a soluciones complejas<br>
+            - Ofrecer implementación rápida<br>
+            - Enfocar la solución en prevención mediante alertas
+        </td>
+        <td align="center">
+            <strong>Estrategia DA</strong><br>
+            - Ofrecer versiones demo o gratuitas<br>
+            - Generar casos de éxito<br>
+            - Brindar soporte técnico cercano y personalizado
+        </td>
+    </tr>
+</table>
+
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
 Segmento Objetivo 1: Empresas del sector farmacéutico
