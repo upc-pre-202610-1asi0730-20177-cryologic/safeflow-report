@@ -208,7 +208,53 @@ https://github.com
 
 # Student Outcome
 
-
+<div align="center">
+  <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 14px;">
+    <thead>
+      <tr style="background-color: #f2f2f2; text-align: center;">
+        <th style="border: 1px solid #dddddd; padding: 12px; width: 25%;">Criterio específico</th>
+        <th style="border: 1px solid #dddddd; padding: 12px; width: 45%;">Acciones realizadas</th>
+        <th style="border: 1px solid #dddddd; padding: 12px; width: 30%;">Conclusiones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 10px; font-weight: bold; vertical-align: top;">
+          Trabaja en equipo para proporcionar liderazgo en forma conjunta.
+        </td>
+        <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
+          <ul>
+            <li><b>AV1 - Angel Guillermo, Berrospi Marin:</b> Tus acciones.</li>
+            <li><b>AV1 - Mel Andre, Orellana Rodriguez:</b> Tus acciones</li>
+            <li><b>AV1 - Tu Nombre:</b>Tus acciones</li>
+            <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
+            <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
+          </ul>
+        </td>
+        <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
+        Conclusión General 
+        </td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 10px; font-weight: bold; vertical-align: top;">
+          Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.
+        </td>
+        <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
+          <ul>
+            <li><b>AV1 - Angel Guillermo Berrospi Marin:</b>Tus acciones</li>
+            <li><b>AV1 - Mel Andre Orellana Rodriguez:</b> Tus acciones</li>
+            <li><b>AV1 - Tu Nombre:</b>Tus acciones</li>
+            <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
+            <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
+          </ul>
+        </td>
+        <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
+            Conclusion General
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 # Capitulo I: Introduccion
 
