@@ -425,7 +425,62 @@ https://github.com
 </div>
 
 #### 5.2.1.4. Development Evidence for Sprint Review
-
+<div align="center">
+  <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 12px; text-align: left;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="border: 1px solid #dddddd; padding: 10px;">Repository</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Branch</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Commit Id</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Commit Message</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Commit Message Body</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Committed on (Date)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">safeflow-frontend-EJEMPLO</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">develop</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">a7b2c3d</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">docs: create structure of sprint backlog</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Se implementó la estructura base de sprint backlog.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">15/04/2026</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
