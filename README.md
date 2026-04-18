@@ -297,60 +297,6 @@ https://github.com
 #### 5.2.1.1. Sprint Planning 1
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
-
-#### 5.2.1.3. Sprint Backlog 1
-
-#### 5.2.1.4. Development Evidence for Sprint Review
-
-#### 5.2.1.5. Execution Evidence for Sprint Review
-
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
-
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
-
-#### 5.2.1.8. Team Collaboration Insights during Sprint
-
-### 5.2.2 Sprint 2
-
-#### 5.2.2.1. Sprint Planning 2
-
-#### 5.2.2.2. Aspect Leaders and Collaborators
-
-#### 5.2.2.3. Sprint Backlog 2
-
-#### 5.2.2.4. Development Evidence for Sprint Review
-
-#### 5.2.2.5. Execution Evidence for Sprint Review
-
-#### 5.2.2.6. Services Documentation Evidence for Sprint Review
-
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review
-
-#### 5.2.2.8. Team Collaboration Insights during Sprint
-
-### 5.2.3 Sprint 3
-
-#### 5.2.3.1. Sprint Planning 3
-
-#### 5.2.3.2. Aspect Leaders and Collaborators
-
-#### 5.2.3.3. Sprint Backlog 3
-
-#### 5.2.3.4. Development Evidence for Sprint Review
-
-#### 5.2.3.5. Execution Evidence for Sprint Review
-
-#### 5.2.3.6. Services Documentation Evidence for Sprint Review
-
-#### 5.2.3.7. Software Deployment Evidence for Sprint Review
-
-#### 5.2.3.8. Team Collaboration Insights during Sprint
-
-### 5.2.4 Sprint 4
-
-#### 5.2.4.1. Sprint Planning 4
-
-#### 5.2.4.2. Aspect Leaders and Collaborators
 <div align="center">
   <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 13px; text-align: center;">
     <thead>
@@ -407,32 +353,91 @@ https://github.com
     </tbody>
   </table>
 </div>
-#### 5.2.4.3. Sprint Backlog 4
 
-#### 5.2.4.4. Development Evidence for Sprint Review
 
-#### 5.2.4.5. Execution Evidence for Sprint Review
+#### 5.2.1.3. Sprint Backlog 1
 
-#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+<div align="center">
+  <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 12px; text-align: left;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th colspan="2" style="border: 1px solid #dddddd; padding: 8px; text-align: center;">User Story</th>
+        <th colspan="6" style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Work-Item / Task</th>
+      </tr>
+      <tr style="background-color: #f9f9f9;">
+        <th style="border: 1px solid #dddddd; padding: 8px; width: 5%;">Id</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; width: 15%;">Title</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; width: 5%;">Id</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; width: 15%;">Title</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; width: 25%;">Description</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; width: 8%;">Estimation (Hours)</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; width: 12%;">Assigned To</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; width: 15%;">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #dddddd; padding: 8px; font-weight: bold; text-align: center;">US-26</td>
+        <td rowspan="2" style="border: 1px solid #dddddd; padding: 8px;">Visualizar landing page</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">T01</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Maquetación HTML/CSS</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Crear la estructura base y estilos de la landing page.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Nombre Apellido</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; color: green; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">T02</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Diseño Responsivo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Adaptar la interfaz para dispositivos móviles y tablets.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Angel Berrospi</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; color: blue; font-weight: bold;">In-Process</td>
+      </tr>
+      <tr>
+        <td rowspan="3" style="border: 1px solid #dddddd; padding: 8px; font-weight: bold; text-align: center;">US-01</td>
+        <td rowspan="3" style="border: 1px solid #dddddd; padding: 8px;">Registrar producto</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">T03</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Modelo de datos</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Definir entidad Producto y rangos térmicos en la DB.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Mel Andree</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; color: green; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">T04</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Endpoint POST</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Desarrollar API para la persistencia de productos.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">6</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Nombre Apellido</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; color: orange; font-weight: bold;">To-Review</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">T05</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Interfaz de registro</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Crear formulario frontend para ingreso de productos.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">5</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Nombre Apellido</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">To-do</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+#### 5.2.1.4. Development Evidence for Sprint Review
 
-#### 5.2.4.8. Team Collaboration Insights during Sprint
-## 5.3 Validation Interviews
+#### 5.2.1.5. Execution Evidence for Sprint Review
 
-### 5.3.1 Diseño de Entrevistas
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-### 5.3.2 Registro de Entrevistas
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-### 5.3.3 Evaluaciones según heurísticas
+#### 5.2.1.8. Team Collaboration Insights during Sprint
 
-## 5.4 Video About-the-Product
-   
-      
 # Conclusiones y recomendaciones
 
 # Video About-the-Team
-  
+
 # Bibliografía
 
 # Anexos
