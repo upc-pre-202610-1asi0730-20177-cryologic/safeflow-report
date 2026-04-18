@@ -246,7 +246,104 @@ https://github.com
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
+
+
 ## 3.2. User Stories
+
+<div align="center">
+
+<table>
+  <tr>
+    <th>Epic ID</th>
+    <th>Nombre del Epic</th>
+  </tr>
+  <tr>
+    <td>EP-01</td>
+    <td>Gestión de Inventario</td>
+  </tr>
+  <tr>
+    <td>EP-02</td>
+    <td>Monitoreo de Temperatura</td>
+  </tr>
+  <tr>
+    <td>EP-03</td>
+    <td>Gestión de Alertas</td>
+  </tr>
+  <tr>
+    <td>EP-04</td>
+    <td>Gestión Logística</td>
+  </tr>
+  <tr>
+    <td>EP-05</td>
+    <td>Gestión del Sistema (Usuarios, Reportes, Dashboard)</td>
+  </tr>
+  <tr>
+    <td>EP-06</td>
+    <td>Landing Page y Captación de Usuarios</td>
+  </tr>
+</table>
+
+</div>
+
+
+| ID    | Título                              | Descripción                                                                 | Criterios de Aceptación                                                                 | Epic  |
+|-------|-------------------------------------|-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------|-------|
+| US-01 | Registrar producto                  | Como usuario, quiero registrar productos con sus rangos de temperatura para garantizar su correcta conservación | Dado que ingreso los datos del producto, cuando guardo la información, entonces el sistema registra el producto correctamente con su rango de temperatura | EP-01 |
+| US-02 | Registrar ingreso de stock          | Como usuario, quiero registrar el ingreso de productos al inventario para llevar el control de cantidades disponibles | Dado un producto existente, cuando registro una cantidad, entonces el sistema actualiza el inventario correctamente | EP-01 |
+| US-03 | Visualizar temperatura en tiempo real | Como usuario, quiero visualizar la temperatura en tiempo real para detectar posibles anomalías | Dado que existen datos de temperatura, cuando accedo al sistema, entonces puedo visualizar los valores actualizados en tiempo real | EP-02 |
+| US-04 | Detectar anomalías de temperatura   | Como sistema, quiero detectar automáticamente temperaturas fuera del rango permitido para prevenir riesgos en los productos | Dado una temperatura fuera del rango permitido, cuando el sistema la evalúa, entonces genera una alerta automáticamente | EP-02 |
+| US-05 | Generar alertas                    | Como sistema, quiero generar alertas automáticas para notificar anomalías en la cadena de frío | Dado una anomalía detectada, cuando ocurre, entonces se crea una alerta con mensaje, tipo y fecha | EP-03 |
+| US-06 | Gestionar alertas                  | Como usuario, quiero visualizar y resolver alertas para tomar acciones correctivas oportunas | Dado una alerta activa, cuando la reviso, entonces puedo marcarla como resuelta | EP-03 |
+| US-07 | Monitorear transporte              | Como usuario, quiero monitorear la temperatura durante el transporte para evitar pérdidas | Dado un despacho en tránsito, cuando se registran temperaturas, entonces se asocian al envío correspondiente | EP-04 |
+| US-08 | Gestionar usuarios                 | Como administrador, quiero gestionar usuarios para controlar el acceso al sistema | Dado un usuario, cuando se crea o edita, entonces se guarda correctamente | EP-05 |
+| US-09 | Cambiar estado del producto        | Como sistema, quiero actualizar el estado del producto para reflejar su condición actual | Dado que un producto presenta riesgo, cuando se detecta una anomalía, entonces su estado cambia a “En Riesgo” | EP-01 |
+| US-10 | Consultar inventario               | Como usuario, quiero visualizar el inventario disponible para conocer el estado de los productos | Dado que accedo al módulo de inventario, cuando consulto, entonces visualizo productos con cantidad y estado | EP-01 |
+| US-11 | Asociar temperatura a despacho     | Como sistema, quiero asociar registros de temperatura a un despacho para monitorear el transporte | Dado un despacho activo, cuando se registra una temperatura, entonces se vincula al despacho correspondiente | EP-02 |
+| US-12 | Identificar origen de anomalía     | Como sistema, quiero identificar si una anomalía ocurrió en almacén o transporte para tomar decisiones | Dado un registro de temperatura fuera de rango, cuando se evalúa, entonces se identifica su origen | EP-02 |
+| US-13 | Visualizar dashboard              | Como usuario, quiero ver un resumen general del sistema para tomar decisiones rápidas | Dado que accedo al sistema, cuando ingreso al dashboard, entonces visualizo indicadores clave | EP-05 |
+| US-14 | Editar producto                   | Como usuario, quiero editar la información de un producto para mantener datos actualizados | Dado un producto existente, cuando modifico sus datos, entonces se actualiza correctamente | EP-01 |
+| US-15 | Eliminar producto                 | Como usuario, quiero eliminar productos que ya no se utilizan para mantener el inventario ordenado | Dado un producto seleccionado, cuando confirmo la eliminación, entonces se elimina del sistema | EP-01 |
+| US-16 | Registrar ubicación del producto  | Como usuario, quiero asignar una ubicación al producto para saber dónde se encuentra | Dado un producto, cuando asigno una ubicación, entonces se guarda correctamente | EP-01 |
+| US-17 | Visualizar historial de temperatura | Como usuario, quiero ver el historial de temperaturas para analizar comportamientos | Dado un producto, cuando consulto su historial, entonces se muestran registros con fecha y hora | EP-02 |
+| US-18 | Controlar acceso por rol          | Como sistema, quiero restringir accesos según el rol del usuario para mayor seguridad | Dado un usuario con rol definido, cuando accede al sistema, entonces solo visualiza funciones permitidas | EP-05 |
+| US-19 | Registrar lote de producto        | Como usuario, quiero registrar el lote de un producto para asegurar su trazabilidad | Dado un producto, cuando ingreso el lote, entonces se guarda correctamente | EP-01 |
+| US-20 | Consultar productos en riesgo     | Como usuario, quiero visualizar productos en estado de riesgo para tomar acciones rápidas | Dado productos con estado “En Riesgo”, cuando consulto, entonces se listan correctamente | EP-01 |
+| US-21 | Validar rango de temperatura      | Como sistema, quiero validar automáticamente el rango permitido de temperatura para cada producto | Dado un registro de temperatura, cuando se evalúa, entonces se compara con el rango definido | EP-02 |
+| US-22 | Registrar origen de temperatura   | Como sistema, quiero identificar el origen del registro (manual o simulado) para análisis | Dado un registro de temperatura, cuando se guarda, entonces se almacena su origen | EP-02 |
+| US-23 | Notificar múltiples usuarios      | Como sistema, quiero enviar alertas a varios usuarios para asegurar una respuesta rápida | Dado una alerta generada, cuando ocurre, entonces se notifica a los usuarios asignados | EP-03 |
+| US-24 | Actualizar estado de entrega      | Como usuario, quiero marcar un despacho como entregado para completar el proceso logístico | Dado un despacho en tránsito, cuando finaliza, entonces cambia a estado “Entregado” | EP-04 |
+| US-25 | Consultar estado de despacho      | Como usuario, quiero ver el estado de los despachos para monitorear envíos | Dado despachos registrados, cuando consulto, entonces visualizo su estado actual | EP-04 |
+| US-26 | Visualizar landing page           | Como visitante, quiero visualizar la landing page para conocer la solución SafeFlow | Dado que ingreso al sitio web, cuando carga la página, entonces visualizo la información principal | EP-06 |
+| US-27 | Ver propuesta de valor            | Como visitante, quiero entender los beneficios del sistema para evaluar su utilidad | Dado que accedo a la landing, cuando reviso el contenido, entonces visualizo la propuesta de valor claramente | EP-06 |
+| US-28 | Navegar por secciones             | Como visitante, quiero navegar por diferentes secciones para explorar el contenido | Dado que estoy en la landing, cuando navego, entonces accedo a cada sección | EP-06 |
+| US-29 | Visualizar características        | Como visitante, quiero ver las funcionalidades del sistema para conocer sus capacidades | Dado que accedo a la sección correspondiente, cuando la reviso, entonces visualizo funcionalidades principales | EP-06 |
+| US-30 | Registrarse en la plataforma      | Como visitante, quiero registrarme para acceder al sistema | Dado que ingreso mis datos, cuando los confirmo, entonces se crea una cuenta correctamente | EP-05 |
+| US-31 | Iniciar sesión                   | Como usuario, quiero iniciar sesión para acceder a la plataforma | Dado que ingreso mis credenciales, cuando son correctas, entonces accedo al sistema | EP-05 |
+| US-32 | Contactar a la empresa           | Como visitante, quiero enviar un mensaje para solicitar información o soporte | Dado que completo el formulario, cuando lo envío, entonces el mensaje se registra correctamente | EP-06 |
+| US-33 | Visualizar testimonios           | Como visitante, quiero ver testimonios para confiar en la solución | Dado que accedo a la sección, cuando la reviso, entonces visualizo experiencias de usuarios | EP-06 |
+| US-34 | Acceder desde dispositivos móviles | Como usuario, quiero acceder desde mi celular para usar la plataforma en cualquier lugar | Dado que ingreso desde un dispositivo móvil, cuando navego, entonces la interfaz se adapta correctamente | EP-06 |
+| US-35 | Ver llamada a la acción (CTA)    | Como visitante, quiero ver botones claros para registrarme o probar el sistema | Dado que estoy en la landing, cuando visualizo la página, entonces encuentro botones visibles | EP-06 |
+| US-36 | Configurar rangos personalizados | Como usuario, quiero definir rangos de temperatura personalizados para distintos productos | Dado un producto, cuando configuro rangos, entonces se guardan correctamente | EP-02 |
+| US-37 | Simular cambios de temperatura   | Como usuario, quiero simular datos de temperatura para probar el sistema | Dado el modo simulación activo, cuando se ejecuta, entonces se generan datos automáticamente | EP-02 |
+| US-38 | Cancelar despacho               | Como usuario, quiero cancelar un despacho para evitar envíos incorrectos | Dado un despacho pendiente, cuando lo cancelo, entonces cambia a estado “Cancelado” | EP-04 |
+| US-39 | Reprogramar entrega             | Como usuario, quiero reprogramar entregas para adaptarme a cambios logísticos | Dado un despacho, cuando modifico la fecha, entonces se actualiza correctamente | EP-04 |
+| US-40 | Mostrar recomendaciones         | Como sistema, quiero sugerir acciones para reducir riesgos en la cadena de frío | Dado un problema detectado, cuando se analiza, entonces se muestra una recomendación | EP-05 |
+| US-41 | Validar datos ingresados        | Como sistema, quiero validar los datos para evitar errores de ingreso | Dado datos incorrectos, cuando intento guardar, entonces se muestra un error | EP-05 |
+| US-42 | Cerrar sesión                  | Como usuario, quiero cerrar sesión para proteger mi información | Dado una sesión activa, cuando cierro sesión, entonces se finaliza correctamente | EP-05 |
+| US-43 | Visualizar video demostrativo   | Como visitante, quiero ver un video demo para entender cómo funciona el sistema | Dado la landing, cuando accedo, entonces puedo reproducir un video | EP-06 |
+| US-44 | Comparar planes del servicio    | Como visitante, quiero comparar planes para elegir la mejor opción | Dado la sección de precios, cuando la reviso, entonces veo comparaciones claras | EP-06 |
+| US-45 | Duplicar producto              | Como usuario, quiero duplicar un producto para registrar rápidamente similares | Dado un producto existente, cuando lo duplico, entonces se crea uno nuevo con los mismos datos | EP-01 |
+| US-46 | Marcar producto como desechado | Como usuario, quiero marcar productos como desechados para reflejar pérdidas | Dado un producto en riesgo, cuando lo marco, entonces cambia a estado “Desechado” | EP-01 |
+| US-47 | Validar condiciones antes del envío | Como sistema, quiero validar la temperatura antes de enviar productos para evitar riesgos | Dado un despacho, cuando se genera, entonces se verifica la condición térmica | EP-04 |
+| US-48 | Visualizar equipo de trabajo    | Como visitante, quiero conocer el equipo para generar confianza | Dado la landing, cuando navego, entonces veo la sección del equipo | EP-06 |
+| US-49 | Cambiar idioma                | Como usuario, quiero cambiar el idioma para una mejor comprensión | Dado la configuración, cuando selecciono un idioma, entonces cambia la interfaz | EP-05 |
+| US-50 | Ver estado del sistema        | Como usuario, quiero ver si el sistema está operativo para confiar en el servicio | Dado el sistema, cuando accedo, entonces visualizo su estado actual | EP-05 |
+| US-51 | Asociar múltiples productos a despacho | Como usuario, quiero enviar varios productos en un solo despacho | Dado varios productos, cuando genero un despacho, entonces se agrupan correctamente | EP-04 |
+| US-52 | Integrar con sensores IoT     | Como sistema, quiero recibir datos de sensores para automatizar el monitoreo | Dado un sensor activo, cuando envía datos, entonces se registran automáticamente | EP-02 |
+| US-53 | Registrar auditorías          | Como usuario, quiero registrar auditorías para cumplimiento normativo | Dado una auditoría, cuando la registro, entonces se guarda la información | EP-05 |
+| US-54 | Ver cumplimiento de normativas | Como usuario, quiero verificar el cumplimiento para evitar sanciones | Dado datos registrados, cuando consulto, entonces visualizo el cumplimiento | EP-05 |
+| US-55 | Visualizar alertas en dashboard | Como usuario, quiero ver alertas en el panel principal para reaccionar rápido | Dado alertas activas, cuando ingreso al dashboard, entonces se muestran destacadas | EP-05 |
+
 ## 3.3. Impact Mapping
 ## 3.4. Product Backlog
 
