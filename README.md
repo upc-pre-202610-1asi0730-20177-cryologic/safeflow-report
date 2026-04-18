@@ -26,7 +26,7 @@
 | :------------------------------- | :--------: |
 | Andy Alejandro Mio Mejia         | U202218531 |
 | Mel Andree Orellana Rodriguez      | U202116018 |
-| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  | xxxxxxxxxx |
+| Angel Guillermo Berrospi Marin  | U202114701 |
 | Anhelo Rodrigo Rocca Leon | U20221C803 |
 
 </div>
@@ -43,7 +43,7 @@
 | :-------: | :---------: | :----------------: | :----------------------:|
 | TB1 | --- | Mio Mejia, Andy Alejandro | xxxxxxx |
 | TB1 | --- | Orellana Rodriguez, Mel Andree | xxxxxxx |
-| TB1 | --- | xxxxxxx | xxxxxxx |
+| TB1 | --- | Berrospi Marin, Angel Guillermo | xxxxxxx |
 | TB1 | --- | Rocca Leon, Anhelo Rodrigo | xxxxxxx |
 
 </div>
