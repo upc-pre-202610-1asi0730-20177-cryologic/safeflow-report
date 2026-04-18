@@ -347,6 +347,44 @@ https://github.com
 ## 3.3. Impact Mapping
 ## 3.4. Product Backlog
 
+<table style="width:100%; border-collapse: collapse;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #dddddd; padding: 8px;"># Orden</th>
+      <th style="border: 1px solid #dddddd; padding: 8px;">User Story Id</th>
+      <th style="border: 1px solid #dddddd; padding: 8px;">Título</th>
+      <th style="border: 1px solid #dddddd; padding: 8px;">Descripción</th>
+      <th style="border: 1px solid #dddddd; padding: 8px;">Story Points (1/2/3/5/8)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><b>1</b></td><td>US-26</td><td>Visualizar landing page</td><td>Como visitante, quiero visualizar la landing page para conocer la solución SafeFlow.</td><td style="text-align: center;">2</td></tr>
+    <tr><td><b>2</b></td><td>US-27</td><td>Ver propuesta de valor</td><td>Como visitante, quiero entender los beneficios del sistema para evaluar su utilidad.</td><td style="text-align: center;">1</td></tr>
+    <tr><td><b>3</b></td><td>US-29</td><td>Visualizar características</td><td>Como visitante, quiero ver las funcionalidades del sistema para conocer sus capacidades.</td><td style="text-align: center;">1</td></tr>
+    <tr><td><b>4</b></td><td>US-01</td><td>Registrar producto</td><td>Como usuario, quiero registrar productos con sus rangos de temperatura para garantizar su conservación.</td><td style="text-align: center;">3</td></tr>
+    <tr><td><b>5</b></td><td>US-03</td><td>Visualizar temperatura en tiempo real</td><td>Como usuario, quiero visualizar la temperatura en tiempo real para detectar anomalías.</td><td style="text-align: center;">5</td></tr>
+    <tr><td><b>6</b></td><td>US-04</td><td>Detectar anomalías de temperatura</td><td>Como operador logístico, quiero detectar automáticamente temperaturas fuera del rango permitido.</td><td style="text-align: center;">5</td></tr>
+    <tr><td><b>7</b></td><td>US-05</td><td>Generar alertas</td><td>Como operador logístico, quiero generar alertas automáticas para notificar anomalías.</td><td style="text-align: center;">3</td></tr>
+    <tr><td><b>8</b></td><td>US-07</td><td>Monitorear transporte</td><td>Como operador logístico, quiero monitorear la temperatura durante el transporte para evitar pérdidas.</td><td style="text-align: center;">5</td></tr>
+    <tr><td><b>9</b></td><td>US-10</td><td>Consultar inventario</td><td>Como operador logístico, quiero visualizar el inventario disponible para conocer el estado de los productos.</td><td style="text-align: center;">2</td></tr>
+    <tr><td><b>10</b></td><td>US-52</td><td>Integrar con sensores IoT</td><td>Como operador logístico, quiero recibir datos de sensores para automatizar el monitoreo.</td><td style="text-align: center;">8</td></tr>
+    <tr><td><b>11</b></td><td>US-02</td><td>Registrar ingreso de stock</td><td>Como usuario, quiero registrar el ingreso de productos al inventario para control de cantidades.</td><td style="text-align: center;">3</td></tr>
+    <tr><td><b>12</b></td><td>US-09</td><td>Cambiar estado del producto</td><td>Como operador logístico, quiero actualizar el estado del producto para reflejar su condición (En Riesgo).</td><td style="text-align: center;">3</td></tr>
+    <tr><td><b>13</b></td><td>US-13</td><td>Visualizar dashboard</td><td>Como usuario, quiero ver un resumen general del sistema para tomar decisiones rápidas.</td><td style="text-align: center;">5</td></tr>
+    <tr><td><b>14</b></td><td>US-55</td><td>Visualizar alertas en dashboard</td><td>Como usuario, quiero ver alertas en el panel principal para reaccionar rápido.</td><td style="text-align: center;">2</td></tr>
+    <tr><td><b>15</b></td><td>US-24</td><td>Actualizar estado de entrega</td><td>Como usuario, quiero marcar un despacho como entregado para completar el proceso logístico.</td><td style="text-align: center;">2</td></tr>
+    <tr><td><b>16</b></td><td>US-32</td><td>Contactar a la empresa</td><td>Como visitante, quiero enviar un mensaje para solicitar información o soporte.</td><td style="text-align: center;">2</td></tr>
+    <tr><td><b>17</b></td><td>US-47</td><td>Validar condiciones antes del envío</td><td>Como sistema, quiero validar la temperatura antes de enviar productos para evitar riesgos.</td><td style="text-align: center;">3</td></tr>
+    <tr><td><b>18</b></td><td>US-17</td><td>Visualizar historial de temperatura</td><td>Como usuario, quiero ver el historial de temperaturas para analizar comportamientos.</td><td style="text-align: center;">3</td></tr>
+    <tr><td><b>19</b></td><td>US-30</td><td>Registrarse en la plataforma</td><td>Como visitante, quiero registrarme para acceder al sistema.</td><td style="text-align: center;">3</td></tr>
+    <tr><td><b>20</b></td><td>US-31</td><td>Iniciar sesión</td><td>Como usuario, quiero iniciar sesión para acceder a la plataforma.</td><td style="text-align: center;">2</td></tr>
+    <tr><td><b>21</b></td><td>US-18</td><td>Controlar acceso por rol</td><td>Como operador logístico, quiero restringir accesos según el rol del usuario para mayor seguridad.</td><td style="text-align: center;">5</td></tr>
+    <tr><td><b>22</b></td><td>US-08</td><td>Gestionar usuarios</td><td>Como administrador, quiero gestionar usuarios para controlar el acceso al sistema.</td><td style="text-align: center;">3</td></tr>
+    <tr><td><b>23</b></td><td>US-42</td><td>Cerrar sesión</td><td>Como usuario, quiero cerrar sesión para proteger mi información.</td><td style="text-align: center;">1</td></tr>
+  </tbody>
+</table>
+
+<br>
 #  Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
