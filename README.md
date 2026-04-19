@@ -675,9 +675,15 @@ En esta sección se elaboro el Software Architecture Context Diagram de SafeFlow
 monitoreo ambiental, gestión de inventario, logística y notificaciones. A su alrededor se identifican los actores humanos 
 que interactúan con la plataforma y los sistemas externos que aportan datos y/o servicios complementarios.
 ##### Context Diagram
-<img src="assets/chapter-04/SafeFlow_Software-Architecture-Context-Diagram.png">
+<img src="assets/chapter-04/SafeFlow_Software_Architecture_Context-Diagram.png">
 
 ### 4.6.2. Software Architecture Container Diagrams
+En esta sección se elaboro el Software Architecture Container Diagram de SafeFlow. Se representa la propuesta de solución 
+en un Landing Page público, una Web Application para usuarios, un REST API interno, un servicio de ingesta IoT, un 
+servicio interno de despacho de notificaciones y una base de datos central.
+##### Container Diagram
+<img src="assets/chapter-04/SafeFlow_Software_Architecture_Container-Diagram.png">
+
 ### 4.6.3. Software Architecture Components Diagrams
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
