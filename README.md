@@ -674,8 +674,8 @@ Con este sistema, SafeFlow proporciona navegación intuitiva y eficiente que per
 En esta sección se elaboro el Software Architecture Context Diagram de SafeFlow representando un sistema web que integre
 monitoreo ambiental, gestión de inventario, logística y notificaciones. A su alrededor se identifican los actores humanos 
 que interactúan con la plataforma y los sistemas externos que aportan datos y/o servicios complementarios.
-#### Context Diagram
-<img src="assets/chapter-04/SafeFlow_Software_Architecture_Context_Diagram.png"/>
+##### Context Diagram
+<img src="assets/chapter-04/SafeFlow_Software-Architecture-Context-Diagram.png">
 
 ### 4.6.2. Software Architecture Container Diagrams
 ### 4.6.3. Software Architecture Components Diagrams
