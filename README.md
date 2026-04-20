@@ -695,6 +695,10 @@ componentes responsables de procesar lecturas IoT y enviar alertas.
 ##### REST API Component Diagram
 <img src="assets/chapter-04/SafeFlow_Software_Architecture_Component_REST-API_Diagram.png">
 
+##### IoT Service Component Diagram
+<img src="assets/chapter-04/SafeFlow_Software_Architecture_Component_IoT-MessageService_Diagram.png">
+
+
 
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
