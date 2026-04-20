@@ -471,7 +471,7 @@ https://github.com
         <td style="border: 1px solid #dddddd; padding: 8px;">18/04/2026</td>
       </tr>
             <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">>Guille-berrs/safeflow-report</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-report</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">feature/chapter-03</td>
         <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">ce72c7ed8ea99ff16fa9005ae52c4bb4f406feac</td>
         <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">docs: update product backlog</td>
@@ -479,7 +479,7 @@ https://github.com
         <td style="border: 1px solid #dddddd; padding: 8px;">18/04/2026</td>
       </tr>
             <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">>Guille-berrs/safeflow-report</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-report</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">feature/chapter-05</td>
         <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">0a000b90705e0b8b2c9fb8304a1ccbf78abdccef</td>
         <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">docs: created of estructure of aspect leaders and collaborators</td>
@@ -487,7 +487,7 @@ https://github.com
         <td style="border: 1px solid #dddddd; padding: 8px;">18/04/2026</td>
       </tr>
             <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">>Guille-berrs/safeflow-report</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-report</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">feature/chapter-05</td>
         <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">9336e68fca784f98098db16f38299446f6531a6b</td>
         <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">docs: created of estructure of sprint backlog and change structure of points of chapter 5. </td>
@@ -495,7 +495,7 @@ https://github.com
         <td style="border: 1px solid #dddddd; padding: 8px;">18/04/2026</td>
       </tr>
             <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">>Guille-berrs/safeflow-report</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-report</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">feature/chapter-05</td>
         <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">12b1ebd1ceb7e601356a8743d685b747ccad1389</td>
         <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">docs: created estructure of sprint review.</td>
@@ -503,7 +503,7 @@ https://github.com
         <td style="border: 1px solid #dddddd; padding: 8px;">18/04/2026</td>
       </tr>
             <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">>Guille-berrs/safeflow-report</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-report</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">feature/student-profile</td>
         <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">cb03fedca7735b0b7bf6a8556eb928d02f4720aa</td>
         <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">docs: add personal data in team members and doc version</td>
@@ -511,7 +511,7 @@ https://github.com
         <td style="border: 1px solid #dddddd; padding: 8px;">18/04/2026</td>
       </tr>
             <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">>Guille-berrs/safeflow-report</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-report</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">feature/student-profile</td>
         <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">575d252ab36b170da66877a452dcbffddc9a3797</td>
         <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">docs: creation of the format of student outcome</td>
