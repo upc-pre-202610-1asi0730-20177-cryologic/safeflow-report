@@ -707,6 +707,12 @@ la implementación, la escalabilidad y la trazabilidad de las reglas de negocio.
 
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
+Con la finalidad de que practicidad y para seguir con el modelo Domain-Driven-Design (DDD) se elaboró el diagrama de clase 
+de SafeFlow por bounded context para representar con mayor precisión la estructura interna del dominio. Cada diagrama incluye clases, 
+interfaces y enumeraciones, junto con atributos, métodos, visibilidad, relaciones y multiplicidad.
+##### Class Diagram - Bounded Context: Monitoreo en Tiempo Real
+<img src="assets/chapter-04/MonitoringContext_ClassDiagram.png">
+
 ### 4.7.2. Class Dictionary
 ## 4.8. Database Design
 ### 4.8.1. Database Diagram
