@@ -719,6 +719,9 @@ interfaces y enumeraciones, junto con atributos, métodos, visibilidad, relacion
 ##### Class Diagram - Bounded Context: Logística
 <img src="assets/chapter-04/LogisticsContext_ClassDiagram.png">
 
+##### Class Diagram - Bounded Context: Notificaciones
+<img src="assets/chapter-04/NotificationsContext_ClassDiagram.png">
+
 ### 4.7.2. Class Dictionary
 ## 4.8. Database Design
 ### 4.8.1. Database Diagram
