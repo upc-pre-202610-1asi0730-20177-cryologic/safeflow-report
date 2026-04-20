@@ -685,6 +685,14 @@ servicio interno de despacho de notificaciones y una base de datos central.
 <img src="assets/chapter-04/SafeFlow_Software_Architecture_Container-Diagram.png">
 
 ### 4.6.3. Software Architecture Components Diagrams
+En esta sección, a diferencia de los modelos C4 anteriores, se descompone los contenedores principales en módulos internos. 
+En la Web Application se diagraman componentes de navegación, vistas y cliente API. En la REST API se distinguen controladores, 
+servicios de aplicación, repositorios y servicios de infraestructura. Y en los servicios de IoT y notificación se modelan los 
+componentes responsables de procesar lecturas IoT y enviar alertas.
+##### Web Application Component Diagram
+<img src="assets/chapter-04/SafeFlow_Software_Architecture_Component_WebApplication-Diagram.png">
+
+
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 ### 4.7.2. Class Dictionary
