@@ -698,7 +698,12 @@ componentes responsables de procesar lecturas IoT y enviar alertas.
 ##### IoT Service Component Diagram
 <img src="assets/chapter-04/SafeFlow_Software_Architecture_Component_IoT-MessageService_Diagram.png">
 
+##### Notification Service Component Diagram
+<img src="assets/chapter-04/SafeFlow_Software_Architecture_Component_NotificationDispatcher-Diagram.png">
 
+Gracias a los modelos C4 elaborados, se logró una visión clara y estructurada de la arquitectura de software propuesta para SafeFlow,
+identificando los contenedores principales, sus responsabilidades y las interacciones entre ellos. Esta separación facilita
+la implementación, la escalabilidad y la trazabilidad de las reglas de negocio.
 
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
