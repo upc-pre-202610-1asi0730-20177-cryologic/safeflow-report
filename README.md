@@ -485,6 +485,45 @@ Segmento Objetivo 2: Operadores logísticos (3PL / transporte especializado)
 17. ¿Qué le impide hoy digitalizar el 100% de su operación logística (falta de presupuesto, resistencia del personal, falta de software adecuado)?
 
 ### 2.2.2. Registro de entrevistas
+
+#### Segmento objetivo #1: Empresas del sector farmacéutico
+
+---
+
+Entrevista 1:
+Nombres y apellidos: Sebastian Mendoza
+
+Edad: 35 años
+Distrito: San Borja
+Inicio: 1:15
+Duración: 7:40
+URL: 
+
+Resumen:
+Sebastian es un Jefe de Aseguramiento de la Calidad con 10 años de experiencia en el sector farmacéutico. Su gestión se centra en garantizar que productos críticos (vacunas e insulinas) se mantengan estrictamente entre 2°C y 8°C. Actualmente, enfrenta una grave falta de visibilidad durante el transporte, calificándolo como una "caja negra" donde solo detecta fallos post-mortem mediante la descarga manual de dataloggers.
+
+Esta falta de monitoreo en tiempo real ha causado pérdidas económicas de hasta 50 mil dólares y daños reputacionales severos. Sebastian es un perfil altamente analítico que sufre con la demora de los datos y el caos administrativo de las auditorías sanitarias (que le toman hasta 3 días de trabajo). Valora por encima de todo la integridad inalterable de los datos y espera que SafeFlow le proporcione alertas preventivas y un dashboard centralizado para reducir mermas, lo cual impactaría directamente en sus KPIs y bonificaciones profesionales.
+
+
+
+#### Segmento objetivo #2: Operadores logísticos (3PL / transporte especializado)
+
+---
+
+Entrevista 1:
+Nombres y apellidos: Maria Ruiz
+
+Edad: 28 años
+Distrito: Los Olivos
+Inicio: 1:30
+Duración: 07:55
+URL: 
+
+Resumen:
+Maria es una Supervisora de Operaciones y Flota de 28 años que gestiona la logística de transporte especializado. Su flujo de trabajo actual es altamente dependiente de herramientas informales (pizarras acrílicas y fotos por WhatsApp), lo que genera un desorden administrativo y falta de control sobre la carga. Su mayor problema es la vulnerabilidad ante reclamos de clientes, ya que no cuenta con pruebas digitales en tiempo real para demostrar que el frío se mantuvo correctamente durante la ruta, dependiendo de la vista del conductor sobre visores externos.
+
+Valora la rapidez y la simplicidad; para ella, la digitalización es necesaria para ganar clientes corporativos exigentes, pero teme a la resistencia tecnológica de sus conductores. Espera que SafeFlow sea una herramienta intuitiva (tipo WhatsApp) que emita alertas de texto críticas y visualización en tiempo real sobre mapas, eliminando las 5 horas semanales que su equipo pierde procesando datos manualmente desde memorias USB.
+
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
