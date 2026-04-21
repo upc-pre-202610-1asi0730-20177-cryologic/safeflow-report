@@ -737,6 +737,11 @@ interfaces y enumeraciones, junto con atributos, métodos, visibilidad, relacion
 
 ## 4.8. Database Design
 ### 4.8.1. Database Diagram
+En esta sección se elaboró el Database Diagram de SafeFlow, representando las tablas principales, sus atributos, 
+tipos de datos, claves primarias y foráneas, así como las relaciones entre ellas. El diseño se centró en la eficiencia para 
+consultas críticas de monitoreo y control de temperatura en la cadena de frío.
+<img src="assets/chapter-04/SafeFlow_Database_Diagram.png">
+
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
