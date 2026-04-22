@@ -554,6 +554,13 @@ La siguiente matriz presenta las tareas identificadas para los segmentos objetiv
 * **Frecuencia:** Alta, Media, Baja, N/A (No aplica).
 * **Importancia:** Alta, Media, Baja, N/A.
 ### 2.3.3. User Journey Mapping
+Por un lado, el viaje de Lorena Mendoza ilustra el proceso end-to-end de gestión de calidad, iniciando desde el registro manual de lotes farmacéuticos hasta la consolidación de reportes para auditorías sanitarias. Por otro lado, el recorrido de Carlos Guevara resume el flujo logístico operativo, abarcando desde la planificación de rutas mediante herramientas informales hasta el cierre del servicio frente a reclamos por mermas.
+#### Segmento 1 
+<img width="1541" height="1198" alt="User Journey Mapping (Lorena Mendoza)" src="https://github.com/user-attachments/assets/2d9c2dc8-8778-4fb1-b446-b3287a32d6c0" />
+
+#### Segmento 2
+<img width="1306" height="1179" alt="User Journey Mapping (Carlos Guevara)" src="https://github.com/user-attachments/assets/df4e5686-f894-460b-aa0e-4ad9745b9c04" />
+
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
 
