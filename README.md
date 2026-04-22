@@ -22,12 +22,12 @@
 
 <h3> Team Members: </h3>
 
-| Member                           |    Code    |
-| :------------------------------- | :--------: |
-| Andy Alejandro Mio Mejia         | U202218531 |
-| xxxxxxxxxxxxxxxxxxxxxxxxx        | xxxxxxxxxx |
-| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  | xxxxxxxxxx |
-| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxx |
+| Member                          |    Code    |
+|:--------------------------------|:----------:|
+| Andy Alejandro Mio Mejia        | U202218531 |
+| xxxxxxxxxxxxxxxxxxxxxxxxx       | xxxxxxxxxx |
+| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxx |
+| Anhelo Rodrigo Rocca Leon          | U20221C803 |
 
 
 <h3 align="center">2025</h3>
@@ -239,12 +239,12 @@ La plataforma analiza continuamente las condiciones registradas y detecta desvia
 | *Descripción*           | Soy estudiante de Ingeniería de Software. Tendre el compromiso con mi equipo en ser proactivo, siempre apoyar en lo que se necesite y mantener una comunicación fluida. Cuento con conocimientos en html, css, javascript y SQL, lo cual puede ser de ayuda en el desarrollo del proyecto.           |
 | Foto                      | <div algin="center"><img src="assets/chapter-01/Angel_Berrospi_Profile.jpg" alt="Integrante Angel" width="400" />  </div>        |
 
-| *Integrante*            |            |
-|---------------------------|---------------------------------------------------------------------------------------------------|
-| *Código del Estudiante* |            |
-| *Carrera*               |            |
-| *Descripción*           |            |
-| Foto                      |            |
+| *Integrante*            | Anhelo Rocca                                                                                                                                                                                                                                                          |
+|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| *Código del Estudiante* | U20221C803                                                                                                                                                                                                                                                            |
+| *Carrera*               | Ingeniería de Software                                                                                                                                                                                                                                                |
+| *Descripción*           | Soy estudiante de Ingeniería de Software. Cuento con conocimientos en los lenguajes de programación como C++, Python y SQL. Me comprometo a trabajar con mi equipo en el desarrollo de nuestro proyecto, al igual que ayudar siempre que mis capacidades lo permitan. |
+| Foto                      | <div align="center"><img src="assets/chapter-01/Anhelo_Foto.jpeg">                                                                                                                                                                                                    |
 
 | *Integrante*            |            |
 |---------------------------|---------------------------------------------------------------------------------------------------|
