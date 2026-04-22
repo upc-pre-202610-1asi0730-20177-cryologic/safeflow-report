@@ -534,7 +534,25 @@ Valora la rapidez y la simplicidad; para ella, la digitalización es necesaria p
 
 #### Segmento 2
 <img width="1050" height="1408" alt="Segmento 2" src="https://github.com/user-attachments/assets/cf993b44-a2cf-4198-9617-4037e442b71d" />
+
 ### 2.3.2. User Task Matrix
+
+La siguiente matriz presenta las tareas identificadas para los segmentos objetivo, evaluando la frecuencia e importancia para cada User Persona de manera independiente.
+
+| User Task (Tarea) | **Lorena Mendoza** | | **Carlos Guevara** | |
+| :--- | :---: | :---: | :---: | :---: |
+| | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** |
+| Registro de dispositivos y sensores | Baja | Alta | Baja | Alta |
+| Monitoreo de temperatura en tiempo real | Alta | Alta | Media | Alta |
+| Configuración de umbrales de alerta | Baja | Alta | N/A | N/A |
+| Análisis de informes de desempeño | Media | Alta | Alta | Alta |
+| Generación de reportes para auditorías | Alta | Alta | Baja | Media |
+| Gestión de incidencias en ruta | Media | Alta | Alta | Alta |
+| Visualización de ubicación de flota | N/A | N/A | Alta | Alta |
+
+**Leyenda:**
+* **Frecuencia:** Alta, Media, Baja, N/A (No aplica).
+* **Importancia:** Alta, Media, Baja, N/A.
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
