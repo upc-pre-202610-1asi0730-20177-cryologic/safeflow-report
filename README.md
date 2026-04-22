@@ -25,7 +25,7 @@
 | Member                           |    Code    |
 | :------------------------------- | :--------: |
 | Andy Alejandro Mio Mejia         | U202218531 |
-| xxxxxxxxxxxxxxxxxxxxxxxxx        | xxxxxxxxxx |
+| Jefferson Bayron Morales Yapuchura        | U202316049 |
 | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  | xxxxxxxxxx |
 | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxx |
 
@@ -39,7 +39,7 @@
 | Versión | Fecha | Autor | Descripción de modificación |
 | :-------: | :---------: | :----------------: | :----------------------:|
 | TB1 | --- | Mio Mejia, Andy Alejandro | xxxxxxx |
-| TB1 | --- | xxxxxxx | xxxxxxx |
+| TB1 | --- | Jefferson Bayron Morales Yapuchura | U202316049 |
 | TB1 | --- | xxxxxxx | xxxxxxx |
 | TB1 | --- | xxxxxxx | xxxxxxx |
 
@@ -529,6 +529,10 @@ Valora la rapidez y la simplicidad; para ella, la digitalización es necesaria p
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
+#### Segmento 1
+
+#### Segmento 2
+
 ### 2.3.2. User Task Matrix
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
