@@ -530,9 +530,9 @@ Valora la rapidez y la simplicidad; para ella, la digitalización es necesaria p
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 #### Segmento 1
-
+<img width="1050" height="1378" alt="Segmento 1 AW" src="https://github.com/user-attachments/assets/1a0233b5-f0e6-4633-b489-331f0c848e03" />
 #### Segmento 2
-
+<img width="1050" height="1408" alt="Segmento 2" src="https://github.com/user-attachments/assets/cf993b44-a2cf-4198-9617-4037e442b71d" />
 ### 2.3.2. User Task Matrix
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
