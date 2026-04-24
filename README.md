@@ -224,7 +224,7 @@ https://github.com
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
-            <li><b>AV1 - Angel Guillermo, Berrospi Marin:</b> Tus acciones.</li>
+            <li><b>AV1 - Angel Guillermo, Berrospi Marin:</b>Fomente comunicación con el grupo para tener un buen entendimiento del proyecto realizado, asi mismo ayude en la realización de diferentes puntos del proyecto, por ejmplo el capítulo 2 y la landing page, la estructura del capítulo 5 y coordinaciones que ayudaron en el avance del trabajo y su culminación.</li>
             <li><b>AV1 - Mel Andre, Orellana Rodriguez:</b> Tus acciones</li>
             <li><b>AV1 - Tu Nombre:</b>Tus acciones</li>
             <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
@@ -241,7 +241,7 @@ https://github.com
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
-            <li><b>AV1 - Angel Guillermo Berrospi Marin:</b>Tus acciones</li>
+            <li><b>AV1 - Angel Guillermo Berrospi Marin:</b>Participe activamente en el desarrollo del proyecto, tanto en la realización de tareas cómo entrar a las reuniones programadas para la coordinación de diferentes puntos, establecí mi propia métrica con respecto a los puntos que me tocaron y de esa forma pude desempeñar un buen rendimiento tanto en ayuda para el grupo cómo para la finalización del proyecto.</li>
             <li><b>AV1 - Mel Andre Orellana Rodriguez:</b> Tus acciones</li>
             <li><b>AV1 - Tu Nombre:</b>Tus acciones</li>
             <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
