@@ -527,41 +527,85 @@ Valora la rapidez y la simplicidad; para ella, la digitalización es necesaria p
 ---
 
 ### 2.2.3. Análisis de entrevistas
+
+### Segmento 1: Empresas del sector farmacéutico
+
+- **Rol principal:** 100% asegura la integridad biológica de productos termolábiles (2°C a 8°C) y garantiza el cumplimiento de normativas sanitarias (DIGEMID).
+- **Gestión de Datos:** 100% se describe como un perfil "analítico" que no toma decisiones sin reportes de datos sustentados.
+- **Herramientas actuales:**  100% utiliza ERPs robustos (SAP) y dataloggers físicos; 0% cuenta con monitoreo en la nube en tiempo real.
+- **Problemas comunes:** 
+  * 100% califica el transporte como una "caja negra" sin visibilidad en tránsito.
+  * 100% reporta procesos caóticos de auditoría (entre 2 a 3 días para consolidar evidencias).
+  * 100% menciona falta de alertas inmediatas ante fallas mecánicas o humanas.
+- **Indicadores Valorados:** 100% prioriza el conteo de "Alertas Críticas Activas" y la trazabilidad histórica inalterable.
+- **Impacto de la solución:** 100% afirma que una reducción del 20% en mermas impacta directamente en sus bonos de desempeño y KPIs.
+- **Factor "No Negociables"** 100% exige integridad total de los datos (registros no editables).
+
+### Segmento 2: Operadores logísticos (3PL / transporte especializado)
+
+- **Rol principal:** 100% coordina despachos, supervisa conductores y gestiona la comunicación operativa en ruta.
+- **Canales digitales:** 100% utiliza WhatsApp para coordinar rutas y Facebook/LinkedIn para actualizarse en normativas.
+- **Herramientas actuales:**  100% usa pizarras acrílicas y registros en papel; 50% depende de fotos enviadas por los choferes como "evidencia".
+- **Problemas comunes:** 
+  * 100% reporta vulnerabilidad ante reclamos de clientes por falta de pruebas de temperatura en vivo.
+  * 100% menciona que los choferes no detectan fallas de frío a tiempo por falta de alertas en cabina.
+  * 100% identifica una pérdida de 5 horas semanales en la descarga manual de datos USB y armado de reportes en Excel.
+- **Indicadores Valorados:** 100% prioriza la visualización de unidades en mapas interactivos con estado térmico actualizado cada 5 minutos.
+- **Adopción de app:** 100% dispuesto a adoptar la solución siempre que sea "fácil de usar como WhatsApp" y apta para conductores con baja alfabetización digital.
+- **Diferenciación:** 100% considera que la falta de una plataforma de monitoreo les está haciendo perder grandes clientes corporativos.
+
+
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
-#### Segmento 1
-<img width="1050" height="1378" alt="Segmento 1 AW" src="https://github.com/user-attachments/assets/1a0233b5-f0e6-4633-b489-331f0c848e03" />
 
-#### Segmento 2
-<img width="1050" height="1408" alt="Segmento 2" src="https://github.com/user-attachments/assets/cf993b44-a2cf-4198-9617-4037e442b71d" />
+#### Segmento 1 Jefe de Aseguramiento de Calidad
+
+<img src="assets/chapter-02/User_Persona_Sebastian Mendoza.png"/>
+
+#### Segmento 2 Supervisora de Operaciones y Flota
+
+<img src="assets/chapter-02/User_Persona_Maria Ruiz.png"/>
 
 ### 2.3.2. User Task Matrix
 
 La siguiente matriz presenta las tareas identificadas para los segmentos objetivo, evaluando la frecuencia e importancia para cada User Persona de manera independiente.
 
-| User Task (Tarea) | **Lorena Mendoza** | | **Carlos Guevara** | |
+| User Task (Tarea) | **Maria Ruiz** | | **Sebastian Mendoza** | |
 | :--- | :---: | :---: | :---: | :---: |
 | | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** |
-| Registro de dispositivos y sensores | Baja | Alta | Baja | Alta |
+| Registro de dispositivos y sensores | Media | Alta | Baja | Alta |
 | Monitoreo de temperatura en tiempo real | Alta | Alta | Media | Alta |
-| Configuración de umbrales de alerta | Baja | Alta | N/A | N/A |
-| Análisis de informes de desempeño | Media | Alta | Alta | Alta |
-| Generación de reportes para auditorías | Alta | Alta | Baja | Media |
-| Gestión de incidencias en ruta | Media | Alta | Alta | Alta |
-| Visualización de ubicación de flota | N/A | N/A | Alta | Alta |
+| Configuración de umbrales de alerta | Media | Alta | Alta | Alta |
+| Atención de alertas y resolución | Alta | Alta | Media | Alta |
+| Generación de reportes para auditorías | Media | Alta | Alta | Alta |
+| Visualización de dashboard e indicadores | Media | Alta | Alta | Alta |
+| Gestion de usuarios y permisos (IAM) | N/A | N/A | Baja | Alta |
 
-**Leyenda:**
-* **Frecuencia:** Alta, Media, Baja, N/A (No aplica).
-* **Importancia:** Alta, Media, Baja, N/A.
+**Conclusiones:**
+* **Sebastian Mendoza** se enfoca en el cumplimiento normativo y la integridad de la carga; necesita trazabilidad inalterable, reportes de auditoría automáticos y alertas críticas para proteger productos de alto valor. 
+* **Maria Ruiz** prioriza la eficiencia operativa y la protección ante reclamos; requiere una visión en tiempo real de la flota, comunicación fluida con conductores y evidencias digitales rápidas para justificar el servicio ante sus clientes.
+* La plataforma debe equilibrar un panel de control analítico para los gestores de calidad y una interfaz operativa simplificada para los supervisores de flota, enfocándose en los puntos de dolor compartidos: la visibilidad en la "caja negra" del transporte, la automatización de reportes y la respuesta inmediata ante alertas térmicas.
+
 ### 2.3.3. User Journey Mapping
-Por un lado, el viaje de Lorena Mendoza ilustra el proceso end-to-end de gestión de calidad, iniciando desde el registro manual de lotes farmacéuticos hasta la consolidación de reportes para auditorías sanitarias. Por otro lado, el recorrido de Carlos Guevara resume el flujo logístico operativo, abarcando desde la planificación de rutas mediante herramientas informales hasta el cierre del servicio frente a reclamos por mermas.
-#### Segmento 1 
-<img width="1541" height="1198" alt="User Journey Mapping (Lorena Mendoza)" src="https://github.com/user-attachments/assets/2d9c2dc8-8778-4fb1-b446-b3287a32d6c0" />
 
-#### Segmento 2
-<img width="1306" height="1179" alt="User Journey Mapping (Carlos Guevara)" src="https://github.com/user-attachments/assets/df4e5686-f894-460b-aa0e-4ad9745b9c04" />
+#### Segmento 1  Gestor de Aseguramiento de Calidad
+
+<img src="assets/chapter-02/User_Journey_Mapping_Gestores de Aseguramiento de Calidad.png"/>
+
+#### Segmento 2 Supervisor de Operaciones y Flota
+
+<img src="assets/chapter-02/User_Journey_Mapping_Supervisor de Operaciones y Flota.png"/>
 
 ### 2.3.4. Empathy Mapping
+
+####  Gestores de Aseguramiento de Calidad
+
+<img src="assets/chapter-02/Empathy_Mapping_Gestores de Aseguramiento de Calidad.png"/>
+
+####  Supervisores de Operaciones y Flota
+
+<img src="assets/chapter-02/Empathy_Mapping_Supervisores de Operaciones y Flota.png"/>
+
 ### 2.3.5. As-is Scenario Mapping
 
 # Capítulo III: Requirements Specification
