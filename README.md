@@ -439,84 +439,84 @@ https://github.com
     </thead>
     <tbody>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-report</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/chapter-01</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">efcf2f431a4a3d039acf9dd1ca54739b4b721c63</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">docs: Complet Lean Ux Hypothesis Statements and add Picture of Lean Ux Canvas.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Se completo los puntos Lean Ux Hypothesis Statements y el Lean Ux Canvas,</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">15/04/2026</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-website</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">feature/characteristic</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">7ac3298ec94c28fe6bb6e5175a0522b5186ee200</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: create the section of characteristics</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Se creó la estructura html de la sección características.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-report</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/chapter-01</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">62d3036d2ac2714a26e96c4d0df380fdd346aefc</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">docs: Create profile of member Angel Berrospi and add a picture of member.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Se creó el perfil del miembro Angel Berrospi.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">15/04/2026</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-website</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">feature/characteristics</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">8f5e5f46b782b75638c74e2afd779cf164670f84</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: create styles for the section characteristic.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Se creó los estilos de la seccion características.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-report</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/chapter-02</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">b2d973dd63a248ed729be56e25b395f690445bbe</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">docs(Diseño de entrevistas): Define Interviews questions</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Diseño de las entrevistas.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">17/04/2026</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-website</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">feature/how-it-works</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">cfacfbbfe0dc72bc9bdb6736289556590b8d57e8</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: create the structure of section how it works.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Se creó la estructura html de la sección how it works.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-report</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/chapter-03</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">fb17a2fd997ca66c736bfa16d58eb79da2f1abb7</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">docs: complete product backlog</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Se completo el punto Product Backlog</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">18/04/2026</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-website</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">feature/how-it-works</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">469afbf4d23e12618f10bbd9b2a5db5c0191fe9f</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: create the style for the section how it works.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Se creó los estilos de la sección how it works.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
       </tr>
             <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-report</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/chapter-03</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">ce72c7ed8ea99ff16fa9005ae52c4bb4f406feac</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">docs: update product backlog</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Se actualizo algunos puntos del Product Backlog</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">18/04/2026</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-website</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">feature/pricing</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">09d59ce4d376bd3a5a2b1f849d6dbefd056835a5</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: create structure for the section pricing.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Se creó la estructura de la sección pricing.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
       </tr>
             <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-report</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/chapter-05</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">0a000b90705e0b8b2c9fb8304a1ccbf78abdccef</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">docs: created of estructure of aspect leaders and collaborators</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Se creo la estructura del cuadro Aspect Leaders and Collaborators.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">18/04/2026</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-website</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">feature/pricing</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">562f581e39a0fdbb288e81705aae3c471c19b7c6</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: create style for the section pricing.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Se creó los estilos de la sección pricing.</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
       </tr>
             <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-report</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/chapter-05</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">9336e68fca784f98098db16f38299446f6531a6b</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">docs: created of estructure of sprint backlog and change structure of points of chapter 5. </td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Se creo la estructura del cuadro Sprint Backlog y cambie la estructura de los puntos del capitulo 5.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">18/04/2026</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       </tr>
             <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-report</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/chapter-05</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">12b1ebd1ceb7e601356a8743d685b747ccad1389</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">docs: created estructure of sprint review.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Se creo la estructura del cuadro Sprint Review.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">18/04/2026</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       </tr>
             <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-report</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/student-profile</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">cb03fedca7735b0b7bf6a8556eb928d02f4720aa</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">docs: add personal data in team members and doc version</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Se añadio datos personales en el cuadro de miembros.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">18/04/2026</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       </tr>
             <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-report</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/student-profile</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">575d252ab36b170da66877a452dcbffddc9a3797</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">docs: creation of the format of student outcome</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Se creo el formato de student outcome.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">18/04/2026</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       </tr>
             <tr>
         <td style="border: 1px solid #dddddd; padding: 8px;"></td>
