@@ -24,9 +24,9 @@
 
 | Member                           |    Code    |
 | :------------------------------- | :--------: |
-| Andy Alejandro Mio Mejia         | U202218531 |
-| Jefferson Bayron Morales Yapuchura        | U202316049 |
-| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  | xxxxxxxxxx |
+| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxx |
+| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxx |
+| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxx |
 | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxx |
 
 
@@ -38,8 +38,8 @@
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :-------: | :---------: | :----------------: | :----------------------:|
-| TB1 | --- | Mio Mejia, Andy Alejandro | xxxxxxx |
-| TB1 | --- | Jefferson Bayron Morales Yapuchura | U202316049 |
+| TB1 | --- | xxxxxxx | xxxxxxx |
+| TB1 | --- | xxxxxxx | xxxxxxx |
 | TB1 | --- | xxxxxxx | xxxxxxx |
 | TB1 | --- | xxxxxxx | xxxxxxx |
 
