@@ -487,36 +487,36 @@ https://github.com
         <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
       </tr>
             <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">RoccaA4/safeflow-website</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">feature/benefits</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">82beb9e7ddc8ff4b46836baa417adbffa21bac31</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: add benefits section to index.html</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Se agregó la sección de beneficios que otorga SafeFlow mediante html</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
       </tr>
             <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">RoccaA4/safeflow-website</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">feature/benefits</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">7932ea8bca6ff9e08906fb921ec66258598e58a5</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: add styles for benefits section in style.css</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Se agregó estilos a la seccion de html de beneficios de SafeFlow</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
       </tr>
             <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">RoccaA4/safeflow-website</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">feature/call-to-action</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">444ae43f12aa827ed05ee6159ab66ef232e501c5</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: add call-to-action section with demo request and sales contact links</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Se agregó secciones call to action preeliminares para demostrar futuras funcionalidades de SafeFlow</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
       </tr>
             <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">RoccaA4/safeflow-website</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">feature/call-to-action</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">083b4cf8cd56b666e857adf1822dc6e1efbc5587</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: enhance CTA section styles and add modal functionality to style.css</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Se agregó estilos a las secciones call to actio para mejorar la profesionalidad a SafeFlow</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
       </tr>
             <tr>
         <td style="border: 1px solid #dddddd; padding: 8px;"></td>
