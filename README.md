@@ -416,6 +416,109 @@ Para mantener un historial claro de cambios, el equipo utiliza Conventional Comm
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
+Con el objetivo de mantener un código legible, limpio, coherente y fácilmente mantenible, el proyecto **SafeFlow** adopta un conjunto de guías de estilo y convenciones estándar para todos los lenguajes utilizados en la solución. Estas buenas prácticas permiten asegurar consistencia entre los miembros del equipo, mejorar la calidad del código y facilitar su escalabilidad en futuras iteraciones.
+
+Todas las variables, funciones, clases, componentes y archivos se nombran en inglés, siguiendo estándares internacionales de la industria del software.
+
+
+### HTML / CSS
+
+**Guía adoptada:** Google HTML/CSS Style Guide y W3C Standards
+
+### HTML
+- Se utiliza una estructura semántica clara usando etiquetas como `header`, `main`, `section`, `article` y `footer`.
+- El código HTML se escribe con indentación de 2 espacios.
+- Todas las etiquetas deben cerrarse correctamente.
+- Se utilizan comillas dobles para atributos HTML.
+- Se evita el uso de estilos inline para mantener separación entre estructura y diseño.
+
+### CSS
+- Se utiliza la metodología BEM (Block Element Modifier) para la nomenclatura de clases:
+  - Ejemplo: `hero__title`, `button--primary`
+- Se prioriza el uso de clases reutilizables.
+- Se evita la duplicación de estilos.
+- Se aplican variables CSS para colores, espaciados y medidas globales.
+- Se organiza el CSS de forma modular por componentes o secciones.
+
+
+### JavaScript / Vue.js (Frontend)
+
+**Guías adoptadas:** Vue Style Guide y Google JavaScript Style Guide
+
+### Nomenclatura
+- `camelCase` para variables, funciones y métodos.
+- `PascalCase` para componentes Vue.
+- Archivos de componentes en `PascalCase.vue`.
+
+### Buenas prácticas
+- Uso de Composition API (preferentemente).
+- Componentes pequeños, reutilizables y con una sola responsabilidad.
+- Uso correcto de `props` y `emits`.
+- Evitar lógica compleja dentro de templates.
+- Uso de `computed` para lógica derivada.
+- Separación clara entre lógica, vista y estilos.
+
+### Estilo de código
+- Uso de `const` y `let` (no `var`).
+- Código modular y reutilizable.
+- Uso de `async/await` para operaciones asincrónicas.
+- Manejo de errores con `try/catch`.
+- Comentarios solo en lógica compleja.
+
+
+### Java / Spring Boot (Backend)
+
+**Guías adoptadas:** Google Java Style Guide y Spring Boot Best Practices
+
+### Estructura del proyecto
+- Arquitectura en capas:
+  - Controller
+  - Service
+  - Repository
+  - Entity
+  - DTO
+
+### Nomenclatura
+- Clases: `PascalCase`
+- Métodos: `camelCase`
+- Variables: `camelCase`
+- Constantes: `UPPER_CASE`
+
+### Buenas prácticas
+- Uso de inyección de dependencias.
+- Separación entre entidades, DTOs y lógica de negocio.
+- Uso de JPA/Hibernate para persistencia de datos.
+- Manejo centralizado de excepciones con `@ControllerAdvice`.
+- Validación con Bean Validation (`@Valid`, `@NotNull`, etc.).
+- Servicios encargados de la lógica de negocio.
+
+
+### Convenciones generales del proyecto SafeFlow
+
+- Todo el código está escrito en inglés.
+- Se aplica el principio SOLID.
+- Se sigue el principio DRY (Don’t Repeat Yourself).
+- Se prioriza la legibilidad sobre la complejidad.
+- Se documentan módulos y funciones críticas.
+- Se mantiene consistencia entre frontend y backend.
+
+
+
+### Gherkin (Especificaciones)
+
+Para la definición de criterios de aceptación en historias de usuario se utiliza Gherkin:
+
+- Given / When / Then
+- Lenguaje claro y entendible por el negocio
+
+### Ejemplo:
+
+```gherkin
+Given a product is registered
+When temperature exceeds allowed range
+Then the system generates an alert
+````
+
 ### 5.1.4. Software Deployment Configuration
 ## 5.2. Landing Page, Service & Application Implementation
 
