@@ -520,6 +520,195 @@ Then the system generates an alert
 ````
 
 ### 5.1.4. Software Deployment Configuration
+
+
+
+En esta sección el equipo especifica la configuración del despliegue de la solución **SafeFlow**, incluyendo los procedimientos necesarios para que, a partir de los repositorios de código fuente, se pueda realizar la publicación exitosa de los productos digitales que componen el sistema: Landing Page, Frontend Web Application y Web Services (Backend).
+
+La solución se encuentra estructurada bajo una arquitectura desacoplada, donde cada componente es desplegado de manera independiente utilizando plataformas especializadas en la nube, lo que permite mejorar la escalabilidad, disponibilidad y mantenimiento del sistema.
+
+
+### Componentes de Despliegue
+
+- **Landing Page**: desplegada en GitHub Pages  
+- **Frontend Web Application (Vue.js)**: desplegada en Netlify  
+- **Backend Web Services (Java Spring Boot) + Base de Datos (PostgreSQL)**: desplegados en Railway  
+
+
+### 1. Control de Versiones
+
+El proyecto utiliza **Git** como sistema de control de versiones y **GitHub** como plataforma para la gestión de repositorios.
+
+### Estrategia de ramas
+
+- `main`: contiene la versión estable lista para producción  
+- `develop`: integra las funcionalidades en desarrollo  
+- `feature/*`: ramas destinadas al desarrollo de nuevas funcionalidades  
+- `hotfix/*`: ramas destinadas a correcciones críticas en producción  
+
+
+
+### 2. Despliegue de Landing Page (GitHub Pages)
+
+La Landing Page es una aplicación estática desarrollada con HTML, CSS y JavaScript.
+
+### Pasos de despliegue
+
+#### 1. Inicializar y preparar el repositorio
+
+- git init
+- git add .
+- git commit -m "deploy landing page"
+
+
+#### 2. Conectar el repositorio con GitHub
+
+- git branch -M main
+- git remote add origin <repo-url>
+- git push -u origin main
+
+
+#### 3. Configurar GitHub Pages
+
+- Ir a **Settings** del repositorio  
+- Acceder a la sección **Pages**  
+- Seleccionar:  
+  - **Source**: Deploy from branch  
+  - **Branch**: main  
+  - **Folder**: / (root)  
+
+#### Resultado : https://username.github.io/repository-name/
+
+
+### 3. Despliegue del Frontend Web Application (Vue.js en Netlify)
+
+El frontend está desarrollado con Vue 3 y se despliega utilizando Netlify, el cual permite integración continua con GitHub.
+
+### Pasos de despliegue
+
+#### 1. Subir el proyecto al repositorio
+
+- git add .
+- git commit -m "deploy frontend"
+- git push origin main
+
+
+#### 2. Configurar en Netlify
+
+- Acceder a: https://www.netlify.com/  
+- Seleccionar **Add new site → Import an existing project**  
+- Conectar con GitHub  
+- Seleccionar el repositorio del frontend  
+
+#### 3. Configurar el build
+
+- **Build command**:
+
+- npm run build
+
+
+- **Publish directory**:
+
+- dist
+
+
+#### 4. Configurar variables de entorno
+
+
+- VITE_API_URL=https://<backend-url>
+
+#### 5. Despliegue
+
+- Netlify ejecuta el build automáticamente  
+- Se genera una URL pública accesible  
+
+
+### 4. Despliegue de Web Services (Backend en Railway)
+
+El backend está desarrollado en Java con Spring Boot y se despliega en Railway junto con la base de datos.
+
+### Pasos de despliegue
+
+#### 1. Subir el backend a GitHub
+
+- git add .
+- git commit -m "deploy backend"
+- git push origin main
+
+
+#### 2. Crear proyecto en Railway
+
+- Acceder a: https://railway.app/  
+- Seleccionar **Deploy from GitHub repo**  
+- Elegir el repositorio del backend  
+
+#### 3. Configurar variables de entorno
+
+
+- SPRING_DATASOURCE_URL
+- SPRING_DATASOURCE_USERNAME
+- SPRING_DATASOURCE_PASSWORD
+- PORT
+
+
+#### 4. Despliegue automático
+
+Railway detecta el proyecto Spring Boot y ejecuta automáticamente:
+
+
+- mvn clean install
+
+
+#### Resultado: https://safeflow-backend.up.railway.app
+
+
+### 5. Configuración de Base de Datos (PostgreSQL en Railway)
+
+### Pasos
+
+#### 1. Crear servicio de base de datos
+
+- En Railway seleccionar **Add Plugin → PostgreSQL**
+
+#### 2. Obtener credenciales generadas
+
+
+- HOST
+- DATABASE
+- USERNAME
+- PASSWORD
+- PORT
+
+#### 3. Configurar en el backend
+
+- SPRING_DATASOURCE_URL
+- SPRING_DATASOURCE_USERNAME
+- SPRING_DATASOURCE_PASSWORD
+
+### 6. Integración de Componentes
+
+El sistema funciona de la siguiente manera:
+
+- La **Landing Page** actúa como punto de entrada y redirige al usuario al frontend  
+- El **Frontend** consume los servicios del backend mediante API REST  
+- El **Backend** gestiona la lógica de negocio y acceso a datos  
+- La **Base de Datos** almacena la información del sistema  
+
+
+### 7. Consideraciones de Despliegue
+
+- Uso obligatorio de variables de entorno para configuración sensible  
+- Configuración de CORS en el backend para permitir comunicación con el frontend  
+- Separación de entornos (desarrollo y producción)  
+- Evitar credenciales dentro del código fuente  
+- Verificación de URLs públicas después del despliegue  
+- Mantener compatibilidad entre versiones de frontend y backend  
+
+
+
+
+
+
 ## 5.2. Landing Page, Service & Application Implementation
 
 ### 5.2.1 Sprint 1
