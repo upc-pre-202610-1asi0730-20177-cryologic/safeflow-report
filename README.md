@@ -333,6 +333,87 @@ Las herramientas se organizan según las principales actividades del ciclo de vi
 
 ### 5.1.2. Source Code Management
 
+En esta sección se describe la gestión del código fuente del proyecto SafeFlow, el cual se ha implementado utilizando GitHub como plataforma principal de control de versiones. Este sistema permite al equipo trabajar de forma colaborativa, mantener un historial completo de cambios y asegurar la correcta integración de las funcionalidades desarrolladas durante el proyecto.
+
+El repositorio principal del proyecto  es el siguiente:
+
+
+- **SafeFlow Website**:  [https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website)
+
+- **safeflow-platform**: [https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-platform](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-platform)
+
+- **safeflow-webapp**: [https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-webapp](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-webapp)
+
+
+Actualmente, el repositorio cuenta con múltiples ramas activas (12 branches), lo que refleja una organización estructurada del desarrollo basada en GitFlow.
+
+
+### GitFlow Workflow implementado
+
+El equipo ha adoptado la metodología GitFlow como modelo de control de versiones, lo cual permite separar el desarrollo de nuevas funcionalidades, la integración de cambios y la preparación de versiones estables.
+
+Las ramas principales utilizadas son:
+
+- **main**: rama principal que contiene la versión estable del proyecto.
+- **develop**: rama de integración donde se consolidan todas las funcionalidades completadas antes de ser llevadas a producción.
+- **feature/**: ramas utilizadas para el desarrollo de funcionalidades específicas del sistema.
+
+
+### Feature Branches utilizados en el proyecto
+
+El desarrollo de la Landing Page de SafeFlow se ha organizado mediante ramas feature específicas por componente funcional:
+
+- feature/hero → sección principal de presentación
+- feature/benefits → sección de beneficios del sistema
+- feature/call-to-action → botones y acciones de conversión
+- feature/characteristic → características del producto
+- feature/footer → pie de página del sistema
+- feature/how-it-works → explicación del funcionamiento de SafeFlow
+- feature/industries → sectores a los que está dirigido el producto
+- feature/pricing → sección de planes o precios
+
+Esta organización permite un desarrollo modular, donde cada funcionalidad se implementa de forma independiente antes de integrarse a la rama develop.
+
+
+### Convención de ramas
+
+El proyecto sigue la siguiente convención de nomenclatura:
+
+- feature/nombre-descriptivo → nuevas funcionalidades
+- develop → integración de funcionalidades
+- main → versión estable del sistema
+
+### Semantic Versioning
+
+Aunque en esta primera etapa se ha trabajado principalmente en la Landing Page, el proyecto adopta el estándar de versionado semántico:
+
+MAJOR.MINOR.PATCH
+
+- MAJOR: cambios estructurales grandes
+- MINOR: nuevas funcionalidades
+- PATCH: corrección de errores
+
+Versión actual del proyecto: v1.0.0 (Landing Page inicial)
+
+### Conventional Commits
+
+Para mantener un historial claro de cambios, el equipo utiliza Conventional Commits en todos los commits del repositorio.
+
+##### Tipos de commits utilizados:
+
+- `feat`: Nueva funcionalidad  
+- `fix`: Corrección de errores  
+- `docs`: Cambios en documentación  
+- `style`: Cambios en formato/estilo sin afectar la lógica  
+- `refactor`: Reestructuración del código sin cambio funcional  
+- `test`: Cambios en tests  
+- `build`: Cambios que afectan al sistema de compilación o dependencias  
+- `ci`: Configuraciones de integración continua  
+- `chore`: Tareas menores de mantenimiento  
+- `perf`: Mejoras de rendimiento  
+- `revert`: Reversión de un commit anterior  
+
+
 ### 5.1.3. Source Code Style Guide & Conventions
 
 ### 5.1.4. Software Deployment Configuration
