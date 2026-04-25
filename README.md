@@ -313,10 +313,10 @@ This will be validated when the Landing Page is successfully deployed and access
       <tr style="background-color: #f2f2f2;">
         <th style="border: 1px solid #dddddd; padding: 10px;">Team Member (Last Name, First Name)</th>
         <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Aspect: Asignar Titulo (L/C)</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Aspect: Asignar Titulo (L/C)</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Aspect: Asignar Titulo (L/C)</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Aspect: Asignar Titulo (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Diseño del Layout Principal (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Navegacion (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Llamada a la Accion ( CTA ) (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Despliegue de la Landing (L/C)</th>
       </tr>
     </thead>
     <tbody>
@@ -324,40 +324,40 @@ This will be validated when the Landing Page is successfully deployed and access
         <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodriguez, Mel Andree</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">melandree8</td>
         <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
         <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Apellidos, Nombres</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">user</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Bayron	Morales, Jefferson</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Fenfito</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
       </tr>
       <tr>
         <td style="border: 1px solid #dddddd; padding: 8px;">Berrospi Marin, Angel Guillermo</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Apellidos, Nombres</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">user</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Alejandro	Mio, Andy</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">AndyMio17</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
       </tr>
             <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Apellidos, Nombres</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">user</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Rodrigo Rocca, Anhelo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">RoccaA4</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
       </tr>
     </tbody>
