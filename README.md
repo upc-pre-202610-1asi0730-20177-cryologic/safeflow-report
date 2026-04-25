@@ -724,16 +724,16 @@ interfaces y enumeraciones, junto con atributos, métodos, visibilidad, relacion
 
 ### 4.7.2. Class Dictionary
 ##### Class Dictionary - Bounded Context: Monitoreo en Tiempo Real
-<img src="assets/chapter-04/Monitoring_ClassDirectory.png">
+<img src="assets/chapter-04/Monitoring_ClassDirectory.PNG">
 
 ##### Class Dictionary - Bounded Context: Inventario
-<img src="assets/chapter-04/Inventory_ClassDirectory.png">
+<img src="assets/chapter-04/Inventory_ClassDirectory.PNG">
 
 ##### Class Dictionary - Bounded Context: Logística
-<img src="assets/chapter-04/Logistics_ClassDirectory.png">
+<img src="assets/chapter-04/Logistics_ClassDirectory.PNG">
 
 ##### Class Dictionary - Bounded Context: Notificaciones
-<img src="assets/chapter-04/Notification_ClassDirectory.png">
+<img src="assets/chapter-04/Notification_ClassDirectory.PNG">
 
 ## 4.8. Database Design
 ### 4.8.1. Database Diagram
