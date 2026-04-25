@@ -616,6 +616,23 @@ https://github.com
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
+En esta sección se describe el proceso de implementación de la plataforma en un entorno de producción. Además, se presentarán los hitos más importantes que marcarán el despliegue del proyecto y garantizarán su disponibilidad para los usuarios finales.
+
+URL de despliegue del Landing Page: [Landing Page Desplegado](https://upc-pre-202610-1asi0730-20177-cryologic.github.io/safeflow-website/) 
+
+1. Para la Landing Page, nuestro equipo creó una rama denominada “develop” dentro del repositorio, en la cual se organizaron y almacenaron todos los archivos correspondientes al desarrollo de la Landing Page.
+ <div algin="center"><img src="assets/chapter-05/deployment1.png" alt="deployment1" width="1000" />  </div>        
+ 
+2. Posteriormente, nos dirigimos a configuración y empleamos GitHub Pages, el servicio de alojamiento para sitios estáticos de GitHub, para publicar y poner en línea nuestra Landing Page.
+ <div algin="center"><img src="assets/chapter-05/deployment2.png" alt="deployment2" width="1000" />  </div>        
+
+3. Se seleccionó la rama previamente configurada y se procedió con el despliegue de la página.
+    <div algin="center"><img src="assets/chapter-05/deployment3.png" alt="deployment3" width="1000" />  </div>        
+
+5. Finalmente, obtuvimos el enlace de publicación, que nos permite acceder y visualizar la Landing Page en línea.
+    <div algin="center"><img src="assets/chapter-05/deployment4.png" alt="deployment4" width="1000" />  </div>        
+
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
 # Conclusiones y recomendaciones
