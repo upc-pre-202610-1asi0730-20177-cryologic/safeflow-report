@@ -294,7 +294,17 @@ https://github.com
 
 ### 5.2.1 Sprint 1
 
+El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de SafeFlow, la cual representa el primer punto de contacto entre la solución y los usuarios potenciales. Este sprint tuvo como objetivo establecer una presencia digital sólida que comunique de manera clara la propuesta de valor del producto, centrada en el monitoreo y gestión de la cadena de frío en tiempo real.
+
+Durante este sprint, se desarrollaron e integraron las secciones principales de la Landing Page, incluyendo presentación del producto, funcionalidades clave, beneficios, testimonios y llamadas a la acción, siguiendo los lineamientos de diseño y los wireframes definidos previamente en el Capítulo IV. Asimismo, se priorizó la usabilidad, accesibilidad y coherencia visual, con el fin de ofrecer una experiencia atractiva y profesional.
+
 #### 5.2.1.1. Sprint Planning 1
+
+<table><tr> <th colspan="5">Sprint #</th> <th colspan="9">Sprint 1</th> </tr> <tr> <td colspan="13">Sprint Planning Background</td> </tr> <tr> <td colspan="5">Date</td> <td colspan="8">24-04-2026</td> </tr> <tr> <td colspan="5">Time</td> <td colspan="8">4:00 PM</td> </tr> <tr> <td colspan="5">Location</td> <td colspan="8">Reunion por Meet</td> </tr> <tr> <td colspan="5">Prepared By</td> <td colspan="8">Mel Andre Orellana</td> </tr> <tr> <td colspan="5">Attendees (to planning meeting)</td> <td colspan="8">Anhelo Rodrigo	Rocca
+, Andy Alejandro Mio, Mel Andre Orellana, Angel Berrospi Marin, Jefferson Bayron</td> </tr> <tr> <td colspan="5">Sprint n-1 Review Summary</td> <td colspan="8">No aplica - Este es el primer Sprint del proyecto</td> </tr> <tr> <td colspan="5">Sprint n-1 Retrospective Summary</td> <td colspan="8">No aplica - Este es el primer Sprint del proyecto</td> </tr> <tr> <td colspan="13">Sprint Goal & User Stories</td> </tr> <tr> <td colspan="5">Sprint 1 Goal</td> <td colspan="8"> <strong>"Our focus is on delivering a fully functional and user-friendly Landing Page for SafeFlow, accompanied by complete and well-structured documentation.
+We believe this will provide an engaging first impression and clearly communicate the value proposition of our solution for cold chain monitoring.
+This will be validated when the Landing Page is successfully deployed and accessible online, with all core sections (home, features, benefits, and testimonials) working correctly, and all corresponding documentation completed."</strong> </td> </tr> <tr> <td colspan="5">Sprint 1 Velocity</td> <td colspan="8">6</td> </tr> <tr> <td colspan="5">Sum of Story Points</td> <td colspan="8">8 story points</td> </tr> </table>
+
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 <div align="center">
