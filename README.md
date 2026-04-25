@@ -614,6 +614,11 @@ https://github.com
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+En esta sección se presenta la documentación relacionada con los servicios que serán ofrecidos a través de la plataforma web de SafeFlow, los cuales estarán orientados al monitoreo, control y análisis de la cadena de frío en tiempo real. Estos servicios incluirán funcionalidades como el registro de datos de sensores, visualización de temperaturas, generación de alertas ante desviaciones térmicas y recomendaciones para la toma de decisiones logísticas.
+
+Durante el presente Sprint 1, el enfoque del equipo estuvo centrado exclusivamente en el diseño y desarrollo de la Landing Page del producto, con el objetivo de definir la propuesta de valor, los segmentos de usuarios y la experiencia inicial del sistema. Debido a este alcance, no se implementaron ni desplegaron servicios web funcionales, por lo que no se cuenta aún con endpoints operativos ni documentación técnica asociada a su consumo mediante OpenAPI.
+
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
 En esta sección se describe el proceso de implementación de la plataforma en un entorno de producción. Además, se presentarán los hitos más importantes que marcarán el despliegue del proyecto y garantizarán su disponibilidad para los usuarios finales.
