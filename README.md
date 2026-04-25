@@ -283,7 +283,53 @@ https://github.com
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
 
+En esta sección se describe la gestión de la configuración del software utilizada en el proyecto SafeFlow, la cual tiene como objetivo garantizar el control adecuado de los cambios realizados durante el desarrollo del sistema. Esta gestión permite mantener la integridad, trazabilidad y consistencia del código fuente, así como coordinar de manera eficiente el trabajo colaborativo del equipo.
+
+El Software Configuration Management en SafeFlow se basa en el uso de herramientas de control de versiones y buenas prácticas de desarrollo que permiten administrar las distintas versiones del sistema a lo largo del tiempo. Esto incluye la organización del repositorio del proyecto, la definición de estrategias de ramificación, la gestión de cambios mediante commits y la integración del trabajo realizado por los diferentes miembros del equipo.
+
+
 ### 5.1.1. Software Development Enviroment Configuration
+
+En esta sección se describen las herramientas utilizadas por nuestro equipo de SafeFlow para colaborar de manera efectiva durante todo el ciclo de vida del producto digital. Estas herramientas han sido seleccionadas estratégicamente con el objetivo de optimizar la comunicación, organización, diseño, desarrollo, despliegue y documentación del sistema, permitiendo un trabajo colaborativo eficiente y escalable.
+
+Las herramientas se organizan según las principales actividades del ciclo de vida del software: gestión del proyecto y requisitos, diseño UX/UI, desarrollo de software, despliegue y documentación técnica.
+
+
+### Project Management y Requirements Management
+
+- [**Jira**](https://www.atlassian.com/es/software/jira): Es la herramienta principal utilizada para la gestión del proyecto bajo un enfoque ágil. Permite organizar tareas en tableros, listas y tarjetas, facilitando el seguimiento del avance del Sprint, la asignación de actividades y el control del backlog del producto SafeFlow. Gracias a su interfaz visual, el equipo puede mantener una visión clara del progreso del proyecto.
+
+- [**Google Docs**](https://docs.google.com/document/u/0/):  Google Drive y Google Docs se utilizan como plataforma de almacenamiento y colaboración en la nube. Estas herramientas permiten al equipo crear, editar y compartir documentos en tiempo real, facilitando la elaboración de historias de usuario, informes, entregables y documentación general del proyecto.
+
+
+### Product UX/UI Design
+
+- [**Figma**](https://www.figma.com/files/team/1542201510350230976/recents-and-sharing?fuid=1227966816494785121): Es la herramienta principal utilizada para el diseño de la interfaz de usuario de SafeFlow. Se emplea para crear wireframes, prototipos y diseños finales de la Landing Page. Su funcionalidad colaborativa permite que todo el equipo participe en el proceso de diseño de forma simultánea, asegurando coherencia visual y funcional.
+
+- [**Miro**](https://miro.com/es/): Se utiliza como herramienta de apoyo para la planificación y análisis del sistema. Permite la creación de flujos de usuario, mapas mentales y diagramas conceptuales que ayudan a estructurar la lógica del sistema antes de su implementación.
+
+
+### Software Development
+
+- [**Visual Studio Code**](https://code.visualstudio.com/) Es el editor de código utilizado para el desarrollo de la Landing Page de SafeFlow. Permite trabajar de manera eficiente con tecnologías como HTML, CSS y JavaScript, ofreciendo soporte para extensiones, terminal integrada y herramientas de depuración.
+
+- [**Git**](https://git-scm.com/): Es el sistema de control de versiones utilizado para gestionar el código fuente del proyecto. Permite llevar un registro de los cambios realizados, trabajar de forma colaborativa y mantener un historial organizado del desarrollo del sistema.
+
+ - [**GitHub**](https://github.com/): Es la plataforma utilizada para alojar el repositorio del proyecto SafeFlow. Facilita la colaboración entre los miembros del equipo, la revisión de código y la integración continua del desarrollo.
+
+
+### Software Deployment
+
+- [**GitHub Pages**](https://pages.github.com/):  Es el servicio utilizado para desplegar la Landing Page de SafeFlow. Permite publicar el sitio web directamente desde el repositorio de GitHub, haciendo que esté disponible de forma pública y accesible desde internet.
+
+- [**Railway**](https://railway.com/?referralCode=DEKy5z&gad_source=1&gad_campaignid=23664573240&gbraid=0AAAABDFaxslTYf4hnTBvRruYK6aw83ZRT&gclid=CjwKCAjwqazPBhALEiwAOuXqdCfDjdi6sFgnjvQFrgAjSGbASzAlM3bABoe3LYkBQZX9uwk5_0xjbhoCwOYQAvD_BwE):  Es una plataforma en la nube utilizada para el despliegue de aplicaciones web. En futuras etapas del proyecto, se utilizará para publicar tanto el frontend como el backend del sistema, permitiendo su acceso desde cualquier dispositivo conectado a internet.
+
+
+### Software Documentation
+
+- [**Notion**](https://www.notion.com/es): Es la herramienta utilizada como espacio centralizado de documentación del proyecto. Permite organizar información técnica, decisiones de diseño, documentación funcional y guías del sistema de manera estructurada y colaborativa.
+  
+- [**Swagger**](https://swagger.io/):  Es la herramienta utilizada para documentar las APIs REST del sistema. Permite visualizar y probar los endpoints del backend de forma interactiva, facilitando la integración entre frontend y backend en las siguientes etapas del desarrollo.
 
 ### 5.1.2. Source Code Management
 
