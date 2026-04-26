@@ -786,261 +786,38 @@ This will be validated when the Landing Page is successfully deployed and access
 
 #### 5.2.1.3. Sprint Backlog 1
 
-<div align="center">
-  <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 12px; text-align: left;">
-    <thead>
-      <tr style="background-color: #f2f2f2;">
-        <th colspan="2" style="border: 1px solid #dddddd; padding: 8px; text-align: center;">User Story</th>
-        <th colspan="6" style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Work-Item / Task</th>
-      </tr>
-      <tr style="background-color: #f9f9f9;">
-        <th style="border: 1px solid #dddddd; padding: 8px; width: 5%;">Id</th>
-        <th style="border: 1px solid #dddddd; padding: 8px; width: 15%;">Title</th>
-        <th style="border: 1px solid #dddddd; padding: 8px; width: 5%;">Id</th>
-        <th style="border: 1px solid #dddddd; padding: 8px; width: 15%;">Title</th>
-        <th style="border: 1px solid #dddddd; padding: 8px; width: 25%;">Description</th>
-        <th style="border: 1px solid #dddddd; padding: 8px; width: 8%;">Estimation (Hours)</th>
-        <th style="border: 1px solid #dddddd; padding: 8px; width: 12%;">Assigned To</th>
-        <th style="border: 1px solid #dddddd; padding: 8px; width: 15%;">Status</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td rowspan="2" style="border: 1px solid #dddddd; padding: 8px; font-weight: bold; text-align: center;">US-26</td>
-        <td rowspan="2" style="border: 1px solid #dddddd; padding: 8px;">Visualizar landing page</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">T01</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Maquetación HTML/CSS</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Crear la estructura base y estilos de la landing page.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Nombre Apellido</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; color: green; font-weight: bold;">Done</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">T02</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Diseño Responsivo</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Adaptar la interfaz para dispositivos móviles y tablets.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">3</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Angel Berrospi</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; color: blue; font-weight: bold;">In-Process</td>
-      </tr>
-      <tr>
-        <td rowspan="3" style="border: 1px solid #dddddd; padding: 8px; font-weight: bold; text-align: center;">US-01</td>
-        <td rowspan="3" style="border: 1px solid #dddddd; padding: 8px;">Registrar producto</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">T03</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Modelo de datos</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Definir entidad Producto y rangos térmicos en la DB.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Mel Andree</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; color: green; font-weight: bold;">Done</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">T04</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Endpoint POST</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Desarrollar API para la persistencia de productos.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">6</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Nombre Apellido</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; color: orange; font-weight: bold;">To-Review</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">T05</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Interfaz de registro</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Crear formulario frontend para ingreso de productos.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">5</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Nombre Apellido</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">To-do</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
 
-#### 5.2.1.4. Development Evidence for Sprint Review
-<div align="center">
-  <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 12px; text-align: left;">
-    <thead>
-      <tr style="background-color: #f2f2f2;">
-        <th style="border: 1px solid #dddddd; padding: 10px;">Repository</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Branch</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Commit Id</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Commit Message</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Commit Message Body</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Committed on (Date)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-website</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/characteristic</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">7ac3298ec94c28fe6bb6e5175a0522b5186ee200</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: create the section of characteristics</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Se creó la estructura html de la sección características.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-website</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/characteristics</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">8f5e5f46b782b75638c74e2afd779cf164670f84</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: create styles for the section characteristic.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Se creó los estilos de la seccion características.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-website</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/how-it-works</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">cfacfbbfe0dc72bc9bdb6736289556590b8d57e8</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: create the structure of section how it works.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Se creó la estructura html de la sección how it works.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-website</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/how-it-works</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">469afbf4d23e12618f10bbd9b2a5db5c0191fe9f</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: create the style for the section how it works.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Se creó los estilos de la sección how it works.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
-      </tr>
-            <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-website</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/pricing</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">09d59ce4d376bd3a5a2b1f849d6dbefd056835a5</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: create structure for the section pricing.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Se creó la estructura de la sección pricing.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
-      </tr>
-            <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs/safeflow-website</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/pricing</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">562f581e39a0fdbb288e81705aae3c471c19b7c6</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: create style for the section pricing.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Se creó los estilos de la sección pricing.</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
-      </tr>
-            <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">RoccaA4/safeflow-website</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/benefits</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">82beb9e7ddc8ff4b46836baa417adbffa21bac31</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: add benefits section to index.html</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Se agregó la sección de beneficios que otorga SafeFlow mediante html</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
-      </tr>
-            <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">RoccaA4/safeflow-website</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/benefits</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">7932ea8bca6ff9e08906fb921ec66258598e58a5</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: add styles for benefits section in style.css</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Se agregó estilos a la seccion de html de beneficios de SafeFlow</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
-      </tr>
-            <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">RoccaA4/safeflow-website</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/call-to-action</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">444ae43f12aa827ed05ee6159ab66ef232e501c5</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: add call-to-action section with demo request and sales contact links</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Se agregó secciones call to action preeliminares para demostrar futuras funcionalidades de SafeFlow</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
-      </tr>
-            <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">RoccaA4/safeflow-website</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/call-to-action</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">083b4cf8cd56b666e857adf1822dc6e1efbc5587</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: enhance CTA section styles and add modal functionality to style.css</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Se agregó estilos a las secciones call to actio para mejorar la profesionalidad a SafeFlow</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
-      </tr>
-            <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">melandree8/safeflow-website</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">develop</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">c218997627d71726ed10ac0ad1748571bf09e8e9</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: add testimonials translations to i18n</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Se Agrego textos de testimonios en i18n</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
-      </tr>
-            <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">melandree8/safeflow-website</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">develop</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">e85e493e78737700efb1b5dd14918f128c7b4416</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">style: tweak industries section styles</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Ajustes visuales en la sección industrias</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
-      </tr>
-            <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">melandree8/safeflow-website</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">develop</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">9bb621b55e511524e59cdde2c8d59fb4d7de1f7a</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: add styles for industries section</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Implementación de estilos base de industrias</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
-      </tr>
-            <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">melandree8/safeflow-website</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/industries</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">51428ca2cf7f60479deb7749ec26932f10566935</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: style results section</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Aplicación de estilos en sección resultados</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
-      </tr>
-                  <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">melandree8/safeflow-website</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/industries</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">024fd904f2f53c59d1adabfe5cd436f0c3661e8b</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: add industries section to landing page</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Creación de la sección de industrias</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
-      </tr>
-            <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">melandree8/safeflow-website</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/footer</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">b1ae8c69544fb88a544608b277c00e33a30fb9ca</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: add footer styles</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Implementación de estilos para el footer</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
-      </tr>
-            <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">melandree8/safeflow-website</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/hero</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">94acd939f04914a8183d09fac6d6fc7e5e12e14b</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: add styles for navbar, hero and UI components</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Estilos para navbar, hero y componentes UI</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
-      </tr>
-            <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">melandree8/safeflow-website</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">feature/hero</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;">8453c582331037186c349d62c6df954555034b3a</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">feat: add navbar, hero and results sections to landing page</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Implementación de secciones principales de la landing</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">24/04/2026</td>
-      </tr>
-            <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      </tr>
-                  <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      </tr>
-       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-family: monospace;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+El objetivo principal del Sprint 1 es implementar las funcionalidades base del sistema SafeFlow, enfocadas en la gestión de inventario y el monitoreo inicial de temperatura. Este sprint permite establecer la estructura principal del sistema, incluyendo el registro de productos, visualización del inventario y la simulación de datos de temperatura.
+
+ **Board del Sprint (Trello):**
+
+![Sprint Board](assets/chapter-05/jira.png)
+
+🔗 URL del Board: https://trello.com/tu-board-publico
+
+
+###  Sprint Backlog
+
+| Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|--------|--------------|------------------|---------|------------|-------------|--------------------|-------------|--------|
+| Sprint 1 | US-26 | Visualizar landing page | T-01 | Crear estructura HTML/CSS | Maquetar layout principal | 4 | Andree | To-do |
+| Sprint 1 | US-27 | Ver propuesta de valor | T-02 | Sección Hero | Diseñar sección principal con CTA | 3 | Angel | To-do |
+| Sprint 1 | US-29 | Visualizar características | T-03 | Sección features | Mostrar funcionalidades del sistema | 3 | Anhelo | To-do |
+| Sprint 1 | US-28 | Navegar por secciones | T-04 | Implementar navbar | Navegación entre secciones | 2 | Andree | InProcess |
+| Sprint 1 | US-32 | Contactar a la empresa | T-05 | Formulario de contacto | Crear formulario funcional | 3 | Anhelo | To-do |
+| Sprint 1 | US-33 | Visualizar testimonios | T-06 | Sección testimonios | Mostrar opiniones de usuarios | 2 | Andre | To-do |
+| Sprint 1 | US-35 | Ver CTA | T-07 | Botones CTA | Implementar botones de acción | 2 | Adolfo | To-do |
+| Sprint 1 | US-34 | Acceder desde dispositivos móviles | T-08 | Responsive design | Adaptar a mobile | 4 | Angel | To-do |
+| Sprint 1 | - | Configuración inicial | T-09 | Configurar proyecto | Inicializar proyecto frontend | 2 | Andree | Done |
+
+###  Estados de las tareas
+- **To-do**: Pendiente
+- **InProcess**: En desarrollo
+- **ToReview**: En revisión
+- **Done**: Finalizado
+
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
-
 
 
 ## 1. Resumen de Logros del Sprint
@@ -1093,9 +870,6 @@ A continuación, se presentan las capturas de pantalla que sirven como evidencia
 Para observar la fluidez de la navegación, la respuesta de los elementos interactivos y la explicación detallada de cada sección, se ha preparado el siguiente material audiovisual:
 
  **[Ver Video de Demostración - SafeFlow Sprint Review](TU_ENLACE_AQUÍ)**
-
-
-
 
 
 
