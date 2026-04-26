@@ -650,17 +650,20 @@ Con este sistema, SafeFlow proporciona navegación intuitiva y eficiente que per
 
 ### 4.3.2. Landing Page Mock-up
 
-#### Home
-<img src="assets/chapter-04/Home-Mockup.png"/>
+### 1. Landing Page Overview & Features
+<div align="center"> <img src="assets/chapter-04/mockup011.png"/>  </div>
+<div align="center">*Esta vista recrea la sección principal (Hero) junto con las características clave y los sectores beneficiados de SafeFlow.*</div>
 
-#### About-Us
-<img src="assets/chapter-04/About-Us-Mockup.png"/>
+### 2. Operational Process & Key Benefits
+<div align="center"> <img src="assets/chapter-04/mockup12.png"/>  </div>
+<div align="center">*Mockup detallado que ilustra el flujo de funcionamiento (pasos 1-4) y las ventajas competitivas del sistema.*</div>
 
-#### Suscribes
-<img src="assets/chapter-04/Suscribe-Mockup.png"/>
+### 3. Business Strategy & Development Team
+<div align="center"> <img src="assets/chapter-04/mockup13.png"/>  </div>
+<div align="center">*Sección final que muestra los modelos de suscripción, el equipo de ingeniería a cargo y el banner de contacto (Footer).*</div>
 
-#### Features
-<img src="assets/chapter-04/Features-Mockup.png"/>
+
+
 
 
 ## 4.4. Web Applications UX/UI Design
