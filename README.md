@@ -345,6 +345,15 @@ https://github.com
 | US-55 | Visualizar alertas en dashboard | Como usuario, quiero ver alertas en el panel principal para reaccionar rápido | Dado alertas activas, cuando ingreso al dashboard, entonces se muestran destacadas | EP-05 |
 
 ## 3.3. Impact Mapping
+
+* Gestor de Calidad
+
+<img src="assets/chapter-03/Impact map_gestor_de_calidad.png"/>
+
+* Supervisora de Flota
+
+<img src="assets/chapter-03/Impact map_supervisora_de_flota.png"/>
+
 ## 3.4. Product Backlog
 
 <table style="width:100%; border-collapse: collapse;">
@@ -385,6 +394,7 @@ https://github.com
 </table>
 
 <br>
+
 #  Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
