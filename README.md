@@ -498,7 +498,7 @@ Segmento Objetivo 2: Operadores logísticos (3PL / transporte especializado)
 - **Distrito:** San Borja
 
 - **Inicio:** 1:15
-- **Duración:** 7:40
+- **Duración:** 7:54
 - **URL:** https://youtu.be/v0ob7pnyQcw
 
 **Resumen:**
@@ -512,14 +512,17 @@ Esta falta de monitoreo en tiempo real ha causado pérdidas económicas de hasta
 
 ---
 
+<img src="assets/chapter-02/interview2.png"/>
+
+
 - **Entrevista 1:**
 - **Nombres y apellidos:** Maria Ruiz
 - **Edad:** 28 años
 - **Distrito:** Los Olivos
 
 - **Inicio:** 1:30
-- **Duración:** 07:55
-- **URL:** 
+- **Duración:** 05:47
+- **URL:** https://youtu.be/aeB15YUm4ok
 
 **Resumen:**
 Maria es una Supervisora de Operaciones y Flota de 28 años que gestiona la logística de transporte especializado. Su flujo de trabajo actual es altamente dependiente de herramientas informales (pizarras acrílicas y fotos por WhatsApp), lo que genera un desorden administrativo y falta de control sobre la carga. Su mayor problema es la vulnerabilidad ante reclamos de clientes, ya que no cuenta con pruebas digitales en tiempo real para demostrar que el frío se mantuvo correctamente durante la ruta, dependiendo de la vista del conductor sobre visores externos.
