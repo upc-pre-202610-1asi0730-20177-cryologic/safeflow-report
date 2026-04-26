@@ -902,6 +902,11 @@ URL de despliegue del Landing Page: [Landing Page Desplegado](https://upc-pre-20
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
+ <div algin="center"><img src="assets/chapter-05/commit1.png" alt="deployment4" width="1000" />  </div>        
+
+ <div algin="center"><img src="assets/chapter-05/commit2.png" alt="deployment4" width="1000" />  </div>        
+
+
 # Conclusiones y recomendaciones
 
 # Video About-the-Team
