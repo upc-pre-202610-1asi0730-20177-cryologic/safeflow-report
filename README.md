@@ -279,7 +279,7 @@ Los integrantes son:
             <li><b>AV1 - Angel Guillermo, Berrospi Marin:</b> 
             Fomenté comunicación con el grupo para tener un buen entendimiento del proyecto realizado, asi mismo ayude en la realización de diferentes puntos del proyecto, por ejmplo el capítulo 2 y la landing page, la estructura del capítulo 5 y coordinaciones que ayudaron en el avance del trabajo y su culminación.</li>
             <li><b>AV1 - Mel Andre, Orellana Rodriguez:</b> Contribuí activamente en la organización y desarrollo del proyecto, apoyando en la planificación de tareas y asegurando el cumplimiento de los objetivos establecidos. Participé en la coordinación del equipo para mantener una comunicación clara y efectiva, además de colaborar en la implementación de la landing page y en la estructuración de secciones clave del documento.</li>
-            <li><b>AV1 - Tu Nombre:</b>Tus acciones</li>
+            <li><b>AV1 - Anhelo Rodrigo, Rocca Leon:</b>Complete las tareas que me fueron asignadas y comunique mi progreso en gran parte de ellas. Además, contribuí en otras tareas que me fueron ofrecidas. Mi aporte ayudó a materializar la arquitectura de Safeflow y ayudar un poco en el estudio del público objetivo.</li>
             <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
             <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
           </ul>
@@ -296,7 +296,7 @@ El equipo logró coordinarse de manera progresiva a lo largo del desarrollo del 
             <li><b>AV1 - Angel Guillermo Berrospi Marin:</b>
             Participé activamente en el desarrollo del proyecto, tanto en la realización de tareas cómo entrar a las reuniones programadas para la coordinación de diferentes puntos, establecí mi propia métrica con respecto a los puntos que me tocaron y de esa forma pude desempeñar un buen rendimiento tanto en ayuda para el grupo cómo para la finalización del proyecto.</li>
             <li><b>AV1 - Mel Andre Orellana Rodriguez:</b>Fomenté un ambiente colaborativo dentro del equipo, promoviendo la participación activa y el cumplimiento de responsabilidades. Me enfoqué en coordinar tareas, apoyar en la resolución de problemas y mantener alineados los objetivos del proyecto, contribuyendo así a la entrega final de manera organizada y eficiente.</li>
-            <li><b>AV1 - Tu Nombre:</b>Tus acciones</li>
+            <li><b>AV1 - Anhelo Rodrigo Rocca Leon:</b>Participé en la planificación y desarrollo del proyecto, al igual que en las reuniones de equipo programadas. Me asegure de mantener un ambiente respetuoso entre los compañeros y que la solución de las tareas asignadas a mi persona cumplan con las metas establecidas por el equipo.</li>
             <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
             <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
           </ul>
