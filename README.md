@@ -22,12 +22,12 @@
 
 <h3> Team Members: </h3>
 
-| Member                          |    Code    |
-|:--------------------------------|:----------:|
-| Andy Alejandro Mio Mejia        | U202218531 |
-| xxxxxxxxxxxxxxxxxxxxxxxxx       | xxxxxxxxxx |
-| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxx |
-| Anhelo Rodrigo Rocca Leon          | U20221C803 |
+| Member                           |    Code    |
+| :------------------------------- | :--------: |
+| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxx |
+| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxx |
+| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxx |
+| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxx |
 
 
 <h3 align="center">2025</h3>
@@ -38,7 +38,7 @@
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :-------: | :---------: | :----------------: | :----------------------:|
-| TB1 | --- | Mio Mejia, Andy Alejandro | xxxxxxx |
+| TB1 | --- | xxxxxxx | xxxxxxx |
 | TB1 | --- | xxxxxxx | xxxxxxx |
 | TB1 | --- | xxxxxxx | xxxxxxx |
 | TB1 | --- | xxxxxxx | xxxxxxx |
@@ -382,18 +382,416 @@ Necesidades:
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
+
+En esta sección se identifican y describen los principales competidores de Cryologic Systems  dentro del mercado de soluciones tecnológicas para el monitoreo de la cadena de frío. El análisis de competidores permite comprender el entorno en el que se desarrollará la propuesta, así como reconocer las características, fortalezas y enfoques de otras soluciones existentes.
+
 ### 2.1.1. Análisis competitivo
+
+El análisis competitivo tiene como objetivo evaluar y comparar a Cryologic Systems  con sus principales competidores en función de distintos criterios, tales como propuesta de valor, mercado objetivo, estrategias de marketing, productos y servicios ofrecidos, costos y canales de distribución.
+
+<table>
+    <tr>
+        <td colspan="6" class="section-title">
+            <h3>Competitive Analysis Landscape</h3>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="2">
+            ¿Por qué llevar a cabo este análisis?
+        </td>
+        <td colspan="4">
+            Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis.
+        </td>
+    </tr>
+    <tr>
+        <td colspan="4">
+            Analizar cómo se posiciona  Cryologic Systems  frente a sus competidores en el mercado de monitoreo de la cadena de frío, en términos de propuesta de valor, tecnología y accesibilidad.
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">(Productos)</td>
+        <td align="center"> Cryologic Systems  (Startup)</td>
+        <td align="center">Sensitech</td>
+        <td align="center">Controlant</td>
+        <td align="center">Monnit</td>
+    </tr>
+    <tr>
+       <td align="center" rowspan="2">Perfil</td>
+        <td>Overview</td>
+        <td> Cryologic Systems  es una plataforma web que permite monitorear en tiempo real la cadena de frío mediante sensores IoT, generando alertas y ofreciendo trazabilidad completa de los productos.</td>
+        <td>Sensitech ofrece soluciones globales de monitoreo de la cadena de frío con alta precisión y análisis avanzado para grandes empresas.</td>
+        <td>Controlant es una plataforma IoT enfocada en la industria farmacéutica, que permite visibilidad en tiempo real y análisis de datos.</td>
+        <td>Monnit proporciona sensores inalámbricos para monitoreo ambiental en múltiples industrias.</td>
+    </tr>
+    <tr>
+        <td>Ventaja Competitiva ¿Qué valor ofrece a los clientes?</td>
+        <td>Accesibilidad, facilidad de uso, monitoreo en tiempo real y alertas preventivas que reducen pérdidas.</td>
+        <td>Alta precisión, cumplimiento normativo y experiencia global.</td>
+        <td>Integración avanzada de IoT y analítica en tiempo real.</td>
+        <td>Bajo costo y flexibilidad en implementación de sensores.</td>
+    </tr>
+    <tr>
+       <td align="center" rowspan="2">Perfil de Marketing</td>
+        <td>Mercado Objetivo</td>
+        <td>PYMEs, empresas farmacéuticas y operadores logísticos.</td>
+        <td>Grandes corporaciones y empresas globales.</td>
+        <td>Industria farmacéutica y logística avanzada.</td>
+        <td>Empresas que requieren soluciones de monitoreo económico.</td>
+    </tr>
+    <tr>
+        <td>Estrategias de Marketing</td>
+        <td>Marketing digital, enfoque en facilidad de adopción y escalabilidad.</td>
+        <td>Posicionamiento como líder global y soluciones enterprise.</td>
+        <td>Alianzas estratégicas con farmacéuticas.</td>
+        <td>Venta directa de hardware y soluciones accesibles.</td>
+    </tr>
+    <tr>
+       <td align="center" rowspan="3">Productos & Servicios</td>
+        <td>Productos & Servicios</td>
+        <td>Plataforma web con monitoreo en tiempo real, alertas, dashboard y trazabilidad.</td>
+        <td>Servicios completos de monitoreo, análisis y cumplimiento.</td>
+        <td>Plataforma IoT con sensores y analítica avanzada.</td>
+        <td>Sensores inalámbricos y software básico.</td>
+    </tr>
+    <tr>
+        <td>Precios & Costos</td>
+        <td>Modelo de suscripción accesible.</td>
+        <td>Alto costo (enterprise).</td>
+        <td>Alto costo especializado.</td>
+        <td>Bajo costo.</td>
+    </tr>
+    <tr>
+        <td>Canales de Distribución (Web y/o Móvil)</td>
+        <td>Web (SaaS).</td>
+        <td>Web y soluciones empresariales.</td>
+        <td>Web con integración IoT.</td>
+        <td>Web y dispositivos físicos.</td>
+    </tr>
+    <tr>
+       <td align="center" rowspan="4">Análisis SWOT</td>
+        <td>Fortalezas</td>
+        <td>Plataforma accesible, monitoreo en tiempo real, alertas automáticas y trazabilidad completa.</td>
+        <td>Alta precisión, experiencia global y marca reconocida.</td>
+        <td>Tecnología IoT avanzada y enfoque especializado.</td>
+        <td>Bajo costo y facilidad de implementación.</td>
+    </tr>
+    <tr>
+        <td>Debilidades</td>
+        <td>Startup en crecimiento y baja presencia en el mercado.</td>
+        <td>Costos elevados y complejidad de implementación.</td>
+        <td>Dependencia de hardware y alto costo.</td>
+        <td>Menor especialización en cadena de frío.</td>
+    </tr>
+    <tr>
+        <td>Oportunidades</td>
+        <td>Crecimiento del IoT, regulación sanitaria y digitalización logística.</td>
+        <td>Expansión en mercados emergentes.</td>
+        <td>Demanda creciente en farmacéutica.</td>
+        <td>Crecimiento del mercado IoT.</td>
+    </tr>
+    <tr>
+        <td>Amenazas</td>
+        <td>Competidores consolidados y barreras de adopción.</td>
+        <td>Nuevas startups más accesibles.</td>
+        <td>Competencia de soluciones más económicas.</td>
+        <td>Competidores especializados.</td>
+    </tr>
+</table>
+
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+En esta sección se definen las estrategias y tácticas que Cryologic Systems implementará para posicionarse frente a sus competidores dentro del mercado de soluciones para la cadena de frío. Estas acciones se basan en el análisis de fortalezas, debilidades, oportunidades y amenazas, permitiendo establecer un enfoque estratégico que aproveche las ventajas competitivas de la startup y reduzca los riesgos del entorno.
+
+
+<table border="1" cellpadding="8" cellspacing="0">
+    <tr>
+        <td>Cryologic Systems</td>
+        <td align="center"><strong>Fortalezas</strong><br>
+            - Monitoreo en tiempo real<br>
+            - Plataforma accesible y fácil de usar<br>
+            - Alertas automáticas<br>
+            - Trazabilidad completa
+        </td>
+        <td align="center"><strong>Debilidades</strong><br>
+            - Startup con baja presencia en el mercado<br>
+            - Dependencia de adopción tecnológica<br>
+            - Recursos limitados frente a competidores grandes
+        </td>
+    </tr>
+    <tr>
+        <td align="center"><strong>Oportunidades</strong><br>
+            - Crecimiento del IoT<br>
+            - Regulaciones sanitarias<br>
+            - Digitalización logística<br>
+            - Expansión al sector alimentario
+        </td>
+        <td align="center">
+            <strong>Estrategia FO</strong><br>
+            - Aprovechar el monitoreo en tiempo real para captar empresas que buscan digitalización<br>
+            - Escalar la solución a sectores farmacéutico y alimentario<br>
+            - Integrar sensores IoT accesibles para facilitar adopción
+        </td>
+        <td align="center">
+            <strong>Estrategia DO</strong><br>
+            - Incrementar visibilidad mediante marketing digital<br>
+            - Realizar pruebas piloto con empresas<br>
+            - Generar contenido educativo sobre cadena de frío
+        </td>
+    </tr>
+    <tr>
+        <td align="center"><strong>Amenazas</strong><br>
+            - Competidores consolidados<br>
+            - Soluciones de bajo costo<br>
+            - Barreras de confianza<br>
+            - Rápido avance tecnológico
+        </td>
+        <td align="center">
+            <strong>Estrategia FA</strong><br>
+            - Diferenciarse por simplicidad frente a soluciones complejas<br>
+            - Ofrecer implementación rápida<br>
+            - Enfocar la solución en prevención mediante alertas
+        </td>
+        <td align="center">
+            <strong>Estrategia DA</strong><br>
+            - Ofrecer versiones demo o gratuitas<br>
+            - Generar casos de éxito<br>
+            - Brindar soporte técnico cercano y personalizado
+        </td>
+    </tr>
+</table>
+
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
+Segmento Objetivo 1: Empresas del sector farmacéutico
+
+1. ¿Podría indicarnos su edad, cargo actual y cuántos años de experiencia tiene en el sector farmacéutico?
+
+2. ¿En qué distrito reside y cómo es su rutina tecnológica diaria (qué dispositivos usa más: laptop, smartphone, tablet)?
+
+3. ¿Cuáles son sus principales responsabilidades respecto a la seguridad de productos termolábiles (vacunas, insulinas, biológicos)?
+
+4. ¿Qué marcas o softwares de logística e inventario reconoce como líderes o utiliza actualmente?
+
+5. ¿Cómo se describiría profesionalmente: prefiere decisiones basadas en datos analíticos o en la rapidez operativa?
+
+6. ¿Cómo es el proceso actual de registro de un producto sensible cuando ingresa a su sistema de inventario?
+
+7. ¿Cómo definen y vinculan los rangos de temperatura permitidos a cada lote de producto antes de un despacho?
+
+8. ¿Qué criterios utilizan para asignar un transporte específico a un despacho de alta sensibilidad?
+
+9. ¿Cómo se aseguran de que el transportista externo cumpla con los requisitos térmicos antes de cargar el producto?
+
+10. ¿De qué manera supervisan la temperatura mientras el camión está en tránsito hacia una provincia o clínica?
+
+11. ¿Cuál ha sido la peor experiencia que ha tenido con una ruptura de cadena de frío y quién asumió la pérdida económica?
+
+12. ¿Qué sucede exactamente en su empresa cuando un sensor detecta que la temperatura subió a un nivel crítico? ¿Quién recibe la alerta y cuánto tardan en reaccionar?
+
+13. ¿Qué es lo que más le frustra del sistema de monitoreo que usan actualmente (ej. demora en datos, falta de precisión, interfaz compleja)?
+
+14. ¿Cómo manejan actualmente las auditorías sanitarias? ¿Cuánto tiempo les toma reunir la evidencia de trazabilidad térmica de un despacho de hace un mes?
+
+15. ¿Qué impacto tendría en su bono de desempeño o en los KPIs de su área reducir las mermas por temperatura en un 20%?
+
+16. Si tuviera un dashboard que centralizara inventario, rutas y alertas en tiempo real, ¿qué métrica sería la primera que revisaría cada mañana?
+
+17. ¿Qué funcionalidad considera "no negociable" para confiar ciegamente en una plataforma web de cadena de frío?
+
+Segmento Objetivo 2: Operadores logísticos (3PL / transporte especializado)
+
+1. ¿Cuál es su edad, estado civil y nivel de estudios? ¿Cuál es su rol exacto en la operación logística?
+
+2. ¿Qué aplicaciones móviles utiliza con más frecuencia para su trabajo y para su vida personal (WhatsApp, Waze, Facebook, Apps bancarias)?
+
+3. ¿Cómo es la relación tecnológica de sus conductores? ¿Cuentan con smartphones modernos o equipos básicos?
+
+4. ¿Qué canales digitales utiliza para informarse sobre nuevas normativas de transporte o gestión de flotas (LinkedIn, grupos de Facebook, portales web)?
+
+5. ¿Cómo organizan las rutas diarias y cómo notifican a los conductores sobre sus puntos de parada y entrega?
+
+6. ¿Qué proceso siguen los conductores para reportar que han llegado a un punto de entrega y que el producto fue recibido conforme?
+
+7. ¿Cómo registran actualmente las incidencias en ruta (tráfico, fallas mecánicas, desvíos) y cómo afectan estas a la temperatura de la carga?
+
+8. ¿Utilizan alguna herramienta digital para el registro fotográfico de la entrega o siguen usando guías de remisión físicas en papel?
+
+9. ¿Cómo sabe un conductor, mientras maneja, si el equipo de frío de su furgón ha dejado de funcionar correctamente?
+
+10. ¿Reciben los conductores algún tipo de alerta visual o sonora, o dependen de que alguien desde la oficina les avise por teléfono?
+
+11. ¿Qué tan frecuente es que los sensores fallen o den lecturas erróneas? ¿Cómo gestionan esa incertidumbre con sus clientes?
+
+12. ¿Cuál es su mayor miedo o frustración cuando transportan carga de terceros valorizada en miles de dólares?
+
+13. ¿Cómo demuestran ante sus clientes corporativos que son mejores o más confiables que la competencia?
+
+14. ¿Cuánto tiempo invierte su equipo administrativo en descargar datos de los dispositivos de monitoreo para armar el reporte final del cliente?
+
+15. ¿Qué tanto valoraría que el sistema actualizara el "estado térmico" del despacho automáticamente cada 5 minutos en un mapa interactivo?
+
+16. Si pudiera elegir una mejora para su dashboard de gestión, ¿preferiría ver más mapas, más gráficos estadísticos o más alertas de texto?
+
+17. ¿Qué le impide hoy digitalizar el 100% de su operación logística (falta de presupuesto, resistencia del personal, falta de software adecuado)?
+
 ### 2.2.2. Registro de entrevistas
+
+#### Segmento objetivo #1: Empresas del sector farmacéutico
+
+---
+
+<img src="assets/chapter-02/Interview-picture-1.png" />
+
+**Entrevista 1:**
+- **Nombres y apellidos:** Sebastian Mendoza
+- **Edad:** 35 años
+- **Distrito:** San Borja
+
+- **Inicio:** 1:15
+- **Duración:** 7:54
+- **URL:** https://youtu.be/v0ob7pnyQcw
+
+**Resumen:**
+Sebastian es un Jefe de Aseguramiento de la Calidad con 10 años de experiencia en el sector farmacéutico. Su gestión se centra en garantizar que productos críticos (vacunas e insulinas) se mantengan estrictamente entre 2°C y 8°C. Actualmente, enfrenta una grave falta de visibilidad durante el transporte, calificándolo como una "caja negra" donde solo detecta fallos post-mortem mediante la descarga manual de dataloggers.
+
+Esta falta de monitoreo en tiempo real ha causado pérdidas económicas de hasta 50 mil dólares y daños reputacionales severos. Sebastian es un perfil altamente analítico que sufre con la demora de los datos y el caos administrativo de las auditorías sanitarias (que le toman hasta 3 días de trabajo). Valora por encima de todo la integridad inalterable de los datos y espera que SafeFlow le proporcione alertas preventivas y un dashboard centralizado para reducir mermas, lo cual impactaría directamente en sus KPIs y bonificaciones profesionales.
+
+---
+
+#### Segmento objetivo #2: Operadores logísticos (3PL / transporte especializado)
+
+---
+
+<img src="assets/chapter-02/interview2.png"/>
+
+
+- **Entrevista 1:**
+- **Nombres y apellidos:** Maria Ruiz
+- **Edad:** 28 años
+- **Distrito:** Los Olivos
+
+- **Inicio:** 1:30
+- **Duración:** 05:47
+- **URL:** https://youtu.be/aeB15YUm4ok
+
+**Resumen:**
+Maria es una Supervisora de Operaciones y Flota de 28 años que gestiona la logística de transporte especializado. Su flujo de trabajo actual es altamente dependiente de herramientas informales (pizarras acrílicas y fotos por WhatsApp), lo que genera un desorden administrativo y falta de control sobre la carga. Su mayor problema es la vulnerabilidad ante reclamos de clientes, ya que no cuenta con pruebas digitales en tiempo real para demostrar que el frío se mantuvo correctamente durante la ruta, dependiendo de la vista del conductor sobre visores externos.
+
+Valora la rapidez y la simplicidad; para ella, la digitalización es necesaria para ganar clientes corporativos exigentes, pero teme a la resistencia tecnológica de sus conductores. Espera que SafeFlow sea una herramienta intuitiva (tipo WhatsApp) que emita alertas de texto críticas y visualización en tiempo real sobre mapas, eliminando las 5 horas semanales que su equipo pierde procesando datos manualmente desde memorias USB.
+
+---
+
 ### 2.2.3. Análisis de entrevistas
+
+### Segmento 1: Empresas del sector farmacéutico
+
+- **Rol principal:** 100% asegura la integridad biológica de productos termolábiles (2°C a 8°C) y garantiza el cumplimiento de normativas sanitarias (DIGEMID).
+- **Gestión de Datos:** 100% se describe como un perfil "analítico" que no toma decisiones sin reportes de datos sustentados.
+- **Herramientas actuales:**  100% utiliza ERPs robustos (SAP) y dataloggers físicos; 0% cuenta con monitoreo en la nube en tiempo real.
+- **Problemas comunes:** 
+  * 100% califica el transporte como una "caja negra" sin visibilidad en tránsito.
+  * 100% reporta procesos caóticos de auditoría (entre 2 a 3 días para consolidar evidencias).
+  * 100% menciona falta de alertas inmediatas ante fallas mecánicas o humanas.
+- **Indicadores Valorados:** 100% prioriza el conteo de "Alertas Críticas Activas" y la trazabilidad histórica inalterable.
+- **Impacto de la solución:** 100% afirma que una reducción del 20% en mermas impacta directamente en sus bonos de desempeño y KPIs.
+- **Factor "No Negociables"** 100% exige integridad total de los datos (registros no editables).
+
+### Segmento 2: Operadores logísticos (3PL / transporte especializado)
+
+- **Rol principal:** 100% coordina despachos, supervisa conductores y gestiona la comunicación operativa en ruta.
+- **Canales digitales:** 100% utiliza WhatsApp para coordinar rutas y Facebook/LinkedIn para actualizarse en normativas.
+- **Herramientas actuales:**  100% usa pizarras acrílicas y registros en papel; 50% depende de fotos enviadas por los choferes como "evidencia".
+- **Problemas comunes:** 
+  * 100% reporta vulnerabilidad ante reclamos de clientes por falta de pruebas de temperatura en vivo.
+  * 100% menciona que los choferes no detectan fallas de frío a tiempo por falta de alertas en cabina.
+  * 100% identifica una pérdida de 5 horas semanales en la descarga manual de datos USB y armado de reportes en Excel.
+- **Indicadores Valorados:** 100% prioriza la visualización de unidades en mapas interactivos con estado térmico actualizado cada 5 minutos.
+- **Adopción de app:** 100% dispuesto a adoptar la solución siempre que sea "fácil de usar como WhatsApp" y apta para conductores con baja alfabetización digital.
+- **Diferenciación:** 100% considera que la falta de una plataforma de monitoreo les está haciendo perder grandes clientes corporativos.
+
+
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
+
+#### Segmento 1 Jefe de Aseguramiento de Calidad
+
+<img src="assets/chapter-02/User_Persona_Sebastian Mendoza.png"/>
+
+#### Segmento 2 Supervisora de Operaciones y Flota
+
+<img src="assets/chapter-02/User_Persona_Maria Ruiz.png"/>
+
 ### 2.3.2. User Task Matrix
+
+La siguiente matriz presenta las tareas identificadas para los segmentos objetivo, evaluando la frecuencia e importancia para cada User Persona de manera independiente.
+
+| User Task (Tarea) | **Maria Ruiz** | | **Sebastian Mendoza** | |
+| :--- | :---: | :---: | :---: | :---: |
+| | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** |
+| Registro de dispositivos y sensores | Media | Alta | Baja | Alta |
+| Monitoreo de temperatura en tiempo real | Alta | Alta | Media | Alta |
+| Configuración de umbrales de alerta | Media | Alta | Alta | Alta |
+| Atención de alertas y resolución | Alta | Alta | Media | Alta |
+| Generación de reportes para auditorías | Media | Alta | Alta | Alta |
+| Visualización de dashboard e indicadores | Media | Alta | Alta | Alta |
+| Gestion de usuarios y permisos (IAM) | N/A | N/A | Baja | Alta |
+
+**Conclusiones:**
+* **Sebastian Mendoza** se enfoca en el cumplimiento normativo y la integridad de la carga; necesita trazabilidad inalterable, reportes de auditoría automáticos y alertas críticas para proteger productos de alto valor. 
+* **Maria Ruiz** prioriza la eficiencia operativa y la protección ante reclamos; requiere una visión en tiempo real de la flota, comunicación fluida con conductores y evidencias digitales rápidas para justificar el servicio ante sus clientes.
+* La plataforma debe equilibrar un panel de control analítico para los gestores de calidad y una interfaz operativa simplificada para los supervisores de flota, enfocándose en los puntos de dolor compartidos: la visibilidad en la "caja negra" del transporte, la automatización de reportes y la respuesta inmediata ante alertas térmicas.
+
 ### 2.3.3. User Journey Mapping
+
+#### Segmento 1  Gestor de Aseguramiento de Calidad
+
+<img src="assets/chapter-02/User_Journey_Mapping_Gestores de Aseguramiento de Calidad.png"/>
+
+#### Segmento 2 Supervisor de Operaciones y Flota
+
+<img src="assets/chapter-02/User_Journey_Mapping_Supervisor de Operaciones y Flota.png"/>
+
 ### 2.3.4. Empathy Mapping
+
+####  Gestores de Aseguramiento de Calidad
+
+<img src="assets/chapter-02/Empathy_Mapping_Gestores de Aseguramiento de Calidad.png"/>
+
+####  Supervisores de Operaciones y Flota
+
+<img src="assets/chapter-02/Empathy_Mapping_Supervisores de Operaciones y Flota.png"/>
+
 ### 2.3.5. As-is Scenario Mapping
+
+## 2.4. Big Picture EventStorming.
+
+* EventStorming Inicial
+
+<img alt= "EventStorming inicial" src="assets/chapter-02/Event_Storming_Inicial_Plantilla de lienzo para Lean UX.jpg.jpeg">
+
+* EventStorming Final
+
+<img alt= "EventStorming final" src="assets/chapter-02/Event_Storming_Final_Plantilla de lienzo para Lean UX.jpg.jpeg">
+
+
+## 2.5. Ubiquitous Language.
+
+| Término (Inglés / Español) | Definición |
+| :--- | :--- |
+| **Cold Chain Integrity (Integridad de Cadena de Frío)** | Estado de preservación constante de un producto dentro de su rango térmico permitido durante todas las etapas de logística. |
+| **Thermal Excursion (Excursión Térmica)** | Desviación de la temperatura por encima o debajo de los límites permitidos (ej. fuera del rango 2°C - 8°C) que activa una alerta crítica. |
+| **IoT Telemetry (Telemetría IoT)** | Transmisión inalámbrica y en tiempo real de datos de temperatura, humedad y ubicación desde sensores integrados en la carga. |
+| **Data Integrity Log (Bitácora de Integridad de Datos)** | Registro inalterable y auditable de todos los eventos térmicos y acciones de usuario para garantizar el cumplimiento legal (DIGEMID). |
+| **Threshold Configuration (Configuración de Umbrales)** | Definición de límites térmicos máximos y mínimos asignados a un producto o lote específico antes de su despacho. |
+| **Real-Time Alerting (Alertas en Tiempo Real)** | Notificaciones automáticas enviadas instantáneamente a conductores y supervisores ante una anomalía detectada por los sensores. |
+| **Digital Thermal Proof (Prueba Térmica Digital)** | Evidencia certificada por el sistema que muestra el historial de temperatura completo de un despacho como respaldo ante el cliente. |
+| **SafeFlow Dashboard (Panel de Control SafeFlow)** | Interfaz centralizada que visualiza la ubicación de la flota, el estado térmico de los lotes y los indicadores de mermas. |
+| **Last Mile Monitoring (Monitoreo de Última Milla)** | Supervisión del transporte desde el centro de distribución local hasta el cliente final (clínicas, farmacias o postas). |
+| **Corrective Action Record (Registro de Acciones Correctivas)** | Documentación digital de las medidas tomadas por el operador (Maria) o calidad (Sebastian) tras recibir una alerta de excursión. |
+| **Auditory Evidence Pack (Paquete de Evidencia de Auditoría)** | Compilación automática de reportes de temperatura y geolocalización lista para ser presentada en inspecciones sanitarias. |
+
+
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
 
