@@ -1041,6 +1041,65 @@ This will be validated when the Landing Page is successfully deployed and access
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
+
+
+## 1. Resumen de Logros del Sprint
+En este Sprint, el equipo se ha enfocado en el diseño, maquetación y despliegue de la interfaz principal de **SafeFlow**. Se ha logrado consolidar la identidad visual de la marca y la arquitectura de información necesaria para comunicar una solución técnica compleja de manera sencilla y efectiva.
+
+**Hitos alcanzados:**
+* **Desarrollo de Interfaz:** Implementación completa de la Landing Page utilizando estándares modernos de diseño UI/UX.
+* **Optimización de Activos:** Organización y renombrado semántico de recursos visuales para mejorar la mantenibilidad del proyecto.
+* **Propuesta de Valor:** Estructuración de las secciones de monetización (Planes) y validación social (Testimonios).
+* **Navegación:** Configuración de una experiencia de usuario fluida y orientada a la conversión (CTAs).
+
+## 2. Screenshots de las Principales Vistas
+A continuación, se presentan las capturas de pantalla que sirven como evidencia de la implementación funcional del sitio:
+
+### A. Portada y Propuesta de Valor
+![Hero Section](assets/chapter-05/image_hero.jpeg)
+*Sección principal que comunica el "Control Total de tu Cadena de Frío" y facilita el acceso inmediato a la demo.*
+
+### B. Funcionalidades y Operatividad
+
+![Features](assets/chapter-05/image_features.jpeg)
+*Detalle de las herramientas técnicas como Dashboard y Alertas.*
+
+
+![How it works](assets/chapter-05/image_how_it_works.jpeg)
+ *Flujo paso a paso del proceso de monitoreo con sensores IoT.* 
+
+
+### C. Estrategia de Negocio y Sectores
+![Pricing](assets/chapter-05/image_pricing.jpeg)
+*Modelos de suscripción (Essential, Professional, Enterprise) diseñados para diferentes escalas de operación.*
+
+![Sectors](assets/chapter-05/image_sectors.jpeg)
+*Identificación de las industrias clave donde SafeFlow garantiza el cumplimiento normativo.*
+
+### D. Confianza y Equipo
+![Testimonials](assets/chapter-05/image_testimonials.jpeg)
+*Validación de terceros mediante testimonios de sectores farmacéuticos y logísticos.*
+
+![Team](assets/chapter-05/image_team.jpeg)
+*Presentación del equipo de ingeniería responsable del desarrollo del software.*
+
+
+### E. Cierre y Call to Action (CTA)
+![Footer and CTA](assets/chapter-05/image_footer_cta.jpeg)
+*Banner final de conversión diseñado para capturar leads mediante el botón "Solicitar Demo Gratuita", junto con la navegación secundaria y enlaces legales del proyecto.*
+
+
+## 3. Video de Demostración y Navegación
+Para observar la fluidez de la navegación, la respuesta de los elementos interactivos y la explicación detallada de cada sección, se ha preparado el siguiente material audiovisual:
+
+ **[Ver Video de Demostración - SafeFlow Sprint Review](TU_ENLACE_AQUÍ)**
+
+
+
+
+
+
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 En esta sección se presenta la documentación relacionada con los servicios que serán ofrecidos a través de la plataforma web de SafeFlow, los cuales estarán orientados al monitoreo, control y análisis de la cadena de frío en tiempo real. Estos servicios incluirán funcionalidades como el registro de datos de sensores, visualización de temperaturas, generación de alertas ante desviaciones térmicas y recomendaciones para la toma de decisiones logísticas.
