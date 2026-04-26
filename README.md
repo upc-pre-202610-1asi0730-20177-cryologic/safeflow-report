@@ -1,6 +1,6 @@
 
 <div align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"><br>
 </div>
 <h3 align="center"> Universidad Peruana de Ciencias Aplicadas </h3>
 
@@ -39,35 +39,46 @@
 
 <div align = "center">
     
-| Versión | Fecha | Autor | Descripción de modificación |
-| :-------: | :---------: | :----------------: | :----------------------:|
-| AV1 | --- | Mio Mejia, Andy Alejandro | xxxxxxx |
-| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree | Descripción de la Startup |
-| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree | Creación de la carpeta de Imagenes  |
-| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree | Desarrollo de User Stories |
-| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree | Competidores |
-| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree | Creacion de Ramas en los Repositorios |
-| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree | Software Deployment Configuration. |
-| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree | Source Code Management. |
-| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree | Software Development Environment Configuration |
-| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree | Software Configuration Management. |
-| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree | Creacion de la Estructura de la Landing |
-| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree | Estrategias y tácticas frente a competidores |
-| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree | Sprint 1 |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Desarrollo de Lean Ux Hypothesis Statements |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Desarrollo Lean Ux Canvas |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Desarrollo de Diseño de entrevistas |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Desarrollo de registro de entrevistas |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Desarrollo de Análisis de entrevistas |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Desarrollo de User Personas |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Desarrollo de User Task Matrix |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Desarrollo de User Journey Mapping |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Desarrollo de Big Picture EventStorming |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Desarrollo de Ubiquitous Lenguage |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Creación de estructura de Aspect Leaders and Collaborators |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Creación de estructura de Sprint Backlog  |
+| Versión |   Fecha    | Autor |                   Descripción de modificación                    |
+| :-------: |:----------:| :----------------: |:----------------------------------------------------------------:|
+| AV1 |    ---     | Mio Mejia, Andy Alejandro |                             xxxxxxx                              |
+| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                    Descripción de la Startup                     |
+| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                Creación de la carpeta de Imagenes                |
+| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                    Desarrollo de User Stories                    |
+| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                           Competidores                           |
+| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |              Creacion de Ramas en los Repositorios               |
+| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree |                Software Deployment Configuration.                |
+| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree |                     Source Code Management.                      |
+| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree |          Software Development Environment Configuration          |
+| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree |                Software Configuration Management.                |
+| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree |             Creacion de la Estructura de la Landing              |
+| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree |           Estrategias y tácticas frente a competidores           |
+| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree |                             Sprint 1                             |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |           Desarrollo de Lean Ux Hypothesis Statements            |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |                    Desarrollo Lean Ux Canvas                     |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |               Desarrollo de Diseño de entrevistas                |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |              Desarrollo de registro de entrevistas               |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |              Desarrollo de Análisis de entrevistas               |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |                   Desarrollo de User Personas                    |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |                  Desarrollo de User Task Matrix                  |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |                Desarrollo de User Journey Mapping                |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |             Desarrollo de Big Picture EventStorming              |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |                Desarrollo de Ubiquitous Lenguage                 |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |    Creación de estructura de Aspect Leaders and Collaborators    |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |             Creación de estructura de Sprint Backlog             |
 | AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Creación de estructura de Development Evidence for Sprint Review |
-| AV1 | --- | Rocca Leon, Anhelo Rodrigo | xxxxxxx |
+| AV1 | 19-04-2026 | Rocca Leon, Anhelo Rodrigo |        Desarollo del Domain-Driven Software Architecture         |
+| AV1 | 19-04-2026 | Rocca Leon, Anhelo Rodrigo |             Desarollo del Design-Level EventStorming             |
+| AV1 | 19-04-2026 | Rocca Leon, Anhelo Rodrigo |       Desarollo del Software Architecture Context Diagram        |
+| AV1 | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |      Desarollo del Software Architecture Container Diagram       |
+| AV1 | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |     Desarollo del Software Architecture Components Diagrams      |
+| AV1 | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |          Desarollo del Software Object-Oriented Design           |
+| AV1 | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |                   Desarollo del Class Diagrams                   |
+| AV1 | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |                  Desarollo del Database Design                   |
+| AV1 | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |                 Desarollo del Database Diagrams                  |
+| AV1 | 24-04-2026 | Rocca Leon, Anhelo Rodrigo |         Commit de la sección 'Benefits' del Landing Page         |
+| AV1 | 24-04-2026 | Rocca Leon, Anhelo Rodrigo |      Commit de la sección 'Call-to-action' del Landing Page      |
+| AV1 | 26-04-2026 | Rocca Leon, Anhelo Rodrigo |      Desarollo de 1 entrevista para el segmento objetivo 2       |
 
 </div>
 
@@ -82,13 +93,13 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 #### Link del repositorio del Reporte: [https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-report](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-report)
 #### Link del repositorio de la Landing Page:  [https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website)
 
-  </br>
+  <br>
 
 | Integrante | Tareas Asignadas |
 |------------|------------------|
 | Mel Andree Orellana Rodriguez | Idea conceptual de Proyecto, Descripción de la Startup, Creación de la carpeta de Imagenes, Desarrollo de User Stories, Competidores, Creacion de Ramas en los Repositorios, Software Deployment Configuration, Source Code Management, Software Development Environment Configuration, Software Configuration Management, Creacion de la Estructura de la Landing, Estrategias y tácticas frente a competidores, Sprint 1.  |
 |  Angel Guillermo Berrospi Marin  | Desarrollo de Lean Ux Hypothesis Statements, Desarrollo Lean Ux Canvas, Desarrollo de Diseño de entrevistas, Desarrollo de registro de entrevistas, Desarrollo de Análisis de entrevistas, Desarrollo de User Personas, Desarrollo de User Task Matrix, Desarrollo de User Journey Mapping, Desarrollo de Big Picture EventStorming, Desarrollo de Ubiquitous Lenguage, Creación de estructura de Aspect Leaders and Collaborators, Creación de estructura de Sprint Backlog,Creación de estructura de Development Evidence for Sprint Review.  |
-| Anhelo Rodrigo Rocca Leon |  |
+| Anhelo Rodrigo Rocca Leon | Desarollo del Domain-Driven Software Architecture, Desarollo del Design-Level EventStorming, Desarollo del Software Architecture Context Diagram, Desarollo del Software Architecture Container Diagram, Desarollo del Software Architecture Components Diagrams, Desarollo del Software Object-Oriented Design, Desarollo del Class Diagrams, Desarollo del Database Design, Desarollo del Database Diagrams, Commit de la sección 'Benefits' del Landing Page, Commit de la sección 'Call-to-action' del Landing Page y Desarollo de 1 entrevista para el segmento objetivo 2  |
 | Andy Alejandro Mio Mejia    |  |
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización.
