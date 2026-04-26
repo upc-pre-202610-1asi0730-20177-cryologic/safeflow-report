@@ -54,7 +54,19 @@
 | AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree | Creacion de la Estructura de la Landing |
 | AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree | Estrategias y tácticas frente a competidores |
 | AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree | Sprint 1 |
-| AV1 | --- | Berrospi Marin, Angel Guillermo | xxxxxxx |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Desarrollo de Lean Ux Hypothesis Statements |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Desarrollo Lean Ux Canvas |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Desarrollo de Diseño de entrevistas |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Desarrollo de registro de entrevistas |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Desarrollo de Análisis de entrevistas |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Desarrollo de User Personas |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Desarrollo de User Task Matrix |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Desarrollo de User Journey Mapping |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Desarrollo de Big Picture EventStorming |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Desarrollo de Ubiquitous Lenguage |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Creación de estructura de Aspect Leaders and Collaborators |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Creación de estructura de Sprint Backlog  |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Creación de estructura de Development Evidence for Sprint Review |
 | AV1 | --- | Rocca Leon, Anhelo Rodrigo | xxxxxxx |
 
 </div>
@@ -75,7 +87,7 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 | Integrante | Tareas Asignadas |
 |------------|------------------|
 | Mel Andree Orellana Rodriguez | Idea conceptual de Proyecto, Descripción de la Startup, Creación de la carpeta de Imagenes, Desarrollo de User Stories, Competidores, Creacion de Ramas en los Repositorios, Software Deployment Configuration, Source Code Management, Software Development Environment Configuration, Software Configuration Management, Creacion de la Estructura de la Landing, Estrategias y tácticas frente a competidores, Sprint 1.  |
-|  Angel Guillermo Berrospi Marin  | |
+|  Angel Guillermo Berrospi Marin  | Desarrollo de Lean Ux Hypothesis Statements, Desarrollo Lean Ux Canvas, Desarrollo de Diseño de entrevistas, Desarrollo de registro de entrevistas, Desarrollo de Análisis de entrevistas, Desarrollo de User Personas, Desarrollo de User Task Matrix, Desarrollo de User Journey Mapping, Desarrollo de Big Picture EventStorming, Desarrollo de Ubiquitous Lenguage, Creación de estructura de Aspect Leaders and Collaborators, Creación de estructura de Sprint Backlog,Creación de estructura de Development Evidence for Sprint Review.  |
 | Anhelo Rodrigo Rocca Leon |  |
 | Andy Alejandro Mio Mejia    |  |
 
