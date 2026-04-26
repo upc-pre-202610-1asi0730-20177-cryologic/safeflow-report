@@ -612,10 +612,30 @@ La siguiente matriz presenta las tareas identificadas para los segmentos objetiv
 
 ## 2.4. Big Picture EventStorming.
 
+* EventStorming Inicial
+
+<img alt= "EventStorming inicial" src="assets/chapter-02/Event_Storming_Inicial_Plantilla de lienzo para Lean UX.jpg.jpeg">
+
+* EventStorming Final
+
+<img alt= "EventStorming final" src="assets/chapter-02/Event_Storming_Final_Plantilla de lienzo para Lean UX.jpg.jpeg">
+
 
 ## 2.5. Ubiquitous Language.
 
-
+| Término (Inglés / Español) | Definición |
+| :--- | :--- |
+| **Cold Chain Integrity (Integridad de Cadena de Frío)** | Estado de preservación constante de un producto dentro de su rango térmico permitido durante todas las etapas de logística. |
+| **Thermal Excursion (Excursión Térmica)** | Desviación de la temperatura por encima o debajo de los límites permitidos (ej. fuera del rango 2°C - 8°C) que activa una alerta crítica. |
+| **IoT Telemetry (Telemetría IoT)** | Transmisión inalámbrica y en tiempo real de datos de temperatura, humedad y ubicación desde sensores integrados en la carga. |
+| **Data Integrity Log (Bitácora de Integridad de Datos)** | Registro inalterable y auditable de todos los eventos térmicos y acciones de usuario para garantizar el cumplimiento legal (DIGEMID). |
+| **Threshold Configuration (Configuración de Umbrales)** | Definición de límites térmicos máximos y mínimos asignados a un producto o lote específico antes de su despacho. |
+| **Real-Time Alerting (Alertas en Tiempo Real)** | Notificaciones automáticas enviadas instantáneamente a conductores y supervisores ante una anomalía detectada por los sensores. |
+| **Digital Thermal Proof (Prueba Térmica Digital)** | Evidencia certificada por el sistema que muestra el historial de temperatura completo de un despacho como respaldo ante el cliente. |
+| **SafeFlow Dashboard (Panel de Control SafeFlow)** | Interfaz centralizada que visualiza la ubicación de la flota, el estado térmico de los lotes y los indicadores de mermas. |
+| **Last Mile Monitoring (Monitoreo de Última Milla)** | Supervisión del transporte desde el centro de distribución local hasta el cliente final (clínicas, farmacias o postas). |
+| **Corrective Action Record (Registro de Acciones Correctivas)** | Documentación digital de las medidas tomadas por el operador (Maria) o calidad (Sebastian) tras recibir una alerta de excursión. |
+| **Auditory Evidence Pack (Paquete de Evidencia de Auditoría)** | Compilación automática de reportes de temperatura y geolocalización lista para ser presentada en inspecciones sanitarias. |
 
 # Capítulo III: Requirements Specification
 
