@@ -490,6 +490,8 @@ Segmento Objetivo 2: Operadores logísticos (3PL / transporte especializado)
 
 ---
 
+<img src="assets/chapter-02/Interview-picture-1.png" />
+
 **Entrevista 1:**
 - **Nombres y apellidos:** Sebastian Mendoza
 - **Edad:** 35 años
@@ -497,7 +499,7 @@ Segmento Objetivo 2: Operadores logísticos (3PL / transporte especializado)
 
 - **Inicio:** 1:15
 - **Duración:** 7:40
-- **URL:** 
+- **URL:** https://youtu.be/v0ob7pnyQcw
 
 **Resumen:**
 Sebastian es un Jefe de Aseguramiento de la Calidad con 10 años de experiencia en el sector farmacéutico. Su gestión se centra en garantizar que productos críticos (vacunas e insulinas) se mantengan estrictamente entre 2°C y 8°C. Actualmente, enfrenta una grave falta de visibilidad durante el transporte, calificándolo como una "caja negra" donde solo detecta fallos post-mortem mediante la descarga manual de dataloggers.
