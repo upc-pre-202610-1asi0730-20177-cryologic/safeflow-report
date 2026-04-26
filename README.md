@@ -35,20 +35,31 @@
 
 <div style="page-break-after: always;"></div>
 
-# Registro de Versiones del Informe
+## Registro de Versiones del Informe
 
 <div align = "center">
     
 | Versión | Fecha | Autor | Descripción de modificación |
 | :-------: | :---------: | :----------------: | :----------------------:|
-| TB1 | --- | Mio Mejia, Andy Alejandro | xxxxxxx |
-| TB1 | --- | Orellana Rodriguez, Mel Andree | xxxxxxx |
-| TB1 | --- | Berrospi Marin, Angel Guillermo | xxxxxxx |
-| TB1 | --- | Rocca Leon, Anhelo Rodrigo | xxxxxxx |
+| AV1 | --- | Mio Mejia, Andy Alejandro | xxxxxxx |
+| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree | Descripción de la Startup |
+| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree | Creación de la carpeta de Imagenes  |
+| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree | Desarrollo de User Stories |
+| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree | Competidores |
+| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree | Creacion de Ramas en los Repositorios |
+| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree | Software Deployment Configuration. |
+| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree | Source Code Management. |
+| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree | Software Development Environment Configuration |
+| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree | Software Configuration Management. |
+| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree | Creacion de la Estructura de la Landing |
+| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree | Estrategias y tácticas frente a competidores |
+| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree | Sprint 1 |
+| AV1 | --- | Berrospi Marin, Angel Guillermo | xxxxxxx |
+| AV1 | --- | Rocca Leon, Anhelo Rodrigo | xxxxxxx |
 
 </div>
 
-# Project Report Collaboration Insights
+## Project Report Collaboration Insights
 
 A lo largo del desarrollo del trabajo, se ha evidenciado una participación activa, coordinada y progresiva por parte de todos los integrantes del equipo. Cada fase fue abordada de manera estructurada, siguiendo las buenas prácticas de trabajo colaborativo con control de versiones en GitHub, planificación por entregables, y asignación clara de responsabilidades según las competencias de cada integrante.
 
@@ -56,14 +67,32 @@ El uso de repositorios específicos por subcomponente también contribuyó a man
 
 A continuación, se detallan los repositorios utilizados a lo largo del proyecto:
 
-#### Link del repositorio del Reporte: 
+#### Link del repositorio del Reporte: [https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-report](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-report)
+#### Link del repositorio de la Landing Page:  [https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website)
 
-https://github.com/Aplicaciones-Web-20177/REPORT
+  </br>
 
-#### Link del repositorio de la Landing Page: 
+| Integrante | Tareas Asignadas |
+|------------|------------------|
+| Mel Andree Orellana Rodriguez | Idea conceptual de Proyecto, Descripción de la Startup, Creación de la carpeta de Imagenes, Desarrollo de User Stories, Competidores, Creacion de Ramas en los Repositorios, Software Deployment Configuration, Source Code Management, Software Development Environment Configuration, Software Configuration Management, Creacion de la Estructura de la Landing, Estrategias y tácticas frente a competidores, Sprint 1.  |
+|  Angel Guillermo Berrospi Marin  | |
+| Anhelo Rodrigo Rocca Leon |  |
+| Andy Alejandro Mio Mejia    |  |
 
-https://github.com 
+El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización.
 
+## **Github Collaboration Insights**
+
+Los integrantes son:
+
+* Andy Alejandro Mio Mejia   (AndyMio17)
+* Angel Guillermo Berrospi Marin   (Guille-berrs)
+* Mel Andree Orellana Rodriguez (melandree8)
+* Anhelo Rodrigo Rocca Leon (RoccaA4)
+
+  </br>
+
+<div align="center"><img src="assets/student-profile/commit.png" alt="evidencia" width="1100" /> </div> 
 
 # Contenido
 
@@ -226,15 +255,14 @@ https://github.com
           <ul>
             <li><b>AV1 - Angel Guillermo, Berrospi Marin:</b> 
             Fomenté comunicación con el grupo para tener un buen entendimiento del proyecto realizado, asi mismo ayude en la realización de diferentes puntos del proyecto, por ejmplo el capítulo 2 y la landing page, la estructura del capítulo 5 y coordinaciones que ayudaron en el avance del trabajo y su culminación.</li>
-            <li><b>AV1 - Mel Andre, Orellana Rodriguez:</b> Tus acciones</li>
+            <li><b>AV1 - Mel Andre, Orellana Rodriguez:</b> Contribuí activamente en la organización y desarrollo del proyecto, apoyando en la planificación de tareas y asegurando el cumplimiento de los objetivos establecidos. Participé en la coordinación del equipo para mantener una comunicación clara y efectiva, además de colaborar en la implementación de la landing page y en la estructuración de secciones clave del documento.</li>
             <li><b>AV1 - Tu Nombre:</b>Tus acciones</li>
             <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
             <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
-        Conclusión General 
-        </td>
+El equipo logró coordinarse de manera progresiva a lo largo del desarrollo del proyecto, destacando la participación activa de algunos integrantes en la organización y toma de decisiones. Esto permitió mantener una dirección clara y avanzar de forma constante en las actividades planteadas.        </td>
       </tr>
       <tr>
         <td style="border: 1px solid #dddddd; padding: 10px; font-weight: bold; vertical-align: top;">
@@ -244,15 +272,14 @@ https://github.com
           <ul>
             <li><b>AV1 - Angel Guillermo Berrospi Marin:</b>
             Participé activamente en el desarrollo del proyecto, tanto en la realización de tareas cómo entrar a las reuniones programadas para la coordinación de diferentes puntos, establecí mi propia métrica con respecto a los puntos que me tocaron y de esa forma pude desempeñar un buen rendimiento tanto en ayuda para el grupo cómo para la finalización del proyecto.</li>
-            <li><b>AV1 - Mel Andre Orellana Rodriguez:</b> Tus acciones</li>
+            <li><b>AV1 - Mel Andre Orellana Rodriguez:</b>Fomenté un ambiente colaborativo dentro del equipo, promoviendo la participación activa y el cumplimiento de responsabilidades. Me enfoqué en coordinar tareas, apoyar en la resolución de problemas y mantener alineados los objetivos del proyecto, contribuyendo así a la entrega final de manera organizada y eficiente.</li>
             <li><b>AV1 - Tu Nombre:</b>Tus acciones</li>
             <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
             <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
-            Conclusion General
-        </td>
+Se establecieron metas y una planificación que facilitaron el desarrollo del proyecto. A pesar de algunas diferencias en el ritmo de trabajo, se logró cumplir con los objetivos principales y completar las entregas de manera organizada.        </td>
       </tr>
     </tbody>
   </table>
