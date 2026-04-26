@@ -668,6 +668,70 @@ Con este sistema, SafeFlow proporciona navegación intuitiva y eficiente que per
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
+
+### 1. Pantalla de Login y Registro
+
+Esta pantalla representa el punto de entrada al sistema SafeFlow. Su función principal es autenticar a los usuarios mediante el ingreso de credenciales (correo y contraseña) o permitir la creación de una nueva cuenta.
+El diseño del wireframe prioriza la simplicidad y claridad, mostrando únicamente los campos necesarios para reducir fricción en el acceso. Además, contempla validaciones básicas y retroalimentación al usuario en caso de errores.
+Esta pantalla es fundamental porque garantiza la seguridad del sistema y controla el acceso según roles (administrador u operador), lo cual condiciona las funcionalidades disponibles dentro de la plataforma.
+
+<div align="center"> <img src="assets/chapter-04/WF_auth_login.png"/>  </div>
+<div align="center"> <img src="assets/chapter-04/WF_auth_register.png"/>  </div>
+
+
+### 2. Dashboard (Panel de Control)
+
+El dashboard es la vista principal del sistema y actúa como centro de monitoreo. En este wireframe se visualizan indicadores clave como la cantidad de productos en riesgo, alertas activas, productos seguros y métricas generales del sistema.
+
+Su diseño está orientado a la toma de decisiones rápida, utilizando tarjetas, gráficos y resúmenes visuales que permiten al usuario comprender el estado del sistema de un vistazo.
+Este componente está directamente relacionado con el contexto de **Gestión del Sistema**, ya que integra información proveniente de los demás módulos (inventario, monitoreo, alertas y logística) en una sola interfaz centralizada.
+
+<div align="center"> <img src="assets/chapter-04/WF_dashboard_main.png"/>  </div>
+
+
+
+
+### 3. Módulo de Inventario
+
+Este wireframe muestra la interfaz destinada a la gestión de productos dentro del sistema. Permite visualizar información detallada como nombre del producto, categoría, cantidad disponible, ubicación y estado (Disponible, En Riesgo, etc.).
+
+El diseño facilita la organización y control del stock mediante tablas, filtros y acciones como registrar, editar o eliminar productos.
+
+Este módulo está vinculado al **Contexto de Inventario**, ya que gestiona la base de datos principal sobre la cual operan los demás procesos del sistema, siendo esencial para el monitoreo y la trazabilidad.
+
+<div align="center"> <img src="assets/chapter-04/WF_inventory_list.png"/>  </div>
+
+### 4. Módulo de Reportes y Análisis
+
+Este wireframe representa la sección encargada de mostrar información histórica y analítica del sistema. Permite al usuario consultar reportes de temperatura, productos en riesgo, cumplimiento de condiciones térmicas, entre otros.
+
+Su diseño incluye tablas y posibles visualizaciones gráficas que facilitan la interpretación de datos y la identificación de patrones o incidencias.
+
+Está vinculado al contexto de **Gestión del Sistema**, ya que consolida información de todos los módulos para apoyar la toma de decisiones estratégicas, auditorías y mejora continua de los procesos.
+
+<div align="center"> <img src="assets/chapter-04/WF_reports_analysis.png"/>  </div>
+
+
+### 5. Módulo de Alertas
+
+Este wireframe representa la interfaz encargada de gestionar las alertas generadas por el sistema ante anomalías detectadas, principalmente relacionadas con variaciones de temperatura fuera del rango permitido o productos próximos a vencer.
+
+Permite visualizar un listado de alertas con información relevante como tipo de alerta, producto afectado, fecha y estado (activa o resuelta). Además, el usuario puede acceder al detalle de cada alerta, filtrarlas según criterios específicos y marcarlas como resueltas una vez tomada la acción correctiva.
+
+El diseño está orientado a resaltar visualmente los eventos críticos, facilitando una rápida identificación y priorización de incidencias.
+
+Este módulo está vinculado al **Contexto de Alertas**, y trabaja en conjunto con el monitoreo y el inventario para garantizar una respuesta oportuna ante problemas en la cadena de frío.
+
+<div align="center"> <img src="assets/chapter-04/WF_alerts_list.png"/>  </div>
+
+### 6. Módulo de Monitoreo
+
+Este wireframe muestra la interfaz dedicada al seguimiento de las condiciones de temperatura de los productos, tanto en tiempo real como a través de datos históricos.Permite visualizar registros de temperatura asociados a productos o despachos, indicando valores, fechas, origen (manual o simulado) y estado. Además, puede incluir gráficos que representan la variación de temperatura a lo largo del tiempo, facilitando la detección de patrones o anomalías.El diseño prioriza la claridad de la información y la actualización constante de los datos, permitiendo al usuario supervisar de manera continua el estado de los productos.Este módulo está directamente relacionado con el **Contexto de Monitoreo Ambiental**, siendo el núcleo del sistema, ya que se encarga de evaluar las condiciones térmicas y desencadenar alertas en caso de detectar desviaciones.
+
+
+<div align="center"> <img src="assets/chapter-04/WF_monitoring_realtime.png"/>  </div>
+
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 ### 4.4.3. Web Applications Mock-ups
 ### 4.4.4. Web Applications User Flow Diagrams
