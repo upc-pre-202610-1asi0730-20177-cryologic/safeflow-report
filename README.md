@@ -1,50 +1,92 @@
+
+<div align="center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"><br>
+</div>
 <h3 align="center"> Universidad Peruana de Ciencias Aplicadas </h3>
 
 <h3 align="center"> Ingeniería de Software </h3>
-<h3 align="center"> Ciclo 2026 - 1</h3>
+<h3 align="center">  2026 - 10</h3>
 
-<br>
-
-<div align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
-</div>
-
-<br>
-
-<h1 align="center"> TF1 Report </h1>
-
-<h3 align="center"> 1ASI0730 - Aplicaciones Web - 2610 </h3>
-
-<h3 align="center"> Docente: Jose Miguel Flores Ingaruca </h3>
 <h3 align="center"> NRC: 20177 </h3>
 
-<h3> Product: xxxxxxxxx </h3>
+<h3 align="center"> Docente: Jose Miguel Flores Ingaruca </h3>
 
-<h3> Team Members: </h3>
+<h3 align="center"> Informe de Trabajo </h3>
+
+<h3 align="center"> Cryologic Systems </h3>
+
+
+<h3 align="center"> SafeFlow </h3>
+
+<h3 align="center"> Team Members: </h3>
+
+<div align = "center">
 
 | Member                           |    Code    |
 | :------------------------------- | :--------: |
-| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxx |
-| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxx |
-| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxx |
-| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxx |
+| Andy Alejandro Mio Mejia         | U202218531 |
+| Mel Andree Orellana Rodriguez      | U202116018 |
+| Angel Guillermo Berrospi Marin  | U202114701 |
+| Anhelo Rodrigo Rocca Leon | U20221C803 |
 
 
-<h3 align="center">2025</h3>
+</div>
+
+<h3 align="center">2026</h3>
 
 <div style="page-break-after: always;"></div>
 
-# Registro de Versiones del Informe
+## Registro de Versiones del Informe
 
-| Versión | Fecha | Autor | Descripción de modificación |
-| :-------: | :---------: | :----------------: | :----------------------:|
-| TB1 | --- | xxxxxxx | xxxxxxx |
-| TB1 | --- | xxxxxxx | xxxxxxx |
-| TB1 | --- | xxxxxxx | xxxxxxx |
-| TB1 | --- | xxxxxxx | xxxxxxx |
+<div align = "center">
+    
+| Versión |   Fecha    | Autor |                   Descripción de modificación                    |
+| :-------: |:----------:| :----------------: |:----------------------------------------------------------------:|
+| AV1 |    ---     | Mio Mejia, Andy Alejandro |                             xxxxxxx                              |
+| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                    Descripción de la Startup                     |
+| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                Creación de la carpeta de Imagenes                |
+| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                    Desarrollo de User Stories                    |
+| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                           Competidores                           |
+| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |              Creacion de Ramas en los Repositorios               |
+| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree |                Software Deployment Configuration.                |
+| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree |                     Source Code Management.                      |
+| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree |          Software Development Environment Configuration          |
+| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree |                Software Configuration Management.                |
+| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree |             Creacion de la Estructura de la Landing              |
+| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree |           Estrategias y tácticas frente a competidores           |
+| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree |                             Sprint 1                             |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |           Desarrollo de Lean Ux Hypothesis Statements            |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |                    Desarrollo Lean Ux Canvas                     |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |               Desarrollo de Diseño de entrevistas                |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |              Desarrollo de registro de entrevistas               |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |              Desarrollo de Análisis de entrevistas               |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |                   Desarrollo de User Personas                    |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |                  Desarrollo de User Task Matrix                  |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |                Desarrollo de User Journey Mapping                |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |             Desarrollo de Big Picture EventStorming              |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |                Desarrollo de Ubiquitous Lenguage                 |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |    Creación de estructura de Aspect Leaders and Collaborators    |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |             Creación de estructura de Sprint Backlog             |
+| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Creación de estructura de Development Evidence for Sprint Review |
+| AV1 | 19-04-2026 | Rocca Leon, Anhelo Rodrigo |        Desarollo del Domain-Driven Software Architecture         |
+| AV1 | 19-04-2026 | Rocca Leon, Anhelo Rodrigo |             Desarollo del Design-Level EventStorming             |
+| AV1 | 19-04-2026 | Rocca Leon, Anhelo Rodrigo |       Desarollo del Software Architecture Context Diagram        |
+| AV1 | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |      Desarollo del Software Architecture Container Diagram       |
+| AV1 | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |     Desarollo del Software Architecture Components Diagrams      |
+| AV1 | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |          Desarollo del Software Object-Oriented Design           |
+| AV1 | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |                   Desarollo del Class Diagrams                   |
+| AV1 | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |                  Desarollo del Database Design                   |
+| AV1 | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |                 Desarollo del Database Diagrams                  |
+| AV1 | 24-04-2026 | Rocca Leon, Anhelo Rodrigo |         Commit de la sección 'Benefits' del Landing Page         |
+| AV1 | 24-04-2026 | Rocca Leon, Anhelo Rodrigo |      Commit de la sección 'Call-to-action' del Landing Page      |
+| AV1 | 26-04-2026 | Rocca Leon, Anhelo Rodrigo |      Desarollo de 1 entrevista para el segmento objetivo 2       |
 
 
-# Project Report Collaboration Insights
+
+
+</div>
+
+## Project Report Collaboration Insights
 
 A lo largo del desarrollo del trabajo, se ha evidenciado una participación activa, coordinada y progresiva por parte de todos los integrantes del equipo. Cada fase fue abordada de manera estructurada, siguiendo las buenas prácticas de trabajo colaborativo con control de versiones en GitHub, planificación por entregables, y asignación clara de responsabilidades según las competencias de cada integrante.
 
@@ -52,14 +94,32 @@ El uso de repositorios específicos por subcomponente también contribuyó a man
 
 A continuación, se detallan los repositorios utilizados a lo largo del proyecto:
 
-#### Link del repositorio del Reporte: 
+#### Link del repositorio del Reporte: [https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-report](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-report)
+#### Link del repositorio de la Landing Page:  [https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website)
 
-https://github.com/Aplicaciones-Web-20177/REPORT
+  <br>
 
-#### Link del repositorio de la Landing Page: 
+| Integrante | Tareas Asignadas |
+|------------|------------------|
+| Mel Andree Orellana Rodriguez | Idea conceptual de Proyecto, Descripción de la Startup, Creación de la carpeta de Imagenes, Desarrollo de User Stories, Competidores, Creacion de Ramas en los Repositorios, Software Deployment Configuration, Source Code Management, Software Development Environment Configuration, Software Configuration Management, Creacion de la Estructura de la Landing, Estrategias y tácticas frente a competidores, Sprint 1.  |
+|  Angel Guillermo Berrospi Marin  | Desarrollo de Lean Ux Hypothesis Statements, Desarrollo Lean Ux Canvas, Desarrollo de Diseño de entrevistas, Desarrollo de registro de entrevistas, Desarrollo de Análisis de entrevistas, Desarrollo de User Personas, Desarrollo de User Task Matrix, Desarrollo de User Journey Mapping, Desarrollo de Big Picture EventStorming, Desarrollo de Ubiquitous Lenguage, Creación de estructura de Aspect Leaders and Collaborators, Creación de estructura de Sprint Backlog,Creación de estructura de Development Evidence for Sprint Review.  |
+| Anhelo Rodrigo Rocca Leon | Desarollo del Domain-Driven Software Architecture, Desarollo del Design-Level EventStorming, Desarollo del Software Architecture Context Diagram, Desarollo del Software Architecture Container Diagram, Desarollo del Software Architecture Components Diagrams, Desarollo del Software Object-Oriented Design, Desarollo del Class Diagrams, Desarollo del Database Design, Desarollo del Database Diagrams, Commit de la sección 'Benefits' del Landing Page, Commit de la sección 'Call-to-action' del Landing Page y Desarollo de 1 entrevista para el segmento objetivo 2  |
+| Andy Alejandro Mio Mejia    |  |
 
-https://github.com 
+El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización.
 
+## **Github Collaboration Insights**
+
+Los integrantes son:
+
+* Andy Alejandro Mio Mejia   (AndyMio17)
+* Angel Guillermo Berrospi Marin   (Guille-berrs)
+* Mel Andree Orellana Rodriguez (melandree8)
+* Anhelo Rodrigo Rocca Leon (RoccaA4)
+
+  </br>
+
+<div align="center"><img src="assets/student-profile/commit.png" alt="evidencia" width="1100" /> </div> 
 
 # Contenido
 
@@ -204,7 +264,53 @@ https://github.com
 
 # Student Outcome
 
-
+<div align="center">
+  <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 14px;">
+    <thead>
+      <tr style="background-color: #f2f2f2; text-align: center;">
+        <th style="border: 1px solid #dddddd; padding: 12px; width: 25%;">Criterio específico</th>
+        <th style="border: 1px solid #dddddd; padding: 12px; width: 45%;">Acciones realizadas</th>
+        <th style="border: 1px solid #dddddd; padding: 12px; width: 30%;">Conclusiones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 10px; font-weight: bold; vertical-align: top;">
+          Trabaja en equipo para proporcionar liderazgo en forma conjunta.
+        </td>
+        <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
+          <ul>
+            <li><b>AV1 - Angel Guillermo, Berrospi Marin:</b> 
+            Fomenté comunicación con el grupo para tener un buen entendimiento del proyecto realizado, asi mismo ayude en la realización de diferentes puntos del proyecto, por ejmplo el capítulo 2 y la landing page, la estructura del capítulo 5 y coordinaciones que ayudaron en el avance del trabajo y su culminación.</li>
+            <li><b>AV1 - Mel Andre, Orellana Rodriguez:</b> Contribuí activamente en la organización y desarrollo del proyecto, apoyando en la planificación de tareas y asegurando el cumplimiento de los objetivos establecidos. Participé en la coordinación del equipo para mantener una comunicación clara y efectiva, además de colaborar en la implementación de la landing page y en la estructuración de secciones clave del documento.</li>
+            <li><b>AV1 - Anhelo Rodrigo, Rocca Leon:</b>Complete las tareas que me fueron asignadas y comunique mi progreso en gran parte de ellas. Además, contribuí en otras tareas que me fueron ofrecidas. Mi aporte ayudó a materializar la arquitectura de Safeflow y ayudar un poco en el estudio del público objetivo.</li>
+            <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
+            <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
+          </ul>
+        </td>
+        <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
+El equipo logró coordinarse de manera progresiva a lo largo del desarrollo del proyecto, destacando la participación activa de algunos integrantes en la organización y toma de decisiones. Esto permitió mantener una dirección clara y avanzar de forma constante en las actividades planteadas.        </td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 10px; font-weight: bold; vertical-align: top;">
+          Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.
+        </td>
+        <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
+          <ul>
+            <li><b>AV1 - Angel Guillermo Berrospi Marin:</b>
+            Participé activamente en el desarrollo del proyecto, tanto en la realización de tareas cómo entrar a las reuniones programadas para la coordinación de diferentes puntos, establecí mi propia métrica con respecto a los puntos que me tocaron y de esa forma pude desempeñar un buen rendimiento tanto en ayuda para el grupo cómo para la finalización del proyecto.</li>
+            <li><b>AV1 - Mel Andre Orellana Rodriguez:</b>Fomenté un ambiente colaborativo dentro del equipo, promoviendo la participación activa y el cumplimiento de responsabilidades. Me enfoqué en coordinar tareas, apoyar en la resolución de problemas y mantener alineados los objetivos del proyecto, contribuyendo así a la entrega final de manera organizada y eficiente.</li>
+            <li><b>AV1 - Anhelo Rodrigo Rocca Leon:</b>Participé en la planificación y desarrollo del proyecto, al igual que en las reuniones de equipo programadas. Me asegure de mantener un ambiente respetuoso entre los compañeros y que la solución de las tareas asignadas a mi persona cumplan con las metas establecidas por el equipo.</li>
+            <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
+            <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
+          </ul>
+        </td>
+        <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
+Se establecieron metas y una planificación que facilitaron el desarrollo del proyecto. A pesar de algunas diferencias en el ritmo de trabajo, se logró cumplir con los objetivos principales y completar las entregas de manera organizada.        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 # Capitulo I: Introduccion
 
