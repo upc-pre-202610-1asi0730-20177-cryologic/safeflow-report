@@ -847,7 +847,42 @@ Esta organización permite una navegación intuitiva y una experiencia de usuari
 
 
 ### 4.4.4. Web Applications User Flow Diagrams
+
+
 ## 4.5. Web Applications Prototyping
+
+En esta sección se presentan los prototipos desarrollados para SafeFlow, los cuales simulan la navegación e interacción del sistema de acuerdo con los User Flow Diagrams definidos. Estos prototipos permiten validar la experiencia del usuario y el funcionamiento de los principales flujos del sistema antes de su implementación.
+
+A continuación, se detallan los criterios clave que guiaron las decisiones de diseño e interacción:
+
+###  Estructura jerárquica clara
+La información se organiza por niveles de importancia, priorizando elementos críticos como productos en riesgo, alertas activas y monitoreo en tiempo real. El dashboard actúa como punto central, mostrando un resumen del estado del sistema y permitiendo acceder rápidamente a los diferentes módulos.
+
+###  Sistema de navegación consistente
+Se implementa un menú lateral persistente en la versión desktop que permite acceder a módulos como Inventario, Monitoreo, Alertas, Logística y Reportes. En la versión mobile, este menú se adapta a un formato desplegable, manteniendo la accesibilidad y usabilidad en pantallas reducidas.
+
+###  Agrupación de contenido por tareas
+Cada pantalla está diseñada en función de una acción específica del usuario:
+- Inventario: gestión y visualización de productos
+- Monitoreo: seguimiento de temperatura en tiempo real e histórico
+- Alertas: gestión de incidencias y eventos críticos
+- Logística: seguimiento de despachos y transporte
+- Reportes: análisis de datos y generación de informes
+
+Esta organización permite una navegación intuitiva y enfocada en objetivos.
+
+###  Retroalimentación visual constante
+El sistema utiliza colores semánticos (verde, amarillo, rojo), indicadores y estados visuales para comunicar la condición de los productos y eventos del sistema. Las alertas se destacan visualmente para facilitar su identificación y priorización, permitiendo una respuesta rápida ante anomalías.
+
+###  Interacción centrada en el rol del usuario
+Las funcionalidades del sistema se adaptan según el rol del usuario (administrador u operador), controlando el acceso a ciertas acciones como gestión de usuarios, configuración o supervisión avanzada. Esto garantiza seguridad, control y eficiencia en la operación.
+
+Enlace Prototyping: [Enlace Prototyping](https://www.figma.com/proto/BNOvhoeCvJ2AjuPAZiBkJT/WebGeeks?node-id=42-24&starting-point-node-id=42%3A24)
+
+Enlace Video Explicación: [Video Explicación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQDEdqvWLEBjSZZOytc_1BiOAYAOM2Ui3EpwRMfFIkv0Oug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=trAf6E)
+
+
+
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
 En esta sección se elaboro el Software Architecture Context Diagram de SafeFlow representando un sistema web que integre
