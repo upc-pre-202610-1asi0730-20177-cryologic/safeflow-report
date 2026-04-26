@@ -857,7 +857,37 @@ Esta organización permite una navegación intuitiva y una experiencia de usuari
 
 
 ### 4.4.4. Web Applications User Flow Diagrams
+**Segmento Objetivo 1:**
+**User goal 1: Control temperatura**
+<img src="assets/chapter-04/UserFlow_Seg1.png"/>
 
+**User goal 2: Auditorías sanitarias.**
+Happy path: Login -> Reportes -> Generar reporte -> Exportar pdf
+Unhappy path: no existen datos suficientes -> mensaje de error.
+
+**User goal 3: Trazabilidad completa.**
+Happy path: Login -> Inventario → Reporte trazable.
+Unhappy path: Lote sin información completa o erronea -> estado incompleto o pendiente.
+
+**User goal 4: Reducción de mermas.**
+Happy path: Login -> Alertas -> Acción correctiva → Reportes -> Generar reporte -> Exportar pdf.
+Unhappy path: La condición sigue fuera de rango o erronea -> escalamiento de alerta (estado)
+
+**Segmento Objetivo 2:**
+**User goal 1: Coordinación de despachos**
+<img src="assets/chapter-04/UserFlow_Seg2.png"/>
+
+**User goal 2: Evidencia digital para reclamos.**
+Happy path: Login -> Alertas / Reportes -> Detalle del evento -> Exportación de evidencia por archivo pdf.
+Unhappy path: Datos faltantes o erroneos -> evidencia incompleta o no exportable a ningun tipo de archivo ofrecido.
+
+**User goal 3: Tecnología de monitoreo en vivo.**
+Happy path: Login -> Monitoreo -> Datos actualizados -> Vista de estado en vivo.
+Unhappy path: Sensor IoT dañado o lectura desactualizada.
+
+**User goal 4: Cumplimiento de protocolos de frío sin supervisión presencial.**
+Happy path: Login -> Monitoreo -> Alerta al conductor -> Confirmación de lectura.
+Unhappy path: Falla de alerta o no se confirma la alerta -> escalamiento al supervisor.
 
 ## 4.5. Web Applications Prototyping
 
