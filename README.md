@@ -733,7 +733,119 @@ Este wireframe muestra la interfaz dedicada al seguimiento de las condiciones de
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams
+
 ### 4.4.3. Web Applications Mock-ups
+
+Esta sección presenta los mock-ups de la aplicación web SafeFlow, los cuales representan una versión visual más detallada y cercana al producto final en comparación con los wireframes. En estos diseños se evidencian decisiones relacionadas con la experiencia de usuario (UX), interfaz de usuario (UI), arquitectura de información y la aplicación de un Design System consistente.
+
+
+
+
+### 1. Pantalla de Login
+
+El mock-up de inicio de sesión muestra una interfaz limpia y moderna, con una jerarquía visual clara que guía al usuario hacia la acción principal: ingresar al sistema.
+
+Se aplican principios de diseño como:
+- **Jerarquía visual**: uso de tamaños y contrastes para destacar el formulario.
+- **Minimalismo**: solo se presentan los campos necesarios.
+- **Accesibilidad**: contraste adecuado y disposición centrada para fácil lectura.
+
+Además, el uso de imagen de fondo contextual (logística) refuerza el propósito del sistema.
+
+<div align="center"> <img src="assets/chapter-04/M_Login.jpeg"/>  </div>
+
+
+
+### 2. Módulo de Inventario
+
+El mock-up de inventario muestra una tabla estructurada con productos, estados y acciones.
+
+Aspectos destacados:
+- **Organización tabular** para facilitar lectura de datos.
+- **Uso de etiquetas de estado (badges)** para indicar condiciones.
+- **Acciones visibles** (editar, eliminar) para mejorar usabilidad.
+
+El diseño prioriza eficiencia operativa y claridad en la gestión de productos.
+
+<div align="center"> <img src="assets/chapter-04/M_inventario_Modal.jpeg"/>  </div>
+
+### 3. Módulo de Alertas
+
+Este mock-up resalta visualmente las alertas mediante colores y disposición jerárquica.
+
+Principios aplicados:
+- **Contraste visual** para destacar alertas críticas.
+- **Prioridad de información** mostrando primero lo más importante.
+- **Feedback visual** para acciones como resolver alertas.
+
+Facilita la identificación rápida de problemas en la cadena de frío.
+
+<div align="center"> <img src="assets/chapter-04/M_Alertas.jpeg"/>  </div>
+
+###  4. Módulo de Monitoreo
+
+El módulo de monitoreo muestra datos de temperatura en tiempo real mediante tarjetas y métricas.
+
+Elementos clave:
+- **Visualización clara de datos** con números grandes y legibles.
+- **Consistencia visual** con el dashboard.
+- **Actualización constante** para reflejar el estado actual.
+
+Permite supervisar condiciones térmicas de forma continua.
+
+<div align="center"> <img src="assets/chapter-04/M_Monitoreo.jpeg"/>  </div>
+
+
+### 5. Módulo de Reportes y Análisis
+
+Este mock-up presenta tablas y métricas históricas que permiten analizar el comportamiento del sistema.
+
+Características:
+- **Estructura ordenada** para datos complejos.
+- **Apoyo visual** mediante indicadores y colores.
+- **Facilidad de interpretación** para detectar patrones.
+
+Está diseñado para la toma de decisiones estratégicas y auditorías.
+
+<div align="center"> <img src="assets/chapter-04/M_reporte.jpeg"/>  </div>
+
+
+###  Design System aplicado
+
+Los mock-ups siguen un sistema de diseño consistente basado en:
+
+- **Paleta de colores**: tonos azules para confianza, verdes para estados correctos y rojos para alertas.
+- **Tipografía**: clara y legible para mejorar la accesibilidad.
+- **Componentes reutilizables**: botones, tarjetas, tablas y formularios.
+- **Espaciado uniforme**: mejora la organización visual.
+- **Iconografía simple**: refuerza la comprensión de acciones.
+
+
+
+### Diseño Inclusivo
+
+Se han considerado aspectos de accesibilidad como:
+
+- Contraste adecuado entre texto y fondo.
+- Interfaces simples e intuitivas.
+- Uso de colores acompañado de texto (no depender solo del color).
+- Navegación clara y consistente.
+
+
+###  Arquitectura de Información
+
+La estructura de la aplicación está organizada en módulos claros:
+
+- Dashboard (visión general)
+- Inventario (gestión de productos)
+- Monitoreo (seguimiento en tiempo real)
+- Alertas (gestión de incidencias)
+- Reportes (análisis de datos)
+
+Esta organización permite una navegación intuitiva y una experiencia de usuario eficiente.
+
+
+
 ### 4.4.4. Web Applications User Flow Diagrams
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
