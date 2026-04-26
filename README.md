@@ -610,6 +610,13 @@ La siguiente matriz presenta las tareas identificadas para los segmentos objetiv
 
 ### 2.3.5. As-is Scenario Mapping
 
+## 2.4. Big Picture EventStorming.
+
+
+## 2.5. Ubiquitous Language.
+
+
+
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
