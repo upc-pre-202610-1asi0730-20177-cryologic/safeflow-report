@@ -733,6 +733,16 @@ Este wireframe muestra la interfaz dedicada al seguimiento de las condiciones de
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams
+En esta sección se presenta los wireflows de SafeFlow, construidos a partir de los user goals definidos para cada User Persona en el capitulo 2. Cada wireflow representa la secuencia de pantallas y los cambios de estado esperados en la interfaz, usando como base los wireframes de Login, Dashboard, Inventario, Reportes, Alertas y Monitoreo. Todo orientado a los user personas.
+
+**User Goal 1: Garantizar la potencia biológica de los productos mediante el control estricto de la temperatura.**
+<img src="assets/chapter-04/SegmentoObjetivo1_First_UserGoal.png"/>
+**User Goal 2: Automatizar la consolidación de datos para auditorías sanitarias.**
+<img src="assets/chapter-04/SegmentoObjetivo1_Second_UserGoal.png"/>
+**User Goal 3: Lograr la trazabilidad completa e inalterable de cada despacho.**
+<img src="assets/chapter-04/SegmentoObjetivo1_Third_UserGoal.png"/>
+**User Goal 4: Reducir las mermas de productos críticos en un 20%.**
+<img src="assets/chapter-04/SegmentoObjetivo1_Fourth_UserGoal.png"/>
 
 ### 4.4.3. Web Applications Mock-ups
 
