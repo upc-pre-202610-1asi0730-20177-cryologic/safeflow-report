@@ -682,6 +682,23 @@ Valora la rapidez y la simplicidad; para ella, la digitalización es necesaria p
 
 ---
 
+- **Entrevista 2:**
+- **Nombres y apellidos:** Silvia Leon
+- **Edad:** 52 años
+- **Distrito:** Surquillo
+
+- **Inicio:** 0:10
+- **Duración:** 10:11
+- **URL:** https://youtu.be/w3bmDZ1fEZ8
+
+**Resumen:**
+
+Silvia es una Jefa de Operaciones de 52 años con formación universitaria que lidera la logística de transporte de carga de terceros de alto valor. Su flujo de trabajo actual es un modelo híbrido que aún depende fuertemente de la gestión manual: planifica rutas en Excel, coordina entregas por WhatsApp y depende de que los conductores envíen fotos de guías físicas y sellos para confirmar la recepción.
+
+Silvia busca una transición hacia una operación 100% digital que sea vista como una inversión para evitar multas y pérdidas. Valora críticamente un sistema que actualice el estado térmico automáticamente cada 5 minutos en un mapa interactivo, una herramienta lo suficientemente sencilla para vencer la resistencia tecnológica de los conductores y un sistema que combine el mapeo visual con alertas de tipo texto automáticas.
+
+---
+
 ### 2.2.3. Análisis de entrevistas
 
 ### Segmento 1: Empresas del sector farmacéutico
