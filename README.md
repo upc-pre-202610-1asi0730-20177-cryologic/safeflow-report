@@ -334,7 +334,7 @@ La plataforma analiza continuamente las condiciones registradas y detecta desvia
 | *Código del Estudiante* | U202316049           |
 | *Carrera*               | Ingenieria de Software           |
 | *Descripción*           | Estudiante de Ingeniería de Software con un enfoque proactivo en la resolución de problemas y el desarrollo de soluciones escalables. Me defino como un entusiasta del aprendizaje continuo, lo que me permite navegar con agilidad entre lenguajes y frameworks emergentes.           |
-| Foto                      |            |
+| Foto                      | <div algin="center"><img src="assets/chapter-01/Jefferson_Morales_Foto.jpg" alt="Integrante Jefferson" width="400" />  </div>           |
 
 | *Integrante*            |       Andy Alejandro Mio Mejia     |
 |---------------------------|---------------------------------------------------------------------------------------------------|
