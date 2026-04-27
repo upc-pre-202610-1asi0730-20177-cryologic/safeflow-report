@@ -136,14 +136,11 @@ Los integrantes son:
 [Capítulo I: Introducción](#capitulo-i-introduccion)
 
 - [1.1. Startup Profile](#11-startup-profile)
-
-  - [1.1.1. Descripción de la Startup](#111-description-de-la-startup)
-
+  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
   - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-
 - [1.2. Solution Profile](#12-solution-profile)
-  - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-  - [1.2.2 Lean UX Process](#122-lean-ux-process)
+  - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+  - [1.2.2. Lean UX Process](#122-lean-ux-process)
     - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
     - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
     - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
@@ -164,14 +161,14 @@ Los integrantes son:
   - [2.3.2. User Task Matrix](#232-user-task-matrix)
   - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
   - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+- [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+- [2.5. Ubiquitous Language](#25-ubiquitous-language)
 
 [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification-1)
 
-- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-- [3.2. User Stories](#32-user-stories)
-- [3.3. Impact Mapping](#33-impact-mapping)
-- [3.4. Product Backlog](#34-product-backlog)
+- [3.1. User Stories](#31-user-stories)
+- [3.2. Impact Mapping](#32-impact-mapping)
+- [3.3. Product Backlog](#33-product-backlog)
 
 [Capítulo IV: Product Design](#capitulo-iv-product-design-1)
 
@@ -194,63 +191,37 @@ Los integrantes son:
   - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
 - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
 - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-  - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-  - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-  - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
+  - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+  - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+  - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+  - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
 - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
   - [4.7.1. Class Diagrams](#471-class-diagrams)
-  - [4.7.2. Class Dictionary](#472-class-dictionary)
 - [4.8. Database Design](#48-database-design)
-  - [4.8.1. Database Diagram](#481-database-diagram)
+  - [4.8.1. Database Diagrams](#481-database-diagrams)
 
 [Capítulo V: Product Implementation, Validation & Deployment](#capitulo-v-product-implementation-validation-deployment-)
 - [5.1. Software Configuration Management](#51-software-configuration-management)
-  - [5.1.1. Software Development Enviroment Configuration](#511-software-development-enviroment-configuration)
+  - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
   - [5.1.2. Source Code Management](#512-source-code-management)
   - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
   - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
 - [5.2. Landing Page, Service & Application Implementation](#52-landing-page-service--application-implementation)
   - [5.2.1 Sprint 1](#521-sprint-1)
-    - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+    - [5.2.1.1. Sprint Planning](#5211-sprint-planning)
     - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-    - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-    - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-    - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-    - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-    - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-    - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-  - [5.2.2 Sprint 2](#522-sprint-2)
-    - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
-    - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
-    - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
-    - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
-    - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
-    - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
-    - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
-    - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
-  - [5.2.3 Sprint 3](#523-sprint-3)
-    - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
-    - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-    - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
-    - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
-    - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-    - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-    - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
-    - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-  - [5.2.4 Sprint 4](#524-sprint-4)
-    - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
-    - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
-    - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
-    - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
-    - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
-    - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
-    - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
-    - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
-- [5.3 Validation Interviews](#53-validation-interviews)
-  - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
-  - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
-  - [5.3.3 Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-- [5.4 Video About-the-Product](#54-video-about-the-product)
+    - [5.2.1.3. Sprint Backlog](#5213-sprint-backlog)
+    - [5.2.1.4. Development Evidence](#5214-development-evidence)
+    - [5.2.1.5. Execution Evidence](#5215-execution-evidence)
+    - [5.2.1.6. Services Documentation](#5216-services-documentation)
+    - [5.2.1.7. Software Deployment Evidence](#5217-software-deployment-evidence)
+    - [5.2.1.8. Team Collaboration Insights](#5218-team-collaboration-insights)
+ - [5.3. Validation Interviews](#53-validation-interviews)
+   - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+   - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+   - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+ 
+- [5.4. Video About-the-Product](#54-video-about-the-product)
    
       
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
@@ -868,7 +839,6 @@ La siguiente matriz presenta las tareas identificadas para los segmentos objetiv
 
 <img src="assets/chapter-02/Empathy_Mapping_Supervisores de Operaciones y Flota.png"/>
 
-### 2.3.5. As-is Scenario Mapping
 
 ## 2.4. Big Picture EventStorming.
 
@@ -899,10 +869,8 @@ La siguiente matriz presenta las tareas identificadas para los segmentos objetiv
 
 
 # Capítulo III: Requirements Specification
-## 3.1. To-Be Scenario Mapping
 
-
-## 3.2. User Stories
+## 3.1. User Stories
 
 <div align="center">
 
@@ -998,7 +966,7 @@ La siguiente matriz presenta las tareas identificadas para los segmentos objetiv
 | US-54 | Ver cumplimiento de normativas | Como usuario, quiero verificar el cumplimiento para evitar sanciones | Dado datos registrados, cuando consulto, entonces visualizo el cumplimiento | EP-05 |
 | US-55 | Visualizar alertas en dashboard | Como usuario, quiero ver alertas en el panel principal para reaccionar rápido | Dado alertas activas, cuando ingreso al dashboard, entonces se muestran destacadas | EP-05 |
 
-## 3.3. Impact Mapping
+## 3.2. Impact Mapping
 
 * Gestor de Calidad
 
@@ -1008,7 +976,7 @@ La siguiente matriz presenta las tareas identificadas para los segmentos objetiv
 
 <img src="assets/chapter-03/Impact map_supervisora_de_flota.png"/>
 
-## 3.4. Product Backlog
+## 3.3. Product Backlog
 
 <table style="width:100%; border-collapse: collapse;">
   <thead>
@@ -2425,7 +2393,30 @@ URL de despliegue del Landing Page: [Landing Page Desplegado](https://upc-pre-20
 
 # Conclusiones y recomendaciones
 
+## Conclusiones
+
+La gestión de la cadena de frío constituye un desafío crítico en sectores como el farmacéutico y logístico, donde mantener condiciones térmicas adecuadas es fundamental para preservar la calidad y seguridad de los productos. A partir del análisis realizado, se evidenció que muchas organizaciones aún dependen de métodos tradicionales o herramientas limitadas que no permiten un monitoreo continuo ni una trazabilidad eficiente durante el transporte.
+
+Las entrevistas realizadas a los segmentos objetivo permitieron identificar problemas recurrentes como la falta de visibilidad en tiempo real, la detección tardía de incidencias y la dificultad para generar evidencia confiable durante auditorías. Estos factores no solo generan pérdidas económicas significativas, sino que también afectan la confianza de los clientes y el cumplimiento de normativas sanitarias.
+
+En este contexto, la solución propuesta, SafeFlow, responde a estas necesidades mediante la integración de tecnologías IoT, monitoreo en tiempo real, generación de alertas automáticas y dashboards centralizados. Estas funcionalidades permiten a los usuarios anticiparse a posibles fallas, mejorar la toma de decisiones y optimizar la gestión de la cadena logística.
+
+Asimismo, la aplicación de la metodología Lean UX permitió estructurar el desarrollo del producto en función de las necesidades reales de los usuarios, validando hipótesis y asegurando que la solución propuesta tenga un enfoque centrado en el usuario. Finalmente, la definición de user stories y el product backlog permitió organizar de manera clara y priorizada las funcionalidades del sistema, facilitando su implementación mediante metodologías ágiles.
+
+## Recomendaciones
+
+Se recomienda implementar y validar la solución SafeFlow en entornos reales mediante pruebas piloto con empresas del sector farmacéutico y logístico, con el fin de evaluar su desempeño y obtener retroalimentación directa de los usuarios. Esto permitirá identificar oportunidades de mejora y ajustar la solución a necesidades específicas del mercado.
+
+Asimismo, es importante continuar con el desarrollo de integraciones con sensores IoT reales para garantizar la precisión y confiabilidad de los datos recolectados durante el monitoreo de la cadena de frío. Esto fortalecerá la propuesta de valor del sistema y permitirá una supervisión más efectiva.
+
+También se recomienda mejorar continuamente la experiencia de usuario (UX/UI), priorizando interfaces simples, intuitivas y accesibles, especialmente considerando que algunos usuarios pueden tener un nivel limitado de alfabetización digital.
+
+Por otro lado, se sugiere integrar la plataforma con sistemas empresariales existentes, como ERP o sistemas de gestión logística, con el objetivo de facilitar su adopción en organizaciones y evitar la duplicidad de procesos.
+
+Finalmente, se recomienda considerar la escalabilidad de la solución hacia otros sectores que requieran control de condiciones ambientales, como la industria alimentaria o biotecnológica, ampliando así el alcance y sostenibilidad del proyecto.
+
 # Video About-the-Team
+
 
 # Bibliografía
 
