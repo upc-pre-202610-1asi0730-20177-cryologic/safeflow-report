@@ -43,7 +43,10 @@
     
 | Versión |   Fecha    | Autor |                   Descripción de modificación                    |
 | :-------: |:----------:| :----------------: |:----------------------------------------------------------------:|
-| AV1 |    ---     | Mio Mejia, Andy Alejandro |                             xxxxxxx                              |
+| AV1 |    26-04-2026     | Mio Mejia, Andy Alejandro | Style Guidelines                              |
+| AV1 |    26-04-2026     | Mio Mejia, Andy Alejandro | Information Architecture                           |
+| AV1 |    26-04-2026     | Mio Mejia, Andy Alejandro | Landing Page UI Design                             |
+| AV1 |    26-04-2026     | Mio Mejia, Andy Alejandro | Web Applications UX/UI Design                             |
 | AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                    Descripción de la Startup                     |
 | AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                Creación de la carpeta de Imagenes                |
 | AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                    Desarrollo de User Stories                    |
