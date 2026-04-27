@@ -336,12 +336,12 @@ La plataforma analiza continuamente las condiciones registradas y detecta desvia
 | *Descripción*           | Estudiante de Ingeniería de Software con un enfoque proactivo en la resolución de problemas y el desarrollo de soluciones escalables. Me defino como un entusiasta del aprendizaje continuo, lo que me permite navegar con agilidad entre lenguajes y frameworks emergentes.           |
 | Foto                      |            |
 
-| *Integrante*            |            |
+| *Integrante*            |       Andy Alejandro Mio Mejia     |
 |---------------------------|---------------------------------------------------------------------------------------------------|
-| *Código del Estudiante* |            |
-| *Carrera*               |            |
-| *Descripción*           |            |
-| Foto                      |            |
+| *Código del Estudiante* |     U202218531       |
+| *Carrera*               |     Ingenieria de Software       |
+| *Descripción*           |       Soy estudiante de la carrera de Ingeniería de Software, puedo aportar mucho al equipo, aplicando mis conocimientos en diversos lenguajes de programación     |
+| Foto                      |     <div align="center"><img src="assets/chapter-01/foto-Andy.jpeg">        |
 
 
 ## 1.2. Solution Profile
