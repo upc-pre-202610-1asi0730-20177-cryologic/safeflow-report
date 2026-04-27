@@ -28,6 +28,7 @@
 | Mel Andree Orellana Rodriguez      | U202116018 |
 | Angel Guillermo Berrospi Marin  | U202114701 |
 | Anhelo Rodrigo Rocca Leon | U20221C803 |
+| Jefferson Bayron Morales Yapuchura | U202316049 |
 
 
 </div>
@@ -105,6 +106,7 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 |  Angel Guillermo Berrospi Marin  | Desarrollo de Lean Ux Hypothesis Statements, Desarrollo Lean Ux Canvas, Desarrollo de Diseño de entrevistas, Desarrollo de registro de entrevistas, Desarrollo de Análisis de entrevistas, Desarrollo de User Personas, Desarrollo de User Task Matrix, Desarrollo de User Journey Mapping, Desarrollo de Big Picture EventStorming, Desarrollo de Ubiquitous Lenguage, Creación de estructura de Aspect Leaders and Collaborators, Creación de estructura de Sprint Backlog,Creación de estructura de Development Evidence for Sprint Review.  |
 | Anhelo Rodrigo Rocca Leon | Desarollo del Domain-Driven Software Architecture, Desarollo del Design-Level EventStorming, Desarollo del Software Architecture Context Diagram, Desarollo del Software Architecture Container Diagram, Desarollo del Software Architecture Components Diagrams, Desarollo del Software Object-Oriented Design, Desarollo del Class Diagrams, Desarollo del Database Design, Desarollo del Database Diagrams, Commit de la sección 'Benefits' del Landing Page, Commit de la sección 'Call-to-action' del Landing Page y Desarollo de 1 entrevista para el segmento objetivo 2  |
 | Andy Alejandro Mio Mejia    |  |
+| Jefferson Bayron Morales Yapuchura    |  |
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización.
 
@@ -116,6 +118,7 @@ Los integrantes son:
 * Angel Guillermo Berrospi Marin   (Guille-berrs)
 * Mel Andree Orellana Rodriguez (melandree8)
 * Anhelo Rodrigo Rocca Leon (RoccaA4)
+* Jefferson Bayron Morales Yapuchura (Fenfito)
 
   </br>
 
@@ -323,11 +326,11 @@ La plataforma analiza continuamente las condiciones registradas y detecta desvia
 | *Descripción*           | Soy estudiante de Ingeniería de Software. Cuento con conocimientos en los lenguajes de programación como C++, Python y SQL. Me comprometo a trabajar con mi equipo en el desarrollo de nuestro proyecto, al igual que ayudar siempre que mis capacidades lo permitan. |
 | Foto                      | <div align="center"><img src="assets/chapter-01/Anhelo_Foto.jpeg">                                                                                                                                                                                                    |
 
-| *Integrante*            |            |
+| *Integrante*            | Jefferson Morales           |
 |---------------------------|---------------------------------------------------------------------------------------------------|
-| *Código del Estudiante* |            |
-| *Carrera*               |            |
-| *Descripción*           |            |
+| *Código del Estudiante* | U202316049           |
+| *Carrera*               | Ingenieria de Software           |
+| *Descripción*           | Estudiante de Ingeniería de Software con un enfoque proactivo en la resolución de problemas y el desarrollo de soluciones escalables. Me defino como un entusiasta del aprendizaje continuo, lo que me permite navegar con agilidad entre lenguajes y frameworks emergentes.           |
 | Foto                      |            |
 
 | *Integrante*            |            |
