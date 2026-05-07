@@ -293,6 +293,16 @@ Nuestra plataforma ha sido diseñada para permitir a pequeñas y medianas empres
 
 En esta sección se detallan las suposiciones relacionadas con los resultados esperados del sistema de monitoreo en tiempo real de la cadena de frío. Estas suposiciones se organizan en tres categorías: Business Outcomes, que contemplan los beneficios comerciales y mejoras en la gestión logística; User Outcomes, enfocados en cómo las empresas y usuarios se beneficiarán al monitorear y controlar la temperatura de sus productos; y User Outcomes Assumptions, que examinan las necesidades, intereses y comportamientos de los usuarios que fundamentan las suposiciones anteriores. Cada categoría busca garantizar que la plataforma cumpla tanto con los objetivos comerciales como con las expectativas de quienes la utilizarán.
 
+Usuarios del sistema
+- Gerentes logísticos.
+- Supervisores y responsables de calidad.
+- Operadores administrativos.
+- Encargados de almacén y transporte.
+- Empresas farmacéuticas, alimentarias y logísticas que gestionan productos sensibles a cambios de temperatura.
+
+¿Dónde encaja nuestro producto en su trabajo?
+- La plataforma encaja en las operaciones diarias de monitoreo y control de la cadena de frío, permitiendo a los usuarios supervisar la temperatura de los productos en tiempo real, recibir alertas preventivas, gestionar incidencias y consultar reportes históricos desde cualquier lugar mediante una solución centralizada y accesible.
+
 Business Outcomes
 - Creemos que al implementar nuestra plataforma de monitoreo continuo de la cadena de frío basada en IoT, podremos aumentar en un 50% la cantidad de empresas que supervisan en tiempo real la temperatura de sus productos.
 - Creemos que al ofrecer alertas automáticas en tiempo real, lograremos reducir en un 30% las pérdidas de productos ocasionadas por fallas en la cadena de frío.
