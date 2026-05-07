@@ -437,8 +437,9 @@ Creemos que al proporcionar un Dashboard de Gestión que centralice todos los co
 Confiamos en que al automatizar el cambio de estado del despacho basado en datos de sensores, eliminaremos el error humano en los registros de calidad. Estaremos en lo cierto cuando el 100% de los despachos completados cuenten con un historial térmico verificado e inalterable.
 
 #### 1.2.2.4. Lean UX Canvas
+El Lean UX Canvas presenta de manera visual y estructurada los principales elementos estratégicos del producto propuesto. En este canvas se resumen los problemas identificados en la gestión de la cadena de frío, los usuarios involucrados, las necesidades del negocio, las hipótesis planteadas, las funcionalidades principales y los resultados esperados. Asimismo, permite organizar las ideas centrales de la solución tecnológica enfocada en el monitoreo en tiempo real, la trazabilidad y la prevención de incidencias en productos sensibles a variaciones de temperatura.
 
- <div align="center"><img src="assets/chapter-01/Lean UX canvas.png" alt="Lean Ux Canvas" width="400" /> </div>
+ <div align="center"><img src="assets/chapter-01/Lean UX canvas mejorado.png" alt="Lean Ux Canvas" width="400" /> </div>
 
 ## 1.3. Segmentos objetivo
 
