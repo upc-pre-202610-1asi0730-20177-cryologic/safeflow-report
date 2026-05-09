@@ -466,32 +466,33 @@ Todas las variables, funciones, clases, componentes y archivos se nombran en ing
 - Comentarios solo en lógica compleja.
 
 
-### Java / Spring Boot (Backend)
+### C# ASP.NET Core (Backend)
 
-**Guías adoptadas:** Google Java Style Guide y Spring Boot Best Practices
+**Guías adoptadas:** C# Coding Conventions y ASP.NET Core Best Practices
 
 ### Estructura del proyecto
 - Arquitectura en capas:
-  - Controller
-  - Service
-  - Repository
-  - Entity
-  - DTO
+  - Controllers
+  - Services
+  - Repositories
+  - Entities
+  - DTOs
 
 ### Nomenclatura
 - Clases: `PascalCase`
-- Métodos: `camelCase`
+- Métodos: `PascalCase`
 - Variables: `camelCase`
 - Constantes: `UPPER_CASE`
 
 ### Buenas prácticas
-- Uso de inyección de dependencias.
+- Uso de inyección de dependencias mediante ASP.NET Core.
 - Separación entre entidades, DTOs y lógica de negocio.
-- Uso de JPA/Hibernate para persistencia de datos.
-- Manejo centralizado de excepciones con `@ControllerAdvice`.
-- Validación con Bean Validation (`@Valid`, `@NotNull`, etc.).
+- Uso de Entity Framework Core para persistencia de datos.
+- Manejo centralizado de excepciones mediante Middleware.
+- Validación de datos utilizando Data Annotations (`[Required]`, `[MaxLength]`, etc.).
 - Servicios encargados de la lógica de negocio.
-
+- Uso de controladores REST para exponer endpoints de la API.
+- Uso de LINQ para consultas y manipulación de datos.
 
 ### Convenciones generales del proyecto SafeFlow
 
@@ -502,8 +503,6 @@ Todas las variables, funciones, clases, componentes y archivos se nombran en ing
 - Se documentan módulos y funciones críticas.
 - Se mantiene consistencia entre frontend y backend.
 
-
-
 ### Gherkin (Especificaciones)
 
 Para la definición de criterios de aceptación en historias de usuario se utiliza Gherkin:
@@ -511,13 +510,14 @@ Para la definición de criterios de aceptación en historias de usuario se utili
 - Given / When / Then
 - Lenguaje claro y entendible por el negocio
 
-### Ejemplo:
+### Ejemplo
 
 ```gherkin
 Given a product is registered
 When temperature exceeds allowed range
 Then the system generates an alert
-````
+```
+
 
 ### 5.1.4. Software Deployment Configuration
 
@@ -532,8 +532,7 @@ La solución se encuentra estructurada bajo una arquitectura desacoplada, donde 
 
 - **Landing Page**: desplegada en GitHub Pages  
 - **Frontend Web Application (Vue.js)**: desplegada en Netlify  
-- **Backend Web Services (Java Spring Boot) + Base de Datos (PostgreSQL)**: desplegados en Railway  
-
+- **Backend Web Services (C# ASP.NET Core) + Base de Datos (PostgreSQL)**: desplegados en Railway
 
 ### 1. Control de Versiones
 
@@ -612,8 +611,8 @@ El frontend está desarrollado con Vue 3 y se despliega utilizando Netlify, el c
 - dist
 
 
-#### 4. Configurar variables de entorno
 
+#### 4. Configurar variables de entorno
 
 - VITE_API_URL=https://<backend-url>
 
@@ -623,18 +622,19 @@ El frontend está desarrollado con Vue 3 y se despliega utilizando Netlify, el c
 - Se genera una URL pública accesible  
 
 
-### 4. Despliegue de Web Services (Backend en Railway)
+### 4. Despliegue de Web Services (Backend ASP.NET Core en Railway)
 
-El backend está desarrollado en Java con Spring Boot y se despliega en Railway junto con la base de datos.
+El backend está desarrollado en C# utilizando ASP.NET Core y se despliega en Railway junto con la base de datos PostgreSQL.
 
 ### Pasos de despliegue
 
 #### 1. Subir el backend a GitHub
 
-- git add .
-- git commit -m "deploy backend"
-- git push origin main
-
+```bash
+git add .
+git commit -m "deploy backend"
+git push origin main
+```
 
 #### 2. Crear proyecto en Railway
 
@@ -644,23 +644,28 @@ El backend está desarrollado en Java con Spring Boot y se despliega en Railway 
 
 #### 3. Configurar variables de entorno
 
-
-- SPRING_DATASOURCE_URL
-- SPRING_DATASOURCE_USERNAME
-- SPRING_DATASOURCE_PASSWORD
-- PORT
-
+```env
+ConnectionStrings__DefaultConnection=
+ASPNETCORE_ENVIRONMENT=Production
+PORT=
+```
 
 #### 4. Despliegue automático
 
-Railway detecta el proyecto Spring Boot y ejecuta automáticamente:
+Railway detecta el proyecto ASP.NET Core y ejecuta automáticamente:
 
+```bash
+dotnet restore
+dotnet build
+```
 
-- mvn clean install
+#### Resultado
 
+```txt
+https://safeflow-backend.up.railway.app
+```
 
-#### Resultado: https://safeflow-backend.up.railway.app
-
+---
 
 ### 5. Configuración de Base de Datos (PostgreSQL en Railway)
 
@@ -672,39 +677,41 @@ Railway detecta el proyecto Spring Boot y ejecuta automáticamente:
 
 #### 2. Obtener credenciales generadas
 
-
-- HOST
-- DATABASE
-- USERNAME
-- PASSWORD
-- PORT
+```env
+HOST
+DATABASE
+USERNAME
+PASSWORD
+PORT
+```
 
 #### 3. Configurar en el backend
 
-- SPRING_DATASOURCE_URL
-- SPRING_DATASOURCE_USERNAME
-- SPRING_DATASOURCE_PASSWORD
+```env
+ConnectionStrings__DefaultConnection
+```
+
+---
 
 ### 6. Integración de Componentes
 
 El sistema funciona de la siguiente manera:
 
-- La **Landing Page** actúa como punto de entrada y redirige al usuario al frontend  
-- El **Frontend** consume los servicios del backend mediante API REST  
-- El **Backend** gestiona la lógica de negocio y acceso a datos  
-- La **Base de Datos** almacena la información del sistema  
+- La **Landing Page** actúa como punto de entrada y redirige al usuario al frontend.  
+- El **Frontend** consume los servicios del backend mediante API REST.  
+- El **Backend ASP.NET Core** gestiona la lógica de negocio y el acceso a datos.  
+- La **Base de Datos PostgreSQL** almacena la información del sistema.  
 
+---
 
 ### 7. Consideraciones de Despliegue
 
-- Uso obligatorio de variables de entorno para configuración sensible  
-- Configuración de CORS en el backend para permitir comunicación con el frontend  
-- Separación de entornos (desarrollo y producción)  
-- Evitar credenciales dentro del código fuente  
-- Verificación de URLs públicas después del despliegue  
-- Mantener compatibilidad entre versiones de frontend y backend  
-
-
+- Uso obligatorio de variables de entorno para configuración sensible.  
+- Configuración de CORS en ASP.NET Core para permitir comunicación con el frontend.  
+- Separación de entornos (desarrollo y producción).  
+- Evitar credenciales dentro del código fuente.  
+- Verificación de URLs públicas después del despliegue.  
+- Mantener compatibilidad entre versiones de frontend y backend.  
 
 
 
