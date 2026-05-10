@@ -2378,17 +2378,18 @@ A continuación, se presentan las capturas de pantalla que sirven como evidencia
 ![Advantages](assets/chapter-05/Main-Benefits.png)
 *Sección que resalta las ventajas competitivas de SafeFlow, como la reducción de pérdidas, mejora en la eficiencia operativa y cumplimiento normativo.*
 
-### E. Confianza y Equipo
-![Testimonials](assets/chapter-05/image_testimonials.jpeg)
-*Validación de terceros mediante testimonios de sectores farmacéuticos y logísticos.*
+### E. Equipo y Sectores beneficiados de SafeFlow
 
-![Team](assets/chapter-05/image_team.jpeg)
+![Team](assets/chapter-05/SafeFlow-Team.png)
 *Presentación del equipo de ingeniería responsable del desarrollo del software.*
+
+![Sectors](assets/chapter-05/Beneficiary-Sectors.png)
+*Sección que muestra los sectores beneficiarios de SafeFlow, incluyendo farmacéutico, logístico, alimentario y otros.*
 
 
 ### F. Cierre y Call to Action (CTA)
-![Footer and CTA](assets/chapter-05/image_footer_cta.jpeg)
-*Banner final de conversión diseñado para capturar leads mediante el botón "Solicitar Demo Gratuita", junto con la navegación secundaria y enlaces legales del proyecto.*
+
+
 
 
 ## 3. Video de Demostración y Navegación
