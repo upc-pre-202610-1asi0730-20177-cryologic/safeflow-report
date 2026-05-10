@@ -2371,12 +2371,12 @@ A continuación, se presentan las capturas de pantalla que sirven como evidencia
 ![Technology](assets/chapter-05/Technology-used.png)
 *Sección que detalla las tecnologías utilizadas en el desarrollo de SafeFlow, incluyendo IoT, análisis de datos, arquitectura de software y seguridad de autenticación.*
 
-### D. Estrategia de Negocio y Sectores
-![Pricing](assets/chapter-05/image_pricing.jpeg)
-*Modelos de suscripción (Essential, Professional, Enterprise) diseñados para diferentes escalas de operación.*
+### D. Subscripciones y Ventajas Principales de SafeFlow
+![Pricing](assets/chapter-05/Pricing.png)
+*Modelos de suscripción (Essential, Professional, Enterprise) diseñados para diferentes escalas de operación y cada uno presenta detalles de sus beneficios.*
 
-![Sectors](assets/chapter-05/image_sectors.jpeg)
-*Identificación de las industrias clave donde SafeFlow garantiza el cumplimiento normativo.*
+![Advantages](assets/chapter-05/Main-Benefits.png)
+*Sección que resalta las ventajas competitivas de SafeFlow, como la reducción de pérdidas, mejora en la eficiencia operativa y cumplimiento normativo.*
 
 ### E. Confianza y Equipo
 ![Testimonials](assets/chapter-05/image_testimonials.jpeg)
