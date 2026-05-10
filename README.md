@@ -1437,6 +1437,7 @@ Con este sistema, SafeFlow proporciona navegación intuitiva y eficiente que per
 ### 4.3.2. Landing Page Mock-up
 
 ### 1. Hero Section Overview
+
 <div align="center">Esta vista recrea la barra de navegación y la sección principal (Hero) que contiene el propósito de nuestra solución
  junto con la propuesta de valor, botón preeliminar para visualizar la demo de nuestra web y para agendar reunión con nosotros, y el impacto que puede nuestra
 solución tener en el área laboral de nuestros clientes.</div>
@@ -1444,19 +1445,25 @@ solución tener en el área laboral de nuestros clientes.</div>
 <div align="center"> <img src="assets/chapter-04/hero-mockup.png"/>  </div>
 
 ### 2. Operational Flow and Key Benefits
+
 <div align="center">Mockup detallado que ilustra las principales características de SafeFlow, como este funciona de forma breve 
 y las tecnologías que componieron el desarrollo de la solución.</div>
 
 <div align="center"> <img src="assets/chapter-04/fuctionality-mockup.png"/>  </div>
 
 ### 3. SafeFlow Benefits & Development Team
-<div align="center">*Penúltima sección que muestra 3 distintos modelos de suscripción con sus detalles, ventajas que provee nuestra solución,
-el equipo de ingeniería a cargo y los principales sectores laborales beneficiados por SafeFlow.*</div>
+
+<div align="center">Penúltima sección que muestra 3 distintos modelos de suscripción con sus detalles, ventajas que provee nuestra solución,
+el equipo de ingeniería a cargo y los principales sectores laborales beneficiados por SafeFlow.</div>
 
 <div align="center"> <img src="assets/chapter-04/benefits&team-mockup.png"/>  </div>
 
+## 4. FAQ, Contact and Footer
 
+<div align="center">Última sección de la landing page que muestra las preguntas frecuentes, el formulario de contacto y 
+el footer con información del producto</div>
 
+<div align="center"> <img src="assets/chapter-04/faq-contact-footer-mockup.png"/>  </div>
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
