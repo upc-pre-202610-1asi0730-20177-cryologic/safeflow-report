@@ -2349,27 +2349,34 @@ En este Sprint, el equipo se ha enfocado en el diseño, maquetación y despliegu
 A continuación, se presentan las capturas de pantalla que sirven como evidencia de la implementación funcional del sitio:
 
 ### A. Portada y Propuesta de Valor
-![Hero Section](assets/chapter-05/image_hero.jpeg)
+![Hero Section](assets/chapter-05/Homepage.png)
 *Sección principal que comunica el "Control Total de tu Cadena de Frío" y facilita el acceso inmediato a la demo.*
 
-### B. Funcionalidades y Operatividad
+![ValueProposition](assets/chapter-05/value-proposition.png)
+*Sección que comunica la propuesta de valor de SafeFlow y muestra una futura vista al dashboard de nuestra solución.*
 
-![Features](assets/chapter-05/image_features.jpeg)
-*Detalle de las herramientas técnicas como Dashboard y Alertas.*
+### B. Impacto y Funcionalidades
 
+![Impact](assets/chapter-05/SafeFlow-Impact.png)
+*Sección que comunica el impacto tangible que los clientes pueden esperar al implementar SafeFlow en sus operaciones de cadena de frío.*
+
+![Features](assets/chapter-05/Main-features.png)
+*Sección que destaca las funcionalidades clave de SafeFlow, como monitoreo en tiempo real, alertas inteligentes y análisis predictivo.*
+
+### C. Operatividad y Tecnología
 
 ![How it works](assets/chapter-05/image_how_it_works.jpeg)
  *Flujo paso a paso del proceso de monitoreo con sensores IoT.* 
 
 
-### C. Estrategia de Negocio y Sectores
+### D. Estrategia de Negocio y Sectores
 ![Pricing](assets/chapter-05/image_pricing.jpeg)
 *Modelos de suscripción (Essential, Professional, Enterprise) diseñados para diferentes escalas de operación.*
 
 ![Sectors](assets/chapter-05/image_sectors.jpeg)
 *Identificación de las industrias clave donde SafeFlow garantiza el cumplimiento normativo.*
 
-### D. Confianza y Equipo
+### E. Confianza y Equipo
 ![Testimonials](assets/chapter-05/image_testimonials.jpeg)
 *Validación de terceros mediante testimonios de sectores farmacéuticos y logísticos.*
 
@@ -2377,7 +2384,7 @@ A continuación, se presentan las capturas de pantalla que sirven como evidencia
 *Presentación del equipo de ingeniería responsable del desarrollo del software.*
 
 
-### E. Cierre y Call to Action (CTA)
+### F. Cierre y Call to Action (CTA)
 ![Footer and CTA](assets/chapter-05/image_footer_cta.jpeg)
 *Banner final de conversión diseñado para capturar leads mediante el botón "Solicitar Demo Gratuita", junto con la navegación secundaria y enlaces legales del proyecto.*
 
