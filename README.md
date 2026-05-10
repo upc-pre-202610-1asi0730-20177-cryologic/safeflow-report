@@ -2387,10 +2387,16 @@ A continuación, se presentan las capturas de pantalla que sirven como evidencia
 *Sección que muestra los sectores beneficiarios de SafeFlow, incluyendo farmacéutico, logístico, alimentario y otros.*
 
 
-### F. Cierre y Call to Action (CTA)
+### F. Cierre 
 
+![FAQ](assets/chapter-05/Faq-SafeFlow.png)
+*Sección de preguntas frecuentes que aborda las dudas más comunes de los usuarios potenciales al momento de adquirir SafeFlow.*
 
+![Contact-and-CTA](assets/chapter-05/Contact-SafeFlow.png)
+*Sección final que invita a los usuarios a contactar al equipo de ventas o solicitar una demo personalizada, con un formulario de contacto integrado.*
 
+![Footer](assets/chapter-05/Footer.png)
+*Pie de página con información de contacto, secciones de la página, enlace a Github y derechos de autor.*
 
 ## 3. Video de Demostración y Navegación
 Para observar la fluidez de la navegación, la respuesta de los elementos interactivos y la explicación detallada de cada sección, se ha preparado el siguiente material audiovisual:
