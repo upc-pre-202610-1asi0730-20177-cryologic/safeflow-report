@@ -1446,12 +1446,14 @@ solución tener en el área laboral de nuestros clientes.</div>
 ### 2. Operational Flow and Key Benefits
 <div align="center">Mockup detallado que ilustra las principales características de SafeFlow, como este funciona de forma breve 
 y las tecnologías que componieron el desarrollo de la solución.</div>
+
 <div align="center"> <img src="assets/chapter-04/fuctionality-mockup.png"/>  </div>
 
-### 3. Business Strategy & Development Team
-<div align="center"> <img src="assets/chapter-04/mockup13.png"/>  </div>
-<div align="center">*Sección final que muestra los modelos de suscripción, el equipo de ingeniería a cargo y el banner de contacto (Footer).*</div>
+### 3. SafeFlow Benefits & Development Team
+<div align="center">*Penúltima sección que muestra 3 distintos modelos de suscripción con sus detalles, ventajas que provee nuestra solución,
+el equipo de ingeniería a cargo y los principales sectores laborales beneficiados por SafeFlow.*</div>
 
+<div align="center"> <img src="assets/chapter-04/benefits&team-mockup.png"/>  </div>
 
 
 
