@@ -1437,11 +1437,13 @@ Con este sistema, SafeFlow proporciona navegación intuitiva y eficiente que per
 ### 4.3.2. Landing Page Mock-up
 
 ### 1. Landing Page Overview & Features
-<div align="center"> <img src="assets/chapter-04/mockup011.png"/>  </div>
-<div align="center">*Esta vista recrea la sección principal (Hero) junto con las características clave y los sectores beneficiados de SafeFlow.*</div>
+<div align="center">Esta vista recrea la barra de navegación y la sección principal (Hero) que contiene el propósito de nuestra solución
+ junto con la propuesta de valor, botón preeliminar para visualizar la demo de nuestra web y para agendar reunión con nosotros, y el impacto que puede nuestra
+solución tener en el área laboral de nuestros clientes.</div>
+
+<div align="center"> <img src="assets/chapter-04/hero-mockup.png"/>  </div>
 
 ### 2. Operational Process & Key Benefits
-<div align="center"> <img src="assets/chapter-04/mockup12.png"/>  </div>
 <div align="center">*Mockup detallado que ilustra el flujo de funcionamiento (pasos 1-4) y las ventajas competitivas del sistema.*</div>
 
 ### 3. Business Strategy & Development Team
