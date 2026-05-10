@@ -2365,9 +2365,11 @@ A continuación, se presentan las capturas de pantalla que sirven como evidencia
 
 ### C. Operatividad y Tecnología
 
-![How it works](assets/chapter-05/image_how_it_works.jpeg)
- *Flujo paso a paso del proceso de monitoreo con sensores IoT.* 
+![How it works](assets/chapter-05/how-it-works.png)
+*Sección que explica de manera visual y sencilla el funcionamiento de SafeFlow, desde la instalación de sensores IoT hasta la generación de reportes y alertas.*
 
+![Technology](assets/chapter-05/Technology-used.png)
+*Sección que detalla las tecnologías utilizadas en el desarrollo de SafeFlow, incluyendo IoT, análisis de datos, arquitectura de software y seguridad de autenticación.*
 
 ### D. Estrategia de Negocio y Sectores
 ![Pricing](assets/chapter-05/image_pricing.jpeg)
