@@ -43,6 +43,11 @@
     
 | Versión |   Fecha    | Autor |                   Descripción de modificación                    |
 | :-------: |:----------:| :----------------: |:----------------------------------------------------------------:|
+| AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de Empathy Maps                     |
+| AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de User Personas                    |
+| AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de User Journey Mapping             |
+| AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de User Task Matrix                 |
+| AV1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de 4 entrevistas                 |
 | AV1 |    26-04-2026     | Mio Mejia, Andy Alejandro | Style Guidelines                              |
 | AV1 |    26-04-2026     | Mio Mejia, Andy Alejandro | Information Architecture                           |
 | AV1 |    26-04-2026     | Mio Mejia, Andy Alejandro | Landing Page UI Design                             |
