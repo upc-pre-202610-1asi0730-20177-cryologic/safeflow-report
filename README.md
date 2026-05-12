@@ -657,6 +657,34 @@ Sebastian es un Jefe de Aseguramiento de la Calidad con 10 años de experiencia 
 
 Esta falta de monitoreo en tiempo real ha causado pérdidas económicas de hasta 50 mil dólares y daños reputacionales severos. Sebastian es un perfil altamente analítico que sufre con la demora de los datos y el caos administrativo de las auditorías sanitarias (que le toman hasta 3 días de trabajo). Valora por encima de todo la integridad inalterable de los datos y espera que SafeFlow le proporcione alertas preventivas y un dashboard centralizado para reducir mermas, lo cual impactaría directamente en sus KPIs y bonificaciones profesionales.
 
+<img src="assets/chapter-02/Interview-picture-2.png" />
+
+**Entrevista 2:**
+- **Nombres y apellidos:** Marlon Vilca
+- **Edad:** 35 años
+- **Distrito:** Jesus Maria
+
+- **Inicio:** 
+- **Duración:** 
+- **URL:** 
+
+**Resumen:**
+TO-DO
+
+
+<img src="assets/chapter-02/Interview-picture-3.png" />
+
+**Entrevista 2:**
+- **Nombres y apellidos:** Joan Aguirre
+- **Edad:** 26 años
+- **Distrito:** Surquillo
+
+- **Inicio:** 
+- **Duración:** 
+- **URL:** 
+
+**Resumen:**
+TO-DO
 ---
 
 #### Segmento objetivo #2: Operadores logísticos (3PL / transporte especializado)
@@ -696,6 +724,24 @@ Valora la rapidez y la simplicidad; para ella, la digitalización es necesaria p
 Silvia es una Jefa de Operaciones de 52 años con formación universitaria que lidera la logística de transporte de carga de terceros de alto valor. Su flujo de trabajo actual es un modelo híbrido que aún depende fuertemente de la gestión manual: planifica rutas en Excel, coordina entregas por WhatsApp y depende de que los conductores envíen fotos de guías físicas y sellos para confirmar la recepción.
 
 Silvia busca una transición hacia una operación 100% digital que sea vista como una inversión para evitar multas y pérdidas. Valora críticamente un sistema que actualice el estado térmico automáticamente cada 5 minutos en un mapa interactivo, una herramienta lo suficientemente sencilla para vencer la resistencia tecnológica de los conductores y un sistema que combine el mapeo visual con alertas de tipo texto automáticas.
+
+
+<img src="assets/chapter-02/Interview-picture-4.png" />
+
+
+- **Entrevista 3:**
+- **Nombres y apellidos:** Henry Ruiz
+- **Edad:** 26 años
+- **Distrito:** Surquillo
+
+- **Inicio:** 
+- **Duración:** 
+- **URL:** 
+
+**Resumen:**
+
+TO-DO
+
 
 ---
 
