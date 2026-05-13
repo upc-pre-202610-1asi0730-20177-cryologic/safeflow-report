@@ -933,20 +933,24 @@ URL de despliegue del Landing Page: [Landing Page Desplegado](https://upc-pre-20
       <tr style="background-color: #f2f2f2;">
         <th style="border: 1px solid #dddddd; padding: 10px;">Team Member (Last Name, First Name)</th>
         <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Diseño del Layout Principal (L/C)</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Navegacion (L/C)</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Llamada a la Accion ( CTA ) (L/C)</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Despliegue de la Landing (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Inventory  (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Logistics</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Monitoring(L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Alerts</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Reporting</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Analytics</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodriguez, Mel Andree</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">melandree8</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
         <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+       <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+       <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
       </tr>
       <tr>
         <td style="border: 1px solid #dddddd; padding: 8px;">Bayron	Morales, Jefferson</td>
@@ -954,7 +958,9 @@ URL de despliegue del Landing Page: [Landing Page Desplegado](https://upc-pre-20
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>     
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
       </tr>
       <tr>
         <td style="border: 1px solid #dddddd; padding: 8px;">Berrospi Marin, Angel Guillermo</td>
@@ -963,21 +969,27 @@ URL de despliegue del Landing Page: [Landing Page Desplegado](https://upc-pre-20
         <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
       </tr>
       <tr>
         <td style="border: 1px solid #dddddd; padding: 8px;">Alejandro	Mio, Andy</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">AndyMio17</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
         <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
       </tr>
-            <tr>
+        <tr>
         <td style="border: 1px solid #dddddd; padding: 8px;">Rodrigo Rocca, Anhelo</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">RoccaA4</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
         <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
         <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
       </tr>
     </tbody>
