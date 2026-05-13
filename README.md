@@ -1427,17 +1427,30 @@ Con este sistema, SafeFlow proporciona navegación intuitiva y eficiente que per
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 
-#### Home
-<img src="assets/chapter-04/Home.png"/>
 
-#### About-Us
-<img src="assets/chapter-04/About-Us.png"/>
+<div align="center"> <img src="assets/chapter-04/wireframe01.png"/> </div>
+<div align="center">*Es la portada principal del sitio. Presenta un menú de navegación superior, una sección de bienvenida con un título grande y un botón de acción, seguida de una zona de tres columnas para destacar servicios o conceptos clave.*</div>
 
-#### Suscribes
-<img src="assets/chapter-04/Suscribe.png"/>
 
-#### Features
-<img src="assets/chapter-04/Features.png"/>
+<div align="center"> <img src="assets/chapter-04/wireframe02.png"/> </div>
+<div align="center">*Una sección enfocada en contenido visual. Muestra un reproductor de video central con botones de interacción y, debajo, una cuadrícula de tres bloques de texto para explicar beneficios específicos.*</div>
+
+
+<div align="center"> <img src="assets/chapter-04/wireframe03.png"/> </div>
+<div align="center">*Un diseño que combina texto e imágenes de forma asimétrica. Se divide en dos partes: una cuadrícula superior para detalles técnicos y una sección inferior que utiliza iconos numerados junto a una imagen lateral.*</div>
+
+
+<div align="center"> <img src="assets/chapter-04/wireframe04.png"/> </div>
+<div align="center">*Un esquema diseñado para el desglose detallado. Presenta tres columnas verticales largas, ideales para mostrar listas de características, planes de precios o especificaciones de diferentes categorías.*</div>
+
+<div align="center"> <img src="assets/chapter-04/wireframe05.png"/> </div>
+<div align="center">*Una composición visual que incluye dos grandes contenedores de imágenes a la izquierda con una lista de elementos a la derecha, además de un carrusel o deslizador de imágenes en la parte inferior.*</div>
+
+<div align="center"> <img src="assets/chapter-04/wireframe06.png"/> </div>
+<div align="center">*Un diseño funcional que presenta cuatro bloques de información con iconos en la parte superior y una sección de "acordeones" o pestañas desplegables en la parte inferior para resolver dudas.*</div>
+
+<div align="center"> <img src="assets/chapter-04/wireframe07.png"/> </div>
+<div align="center">*El cierre del sitio. Contiene un formulario de contacto con mapa e información de ubicación, seguido de un pie de página (footer) organizado en varias columnas para enlaces institucionales y redes sociales.*</div>
 
 ### 4.3.2. Landing Page Mock-up
 
