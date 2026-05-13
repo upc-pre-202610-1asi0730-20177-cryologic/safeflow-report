@@ -1018,6 +1018,19 @@ URL de despliegue del Landing Page: [Landing Page Desplegado](https://upc-pre-20
 
 #### 5.2.2.5 Execution Evidence for Sprint Review
 
+<div algin="center"><img src="assets/chapter-05/pantalla-signup.png" alt="deployment4" width="900" />  </div>        
+<div algin="center"><img src="assets/chapter-05/pantalla-register.png" alt="deployment4" width="900" />  </div>
+<div algin="center"><img src="assets/chapter-05/pantalla-analytics.png" alt="deployment4" width="900" />  </div>        
+<div algin="center"><img src="assets/chapter-05/pantalla-monitoring.png" alt="deployment4" width="900" />  </div>        
+<div algin="center"><img src="assets/chapter-05/pantalla-logistics.png" alt="deployment4" width="900" />  </div>        
+<div algin="center"><img src="assets/chapter-05/pantalla-alerts.png" alt="deployment4" width="900" />  </div>        
+<div algin="center"><img src="assets/chapter-05/captura-profile.png" alt="deployment4" width="900" />  </div>        
+<div algin="center"><img src="assets/chapter-05/pantalla-inventory.png" alt="deployment4" width="900" />  </div>        
+
+
+
+
+
 
 
 #### 5.2.2.6 Services Documentation Evidence for Sprint Review
