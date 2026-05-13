@@ -758,6 +758,37 @@ Sebastian es un Jefe de Aseguramiento de la Calidad con 10 años de experiencia 
 
 Esta falta de monitoreo en tiempo real ha causado pérdidas económicas de hasta 50 mil dólares y daños reputacionales severos. Sebastian es un perfil altamente analítico que sufre con la demora de los datos y el caos administrativo de las auditorías sanitarias (que le toman hasta 3 días de trabajo). Valora por encima de todo la integridad inalterable de los datos y espera que SafeFlow le proporcione alertas preventivas y un dashboard centralizado para reducir mermas, lo cual impactaría directamente en sus KPIs y bonificaciones profesionales.
 
+<img src="assets/chapter-02/Interview-picture-2.png" />
+
+**Entrevista 2:**
+- **Nombres y apellidos:** Marlon Vilca
+- **Edad:** 27 años
+- **Distrito:** Jesus Maria
+
+- **Inicio:** 00:00
+- **Duración:** 09:30
+- **URL:** https://youtu.be/ffD4qivNFuk
+
+**Resumen:**
+Marlon es un Analista de Aseguramiento de la Calidad con 4 años de experiencia en el sector farmacéutico. Su gestión se centra en asegurar que los productos críticos cumplan con la normativa sanitaria manteniéndolos entre 2°C y 8°C. Actualmente, enfrenta una falta de monitoreo en la nube, calificando el proceso de transporte como una "caja negra total" , donde solo puede hacer un análisis post-mortem mediante la descarga manual de dataloggers físicos a través de USB.  
+
+Esta falta de visibilidad causó anteriormente la pérdida de un lote valorizado en decenas de miles de dólares. Marlon tiene un perfil analítico que se frustra con la demora de la información y el desorden de las auditorías sanitarias, que le exigen hasta 2 o 3 días de trabajo manual. Considera no negociable la integridad inalterable de los datos y priorizaría un dashboard con alertas críticas activas para reducir las mermas , lo cual le quitaría estrés operativo e impactaría positivamente en su evaluación de desempeño y sus KPIs.
+
+
+<img src="assets/chapter-02/Interview-picture-3.png" />
+
+**Entrevista 3:**
+- **Nombres y apellidos:** Joan Aguirre
+- **Edad:** 26 años
+- **Distrito:** Surquillo
+
+- **Inicio:** 00:00
+- **Duración:** 07:32
+- **URL:** https://youtu.be/ZWq9LLy3t9c
+
+**Resumen:**
+El entrevistado es un Jefe de Aseguramiento de la Calidad de 26 años con 3 años de experiencia en el sector farmacéutico. Su responsabilidad absoluta es garantizar la integridad biológica de productos críticos manteniéndolos entre 2°C y 8°C para cumplir con la normativa de DIGEMID. Siendo un profesional netamente analítico, su mayor debilidad actual es que el transporte es una "caja negra" sin monitoreo en la nube. Al depender de dataloggers físicos, las fallas se detectan de forma post-mortem tras descargar la información por USB, reaccionando cuando el producto ya está perdido. Esta situación ha ocasionado pérdidas de hasta 50 mil dólares y severos daños reputacionales en el pasado , además de generarle un proceso caótico de 2 a 3 días de trabajo para consolidar evidencias en auditorías. Considera como "no negociable" la integridad inalterable de los datos para respaldar las operaciones ante el Ministerio de Salud. Priorizaría un dashboard con "Alertas Críticas Activas" y proyecta que reducir las mermas en un 20% impactaría directa y positivamente en sus KPIs y bonos de desempeño.
+
 ---
 
 #### Segmento objetivo #2: Operadores logísticos (3PL / transporte especializado)
@@ -767,7 +798,7 @@ Esta falta de monitoreo en tiempo real ha causado pérdidas económicas de hasta
 <img src="assets/chapter-02/interview2.png"/>
 
 
-- **Entrevista 1:**
+**Entrevista 4:**
 - **Nombres y apellidos:** Maria Ruiz
 - **Edad:** 28 años
 - **Distrito:** Los Olivos
@@ -780,6 +811,37 @@ Esta falta de monitoreo en tiempo real ha causado pérdidas económicas de hasta
 Maria es una Supervisora de Operaciones y Flota de 28 años que gestiona la logística de transporte especializado. Su flujo de trabajo actual es altamente dependiente de herramientas informales (pizarras acrílicas y fotos por WhatsApp), lo que genera un desorden administrativo y falta de control sobre la carga. Su mayor problema es la vulnerabilidad ante reclamos de clientes, ya que no cuenta con pruebas digitales en tiempo real para demostrar que el frío se mantuvo correctamente durante la ruta, dependiendo de la vista del conductor sobre visores externos.
 
 Valora la rapidez y la simplicidad; para ella, la digitalización es necesaria para ganar clientes corporativos exigentes, pero teme a la resistencia tecnológica de sus conductores. Espera que SafeFlow sea una herramienta intuitiva (tipo WhatsApp) que emita alertas de texto críticas y visualización en tiempo real sobre mapas, eliminando las 5 horas semanales que su equipo pierde procesando datos manualmente desde memorias USB.
+
+---
+
+**Entrevista 5:**
+- **Nombres y apellidos:** Silvia Leon
+- **Edad:** 52 años
+- **Distrito:** Surquillo
+
+- **Inicio:** 0:10
+- **Duración:** 10:11
+- **URL:** https://youtu.be/w3bmDZ1fEZ8
+
+**Resumen:**
+Silvia es una Jefa de Operaciones de 52 años con formación universitaria que lidera la logística de transporte de carga de terceros de alto valor. Su flujo de trabajo actual es un modelo híbrido que aún depende fuertemente de la gestión manual: planifica rutas en Excel, coordina entregas por WhatsApp y depende de que los conductores envíen fotos de guías físicas y sellos para confirmar la recepción.
+
+Silvia busca una transición hacia una operación 100% digital que sea vista como una inversión para evitar multas y pérdidas. Valora críticamente un sistema que actualice el estado térmico automáticamente cada 5 minutos en un mapa interactivo, una herramienta lo suficientemente sencilla para vencer la resistencia tecnológica de los conductores y un sistema que combine el mapeo visual con alertas de tipo texto automáticas.
+
+
+<img src="assets/chapter-02/Interview-picture-4.png" />
+
+**Entrevista 6:**
+- **Nombres y apellidos:** Henry Ruiz
+- **Edad:** 26 años
+- **Distrito:** Surquillo
+
+- **Inicio:** 00:00
+- **Duración:** 08:33
+- **URL:** https://youtu.be/6a17Hf1BH-g
+
+**Resumen:**
+El entrevistado es un Supervisor de Operaciones y Flota de 26 años. Su gestión se centra en coordinar los despachos diarios, supervisar a los conductores en ruta y asegurar que la carga llegue en buenas condiciones. Actualmente, enfrenta un proceso altamente manual y dependiente de WhatsApp, Excel y guías de remisión físicas en papel para gestionar las entregas y reportar incidencias. Señala que los conductores, quienes presentan resistencia a aplicaciones complejas, carecen de alertas de temperatura en la cabina, lo que convierte el tránsito en una "caja negra" y ocasiona que los problemas se detecten demasiado tarde. Esta falta de evidencia digital en tiempo real los deja vulnerables ante reclamos de clientes y penalidades. A nivel administrativo, su equipo pierde unas 5 horas semanales descargando datos manualmente desde USBs. Valora la implementación de un mapa interactivo con alertas automáticas de texto para mejorar la visibilidad y recuperar competitividad , enfatizando que la solución debe ser tan sencilla e intuitiva como WhatsApp para lograr la adopción por parte de los conductores.
 
 ---
 
