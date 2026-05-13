@@ -999,17 +999,18 @@ URL de despliegue del Landing Page: [Landing Page Desplegado](https://upc-pre-20
 
 #### 5.2.2.3 Sprint Backlog 2
 
+
 | Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 |--------|--------------|------------------|---------|------------|-------------|--------------------|-------------|--------|
-| Sprint 1 | US-26 | Visualizar landing page | T-01 | Crear estructura HTML/CSS | Maquetar layout principal | 4 | Andree | To-do |
-| Sprint 1 | US-27 | Ver propuesta de valor | T-02 | Sección Hero | Diseñar sección principal con CTA | 3 | Angel | To-do |
-| Sprint 1 | US-29 | Visualizar características | T-03 | Sección features | Mostrar funcionalidades del sistema | 3 | Anhelo | To-do |
-| Sprint 1 | US-28 | Navegar por secciones | T-04 | Implementar navbar | Navegación entre secciones | 2 | Andree | InProcess |
-| Sprint 1 | US-32 | Contactar a la empresa | T-05 | Formulario de contacto | Crear formulario funcional | 3 | Anhelo | To-do |
-| Sprint 1 | US-33 | Visualizar testimonios | T-06 | Sección testimonios | Mostrar opiniones de usuarios | 2 | Andre | To-do |
-| Sprint 1 | US-35 | Ver CTA | T-07 | Botones CTA | Implementar botones de acción | 2 | Adolfo | To-do |
-| Sprint 1 | US-34 | Acceder desde dispositivos móviles | T-08 | Responsive design | Adaptar a mobile | 4 | Angel | To-do |
-| Sprint 1 | - | Configuración inicial | T-09 | Configurar proyecto | Inicializar proyecto frontend | 2 | Andree | Done |
+| Sprint 2 | US-01 | Registrar producto | T-10 | Crear formulario de productos | Diseñar formulario para registrar productos y rangos de temperatura | 4 | Andree | To-do  |
+| Sprint 2 | US-02 | Registrar ingreso de stock | T-11 | Módulo de stock | Implementar registro de ingreso de productos al inventario | 3 | Angel | To-do |
+| Sprint 2 | US-10 | Consultar inventario | T-12 | Tabla de inventario | Mostrar productos registrados con filtros y estados | 4 | Anhelo | To-do |
+| Sprint 2 | US-14 | Editar producto | T-13 | Editar información | Implementar actualización de datos del producto | 3 | Jefferson | To-do |
+| Sprint 2 | US-15 | Eliminar producto | T-14 | Eliminar productos | Agregar opción para eliminar productos del sistema | 2 | Andy | To-do |
+| Sprint 2 | US-19 | Registrar lote de producto | T-15 | Gestión de lotes | Implementar registro y validación de lotes | 3 | Andree | To-do  |
+| Sprint 2 | US-16 | Registrar ubicación del producto | T-16 | Gestión de ubicaciones | Permitir asignar ubicación física a productos | 3 | Angel | To-do |
+| Sprint 2 | US-20 | Consultar productos en riesgo | T-17 | Vista de productos críticos | Mostrar productos con estado “En Riesgo” | 3 | Anhelo | To-do |
+| Sprint 2 | US-13 | Visualizar dashboard | T-18 | Dashboard principal | Crear panel con métricas y resumen del sistema | 5 | Jefferson | To-do  |
 
 #### 5.2.2.4 Development Evidence for Sprint Review
 
