@@ -89,6 +89,14 @@
 | TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo de código del bounded context inventory         |
 | TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo de código del bounded context reporting         |
 | TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Creación de las estructuras de las tablas del sprint 2     |
+| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y refinamiento de mockups - Analytics Dashboard      |
+| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y refinamiento de wireframe - Analytics Dashboard      |
+| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y mejora de mockups - SignUp Authentication Flow      |
+| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y mejora de wireframe - SignUp Authentication Flow      |
+| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Revisión y corrección integral de User Stories - Refinamiento y validación      |
+| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Corrección y mejora del Lean UX Canvas - Validación de hipótesis      |
+| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización de criterios de aceptación en User Stories      |
+| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Coordinación y revisión de consistencia entre mockups, wireframes y User Stories      |
 
 
 
