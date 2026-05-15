@@ -313,7 +313,7 @@ Los integrantes son:
             <li><b>AV1 - Mel Andre, Orellana Rodriguez:</b> Contribuí activamente en la organización y desarrollo del proyecto, apoyando en la planificación de tareas y asegurando el cumplimiento de los objetivos establecidos. Participé en la coordinación del equipo para mantener una comunicación clara y efectiva, además de colaborar en la implementación de la landing page y en la estructuración de secciones clave del documento.</li>
             <li><b>AV1 - Anhelo Rodrigo, Rocca Leon:</b>Complete las tareas que me fueron asignadas y comunique mi progreso en gran parte de ellas. Además, contribuí en otras tareas que me fueron ofrecidas. Mi aporte ayudó a materializar la arquitectura de Safeflow y ayudar un poco en el estudio del público objetivo.</li>
             <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
-            <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
+            <li><b>AV1 - Jefferson Bayron, Morales Yapuchura:</b> Apoyé el liderazgo del grupo dirigiendo la estructuración del perfil de nuestros usuarios. A través de la creación de la primera version de user personas, empathy maps, user journey maps, la user task matrix y el desarollo de 4 entrevistas, proporcioné las bases necesarias para que el equipo pudiera trabajar de manera conjunta y enfocada, guiando el desarrollo funcional y visual del proyecto. </li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
