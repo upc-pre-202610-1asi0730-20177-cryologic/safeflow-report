@@ -1146,6 +1146,14 @@ URL de despliegue del Landing Page: [Landing Page Desplegado](https://upc-pre-20
       <td>Create the section reporting.</td>
       <td>15/05/2026</td>
     </tr>
+    <tr>
+      <td>AndyMio17/safeflow-webapp</td>
+      <td>feature/inventory</td>
+      <td>4f76bcd3051dfc08fb0bdbe029fb148a86c9acc2</td>
+      <td>feat: add bounded context inventory</td>
+      <td>Create the section inventory.</td>
+      <td>15/05/2026</td>
+    </tr>
   </tbody>
 </table>
 
