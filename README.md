@@ -42,7 +42,12 @@
     
 | Versión |   Fecha    | Autor |                   Descripción de modificación                    |
 | :-------: |:----------:| :----------------: |:----------------------------------------------------------------:|
-| AV1 |    ---     | Mio Mejia, Andy Alejandro |                             xxxxxxx                              |
+| AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de Empathy Maps                     |
+| AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de User Personas                    |
+| AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de User Journey Mapping             |
+| AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de User Task Matrix                 |
+| AV1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de registro de entrevistas                |
+| AV1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de analisis de entrevistas                |
 | AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                    Descripción de la Startup                     |
 | AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                Creación de la carpeta de Imagenes                |
 | AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                    Desarrollo de User Stories                    |
@@ -121,6 +126,7 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 |  Angel Guillermo Berrospi Marin  | Desarrollo de Lean Ux Hypothesis Statements, Desarrollo Lean Ux Canvas, Desarrollo de Diseño de entrevistas, Desarrollo de registro de entrevistas, Desarrollo de Análisis de entrevistas, Desarrollo de User Personas, Desarrollo de User Task Matrix, Desarrollo de User Journey Mapping, Desarrollo de Big Picture EventStorming, Desarrollo de Ubiquitous Lenguage, Creación de estructura de Aspect Leaders and Collaborators, Creación de estructura de Sprint Backlog,Creación de estructura de Development Evidence for Sprint Review.  |
 | Anhelo Rodrigo Rocca Leon | Desarollo del Domain-Driven Software Architecture, Desarollo del Design-Level EventStorming, Desarollo del Software Architecture Context Diagram, Desarollo del Software Architecture Container Diagram, Desarollo del Software Architecture Components Diagrams, Desarollo del Software Object-Oriented Design, Desarollo del Class Diagrams, Desarollo del Database Design, Desarollo del Database Diagrams, Commit de la sección 'Benefits' del Landing Page, Commit de la sección 'Call-to-action' del Landing Page y Desarollo de 1 entrevista para el segmento objetivo 2  |
 | Andy Alejandro Mio Mejia    |  |
+
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización.
 
