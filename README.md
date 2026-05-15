@@ -80,7 +80,15 @@
 | AV1 | 24-04-2026 | Rocca Leon, Anhelo Rodrigo |         Commit de la sección 'Benefits' del Landing Page         |
 | AV1 | 24-04-2026 | Rocca Leon, Anhelo Rodrigo |      Commit de la sección 'Call-to-action' del Landing Page      |
 | AV1 | 26-04-2026 | Rocca Leon, Anhelo Rodrigo |      Desarollo de 1 entrevista para el segmento objetivo 2       |
-
+| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo del mockup del bounded context inventory        |
+| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo del mockup del bounded context inventory-Add    |
+| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo del mockup del bounded context reporting        |
+| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo del wireframe del bounded context inventory     |
+| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo del wireframe del bounded context inventory-Add |
+| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo del wireframe del bounded context reporting     |
+| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo de código del bounded context inventory         |
+| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo de código del bounded context reporting         |
+| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Creación de las estructuras de las tablas del sprint 2     |
 
 
 
