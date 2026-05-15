@@ -112,7 +112,13 @@
 | TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Corrección y mejora del Lean UX Canvas - Validación de hipótesis      |
 | TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización de criterios de aceptación en User Stories      |
 | TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Coordinación y revisión de consistencia entre mockups, wireframes y User Stories      |
-
+| TB1 | 12-05-2026 | Orellana Rodriguez, Mel Andree | Creación de las implementaciones de SafeFlow |
+| TB1 | 12-05-2026 | Orellana Rodriguez, Mel Andree | Actualización de landing con conexión a la App Web SafeFlow |
+| TB1 | 12-05-2026 | Orellana Rodriguez, Mel Andree | Creación de las ramas para safeflow-webapp |
+| TB1 | 12-05-2026 | Orellana Rodriguez, Mel Andree | Implementación del MockAPI |
+| TB1 | 12-05-2026 | Orellana Rodriguez, Mel Andree | Coordinación de tareas para el frontend |
+| TB1 | 12-05-2026 | Orellana Rodriguez, Mel Andree | Implementación del Bounded Context Analytics |
+| TB1 | 12-05-2026 | Orellana Rodriguez, Mel Andree | Implementación del Bounded Context Monitoring |
 
 
 </div>
