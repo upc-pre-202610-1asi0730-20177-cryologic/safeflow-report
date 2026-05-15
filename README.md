@@ -2452,5 +2452,15 @@ URL de despliegue del Landing Page: [Landing Page Desplegado](https://upc-pre-20
 # Video About-the-Team
 
 # Bibliografía
+- Ministerio de Salud del Perú. (2000). Taller sobre planificación, administración y evaluación: Módulo III. Cadena de frío. https://www.gob.pe/institucion/minsa/informes-publicaciones/352804-taller-sobre-planificacion-administracion-y-evaluacion-modulo-iii-cadena-de-frio
+- Dirección General de Medicamentos, Insumos y Drogas. (2025). Guía de apoyo al usuario para solicitar la expedición del certificado de liberación de lote de productos biológicos. https://www.digemid.minsa.gob.pe
+- Dirección General de Medicamentos, Insumos y Drogas. (2025). Programa de control y vigilancia del mercado de productos farmacéuticos, dispositivos médicos y productos sanitarios 2023-2025. https://www.digemid.minsa.gob.pe
+- Centro Nacional de Abastecimiento de Recursos Estratégicos en Salud. (2025). Cenares obtiene importante certificación de buenas prácticas de distribución y transporte (BPDyT) de DIGEMID. https://www.gob.pe/institucion/cenares/noticias/1199604-cenares-obtiene-importante-certificacion-de-buenas-practicas-de-distribucion-y-transporte-bpdyt-de-digemid
+- Dirección General de Medicamentos, Insumos y Drogas. (2026). Establecimientos farmacéuticos autorizados y regulación sanitaria. https://www.digemid.minsa.gob.pe/webDigemid/establecimientos/
+- Interworld Freight. (2026). Almacén farmacéutico en Perú y cadena de frío validada. https://interwf.com/es/servicios/almacenamiento/farmaceutico/peru
+- Medicas. (2026). Almacenamiento y certificación BPA para productos farmacéuticos. https://medicas.com.pe/almacenamiento.html
+- Ministerio de Salud del Perú. (2009). Tablas peruanas de composición de alimentos. https://www.gob.pe/institucion/minsa/informes-publicaciones/353006-tablas-peruanas-de-composicion-de-alimentos
+- Cornejo, D. (2023). COVID-19: Digemid dice que no se rompió cadena de frío de vacunas, pero Pfizer pidió que se desechen. La República. https://larepublica.pe/sociedad/2023/06/07/covid19-digemid-dice-que-no-se-rompio-cadena-de-frio-de-vacunas-pero-pfizer-pidio-que-se-desechen-96824
+
 
 # Anexos
