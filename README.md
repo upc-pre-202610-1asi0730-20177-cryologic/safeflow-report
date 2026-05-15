@@ -1138,25 +1138,58 @@ URL de despliegue del Landing Page: [Landing Page Desplegado](https://upc-pre-20
       <td>Create the style for the section characteristics.</td>
       <td>16/04/2026</td>
     </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-webapp</td>
+      <td>feature/reporting</td>
+      <td>4c5a585023f1635721fa6cb26436320dd94a9c5e</td>
+      <td>feat: create the bounded context reporting and use domain driven design.</td>
+      <td>Create the section reporting.</td>
+      <td>15/05/2026</td>
+    </tr>
   </tbody>
 </table>
 
 #### 5.2.2.5 Execution Evidence for Sprint Review
 
-<div algin="center"><img src="assets/chapter-05/pantalla-signup.png" alt="deployment4" width="900" />  </div>        
+### Sign In
+<div algin="center"><img src="assets/chapter-05/pantalla-signup.png" alt="deployment4" width="900" />  </div>
+
+1. Evidencia de la pantalla sign-up, donde el usuario entra a la web con sus credenciales previamente creadas.
+
+### Register
 <div algin="center"><img src="assets/chapter-05/pantalla-register.png" alt="deployment4" width="900" />  </div>
-<div algin="center"><img src="assets/chapter-05/pantalla-analytics.png" alt="deployment4" width="900" />  </div>        
-<div algin="center"><img src="assets/chapter-05/pantalla-monitoring.png" alt="deployment4" width="900" />  </div>        
-<div algin="center"><img src="assets/chapter-05/pantalla-logistics.png" alt="deployment4" width="900" />  </div>        
+
+2. Evidencia de la pantalla register, donde el usuario debe crearse una cuenta para poder ingresar a la web.
+
+### Analytics
+<div algin="center"><img src="assets/chapter-05/pantalla-analytics.png" alt="deployment4" width="900" />  </div>
+
+3. Evidencia de la pantalla analytics, donde el usuario podra visualizar el análisis mediante gráficos y/o resumen de la creación de los conductores, operadores, rutas de los conductores, medicamentos. 
+
+### Monitoring
+<div algin="center"><img src="assets/chapter-05/pantalla-monitoring.png" alt="deployment4" width="900" />  </div>
+
+4. Evidencia de la pantalla monitoring, donde el usuario puede monitorear el estado de las vacunas, información de los conductores y las rutas.
+
+### Logistics
+<div algin="center"><img src="assets/chapter-05/pantalla-logistics.png" alt="deployment4" width="900" />  </div>
+
+5. Evidencia de la pantalla logistics donde se ve de forma detallada el estado de los productos sobre la ruta y temperatura.
+
+### Alerts
 <div algin="center"><img src="assets/chapter-05/pantalla-alerts.png" alt="deployment4" width="900" />  </div>        
+
+6. Evidencia de la pantalla alerts, donde nos envian alertas sobre las vacunas que superaron su limite y necesitan atención inmediata.
+
+### Profile
 <div algin="center"><img src="assets/chapter-05/captura-profile.png" alt="deployment4" width="900" />  </div>        
+
+7. Evidencia de la pantalla, donde registra al personal encargado de áreas específicas según su cargo.
+
+### Inventory
 <div algin="center"><img src="assets/chapter-05/pantalla-inventory.png" alt="deployment4" width="900" />  </div>        
 
-
-
-
-
-
+8. Evidencia de la pantalla, donde se crea los productos que necesitan detalles específicos de su mantenimiento para que no se malogren en ruta. 
 
 #### 5.2.2.6 Services Documentation Evidence for Sprint Review
 
