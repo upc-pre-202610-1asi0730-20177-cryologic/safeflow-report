@@ -28,6 +28,7 @@
 | Mel Andree Orellana Rodriguez      | U202116018 |
 | Angel Guillermo Berrospi Marin  | U202114701 |
 | Anhelo Rodrigo Rocca Leon | U20221C803 |
+| Jefferson Bayron Morales Yapuchura | U202316049 |
 
 
 </div>
