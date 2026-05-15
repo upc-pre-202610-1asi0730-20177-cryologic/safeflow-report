@@ -823,6 +823,70 @@ El objetivo principal del Sprint 1 es implementar las funcionalidades base del s
 - **ToReview**: En revisión
 - **Done**: Finalizado
 
+### 5.1.1.4. Development Evidence for Sprint Review
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/pricing</td>
+      <td>09d59ce4d376bd3a5a2b1f849d6dbefd056835a5</td>
+      <td>feat: create structure for the section pricing.</td>
+      <td>Create the structure for pricing because thats my section.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/pricing</td>
+      <td>562f581e39a0fdbb288e81705aae3c471c19b7c6</td>
+      <td>feat: create style for the section pricing.</td>
+      <td>Create the style for the section pricing.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/how-it-work</td>
+      <td>cfacfbbfe0dc72bc9bdb6736289556590b8d57e8</td>
+      <td>feat: create the structure of section how it works.</td>
+      <td>Create the structure for how it works because thats my section.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/how-it-work</td>
+      <td>469afbf4d23e12618f10bbd9b2a5db5c0191fe9f</td>
+      <td>feat: create the style for the section how it works.</td>
+      <td>Create the style for the section how it works.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/characteristics</td>
+      <td>7ac3298ec94c28fe6bb6e5175a0522b5186ee200</td>
+      <td>feat: create the section of characteristics</td>
+      <td>Create the structure for characteristics.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/characteristics</td>
+      <td>8f5e5f46b782b75638c74e2afd779cf164670f84</td>
+      <td>feat: create styles for the section characteristic.</td>
+      <td>Create the style for the section characteristics.</td>
+      <td>16/04/2026</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
@@ -1014,7 +1078,68 @@ URL de despliegue del Landing Page: [Landing Page Desplegado](https://upc-pre-20
 
 #### 5.2.2.4 Development Evidence for Sprint Review
 
-
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/pricing</td>
+      <td>09d59ce4d376bd3a5a2b1f849d6dbefd056835a5</td>
+      <td>feat: create structure for the section pricing.</td>
+      <td>Create the structure for pricing because thats my section.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/pricing</td>
+      <td>562f581e39a0fdbb288e81705aae3c471c19b7c6</td>
+      <td>feat: create style for the section pricing.</td>
+      <td>Create the style for the section pricing.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/how-it-work</td>
+      <td>cfacfbbfe0dc72bc9bdb6736289556590b8d57e8</td>
+      <td>feat: create the structure of section how it works.</td>
+      <td>Create the structure for how it works because thats my section.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/how-it-work</td>
+      <td>469afbf4d23e12618f10bbd9b2a5db5c0191fe9f</td>
+      <td>feat: create the style for the section how it works.</td>
+      <td>Create the style for the section how it works.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/characteristics</td>
+      <td>7ac3298ec94c28fe6bb6e5175a0522b5186ee200</td>
+      <td>feat: create the section of characteristics</td>
+      <td>Create the structure for characteristics.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/characteristics</td>
+      <td>8f5e5f46b782b75638c74e2afd779cf164670f84</td>
+      <td>feat: create styles for the section characteristic.</td>
+      <td>Create the style for the section characteristics.</td>
+      <td>16/04/2026</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 5.2.2.5 Execution Evidence for Sprint Review
 
