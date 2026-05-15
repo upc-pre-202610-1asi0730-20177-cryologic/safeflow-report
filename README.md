@@ -43,12 +43,21 @@
     
 | Versión |   Fecha    | Autor |                   Descripción de modificación                    |
 | :-------: |:----------:| :----------------: |:----------------------------------------------------------------:|
+| AV1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de registro de entrevistas                |
+| AV1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de analisis de entrevistas                |
 | AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de Empathy Maps                     |
 | AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de User Personas                    |
 | AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de User Journey Mapping             |
 | AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de User Task Matrix                 |
-| AV1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de registro de entrevistas                |
-| AV1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de analisis de entrevistas                |
+| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de registro de entrevistas                |
+| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de analisis de entrevistas                |
+| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Actualización y mejora de wireframes - SignUp Authentication Flow               |
+| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Actualización y mejora de mockups - SignUp Authentication Flow               |
+| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Actualización y mejora de Bounded Context Shared               |
+| TB1 | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |      Actualización y refinamiento de mockups - Alerts      |
+| TB1 | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |      Actualización y refinamiento de wireframe - Alerts      |
+| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Actualizacion de Web Applications Wireframes               |
+| TB1 | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |      Coordinación y revisión de consistencia entre mockups, wireframe |
 | AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                    Descripción de la Startup                     |
 | AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                Creación de la carpeta de Imagenes                |
 | AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                    Desarrollo de User Stories                    |
@@ -97,8 +106,8 @@
 | TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Creación de las estructuras de las tablas del sprint 2     |
 | TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y refinamiento de mockups - Analytics Dashboard      |
 | TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y refinamiento de wireframe - Analytics Dashboard      |
-| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y mejora de mockups - SignUp Authentication Flow      |
-| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y mejora de wireframe - SignUp Authentication Flow      |
+| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y mejora de mockups - SignIn Authentication Flow      |
+| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y mejora de wireframe - SignIn Authentication Flow      |
 | TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Revisión y corrección integral de User Stories - Refinamiento y validación      |
 | TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Corrección y mejora del Lean UX Canvas - Validación de hipótesis      |
 | TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización de criterios de aceptación en User Stories      |
