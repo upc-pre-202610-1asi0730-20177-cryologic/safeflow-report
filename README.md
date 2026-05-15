@@ -823,7 +823,7 @@ El objetivo principal del Sprint 1 es implementar las funcionalidades base del s
 - **ToReview**: En revisión
 - **Done**: Finalizado
 
-### 5.1.1.4. Development Evidence for Sprint Review
+### 5.2.1.4. Development Evidence for Sprint Review
 
 <table>
   <thead>
