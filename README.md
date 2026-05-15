@@ -1189,7 +1189,11 @@ URL de despliegue del Landing Page: [Landing Page Desplegado](https://upc-pre-20
 ### Inventory
 <div algin="center"><img src="assets/chapter-05/pantalla-inventory.png" alt="deployment4" width="900" />  </div>        
 
-8. Evidencia de la pantalla, donde se crea los productos que necesitan detalles específicos de su mantenimiento para que no se malogren en ruta. 
+8. Evidencia de la pantalla, donde se crea los productos que necesitan detalles específicos de su mantenimiento para que no se malogren en ruta.
+
+### Reporting
+<div algin="center"><img src="assets/chapter-05/pantalla-reporting.png" alt="deployment4" width="900" />  </div> 
+9. Evidencia de la pantalla, donde se crean los reportes
 
 #### 5.2.2.6 Services Documentation Evidence for Sprint Review
 
