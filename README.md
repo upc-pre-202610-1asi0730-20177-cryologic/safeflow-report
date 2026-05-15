@@ -28,6 +28,7 @@
 | Mel Andree Orellana Rodriguez      | U202116018 |
 | Angel Guillermo Berrospi Marin  | U202114701 |
 | Anhelo Rodrigo Rocca Leon | U20221C803 |
+| Jefferson Bayron Morales Yapuchura | U202316049 |
 
 
 </div>
@@ -42,7 +43,21 @@
     
 | Versión |   Fecha    | Autor |                   Descripción de modificación                    |
 | :-------: |:----------:| :----------------: |:----------------------------------------------------------------:|
-| AV1 |    ---     | Mio Mejia, Andy Alejandro |                             xxxxxxx                              |
+| AV1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de registro de entrevistas                |
+| AV1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de analisis de entrevistas                |
+| AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de Empathy Maps                     |
+| AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de User Personas                    |
+| AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de User Journey Mapping             |
+| AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de User Task Matrix                 |
+| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de registro de entrevistas                |
+| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de analisis de entrevistas                |
+| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Actualización y mejora de wireframes - SignUp Authentication Flow               |
+| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Actualización y mejora de mockups - SignUp Authentication Flow               |
+| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Actualización y mejora de Bounded Context Shared               |
+| TB1 | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |      Actualización y refinamiento de mockups - Alerts      |
+| TB1 | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |      Actualización y refinamiento de wireframe - Alerts      |
+| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Actualizacion de Web Applications Wireframes               |
+| TB1 | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |      Coordinación y revisión de consistencia entre mockups, wireframe |
 | AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                    Descripción de la Startup                     |
 | AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                Creación de la carpeta de Imagenes                |
 | AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                    Desarrollo de User Stories                    |
@@ -91,8 +106,8 @@
 | TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Creación de las estructuras de las tablas del sprint 2     |
 | TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y refinamiento de mockups - Analytics Dashboard      |
 | TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y refinamiento de wireframe - Analytics Dashboard      |
-| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y mejora de mockups - SignUp Authentication Flow      |
-| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y mejora de wireframe - SignUp Authentication Flow      |
+| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y mejora de mockups - SignIn Authentication Flow      |
+| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y mejora de wireframe - SignIn Authentication Flow      |
 | TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Revisión y corrección integral de User Stories - Refinamiento y validación      |
 | TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Corrección y mejora del Lean UX Canvas - Validación de hipótesis      |
 | TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización de criterios de aceptación en User Stories      |
@@ -121,6 +136,8 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 |  Angel Guillermo Berrospi Marin  | Desarrollo de Lean Ux Hypothesis Statements, Desarrollo Lean Ux Canvas, Desarrollo de Diseño de entrevistas, Desarrollo de registro de entrevistas, Desarrollo de Análisis de entrevistas, Desarrollo de User Personas, Desarrollo de User Task Matrix, Desarrollo de User Journey Mapping, Desarrollo de Big Picture EventStorming, Desarrollo de Ubiquitous Lenguage, Creación de estructura de Aspect Leaders and Collaborators, Creación de estructura de Sprint Backlog,Creación de estructura de Development Evidence for Sprint Review.  |
 | Anhelo Rodrigo Rocca Leon | Desarollo del Domain-Driven Software Architecture, Desarollo del Design-Level EventStorming, Desarollo del Software Architecture Context Diagram, Desarollo del Software Architecture Container Diagram, Desarollo del Software Architecture Components Diagrams, Desarollo del Software Object-Oriented Design, Desarollo del Class Diagrams, Desarollo del Database Design, Desarollo del Database Diagrams, Commit de la sección 'Benefits' del Landing Page, Commit de la sección 'Call-to-action' del Landing Page y Desarollo de 1 entrevista para el segmento objetivo 2  |
 | Andy Alejandro Mio Mejia    |  |
+| Jefferson Bayron Morales Yapuchura    | Desarrollo de registro de entrevistas, Desarrollo de análisis de entrevistas, Desarrollo de la primera versión de Empathy Maps, Desarrollo de la primera versión de User Personas, Desarrollo de la primera versión de User Journey Mapping, Desarrollo de la primera versión de User Task Matrix, Actualización y mejora de wireframes (SignUp Authentication Flow), Actualización y mejora de mockups (SignUp Authentication Flow), Actualización y mejora de Bounded Context Shared, Actualización y refinamiento de mockups (Alerts), Actualización y refinamiento de wireframe (Alerts), Actualización de Web Applications Wireframes, Coordinación y revisión de consistencia entre mockups y wireframe. |
+
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización.
 
@@ -132,6 +149,7 @@ Los integrantes son:
 * Angel Guillermo Berrospi Marin   (Guille-berrs)
 * Mel Andree Orellana Rodriguez (melandree8)
 * Anhelo Rodrigo Rocca Leon (RoccaA4)
+* Jefferson Bayron Morales Yapuchura (Fenfito)
 
   </br>
 
@@ -305,7 +323,7 @@ Los integrantes son:
             <li><b>AV1 - Mel Andre, Orellana Rodriguez:</b> Contribuí activamente en la organización y desarrollo del proyecto, apoyando en la planificación de tareas y asegurando el cumplimiento de los objetivos establecidos. Participé en la coordinación del equipo para mantener una comunicación clara y efectiva, además de colaborar en la implementación de la landing page y en la estructuración de secciones clave del documento.</li>
             <li><b>AV1 - Anhelo Rodrigo, Rocca Leon:</b>Complete las tareas que me fueron asignadas y comunique mi progreso en gran parte de ellas. Además, contribuí en otras tareas que me fueron ofrecidas. Mi aporte ayudó a materializar la arquitectura de Safeflow y ayudar un poco en el estudio del público objetivo.</li>
             <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
-            <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
+            <li><b>AV1 - Jefferson Bayron, Morales Yapuchura:</b> Apoyé el liderazgo del grupo dirigiendo la estructuración del perfil de nuestros usuarios. A través de la creación de la primera version de user personas, empathy maps, user journey maps, la user task matrix y el desarollo de 4 entrevistas, proporcioné las bases necesarias para que el equipo pudiera trabajar de manera conjunta y enfocada, guiando el desarrollo funcional y visual del proyecto. </li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
@@ -326,7 +344,7 @@ El equipo logró coordinarse de manera progresiva a lo largo del desarrollo del 
             <li><b>AV1 - Mel Andre Orellana Rodriguez:</b>Fomenté un ambiente colaborativo dentro del equipo, promoviendo la participación activa y el cumplimiento de responsabilidades. Me enfoqué en coordinar tareas, apoyar en la resolución de problemas y mantener alineados los objetivos del proyecto, contribuyendo así a la entrega final de manera organizada y eficiente.</li>
             <li><b>AV1 - Anhelo Rodrigo Rocca Leon:</b>Participé en la planificación y desarrollo del proyecto, al igual que en las reuniones de equipo programadas. Me asegure de mantener un ambiente respetuoso entre los compañeros y que la solución de las tareas asignadas a mi persona cumplan con las metas establecidas por el equipo.</li>
             <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
-            <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
+             <li><b>AV1 - Jefferson Bayron Morales Yapuchura:</b> Contribuí a crear un ambiente de trabajo inclusivo y colaborativo participando activamente en todas las coordinaciones. Para mis asignaciones, establecí metas específicas y planifiqué el desarrollo de herramientas como los empathy maps y la user task matrix. Esto me permitió cumplir estrictamente con mis objetivos, entregando un análisis de usuario que facilitó el avance organizado de todo el equipo.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
@@ -376,12 +394,12 @@ La plataforma analiza continuamente las condiciones registradas y detecta desvia
 | *Descripción*           | Soy estudiante de Ingeniería de Software. Cuento con conocimientos en los lenguajes de programación como C++, Python y SQL. Me comprometo a trabajar con mi equipo en el desarrollo de nuestro proyecto, al igual que ayudar siempre que mis capacidades lo permitan. |
 | Foto                      | <div align="center"><img src="assets/chapter-01/Anhelo_Foto.jpeg">                                                                                                                                                                                                    |
 
-| *Integrante*            |            |
+| *Integrante*            | Jefferson Morales           |
 |---------------------------|---------------------------------------------------------------------------------------------------|
-| *Código del Estudiante* |            |
-| *Carrera*               |            |
-| *Descripción*           |            |
-| Foto                      |            |
+| *Código del Estudiante* | U202316049           |
+| *Carrera*               | Ingenieria de Software           |
+| *Descripción*           | Estudiante de Ingeniería de Software con un enfoque proactivo en la resolución de problemas y el desarrollo de soluciones escalables. Me defino como un entusiasta del aprendizaje continuo, lo que me permite navegar con agilidad entre lenguajes y frameworks emergentes.           |
+| Foto                      | <div algin="center"><img src="assets/chapter-01/Jefferson_Morales_Foto.jpg" alt="Integrante Jefferson" width="400" />  </div>           |
 
 | *Integrante*            |            |
 |---------------------------|---------------------------------------------------------------------------------------------------|
