@@ -139,6 +139,7 @@ Los integrantes son:
 * Angel Guillermo Berrospi Marin   (Guille-berrs)
 * Mel Andree Orellana Rodriguez (melandree8)
 * Anhelo Rodrigo Rocca Leon (RoccaA4)
+* Jefferson Bayron Morales Yapuchura (Fenfito)
 
   </br>
 
