@@ -334,7 +334,7 @@ El equipo logró coordinarse de manera progresiva a lo largo del desarrollo del 
             <li><b>AV1 - Mel Andre Orellana Rodriguez:</b>Fomenté un ambiente colaborativo dentro del equipo, promoviendo la participación activa y el cumplimiento de responsabilidades. Me enfoqué en coordinar tareas, apoyar en la resolución de problemas y mantener alineados los objetivos del proyecto, contribuyendo así a la entrega final de manera organizada y eficiente.</li>
             <li><b>AV1 - Anhelo Rodrigo Rocca Leon:</b>Participé en la planificación y desarrollo del proyecto, al igual que en las reuniones de equipo programadas. Me asegure de mantener un ambiente respetuoso entre los compañeros y que la solución de las tareas asignadas a mi persona cumplan con las metas establecidas por el equipo.</li>
             <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
-            <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
+             <li><b>AV1 - Jefferson Bayron Morales Yapuchura:</b> Contribuí a crear un ambiente de trabajo inclusivo y colaborativo participando activamente en todas las coordinaciones. Para mis asignaciones, establecí metas específicas y planifiqué el desarrollo de herramientas como los empathy maps y la user task matrix. Esto me permitió cumplir estrictamente con mis objetivos, entregando un análisis de usuario que facilitó el avance organizado de todo el equipo.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
