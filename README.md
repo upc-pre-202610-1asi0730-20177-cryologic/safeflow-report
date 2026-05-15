@@ -385,12 +385,12 @@ La plataforma analiza continuamente las condiciones registradas y detecta desvia
 | *Descripción*           | Soy estudiante de Ingeniería de Software. Cuento con conocimientos en los lenguajes de programación como C++, Python y SQL. Me comprometo a trabajar con mi equipo en el desarrollo de nuestro proyecto, al igual que ayudar siempre que mis capacidades lo permitan. |
 | Foto                      | <div align="center"><img src="assets/chapter-01/Anhelo_Foto.jpeg">                                                                                                                                                                                                    |
 
-| *Integrante*            |            |
+| *Integrante*            | Jefferson Morales           |
 |---------------------------|---------------------------------------------------------------------------------------------------|
-| *Código del Estudiante* |            |
-| *Carrera*               |            |
-| *Descripción*           |            |
-| Foto                      |            |
+| *Código del Estudiante* | U202316049           |
+| *Carrera*               | Ingenieria de Software           |
+| *Descripción*           | Estudiante de Ingeniería de Software con un enfoque proactivo en la resolución de problemas y el desarrollo de soluciones escalables. Me defino como un entusiasta del aprendizaje continuo, lo que me permite navegar con agilidad entre lenguajes y frameworks emergentes.           |
+| Foto                      | <div algin="center"><img src="assets/chapter-01/Jefferson_Morales_Foto.jpg" alt="Integrante Jefferson" width="400" />  </div>           |
 
 | *Integrante*            |            |
 |---------------------------|---------------------------------------------------------------------------------------------------|
