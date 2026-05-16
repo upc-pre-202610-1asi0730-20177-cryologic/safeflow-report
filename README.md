@@ -2897,6 +2897,54 @@ URL de despliegue del Landing Page: [Landing Page Desplegado](https://upc-pre-20
       <td>Update deployment configuration for production environment.</td>
       <td>15/05/2026</td>
     </tr>
+    <tr>
+      <td>RoccaA4/safeflow-webapp</td>
+      <td>feature/logistics</td>
+      <td>c1696956f969478041aa6df4dcd94a34bb6768d1</td>
+      <td>feat: add logistics shipment entity for tracking and management</td>
+      <td>-.</td>
+      <td>15/05/2026</td>
+    </tr>
+<tr>
+      <td>RoccaA4/safeflow-webapp</td>
+      <td>feature/logistics</td>
+      <td>87058c296c6f73e18e108b9130dfe5cb9b5070fd</td>
+      <td>feat: add logistics aggregation and shipment assembler for tracking inside infrastructure directory</td>
+      <td>-.</td>
+      <td>15/05/2026</td>
+    </tr>
+<tr>
+      <td>RoccaA4/safeflow-webapp</td>
+      <td>feature/logistics</td>
+      <td>201150d6cd0d00ce89519d201c854c3dfdbaf931</td>
+      <td>feat: implement logistics API for managing shipments, destinos, and choferes inside infrastructure directory</td>
+      <td>-.</td>
+      <td>15/05/2026</td>
+    </tr>
+<tr>
+      <td>RoccaA4/safeflow-webapp</td>
+      <td>feature/logistics</td>
+      <td>01c060ddd043265fb0af898bb91d0bceddf8e279</td>
+      <td>feat: add logistics management components for tracking shipments and destinations inside presentation/view and presentation/components directories</td>
+      <td>-.</td>
+      <td>15/05/2026</td>
+    </tr>
+<tr>
+      <td>RoccaA4/safeflow-webapp</td>
+      <td>feature/logistics</td>
+      <td>fbfc4cc484a269d6129c00218a4f99971df90ad8</td>
+      <td>feat: add logistics routes and localization for shipment management inside presentation directory but outside views and components directories</td>
+      <td>-.</td>
+      <td>15/05/2026</td>
+    </tr>
+<tr>
+      <td>RoccaA4/safeflow-webapp</td>
+      <td>feature/logistics</td>
+      <td>ae3109e9d6fb36def7236d9309e42f406e6f892d</td>
+      <td>feat: implement logistics store for managing shipments and tracking inside application directory</td>
+      <td>-.</td>
+      <td>15/05/2026</td>
+    </tr>
   </tbody>
 </table>
 
