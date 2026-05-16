@@ -43,10 +43,21 @@
     
 | Versión |   Fecha    | Autor |                   Descripción de modificación                    |
 | :-------: |:----------:| :----------------: |:----------------------------------------------------------------:|
+| AV1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de registro de entrevistas                |
+| AV1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de analisis de entrevistas                |
 | AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de Empathy Maps                     |
 | AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de User Personas                    |
 | AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de User Journey Mapping             |
 | AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de User Task Matrix                 |
+| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de registro de entrevistas                |
+| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de analisis de entrevistas                |
+| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Actualización y mejora de wireframes - SignUp Authentication Flow               |
+| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Actualización y mejora de mockups - SignUp Authentication Flow               |
+| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Actualización y mejora de Bounded Context Shared               |
+| TB1 | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |      Actualización y refinamiento de mockups - Alerts      |
+| TB1 | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |      Actualización y refinamiento de wireframe - Alerts      |
+| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Actualizacion de Web Applications Wireframes               |
+| TB1 | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |      Coordinación y revisión de consistencia entre mockups, wireframe |
 | AV1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de 4 entrevistas                 |
 | AV1 |    26-04-2026     | Mio Mejia, Andy Alejandro | Style Guidelines                              |
 | AV1 |    26-04-2026     | Mio Mejia, Andy Alejandro | Information Architecture                           |
@@ -89,8 +100,30 @@
 | AV1 | 24-04-2026 | Rocca Leon, Anhelo Rodrigo |         Commit de la sección 'Benefits' del Landing Page         |
 | AV1 | 24-04-2026 | Rocca Leon, Anhelo Rodrigo |      Commit de la sección 'Call-to-action' del Landing Page      |
 | AV1 | 26-04-2026 | Rocca Leon, Anhelo Rodrigo |      Desarollo de 1 entrevista para el segmento objetivo 2       |
-
-
+| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo del mockup del bounded context inventory        |
+| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo del mockup del bounded context inventory-Add    |
+| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo del mockup del bounded context reporting        |
+| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo del wireframe del bounded context inventory     |
+| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo del wireframe del bounded context inventory-Add |
+| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo del wireframe del bounded context reporting     |
+| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo de código del bounded context inventory         |
+| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo de código del bounded context reporting         |
+| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Creación de las estructuras de las tablas del sprint 2     |
+| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y refinamiento de mockups - Analytics Dashboard      |
+| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y refinamiento de wireframe - Analytics Dashboard      |
+| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y mejora de mockups - SignIn Authentication Flow      |
+| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y mejora de wireframe - SignIn Authentication Flow      |
+| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Revisión y corrección integral de User Stories - Refinamiento y validación      |
+| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Corrección y mejora del Lean UX Canvas - Validación de hipótesis      |
+| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización de criterios de aceptación en User Stories      |
+| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Coordinación y revisión de consistencia entre mockups, wireframes y User Stories      |
+| TB1 | 12-05-2026 | Orellana Rodriguez, Mel Andree | Creación de las implementaciones de SafeFlow |
+| TB1 | 12-05-2026 | Orellana Rodriguez, Mel Andree | Actualización de landing con conexión a la App Web SafeFlow |
+| TB1 | 12-05-2026 | Orellana Rodriguez, Mel Andree | Creación de las ramas para safeflow-webapp |
+| TB1 | 12-05-2026 | Orellana Rodriguez, Mel Andree | Implementación del MockAPI |
+| TB1 | 12-05-2026 | Orellana Rodriguez, Mel Andree | Coordinación de tareas para el frontend |
+| TB1 | 12-05-2026 | Orellana Rodriguez, Mel Andree | Implementación del Bounded Context Analytics |
+| TB1 | 12-05-2026 | Orellana Rodriguez, Mel Andree | Implementación del Bounded Context Monitoring |
 
 
 </div>
@@ -110,9 +143,12 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 | Integrante | Tareas Asignadas |
 |------------|------------------|
-| Mel Andree Orellana Rodriguez | Idea conceptual de Proyecto, Descripción de la Startup, Creación de la carpeta de Imagenes, Desarrollo de User Stories, Competidores, Creacion de Ramas en los Repositorios, Software Deployment Configuration, Source Code Management, Software Development Environment Configuration, Software Configuration Management, Creacion de la Estructura de la Landing, Estrategias y tácticas frente a competidores, Sprint 1.  |
+| Mel Andree Orellana Rodriguez | Idea conceptual de Proyecto, Descripción de la Startup, Creación de la carpeta de Imagenes, Desarrollo de User Stories, Competidores, Creacion de Ramas en los Repositorios, Software Deployment Configuration, Source Code Management, Software Development Environment Configuration, Software Configuration Management, Creacion de la Estructura de la Landing, Estrategias y tácticas frente a competidores, Sprint 1, Creación de las implementaciones de SafeFlow, Actualización de landing con conexión a la App Web SafeFlow, Creación de las ramas para safeflow-webapp, Implementación del MockAPI, Coordinación de tareas para el frontend, Implementación del Bounded Context Analytics, Implementación del Bounded Context Monitoring.  |
 |  Angel Guillermo Berrospi Marin  | Desarrollo de Lean Ux Hypothesis Statements, Desarrollo Lean Ux Canvas, Desarrollo de Diseño de entrevistas, Desarrollo de registro de entrevistas, Desarrollo de Análisis de entrevistas, Desarrollo de User Personas, Desarrollo de User Task Matrix, Desarrollo de User Journey Mapping, Desarrollo de Big Picture EventStorming, Desarrollo de Ubiquitous Lenguage, Creación de estructura de Aspect Leaders and Collaborators, Creación de estructura de Sprint Backlog,Creación de estructura de Development Evidence for Sprint Review.  |
 | Anhelo Rodrigo Rocca Leon | Desarollo del Domain-Driven Software Architecture, Desarollo del Design-Level EventStorming, Desarollo del Software Architecture Context Diagram, Desarollo del Software Architecture Container Diagram, Desarollo del Software Architecture Components Diagrams, Desarollo del Software Object-Oriented Design, Desarollo del Class Diagrams, Desarollo del Database Design, Desarollo del Database Diagrams, Commit de la sección 'Benefits' del Landing Page, Commit de la sección 'Call-to-action' del Landing Page y Desarollo de 1 entrevista para el segmento objetivo 2  |
+| Andy Alejandro Mio Mejia    |  |
+| Jefferson Bayron Morales Yapuchura    | Desarrollo de registro de entrevistas, Desarrollo de análisis de entrevistas, Desarrollo de la primera versión de Empathy Maps, Desarrollo de la primera versión de User Personas, Desarrollo de la primera versión de User Journey Mapping, Desarrollo de la primera versión de User Task Matrix, Actualización y mejora de wireframes (SignUp Authentication Flow), Actualización y mejora de mockups (SignUp Authentication Flow), Actualización y mejora de Bounded Context Shared, Actualización y refinamiento de mockups (Alerts), Actualización y refinamiento de wireframe (Alerts), Actualización de Web Applications Wireframes, Coordinación y revisión de consistencia entre mockups y wireframe. |
+
 | Andy Alejandro Mio Mejia    | Desarrollo de los General Style Guidelines, Desarrollo de los Web Style Guidelines, Desarrollo de los Organization Systems, Desarrollo de los Labeling Systems, Desarrollo de los SEO Tags and Meta Tags, Desarrollo de los Searching Systems, Desarrollo de los Navigation Systems, Desarrollo del Landing Page Wireframe, Desarrollo del Landing Page Mock-up, Desarrollo de los Web Applications Wireframes, Desarrollo de los Web Applications Wireflow Diagrams, Desarrollo de los Web Applications Mock-ups y Desarrollo de los Web Applications User Flow Diagrams. |
 | Jefferson Bayron Morales Yapuchura    | Desarrollo de Empathy Maps, Desarrollo de User Personas, Desarrollo de User Journey Mapping, Desarrollo de User Task Matrix y correcion de Domain-Driven Software Architecture. |
 
@@ -264,7 +300,14 @@ Los integrantes son:
           <ul>
             <li><b>AV1 - Angel Guillermo, Berrospi Marin:</b> 
             Fomenté comunicación con el grupo para tener un buen entendimiento del proyecto realizado, asi mismo ayude en la realización de diferentes puntos del proyecto, por ejmplo el capítulo 2 y la landing page, la estructura del capítulo 5 y coordinaciones que ayudaron en el avance del trabajo y su culminación.</li>
+            <li><b>TB1 - Angel Guillermo, Berrospi Marin:</b> 
+            Realice los diseños de los dashboard del bounded context inventory y reporting en figma, asi mismo en la programación de los mencionados bounded context que me tocaron realizar, participe activamente en la comunicación con el grupo y fomentando avances del proyecto.</li>
+            <li><b>TB1 - Andy Alejandro, Mio Mejia:</b>
+            Realicé la actualización y refinamiento integral de mockups y wireframes para los bounded contexts Analytics y SignUp, mejorando la consistencia visual y la experiencia del usuario. Llevé a cabo la revisión y corrección exhaustiva de User Stories, incluyendo la validación de criterios de aceptación y la alineación con los requisitos del proyecto. Corregí y mejoré el Lean UX Canvas validando hipótesis y asegurando coherencia con los objetivos del producto. Participé activamente en la coordinación del equipo, asegurando que los diseños, wireframes y documentación estuvieran alineados.</li>
             <li><b>AV1 - Mel Andre, Orellana Rodriguez:</b> Contribuí activamente en la organización y desarrollo del proyecto, apoyando en la planificación de tareas y asegurando el cumplimiento de los objetivos establecidos. Participé en la coordinación del equipo para mantener una comunicación clara y efectiva, además de colaborar en la implementación de la landing page y en la estructuración de secciones clave del documento.</li>
+           <li><b>TB1 - Mel Andre, Orellana Rodriguez:</b> Contribuí activamente en el desarrollo de SafeFlow mediante la implementación y organización de la aplicación web, colaborando en la conexión de la landing page con el frontend principal. Participé en la creación y gestión de ramas del repositorio safeflow-webapp, en la implementación del MockAPI y en el desarrollo de los bounded contexts Analytics y Monitoring. Además, apoyé en la coordinación de tareas del frontend para asegurar el cumplimiento de los objetivos del proyecto y mantener una comunicación efectiva dentro del equipo.</li>
+                  <li><b>AV1 - Anhelo Rodrigo, Rocca Leon:</b>Complete las tareas que me fueron asignadas y comunique mi progreso en gran parte de ellas. Además, contribuí en otras tareas que me fueron ofrecidas. Mi aporte ayudó a materializar la arquitectura de Safeflow y ayudar un poco en el estudio del público objetivo.</li>
+            <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
             <li><b>AV1 - Anhelo Rodrigo, Rocca Leon:</b>Complete las tareas que me fueron asignadas y comunique mi progreso en gran parte de ellas. Además, contribuí en otras tareas que me fueron ofrecidas. Mi aporte ayudó a materializar la arquitectura de Safeflow y ayudar un poco en el estudio del público objetivo.</li>
             <li><b>AV1 - Andy Alejandro, Mio Mejia:</b> Completé las tareas de diseño de producto asignadas y comuniqué mi progreso de manera efectiva en cada etapa. Además, contribuí en tareas adicionales para fortalecer la identidad visual y estructural del proyecto. Mi aporte ayudó a materializar la interfaz y la experiencia de usuario de Safeflow, definiendo desde los lineamientos de estilo y la arquitectura de información hasta el diseño detallado de los wireframes y mock-ups para la landing page y las aplicaciones web.</li>
             <li><b>AV1 - Jefferson Bayron, Morales Yapuchura:</b> Apoyé el liderazgo del grupo dirigiendo la estructuración del perfil de nuestros usuarios. A través de la creación de la primera version de user personas, empathy maps, user journey maps, la user task matrix y el desarollo de 4 entrevistas, proporcioné las bases necesarias para que el equipo pudiera trabajar de manera conjunta y enfocada, guiando el desarrollo funcional y visual del proyecto. </li>
@@ -281,8 +324,15 @@ El equipo logró coordinarse de manera progresiva a lo largo del desarrollo del 
           <ul>
             <li><b>AV1 - Angel Guillermo Berrospi Marin:</b>
             Participé activamente en el desarrollo del proyecto, tanto en la realización de tareas cómo entrar a las reuniones programadas para la coordinación de diferentes puntos, establecí mi propia métrica con respecto a los puntos que me tocaron y de esa forma pude desempeñar un buen rendimiento tanto en ayuda para el grupo cómo para la finalización del proyecto.</li>
+            <li><b>TB1 - Angel Guillermo Berrospi Marin:</b>
+            En todo momento fomente la comunicación para tener un buen desarrollo del trabajo y las mejoras que requeria, del mismo modo cumpli con las tareas que se me asignaron en el tiempo que se designo, ayude tanto en la documentación cómo en el desarrollo del frontend.</li>
+            <li><b>TB1 - Andy Alejandro, Mio Mejia:</b>
+            Fomentélapequeña comunicación constante con el equipo para asegurar la alineación en los diseños y requisitos del proyecto. Establecí metas claras para la revisión de User Stories y el refinamiento de mockups, cumpliendo con los plazos establecidos. Coordiné las mejoras necesarias en el Lean UX Canvas con el feedback del equipo, contribuyendo a que los objetivos de TB1 se lograran de manera organizada y eficiente. Participé activamente en las reuniones del sprint y contribuí en la documentación del desarrollo.</li>
             <li><b>AV1 - Mel Andre Orellana Rodriguez:</b>Fomenté un ambiente colaborativo dentro del equipo, promoviendo la participación activa y el cumplimiento de responsabilidades. Me enfoqué en coordinar tareas, apoyar en la resolución de problemas y mantener alineados los objetivos del proyecto, contribuyendo así a la entrega final de manera organizada y eficiente.</li>
+          <li><b>TB1 - Mel Andre Orellana Rodriguez:</b> Fomenté un ambiente colaborativo dentro del equipo durante el desarrollo de SafeFlow, promoviendo la participación activa y el cumplimiento de responsabilidades en las tareas del frontend. Me enfoqué en coordinar actividades relacionadas con la implementación de la aplicación web, la integración de la landing page, el desarrollo del MockAPI y los bounded contexts Analytics y Monitoring. Además, apoyé en la organización del repositorio y en la alineación de los objetivos del proyecto para asegurar un desarrollo eficiente y ordenado.</li>        
             <li><b>AV1 - Anhelo Rodrigo Rocca Leon:</b>Participé en la planificación y desarrollo del proyecto, al igual que en las reuniones de equipo programadas. Me asegure de mantener un ambiente respetuoso entre los compañeros y que la solución de las tareas asignadas a mi persona cumplan con las metas establecidas por el equipo.</li>
+            <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
+             <li><b>AV1 - Jefferson Bayron Morales Yapuchura:</b> Contribuí a crear un ambiente de trabajo inclusivo y colaborativo participando activamente en todas las coordinaciones. Para mis asignaciones, establecí metas específicas y planifiqué el desarrollo de herramientas como los empathy maps y la user task matrix. Esto me permitió cumplir estrictamente con mis objetivos, entregando un análisis de usuario que facilitó el avance organizado de todo el equipo.</li>
             <li><b>AV1 - TAndy Alejandro Mio Mejia:</b> Participé activamente en la planificación y el diseño de la interfaz del proyecto, así como en todas las reuniones de equipo programadas. Me aseguré de mantener un ambiente colaborativo y respetuoso con mis compañeros, garantizando que el desarrollo de los lineamientos de estilo, la arquitectura de información y los prototipos de Safeflow cumplieran estrictamente con las metas de calidad y los plazos establecidos por el equipo.</li>
             <li><b>AV1 - Jefferson Bayron Morales Yapuchura:</b> Contribuí a crear un ambiente de trabajo inclusivo y colaborativo participando activamente en todas las coordinaciones. Para mis asignaciones, establecí metas específicas y planifiqué el desarrollo de herramientas como los empathy maps y la user task matrix. Esto me permitió cumplir estrictamente con mis objetivos, entregando un análisis de usuario que facilitó el avance organizado de todo el equipo.</li>
           </ul>
@@ -2549,5 +2599,15 @@ Finalmente, se recomienda considerar la escalabilidad de la solución hacia otro
 
 
 # Bibliografía
+- Ministerio de Salud del Perú. (2000). Taller sobre planificación, administración y evaluación: Módulo III. Cadena de frío. https://www.gob.pe/institucion/minsa/informes-publicaciones/352804-taller-sobre-planificacion-administracion-y-evaluacion-modulo-iii-cadena-de-frio
+- Dirección General de Medicamentos, Insumos y Drogas. (2025). Guía de apoyo al usuario para solicitar la expedición del certificado de liberación de lote de productos biológicos. https://www.digemid.minsa.gob.pe
+- Dirección General de Medicamentos, Insumos y Drogas. (2025). Programa de control y vigilancia del mercado de productos farmacéuticos, dispositivos médicos y productos sanitarios 2023-2025. https://www.digemid.minsa.gob.pe
+- Centro Nacional de Abastecimiento de Recursos Estratégicos en Salud. (2025). Cenares obtiene importante certificación de buenas prácticas de distribución y transporte (BPDyT) de DIGEMID. https://www.gob.pe/institucion/cenares/noticias/1199604-cenares-obtiene-importante-certificacion-de-buenas-practicas-de-distribucion-y-transporte-bpdyt-de-digemid
+- Dirección General de Medicamentos, Insumos y Drogas. (2026). Establecimientos farmacéuticos autorizados y regulación sanitaria. https://www.digemid.minsa.gob.pe/webDigemid/establecimientos/
+- Interworld Freight. (2026). Almacén farmacéutico en Perú y cadena de frío validada. https://interwf.com/es/servicios/almacenamiento/farmaceutico/peru
+- Medicas. (2026). Almacenamiento y certificación BPA para productos farmacéuticos. https://medicas.com.pe/almacenamiento.html
+- Ministerio de Salud del Perú. (2009). Tablas peruanas de composición de alimentos. https://www.gob.pe/institucion/minsa/informes-publicaciones/353006-tablas-peruanas-de-composicion-de-alimentos
+- Cornejo, D. (2023). COVID-19: Digemid dice que no se rompió cadena de frío de vacunas, pero Pfizer pidió que se desechen. La República. https://larepublica.pe/sociedad/2023/06/07/covid19-digemid-dice-que-no-se-rompio-cadena-de-frio-de-vacunas-pero-pfizer-pidio-que-se-desechen-96824
+
 
 # Anexos
