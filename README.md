@@ -688,8 +688,8 @@ Esta pantalla representa el punto de entrada al sistema SafeFlow. Su función pr
 El diseño del wireframe prioriza la simplicidad y claridad, mostrando únicamente los campos necesarios para reducir fricción en el acceso. Además, contempla validaciones básicas y retroalimentación al usuario en caso de errores.
 Esta pantalla es fundamental porque garantiza la seguridad del sistema y controla el acceso según roles (administrador u operador), lo cual condiciona las funcionalidades disponibles dentro de la plataforma.
 
-<div align="center"> <img src="assets/chapter-04/WF_auth_login.png"/>  </div>
-<div align="center"> <img src="assets/chapter-04/WF_auth_register.png"/>  </div>
+<div align="center"> <img src="assets/chapter-04/wireframe-_login.png"/>  </div>
+<div align="center"> <img src="assets/chapter-04/wireframe-Sign Up.png"/>  </div>
 
 
 ### 2. Dashboard (Panel de Control)
@@ -699,7 +699,7 @@ El dashboard es la vista principal del sistema y actúa como centro de monitoreo
 Su diseño está orientado a la toma de decisiones rápida, utilizando tarjetas, gráficos y resúmenes visuales que permiten al usuario comprender el estado del sistema de un vistazo.
 Este componente está directamente relacionado con el contexto de **Gestión del Sistema**, ya que integra información proveniente de los demás módulos (inventario, monitoreo, alertas y logística) en una sola interfaz centralizada.
 
-<div align="center"> <img src="assets/chapter-04/WF_dashboard_main.png"/>  </div>
+<div align="center"> <img src="assets/chapter-04/wireframe-analytics.png"/>  </div>
 
 
 
@@ -712,7 +712,7 @@ El diseño facilita la organización y control del stock mediante tablas, filtro
 
 Este módulo está vinculado al **Contexto de Inventario**, ya que gestiona la base de datos principal sobre la cual operan los demás procesos del sistema, siendo esencial para el monitoreo y la trazabilidad.
 
-<div align="center"> <img src="assets/chapter-04/WF_inventory_list.png"/>  </div>
+<div align="center"> <img src="assets/chapter-04/wireframe-inventory.png"/>  </div>
 
 ### 4. Módulo de Reportes y Análisis
 
@@ -722,7 +722,7 @@ Su diseño incluye tablas y posibles visualizaciones gráficas que facilitan la 
 
 Está vinculado al contexto de **Gestión del Sistema**, ya que consolida información de todos los módulos para apoyar la toma de decisiones estratégicas, auditorías y mejora continua de los procesos.
 
-<div align="center"> <img src="assets/chapter-04/WF_reports_analysis.png"/>  </div>
+<div align="center"> <img src="assets/chapter-04/wireframe-reporting.png"/>  </div>
 
 
 ### 5. Módulo de Alertas
@@ -735,14 +735,14 @@ El diseño está orientado a resaltar visualmente los eventos críticos, facilit
 
 Este módulo está vinculado al **Contexto de Alertas**, y trabaja en conjunto con el monitoreo y el inventario para garantizar una respuesta oportuna ante problemas en la cadena de frío.
 
-<div align="center"> <img src="assets/chapter-04/WF_alerts_list.png"/>  </div>
+<div align="center"> <img src="assets/chapter-04/wireframe-Alerta.png"/>  </div>
 
 ### 6. Módulo de Monitoreo
 
 Este wireframe muestra la interfaz dedicada al seguimiento de las condiciones de temperatura de los productos, tanto en tiempo real como a través de datos históricos.Permite visualizar registros de temperatura asociados a productos o despachos, indicando valores, fechas, origen (manual o simulado) y estado. Además, puede incluir gráficos que representan la variación de temperatura a lo largo del tiempo, facilitando la detección de patrones o anomalías.El diseño prioriza la claridad de la información y la actualización constante de los datos, permitiendo al usuario supervisar de manera continua el estado de los productos.Este módulo está directamente relacionado con el **Contexto de Monitoreo Ambiental**, siendo el núcleo del sistema, ya que se encarga de evaluar las condiciones térmicas y desencadenar alertas en caso de detectar desviaciones.
 
 
-<div align="center"> <img src="assets/chapter-04/WF_monitoring_realtime.png"/>  </div>
+<div align="center"> <img src="assets/chapter-04/wireframe-monitoring.png"/>  </div>
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams
