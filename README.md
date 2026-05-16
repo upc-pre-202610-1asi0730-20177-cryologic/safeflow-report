@@ -2956,6 +2956,9 @@ Durante el Sprint 2, el equipo se enfocó en el despliegue de la aplicación web
 
 En este Sprint se trabajó principalmente con Netlify como plataforma de despliegue, además de MockAPI para la simulación de servicios backend durante el desarrollo. Se configuró la integración con GitHub para automatizar los despliegues cada vez que se realizaban cambios en el repositorio del proyecto. Asimismo, se verificó el correcto funcionamiento de la aplicación desplegada mediante pruebas de acceso y visualización del sistema en línea.
 
+URL de despliegue del Frontend: [Frontend Desplegado](https://safeflow0.netlify.app/login?next=/analytics) 
+
+
 ## Actividades de Deployment Realizadas
 
 ### 1. Creación y Configuración de Servicios Cloud
@@ -3009,6 +3012,12 @@ Durante el Sprint se verificó:
 ### Enfoque del Sprint 2
 
 El despliegue realizado corresponde únicamente a la aplicación frontend y a los servicios mock utilizados para pruebas. Los servicios backend reales serán implementados y desplegados en los siguientes sprints del proyecto.
+
+
+
+
+<div algin="center"><img src="assets/chapter-05/pantalla-analytics.png" alt="deployment4" width="900" />  </div>
+
 
 
 
