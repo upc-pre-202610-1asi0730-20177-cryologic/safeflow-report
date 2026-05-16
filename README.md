@@ -1154,6 +1154,14 @@ URL de despliegue del Landing Page: [Landing Page Desplegado](https://upc-pre-20
       <td>Create the section inventory.</td>
       <td>15/05/2026</td>
     </tr>
+    <tr>
+      <td>Fenfito/safeflow-webapp</td>
+      <td>feature/alerts</td>
+      <td>65f7053fefcf817375fb7a097bb50b5c2cf38a5c</td>
+      <td>feat(alerts): implement alerts bounded context</td>
+      <td>Create the section alerts.</td>
+      <td>15/05/2026</td>
+    </tr>
   </tbody>
 </table>
 
