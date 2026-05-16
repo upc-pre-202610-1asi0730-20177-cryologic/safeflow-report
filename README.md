@@ -814,6 +814,8 @@ Valora la rapidez y la simplicidad; para ella, la digitalización es necesaria p
 
 ---
 
+<img src="assets/chapter-02/Interview-picture-5.png" />
+
 **Entrevista 5:**
 - **Nombres y apellidos:** Silvia Leon
 - **Edad:** 52 años
