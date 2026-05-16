@@ -2114,32 +2114,33 @@ Todas las variables, funciones, clases, componentes y archivos se nombran en ing
 - Comentarios solo en lógica compleja.
 
 
-### Java / Spring Boot (Backend)
+### C# ASP.NET Core (Backend)
 
-**Guías adoptadas:** Google Java Style Guide y Spring Boot Best Practices
+**Guías adoptadas:** C# Coding Conventions y ASP.NET Core Best Practices
 
 ### Estructura del proyecto
 - Arquitectura en capas:
-  - Controller
-  - Service
-  - Repository
-  - Entity
-  - DTO
+  - Controllers
+  - Services
+  - Repositories
+  - Entities
+  - DTOs
 
 ### Nomenclatura
 - Clases: `PascalCase`
-- Métodos: `camelCase`
+- Métodos: `PascalCase`
 - Variables: `camelCase`
 - Constantes: `UPPER_CASE`
 
 ### Buenas prácticas
-- Uso de inyección de dependencias.
+- Uso de inyección de dependencias mediante ASP.NET Core.
 - Separación entre entidades, DTOs y lógica de negocio.
-- Uso de JPA/Hibernate para persistencia de datos.
-- Manejo centralizado de excepciones con `@ControllerAdvice`.
-- Validación con Bean Validation (`@Valid`, `@NotNull`, etc.).
+- Uso de Entity Framework Core para persistencia de datos.
+- Manejo centralizado de excepciones mediante Middleware.
+- Validación de datos utilizando Data Annotations (`[Required]`, `[MaxLength]`, etc.).
 - Servicios encargados de la lógica de negocio.
-
+- Uso de controladores REST para exponer endpoints de la API.
+- Uso de LINQ para consultas y manipulación de datos.
 
 ### Convenciones generales del proyecto SafeFlow
 
@@ -2150,8 +2151,6 @@ Todas las variables, funciones, clases, componentes y archivos se nombran en ing
 - Se documentan módulos y funciones críticas.
 - Se mantiene consistencia entre frontend y backend.
 
-
-
 ### Gherkin (Especificaciones)
 
 Para la definición de criterios de aceptación en historias de usuario se utiliza Gherkin:
@@ -2159,13 +2158,14 @@ Para la definición de criterios de aceptación en historias de usuario se utili
 - Given / When / Then
 - Lenguaje claro y entendible por el negocio
 
-### Ejemplo:
+### Ejemplo
 
 ```gherkin
 Given a product is registered
 When temperature exceeds allowed range
 Then the system generates an alert
-````
+```
+
 
 ### 5.1.4. Software Deployment Configuration
 
@@ -2180,8 +2180,7 @@ La solución se encuentra estructurada bajo una arquitectura desacoplada, donde 
 
 - **Landing Page**: desplegada en GitHub Pages  
 - **Frontend Web Application (Vue.js)**: desplegada en Netlify  
-- **Backend Web Services (Java Spring Boot) + Base de Datos (PostgreSQL)**: desplegados en Railway  
-
+- **Backend Web Services (C# ASP.NET Core) + Base de Datos (PostgreSQL)**: desplegados en Railway
 
 ### 1. Control de Versiones
 
@@ -2260,8 +2259,8 @@ El frontend está desarrollado con Vue 3 y se despliega utilizando Netlify, el c
 - dist
 
 
-#### 4. Configurar variables de entorno
 
+#### 4. Configurar variables de entorno
 
 - VITE_API_URL=https://<backend-url>
 
@@ -2271,18 +2270,19 @@ El frontend está desarrollado con Vue 3 y se despliega utilizando Netlify, el c
 - Se genera una URL pública accesible  
 
 
-### 4. Despliegue de Web Services (Backend en Railway)
+### 4. Despliegue de Web Services (Backend ASP.NET Core en Railway)
 
-El backend está desarrollado en Java con Spring Boot y se despliega en Railway junto con la base de datos.
+El backend está desarrollado en C# utilizando ASP.NET Core y se despliega en Railway junto con la base de datos PostgreSQL.
 
 ### Pasos de despliegue
 
 #### 1. Subir el backend a GitHub
 
-- git add .
-- git commit -m "deploy backend"
-- git push origin main
-
+```bash
+git add .
+git commit -m "deploy backend"
+git push origin main
+```
 
 #### 2. Crear proyecto en Railway
 
@@ -2292,23 +2292,28 @@ El backend está desarrollado en Java con Spring Boot y se despliega en Railway 
 
 #### 3. Configurar variables de entorno
 
-
-- SPRING_DATASOURCE_URL
-- SPRING_DATASOURCE_USERNAME
-- SPRING_DATASOURCE_PASSWORD
-- PORT
-
+```env
+ConnectionStrings__DefaultConnection=
+ASPNETCORE_ENVIRONMENT=Production
+PORT=
+```
 
 #### 4. Despliegue automático
 
-Railway detecta el proyecto Spring Boot y ejecuta automáticamente:
+Railway detecta el proyecto ASP.NET Core y ejecuta automáticamente:
 
+```bash
+dotnet restore
+dotnet build
+```
 
-- mvn clean install
+#### Resultado
 
+```txt
+https://safeflow-backend.up.railway.app
+```
 
-#### Resultado: https://safeflow-backend.up.railway.app
-
+---
 
 ### 5. Configuración de Base de Datos (PostgreSQL en Railway)
 
@@ -2320,39 +2325,41 @@ Railway detecta el proyecto Spring Boot y ejecuta automáticamente:
 
 #### 2. Obtener credenciales generadas
 
-
-- HOST
-- DATABASE
-- USERNAME
-- PASSWORD
-- PORT
+```env
+HOST
+DATABASE
+USERNAME
+PASSWORD
+PORT
+```
 
 #### 3. Configurar en el backend
 
-- SPRING_DATASOURCE_URL
-- SPRING_DATASOURCE_USERNAME
-- SPRING_DATASOURCE_PASSWORD
+```env
+ConnectionStrings__DefaultConnection
+```
+
+---
 
 ### 6. Integración de Componentes
 
 El sistema funciona de la siguiente manera:
 
-- La **Landing Page** actúa como punto de entrada y redirige al usuario al frontend  
-- El **Frontend** consume los servicios del backend mediante API REST  
-- El **Backend** gestiona la lógica de negocio y acceso a datos  
-- La **Base de Datos** almacena la información del sistema  
+- La **Landing Page** actúa como punto de entrada y redirige al usuario al frontend.  
+- El **Frontend** consume los servicios del backend mediante API REST.  
+- El **Backend ASP.NET Core** gestiona la lógica de negocio y el acceso a datos.  
+- La **Base de Datos PostgreSQL** almacena la información del sistema.  
 
+---
 
 ### 7. Consideraciones de Despliegue
 
-- Uso obligatorio de variables de entorno para configuración sensible  
-- Configuración de CORS en el backend para permitir comunicación con el frontend  
-- Separación de entornos (desarrollo y producción)  
-- Evitar credenciales dentro del código fuente  
-- Verificación de URLs públicas después del despliegue  
-- Mantener compatibilidad entre versiones de frontend y backend  
-
-
+- Uso obligatorio de variables de entorno para configuración sensible.  
+- Configuración de CORS en ASP.NET Core para permitir comunicación con el frontend.  
+- Separación de entornos (desarrollo y producción).  
+- Evitar credenciales dentro del código fuente.  
+- Verificación de URLs públicas después del despliegue.  
+- Mantener compatibilidad entre versiones de frontend y backend.  
 
 
 
@@ -2464,6 +2471,70 @@ El objetivo principal del Sprint 1 es implementar las funcionalidades base del s
 - **ToReview**: En revisión
 - **Done**: Finalizado
 
+### 5.2.1.4. Development Evidence for Sprint Review
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/pricing</td>
+      <td>09d59ce4d376bd3a5a2b1f849d6dbefd056835a5</td>
+      <td>feat: create structure for the section pricing.</td>
+      <td>Create the structure for pricing because thats my section.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/pricing</td>
+      <td>562f581e39a0fdbb288e81705aae3c471c19b7c6</td>
+      <td>feat: create style for the section pricing.</td>
+      <td>Create the style for the section pricing.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/how-it-work</td>
+      <td>cfacfbbfe0dc72bc9bdb6736289556590b8d57e8</td>
+      <td>feat: create the structure of section how it works.</td>
+      <td>Create the structure for how it works because thats my section.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/how-it-work</td>
+      <td>469afbf4d23e12618f10bbd9b2a5db5c0191fe9f</td>
+      <td>feat: create the style for the section how it works.</td>
+      <td>Create the style for the section how it works.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/characteristics</td>
+      <td>7ac3298ec94c28fe6bb6e5175a0522b5186ee200</td>
+      <td>feat: create the section of characteristics</td>
+      <td>Create the structure for characteristics.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/characteristics</td>
+      <td>8f5e5f46b782b75638c74e2afd779cf164670f84</td>
+      <td>feat: create styles for the section characteristic.</td>
+      <td>Create the style for the section characteristics.</td>
+      <td>16/04/2026</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
@@ -2569,6 +2640,398 @@ URL de despliegue del Landing Page: [Landing Page Desplegado](https://upc-pre-20
  <div algin="center"><img src="assets/chapter-05/commit1.png" alt="deployment4" width="1000" />  </div>        
 
  <div algin="center"><img src="assets/chapter-05/commit2.png" alt="deployment4" width="1000" />  </div>        
+
+
+
+
+### 5.2.2 Sprint 2
+
+
+#### 5.2.2.1 Sprint Planning 2
+
+<table><tr> <th colspan="5">Sprint #</th> <th colspan="9">Sprint 2</th> </tr> <tr> <td colspan="13">Sprint Planning Background</td> </tr> <tr> <td colspan="5">Date</td> <td colspan="8">13-05-2026</td> </tr> <tr> <td colspan="5">Time</td> <td colspan="8">4:00 PM</td> </tr> <tr> <td colspan="5">Location</td> <td colspan="8">Reunion por Meet</td> </tr> <tr> <td colspan="5">Prepared By</td> <td colspan="8">Mel Andre Orellana</td> </tr> <tr> <td colspan="5">Attendees (to planning meeting)</td> <td colspan="8">Anhelo Rodrigo	Rocca
+, Andy Alejandro Mio, Mel Andre Orellana, Angel Berrospi Marin, Jefferson Bayron</td> </tr> <tr> <td colspan="5">Sprint 1 Review Summary</td> <td colspan="8">Se completó con éxito el despliegue de la Landing Page de SafeFlow, logrando que sea accesible online con todas sus secciones principales (home, features, benefits y testimonials) funcionales.</td> </tr> <tr> <td colspan="5">Sprint 1 Retrospective Summary</td> <td colspan="8">El equipo mantuvo una buena velocidad de desarrollo; para este sprint se acordó estandarizar los componentes de UI para las tablas de datos y formularios técnicos para asegurar la consistencia visual.</td> </tr> <tr> <td colspan="13">Sprint Goal & User Stories</td> </tr> <tr> <td colspan="5">Sprint 2 Goal</td> <td colspan="8"> <strong>"Our focus is on developing the core functional frontend of the SafeFlow platform, specifically the Inventory, Logistics, Monitoring, and Alerts modules for medical warehouse management. We aim to deliver a fully operational dashboard that allows users to manage medical stock, track shipments in real-time, and visualize critical thermal data for cold chain integrity. This will be validated when the dashboard is accessible via localhost, featuring interactive data tables for warehouse inventory, functional forms for logistics registration, and dynamic monitoring cards with real-time temperature status."</strong> </td> </tr> <tr> <td colspan="5">Sprint 2 Velocity</td> <td colspan="8">25</td> 25 hours</tr> <tr> <td colspan="5">Sum of Story Points</td> <td colspan="8"> 25 story points</td> </tr> </table>
+
+
+#### 5.2.2.2 Aspect Leaders and Collaborators
+
+<div align="center">
+  <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 13px; text-align: center;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="border: 1px solid #dddddd; padding: 10px;">Team Member (Last Name, First Name)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Inventory  (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Logistics</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Monitoring(L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Alerts</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Reporting</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Analytics</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodriguez, Mel Andree</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">melandree8</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+       <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+       <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Bayron	Morales, Jefferson</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Fenfito</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>     
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Berrospi Marin, Angel Guillermo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Alejandro	Mio, Andy</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">AndyMio17</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+        <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Rodrigo Rocca, Anhelo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">RoccaA4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+#### 5.2.2.3 Sprint Backlog 2
+
+
+| Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|--------|--------------|------------------|---------|------------|-------------|--------------------|-------------|--------|
+| Sprint 2 | US-01 | Registrar producto | T-10 | Crear formulario de productos | Diseñar formulario para registrar productos y rangos de temperatura | 4 | Andree | To-do  |
+| Sprint 2 | US-02 | Registrar ingreso de stock | T-11 | Módulo de stock | Implementar registro de ingreso de productos al inventario | 3 | Angel | To-do |
+| Sprint 2 | US-10 | Consultar inventario | T-12 | Tabla de inventario | Mostrar productos registrados con filtros y estados | 4 | Anhelo | To-do |
+| Sprint 2 | US-14 | Editar producto | T-13 | Editar información | Implementar actualización de datos del producto | 3 | Jefferson | To-do |
+| Sprint 2 | US-15 | Eliminar producto | T-14 | Eliminar productos | Agregar opción para eliminar productos del sistema | 2 | Andy | To-do |
+| Sprint 2 | US-19 | Registrar lote de producto | T-15 | Gestión de lotes | Implementar registro y validación de lotes | 3 | Andree | To-do  |
+| Sprint 2 | US-16 | Registrar ubicación del producto | T-16 | Gestión de ubicaciones | Permitir asignar ubicación física a productos | 3 | Angel | To-do |
+| Sprint 2 | US-20 | Consultar productos en riesgo | T-17 | Vista de productos críticos | Mostrar productos con estado “En Riesgo” | 3 | Anhelo | To-do |
+| Sprint 2 | US-13 | Visualizar dashboard | T-18 | Dashboard principal | Crear panel con métricas y resumen del sistema | 5 | Jefferson | To-do  |
+
+#### 5.2.2.4 Development Evidence for Sprint Review
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/pricing</td>
+      <td>09d59ce4d376bd3a5a2b1f849d6dbefd056835a5</td>
+      <td>feat: create structure for the section pricing.</td>
+      <td>Create the structure for pricing because thats my section.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/pricing</td>
+      <td>562f581e39a0fdbb288e81705aae3c471c19b7c6</td>
+      <td>feat: create style for the section pricing.</td>
+      <td>Create the style for the section pricing.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/how-it-work</td>
+      <td>cfacfbbfe0dc72bc9bdb6736289556590b8d57e8</td>
+      <td>feat: create the structure of section how it works.</td>
+      <td>Create the structure for how it works because thats my section.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/how-it-work</td>
+      <td>469afbf4d23e12618f10bbd9b2a5db5c0191fe9f</td>
+      <td>feat: create the style for the section how it works.</td>
+      <td>Create the style for the section how it works.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/characteristics</td>
+      <td>7ac3298ec94c28fe6bb6e5175a0522b5186ee200</td>
+      <td>feat: create the section of characteristics</td>
+      <td>Create the structure for characteristics.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-website</td>
+      <td>feature/characteristics</td>
+      <td>8f5e5f46b782b75638c74e2afd779cf164670f84</td>
+      <td>feat: create styles for the section characteristic.</td>
+      <td>Create the style for the section characteristics.</td>
+      <td>16/04/2026</td>
+    </tr>
+    <tr>
+      <td>Guille-berrs/safeflow-webapp</td>
+      <td>feature/reporting</td>
+      <td>4c5a585023f1635721fa6cb26436320dd94a9c5e</td>
+      <td>feat: create the bounded context reporting and use domain driven design.</td>
+      <td>Create the section reporting.</td>
+      <td>15/05/2026</td>
+    </tr>
+    <tr>
+      <td>AndyMio17/safeflow-webapp</td>
+      <td>feature/inventory</td>
+      <td>4f76bcd3051dfc08fb0bdbe029fb148a86c9acc2</td>
+      <td>feat: add bounded context inventory</td>
+      <td>Create the section inventory.</td>
+      <td>15/05/2026</td>
+    </tr>
+    <tr>
+      <td>Fenfito/safeflow-webapp</td>
+      <td>feature/alerts</td>
+      <td>65f7053fefcf817375fb7a097bb50b5c2cf38a5c</td>
+      <td>feat(alerts): implement alerts bounded context</td>
+      <td>Create the section alerts.</td>
+      <td>15/05/2026</td>
+    </tr>
+<tr>
+      <td>melandree8/safeflow-webapp</td>
+      <td>feature/iam</td>
+      <td>4cfe49b81bd3fd5c6cc671bd13bedb6588740215</td>
+      <td>feat(iam): implement authentication module</td>
+      <td>Create login and register flow with demo session support.</td>
+      <td>15/05/2026</td>
+    </tr>
+    <tr>
+      <td>melandree8/safeflow-webapp</td>
+      <td>feature/iam</td>
+      <td>4b5ce1347ce6945add2d9ac2b287b53271de4019</td>
+      <td>feat(iam): restore login and register screens with demo session</td>
+      <td>Re-enable authentication UI and demo access entry point.</td>
+      <td>15/05/2026</td>
+    </tr>
+    <tr>
+      <td>melandree8/safeflow-webapp</td>
+      <td>feature/inventory</td>
+      <td>b6e2367e5b61ac67ce481270e3c0f6538be7274c</td>
+      <td>feat: add bounded context inventory</td>
+      <td>Implement inventory module following domain-driven design.</td>
+      <td>15/05/2026</td>
+    </tr>
+    <tr>
+      <td>melandree8/safeflow-webapp</td>
+      <td>feature/analytics</td>
+      <td>5ad58d128955f4081b35340d4c621d933f5a73e1</td>
+      <td>feat: implement analytics module</td>
+      <td>Add analytics dashboard and tracking functionality.</td>
+      <td>15/05/2026</td>
+    </tr>
+    <tr>
+      <td>melandree8/safeflow-webapp</td>
+      <td>feature/logistics</td>
+      <td>a74b909b3a6b35c63a7bb50dcfa768def2ad8c26</td>
+      <td>feat: implement logistics store for shipments tracking</td>
+      <td>Create store for managing shipments and delivery tracking.</td>
+      <td>15/05/2026</td>
+    </tr>
+    <tr>
+      <td>melandree8/safeflow-webapp</td>
+      <td>feature/reporting</td>
+      <td>05f02b35cb34a4ac13179c7bb62ce86703fa68b1</td>
+      <td>feat: create reporting bounded context using DDD</td>
+      <td>Implement reporting module following domain-driven architecture.</td>
+      <td>15/05/2026</td>
+    </tr>
+    <tr>
+      <td>melandree8/safeflow-webapp</td>
+      <td>feature/deploy</td>
+      <td>td05f02b35cb34a4ac13179c7bb62ce86703fa68b1</td>
+      <td>fix(deploy): point production build at MockAPI for Netlify</td>
+      <td>Update deployment configuration for production environment.</td>
+      <td>15/05/2026</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.2.5 Execution Evidence for Sprint Review
+
+### Sign In
+<div algin="center"><img src="assets/chapter-05/pantalla-signup.png" alt="deployment4" width="900" />  </div>
+
+1. Evidencia de la pantalla sign-up, donde el usuario entra a la web con sus credenciales previamente creadas.
+
+### Register
+<div algin="center"><img src="assets/chapter-05/pantalla-register.png" alt="deployment4" width="900" />  </div>
+
+2. Evidencia de la pantalla register, donde el usuario debe crearse una cuenta para poder ingresar a la web.
+
+### Analytics
+<div algin="center"><img src="assets/chapter-05/pantalla-analytics.png" alt="deployment4" width="900" />  </div>
+
+3. Evidencia de la pantalla analytics, donde el usuario podra visualizar el análisis mediante gráficos y/o resumen de la creación de los conductores, operadores, rutas de los conductores, medicamentos. 
+
+### Monitoring
+<div algin="center"><img src="assets/chapter-05/pantalla-monitoring.png" alt="deployment4" width="900" />  </div>
+
+4. Evidencia de la pantalla monitoring, donde el usuario puede monitorear el estado de las vacunas, información de los conductores y las rutas.
+
+### Logistics
+<div algin="center"><img src="assets/chapter-05/pantalla-logistics.png" alt="deployment4" width="900" />  </div>
+
+5. Evidencia de la pantalla logistics donde se ve de forma detallada el estado de los productos sobre la ruta y temperatura.
+
+### Alerts
+<div algin="center"><img src="assets/chapter-05/pantalla-alerts.png" alt="deployment4" width="900" />  </div>        
+
+6. Evidencia de la pantalla alerts, donde nos envian alertas sobre las vacunas que superaron su limite y necesitan atención inmediata.
+
+### Profile
+<div algin="center"><img src="assets/chapter-05/captura-profile.png" alt="deployment4" width="900" />  </div>        
+
+7. Evidencia de la pantalla, donde registra al personal encargado de áreas específicas según su cargo.
+
+### Inventory
+<div algin="center"><img src="assets/chapter-05/pantalla-inventory.png" alt="deployment4" width="900" />  </div>        
+
+8. Evidencia de la pantalla, donde se crea los productos que necesitan detalles específicos de su mantenimiento para que no se malogren en ruta.
+
+### Reporting
+<div algin="center"><img src="assets/chapter-05/pantalla-reporting.png" alt="deployment4" width="900" />  </div> 
+9. Evidencia de la pantalla, donde se crean los reportes
+
+#### 5.2.2.6 Services Documentation Evidence for Sprint Review
+
+Durante el presente Sprint, se desarrollaron y documentaron diversos endpoints que forman parte de los servicios backend de la aplicación. Estos endpoints permiten la interacción entre el cliente y el servidor, facilitando operaciones clave como la consulta de datos, la gestión de dispositivos, la visualización de niveles de radiación y la administración de usuarios.
+</br> 
+</br> 
+</br>
+
+1.Panel principal del proyecto SafeFlow desplegado en Netlify. Se visualiza el estado general del sitio y las opciones de configuración y análisis. 
+<div algin="center"><img src="assets/chapter-05/Evidencia-sprint2-1.jpeg" alt="deployment4" width="900" />  
+</div> </br> </br> 
+2.Registro del proceso de despliegue exitoso en Netlify. Todas las etapas de inicialización, compilación y publicación fueron completadas correctamente.
+<div algin="center"><img src="assets/chapter-05/Evidencia-sprint2-2.jpeg" alt="deployment4" width="900" />  
+</div> </br> </br> 
+3.Pantalla de inicio de sesión de la plataforma SafeFlow. Permite a los usuarios autenticarse o crear una nueva cuenta para acceder al sistema. 
+<div algin="center"><img src="assets/chapter-05/Evidencia-sprint2-3.jpeg" alt="deployment4" width="900" />  
+</div> </br> </br>
+4.Configuración de los endpoints del API en MockAPI para el proyecto SafeFlow. Se muestran los recursos creados para inventario, logística y monitoreo del sistema.
+<div algin="center"><img src="assets/chapter-05/Evidencia-sprint2-4.jpeg.png" alt="deployment4" width="900" />  </div>
+
+
+#### 5.2.2.7 Software Deployment Evidence for Sprint Review
+
+
+Durante el Sprint 2, el equipo se enfocó en el despliegue de la aplicación web frontend de SafeFlow, correspondiente al TP1 (Stage Review). El objetivo principal fue lograr la publicación de la primera versión funcional del sistema frontend, permitiendo validar el acceso y funcionamiento inicial de la plataforma. Para ello, se realizaron actividades relacionadas con la configuración de servicios de hosting, integración continua y despliegue automático.
+
+En este Sprint se trabajó principalmente con Netlify como plataforma de despliegue, además de MockAPI para la simulación de servicios backend durante el desarrollo. Se configuró la integración con GitHub para automatizar los despliegues cada vez que se realizaban cambios en el repositorio del proyecto. Asimismo, se verificó el correcto funcionamiento de la aplicación desplegada mediante pruebas de acceso y visualización del sistema en línea.
+
+## Actividades de Deployment Realizadas
+
+### 1. Creación y Configuración de Servicios Cloud
+
+Durante el Sprint 2 se crearon y configuraron los siguientes servicios:
+
+#### Netlify
+Se utilizó para el despliegue de la aplicación frontend de SafeFlow.
+
+- Configuración del proyecto conectado al repositorio de GitHub.
+- Despliegue automático mediante integración continua (CI/CD).
+- Generación de URL pública para acceso al sistema.
+- Verificación del estado de compilación y despliegue exitoso.
+
+#### MockAPI
+Se configuró como servicio mock para simular los endpoints backend durante el desarrollo frontend.
+
+- Creación de endpoints para inventario y logística.
+- Configuración de recursos y generación de datos simulados.
+- Uso de APIs REST para pruebas de integración frontend.
+
+### 2. Configuración del Repositorio Frontend
+
+Se configuró el repositorio del frontend en GitHub para el proyecto SafeFlow.
+
+- Integración del repositorio con Netlify.
+- Configuración de despliegues automáticos al realizar push.
+- Organización del proyecto frontend para compilación y publicación.
+- Verificación del flujo de despliegue continuo.
+
+### 3. Configuración de la Plataforma de Hosting
+
+#### Netlify - Configuración Principal
+
+- **Proyecto:** SafeFlow
+- **Framework utilizado:** Frontend Web Application
+- **Integración con GitHub:** Habilitada
+- **Despliegue automático:** Configurado
+- **Build y publicación:** Completados correctamente
+
+### 4. Evidencias del Deployment
+
+Durante el Sprint se verificó:
+
+- La creación y configuración correcta de los endpoints en MockAPI.
+- El despliegue exitoso del proyecto en Netlify.
+- La correcta compilación y publicación de la aplicación.
+- El acceso funcional a la pantalla inicial de autenticación de SafeFlow.
+
+
+### Enfoque del Sprint 2
+
+El despliegue realizado corresponde únicamente a la aplicación frontend y a los servicios mock utilizados para pruebas. Los servicios backend reales serán implementados y desplegados en los siguientes sprints del proyecto.
+
+
+
+#### 5.2.2.8 Team Collaboration Insights during Sprint
+
+
+En esta sección se describe cómo el equipo ha desarrollado las actividades de implementación durante el Sprint 2, evidenciando la colaboración en el desarrollo del proyecto.
+
+Durante este sprint, el equipo de **SafeFlow WebApp** trabajó de manera colaborativa utilizando diversas herramientas de desarrollo y control de versiones, como GitHub, para asegurar la entrega exitosa del producto.
+
+La colaboración se caracterizó por una comunicación constante entre los integrantes, una distribución efectiva de tareas y un seguimiento continuo del progreso mediante herramientas de gestión del proyecto. Cada miembro del equipo participó activamente en la implementación de los distintos componentes del sistema, incluyendo el desarrollo del **frontend de la aplicación web**, mejoras en el **Landing Page**, y la preparación de la arquitectura para la futura integración de **Web Services** en el siguiente sprint.
+
+Además, se realizaron revisiones constantes de commits en GitHub y análisis de la participación del equipo, lo que permitió garantizar que todos los integrantes contribuyeran en la implementación de los productos definidos para el sprint: **Landing Page, Web Application y preparación de Web Services**.
+
+
+<div algin="center"><img src="assets/chapter-05/team-colaboration-2.png" alt="deployment4" width="900" />  </div>
+
+
+<div algin="center"><img src="assets/chapter-05/team-colaboration-1.png" alt="deployment4" width="900" />  </div>
+
+
 
 
 # Conclusiones y recomendaciones
