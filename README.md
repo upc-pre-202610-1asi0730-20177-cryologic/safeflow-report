@@ -1234,6 +1234,65 @@ Durante el presente Sprint, se desarrollaron y documentaron diversos endpoints q
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review
 
 
+Durante el Sprint 2, el equipo se enfocó en el despliegue de la aplicación web frontend de SafeFlow, correspondiente al TP1 (Stage Review). El objetivo principal fue lograr la publicación de la primera versión funcional del sistema frontend, permitiendo validar el acceso y funcionamiento inicial de la plataforma. Para ello, se realizaron actividades relacionadas con la configuración de servicios de hosting, integración continua y despliegue automático.
+
+En este Sprint se trabajó principalmente con Netlify como plataforma de despliegue, además de MockAPI para la simulación de servicios backend durante el desarrollo. Se configuró la integración con GitHub para automatizar los despliegues cada vez que se realizaban cambios en el repositorio del proyecto. Asimismo, se verificó el correcto funcionamiento de la aplicación desplegada mediante pruebas de acceso y visualización del sistema en línea.
+
+## Actividades de Deployment Realizadas
+
+### 1. Creación y Configuración de Servicios Cloud
+
+Durante el Sprint 2 se crearon y configuraron los siguientes servicios:
+
+#### Netlify
+Se utilizó para el despliegue de la aplicación frontend de SafeFlow.
+
+- Configuración del proyecto conectado al repositorio de GitHub.
+- Despliegue automático mediante integración continua (CI/CD).
+- Generación de URL pública para acceso al sistema.
+- Verificación del estado de compilación y despliegue exitoso.
+
+#### MockAPI
+Se configuró como servicio mock para simular los endpoints backend durante el desarrollo frontend.
+
+- Creación de endpoints para inventario y logística.
+- Configuración de recursos y generación de datos simulados.
+- Uso de APIs REST para pruebas de integración frontend.
+
+### 2. Configuración del Repositorio Frontend
+
+Se configuró el repositorio del frontend en GitHub para el proyecto SafeFlow.
+
+- Integración del repositorio con Netlify.
+- Configuración de despliegues automáticos al realizar push.
+- Organización del proyecto frontend para compilación y publicación.
+- Verificación del flujo de despliegue continuo.
+
+### 3. Configuración de la Plataforma de Hosting
+
+#### Netlify - Configuración Principal
+
+- **Proyecto:** SafeFlow
+- **Framework utilizado:** Frontend Web Application
+- **Integración con GitHub:** Habilitada
+- **Despliegue automático:** Configurado
+- **Build y publicación:** Completados correctamente
+
+### 4. Evidencias del Deployment
+
+Durante el Sprint se verificó:
+
+- La creación y configuración correcta de los endpoints en MockAPI.
+- El despliegue exitoso del proyecto en Netlify.
+- La correcta compilación y publicación de la aplicación.
+- El acceso funcional a la pantalla inicial de autenticación de SafeFlow.
+
+
+### Enfoque del Sprint 2
+
+El despliegue realizado corresponde únicamente a la aplicación frontend y a los servicios mock utilizados para pruebas. Los servicios backend reales serán implementados y desplegados en los siguientes sprints del proyecto.
+
+
 
 #### 5.2.2.8 Team Collaboration Insights during Sprint
 
