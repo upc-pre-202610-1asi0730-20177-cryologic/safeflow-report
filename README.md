@@ -1162,6 +1162,62 @@ URL de despliegue del Landing Page: [Landing Page Desplegado](https://upc-pre-20
       <td>Create the section alerts.</td>
       <td>15/05/2026</td>
     </tr>
+<tr>
+      <td>melandree8/safeflow-webapp</td>
+      <td>feature/iam</td>
+      <td>4cfe49b81bd3fd5c6cc671bd13bedb6588740215</td>
+      <td>feat(iam): implement authentication module</td>
+      <td>Create login and register flow with demo session support.</td>
+      <td>15/05/2026</td>
+    </tr>
+    <tr>
+      <td>melandree8/safeflow-webapp</td>
+      <td>feature/iam</td>
+      <td>4b5ce1347ce6945add2d9ac2b287b53271de4019</td>
+      <td>feat(iam): restore login and register screens with demo session</td>
+      <td>Re-enable authentication UI and demo access entry point.</td>
+      <td>15/05/2026</td>
+    </tr>
+    <tr>
+      <td>melandree8/safeflow-webapp</td>
+      <td>feature/inventory</td>
+      <td>b6e2367e5b61ac67ce481270e3c0f6538be7274c</td>
+      <td>feat: add bounded context inventory</td>
+      <td>Implement inventory module following domain-driven design.</td>
+      <td>15/05/2026</td>
+    </tr>
+    <tr>
+      <td>melandree8/safeflow-webapp</td>
+      <td>feature/analytics</td>
+      <td>5ad58d128955f4081b35340d4c621d933f5a73e1</td>
+      <td>feat: implement analytics module</td>
+      <td>Add analytics dashboard and tracking functionality.</td>
+      <td>15/05/2026</td>
+    </tr>
+    <tr>
+      <td>melandree8/safeflow-webapp</td>
+      <td>feature/logistics</td>
+      <td>a74b909b3a6b35c63a7bb50dcfa768def2ad8c26</td>
+      <td>feat: implement logistics store for shipments tracking</td>
+      <td>Create store for managing shipments and delivery tracking.</td>
+      <td>15/05/2026</td>
+    </tr>
+    <tr>
+      <td>melandree8/safeflow-webapp</td>
+      <td>feature/reporting</td>
+      <td>05f02b35cb34a4ac13179c7bb62ce86703fa68b1</td>
+      <td>feat: create reporting bounded context using DDD</td>
+      <td>Implement reporting module following domain-driven architecture.</td>
+      <td>15/05/2026</td>
+    </tr>
+    <tr>
+      <td>melandree8/safeflow-webapp</td>
+      <td>feature/deploy</td>
+      <td>td05f02b35cb34a4ac13179c7bb62ce86703fa68b1</td>
+      <td>fix(deploy): point production build at MockAPI for Netlify</td>
+      <td>Update deployment configuration for production environment.</td>
+      <td>15/05/2026</td>
+    </tr>
   </tbody>
 </table>
 
