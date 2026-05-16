@@ -762,8 +762,6 @@ En esta sección se presenta los wireflows de SafeFlow, construidos a partir de 
 Esta sección presenta los mock-ups de la aplicación web SafeFlow, los cuales representan una versión visual más detallada y cercana al producto final en comparación con los wireframes. En estos diseños se evidencian decisiones relacionadas con la experiencia de usuario (UX), interfaz de usuario (UI), arquitectura de información y la aplicación de un Design System consistente.
 
 
-
-
 ### 1. Pantalla de Login
 
 El mock-up de inicio de sesión muestra una interfaz limpia y moderna, con una jerarquía visual clara que guía al usuario hacia la acción principal: ingresar al sistema.
@@ -775,7 +773,7 @@ Se aplican principios de diseño como:
 
 Además, el uso de imagen de fondo contextual (logística) refuerza el propósito del sistema.
 
-<div align="center"> <img src="assets/chapter-04/M_Login.jpeg"/>  </div>
+<div align="center"> <img src="assets/chapter-04/mockup-login.png"/> </div>
 
 
 
@@ -790,7 +788,7 @@ Aspectos destacados:
 
 El diseño prioriza eficiencia operativa y claridad en la gestión de productos.
 
-<div align="center"> <img src="assets/chapter-04/M_inventario_Modal.jpeg"/>  </div>
+<div align="center"> <img src="assets/chapter-04/mockup-inventory.png"/>  </div>
 
 ### 3. Módulo de Alertas
 
@@ -803,7 +801,7 @@ Principios aplicados:
 
 Facilita la identificación rápida de problemas en la cadena de frío.
 
-<div align="center"> <img src="assets/chapter-04/M_Alertas.jpeg"/>  </div>
+<div align="center"> <img src="assets/chapter-04/mockup-Alerts.png"/></div>
 
 ###  4. Módulo de Monitoreo
 
@@ -816,7 +814,7 @@ Elementos clave:
 
 Permite supervisar condiciones térmicas de forma continua.
 
-<div align="center"> <img src="assets/chapter-04/M_Monitoreo.jpeg"/>  </div>
+<div align="center"> <img src="assets/chapter-04/mockup-Pantalla-Monitoring.png"/> </div>
 
 
 ### 5. Módulo de Reportes y Análisis
@@ -830,7 +828,7 @@ Características:
 
 Está diseñado para la toma de decisiones estratégicas y auditorías.
 
-<div align="center"> <img src="assets/chapter-04/M_reporte.jpeg"/>  </div>
+<div align="center"> <img src="assets/chapter-04/mockup-reporting.png"/>  </div>
 
 
 ###  Design System aplicado
