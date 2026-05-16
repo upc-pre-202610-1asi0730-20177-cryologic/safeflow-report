@@ -1297,9 +1297,19 @@ El despliegue realizado corresponde únicamente a la aplicación frontend y a lo
 #### 5.2.2.8 Team Collaboration Insights during Sprint
 
 
+En esta sección se describe cómo el equipo ha desarrollado las actividades de implementación durante el Sprint 2, evidenciando la colaboración en el desarrollo del proyecto.
+
+Durante este sprint, el equipo de **SafeFlow WebApp** trabajó de manera colaborativa utilizando diversas herramientas de desarrollo y control de versiones, como GitHub, para asegurar la entrega exitosa del producto.
+
+La colaboración se caracterizó por una comunicación constante entre los integrantes, una distribución efectiva de tareas y un seguimiento continuo del progreso mediante herramientas de gestión del proyecto. Cada miembro del equipo participó activamente en la implementación de los distintos componentes del sistema, incluyendo el desarrollo del **frontend de la aplicación web**, mejoras en el **Landing Page**, y la preparación de la arquitectura para la futura integración de **Web Services** en el siguiente sprint.
+
+Además, se realizaron revisiones constantes de commits en GitHub y análisis de la participación del equipo, lo que permitió garantizar que todos los integrantes contribuyeran en la implementación de los productos definidos para el sprint: **Landing Page, Web Application y preparación de Web Services**.
 
 
+<div algin="center"><img src="assets/chapter-05/team-colaboration-2.png" alt="deployment4" width="900" />  </div>
 
+
+<div algin="center"><img src="assets/chapter-05/team-colaboration-1.png" alt="deployment4" width="900" />  </div>
 
 
 
