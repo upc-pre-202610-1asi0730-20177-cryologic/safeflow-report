@@ -41,89 +41,96 @@
 
 <div align = "center">
     
-| Versión |   Fecha    | Autor |                   Descripción de modificación                    |
-| :-------: |:----------:| :----------------: |:----------------------------------------------------------------:|
-| AV1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de registro de entrevistas                |
-| AV1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de analisis de entrevistas                |
-| AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de Empathy Maps                     |
-| AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de User Personas                    |
-| AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de User Journey Mapping             |
-| AV1 | 25-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de la primera version de User Task Matrix                 |
-| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de registro de entrevistas                |
-| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de analisis de entrevistas                |
-| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Actualización y mejora de wireframes - SignUp Authentication Flow               |
-| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Actualización y mejora de mockups - SignUp Authentication Flow               |
-| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Actualización y mejora de Bounded Context Shared               |
-| TB1 | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |      Actualización y refinamiento de mockups - Alerts      |
-| TB1 | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |      Actualización y refinamiento de wireframe - Alerts      |
-| TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Actualizacion de Web Applications Wireframes               |
-| TB1 | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |      Coordinación y revisión de consistencia entre mockups, wireframe |
-| AV1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de 4 entrevistas                 |
-| AV1 |    26-04-2026     | Mio Mejia, Andy Alejandro | Style Guidelines                              |
-| AV1 |    26-04-2026     | Mio Mejia, Andy Alejandro | Information Architecture                           |
-| AV1 |    26-04-2026     | Mio Mejia, Andy Alejandro | Landing Page UI Design                             |
-| AV1 |    26-04-2026     | Mio Mejia, Andy Alejandro | Web Applications UX/UI Design                             |
-| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                    Descripción de la Startup                     |
-| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                Creación de la carpeta de Imagenes                |
-| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                    Desarrollo de User Stories                    |
-| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                           Competidores                           |
-| AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |              Creacion de Ramas en los Repositorios               |
-| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree |                Software Deployment Configuration.                |
-| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree |                     Source Code Management.                      |
-| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree |          Software Development Environment Configuration          |
-| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree |                Software Configuration Management.                |
-| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree |             Creacion de la Estructura de la Landing              |
-| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree |           Estrategias y tácticas frente a competidores           |
-| AV1 | 25-04-2026 | Orellana Rodriguez, Mel Andree |                             Sprint 1                             |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |           Desarrollo de Lean Ux Hypothesis Statements            |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |                    Desarrollo Lean Ux Canvas                     |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |               Desarrollo de Diseño de entrevistas                |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |              Desarrollo de registro de entrevistas               |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |              Desarrollo de Análisis de entrevistas               |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |                   Desarrollo de User Personas                    |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |                  Desarrollo de User Task Matrix                  |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |                Desarrollo de User Journey Mapping                |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |             Desarrollo de Big Picture EventStorming              |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |                Desarrollo de Ubiquitous Lenguage                 |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |    Creación de estructura de Aspect Leaders and Collaborators    |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo |             Creación de estructura de Sprint Backlog             |
-| AV1 | 26-04-2026 | Berrospi Marin, Angel Guillermo | Creación de estructura de Development Evidence for Sprint Review |
-| AV1 | 19-04-2026 | Rocca Leon, Anhelo Rodrigo |        Desarollo del Domain-Driven Software Architecture         |
-| AV1 | 19-04-2026 | Rocca Leon, Anhelo Rodrigo |             Desarollo del Design-Level EventStorming             |
-| AV1 | 19-04-2026 | Rocca Leon, Anhelo Rodrigo |       Desarollo del Software Architecture Context Diagram        |
-| AV1 | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |      Desarollo del Software Architecture Container Diagram       |
-| AV1 | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |     Desarollo del Software Architecture Components Diagrams      |
-| AV1 | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |          Desarollo del Software Object-Oriented Design           |
-| AV1 | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |                   Desarollo del Class Diagrams                   |
-| AV1 | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |                  Desarollo del Database Design                   |
-| AV1 | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |                 Desarollo del Database Diagrams                  |
-| AV1 | 24-04-2026 | Rocca Leon, Anhelo Rodrigo |         Commit de la sección 'Benefits' del Landing Page         |
-| AV1 | 24-04-2026 | Rocca Leon, Anhelo Rodrigo |      Commit de la sección 'Call-to-action' del Landing Page      |
-| AV1 | 26-04-2026 | Rocca Leon, Anhelo Rodrigo |      Desarollo de 1 entrevista para el segmento objetivo 2       |
-| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo del mockup del bounded context inventory        |
-| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo del mockup del bounded context inventory-Add    |
-| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo del mockup del bounded context reporting        |
-| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo del wireframe del bounded context inventory     |
-| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo del wireframe del bounded context inventory-Add |
-| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo del wireframe del bounded context reporting     |
-| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo de código del bounded context inventory         |
-| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Desarrollo de código del bounded context reporting         |
-| TB1 | 15-05-2026 | Berrospi Marin, Angel Guillermo |      Creación de las estructuras de las tablas del sprint 2     |
-| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y refinamiento de mockups - Analytics Dashboard      |
-| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y refinamiento de wireframe - Analytics Dashboard      |
-| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y mejora de mockups - SignIn Authentication Flow      |
-| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización y mejora de wireframe - SignIn Authentication Flow      |
-| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Revisión y corrección integral de User Stories - Refinamiento y validación      |
-| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Corrección y mejora del Lean UX Canvas - Validación de hipótesis      |
-| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Actualización de criterios de aceptación en User Stories      |
-| TB1 | 15-05-2026 | Mio Mejia, Andy Alejandro |      Coordinación y revisión de consistencia entre mockups, wireframes y User Stories      |
-| TB1 | 12-05-2026 | Orellana Rodriguez, Mel Andree | Creación de las implementaciones de SafeFlow |
-| TB1 | 12-05-2026 | Orellana Rodriguez, Mel Andree | Actualización de landing con conexión a la App Web SafeFlow |
-| TB1 | 12-05-2026 | Orellana Rodriguez, Mel Andree | Creación de las ramas para safeflow-webapp |
-| TB1 | 12-05-2026 | Orellana Rodriguez, Mel Andree | Implementación del MockAPI |
-| TB1 | 12-05-2026 | Orellana Rodriguez, Mel Andree | Coordinación de tareas para el frontend |
-| TB1 | 12-05-2026 | Orellana Rodriguez, Mel Andree | Implementación del Bounded Context Analytics |
-| TB1 | 12-05-2026 | Orellana Rodriguez, Mel Andree | Implementación del Bounded Context Monitoring |
+| Versión |   Fecha    | Autor |                           Descripción de modificación                            |
+|:-------:|:----------:| :----------------: |:--------------------------------------------------------------------------------:|
+|   AV1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                      Desarrollo de registro de entrevistas                       |
+|   AV1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                      Desarrollo de analisis de entrevistas                       |
+|   AV1   | 25-04-2026 | Morales Yapuchura, Jefferson Bayron |                 Desarrollo de la primera version de Empathy Maps                 |
+|   AV1   | 25-04-2026 | Morales Yapuchura, Jefferson Bayron |                Desarrollo de la primera version de User Personas                 |
+|   AV1   | 25-04-2026 | Morales Yapuchura, Jefferson Bayron |             Desarrollo de la primera version de User Journey Mapping             |
+|   AV1   | 25-04-2026 | Morales Yapuchura, Jefferson Bayron |               Desarrollo de la primera version de User Task Matrix               |
+|   TB1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                      Desarrollo de registro de entrevistas                       |
+|   TB1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                      Desarrollo de analisis de entrevistas                       |
+|   TB1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |        Actualización y mejora de wireframes - SignUp Authentication Flow         |
+|   TB1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |          Actualización y mejora de mockups - SignUp Authentication Flow          |
+|   TB1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                 Actualización y mejora de Bounded Context Shared                 |
+|   TB1   | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |                 Actualización y refinamiento de mockups - Alerts                 |
+|   TB1   | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |                Actualización y refinamiento de wireframe - Alerts                |
+|   TB1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                   Actualizacion de Web Applications Wireframes                   |
+|   TB1   | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |         Coordinación y revisión de consistencia entre mockups, wireframe         |
+|   AV1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                           Desarrollo de 4 entrevistas                            |
+|   AV1   | 26-04-2026 | Mio Mejia, Andy Alejandro |                                 Style Guidelines                                 |
+|   AV1   | 26-04-2026 | Mio Mejia, Andy Alejandro |                             Information Architecture                             |
+|   AV1   | 26-04-2026 | Mio Mejia, Andy Alejandro |                              Landing Page UI Design                              |
+|   AV1   | 26-04-2026 | Mio Mejia, Andy Alejandro |                          Web Applications UX/UI Design                           |
+|   AV1   | 11-04-2026 | Orellana Rodriguez, Mel Andree |                            Descripción de la Startup                             |
+|   AV1   | 11-04-2026 | Orellana Rodriguez, Mel Andree |                        Creación de la carpeta de Imagenes                        |
+|   AV1   | 11-04-2026 | Orellana Rodriguez, Mel Andree |                            Desarrollo de User Stories                            |
+|   AV1   | 11-04-2026 | Orellana Rodriguez, Mel Andree |                                   Competidores                                   |
+|   AV1   | 11-04-2026 | Orellana Rodriguez, Mel Andree |                      Creacion de Ramas en los Repositorios                       |
+|   AV1   | 25-04-2026 | Orellana Rodriguez, Mel Andree |                        Software Deployment Configuration.                        |
+|   AV1   | 25-04-2026 | Orellana Rodriguez, Mel Andree |                             Source Code Management.                              |
+|   AV1   | 25-04-2026 | Orellana Rodriguez, Mel Andree |                  Software Development Environment Configuration                  |
+|   AV1   | 25-04-2026 | Orellana Rodriguez, Mel Andree |                        Software Configuration Management.                        |
+|   AV1   | 25-04-2026 | Orellana Rodriguez, Mel Andree |                     Creacion de la Estructura de la Landing                      |
+|   AV1   | 25-04-2026 | Orellana Rodriguez, Mel Andree |                   Estrategias y tácticas frente a competidores                   |
+|   AV1   | 25-04-2026 | Orellana Rodriguez, Mel Andree |                                     Sprint 1                                     |
+|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |                   Desarrollo de Lean Ux Hypothesis Statements                    |
+|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |                            Desarrollo Lean Ux Canvas                             |
+|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |                       Desarrollo de Diseño de entrevistas                        |
+|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |                      Desarrollo de registro de entrevistas                       |
+|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |                      Desarrollo de Análisis de entrevistas                       |
+|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |                           Desarrollo de User Personas                            |
+|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |                          Desarrollo de User Task Matrix                          |
+|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |                        Desarrollo de User Journey Mapping                        |
+|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |                     Desarrollo de Big Picture EventStorming                      |
+|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |                        Desarrollo de Ubiquitous Lenguage                         |
+|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |            Creación de estructura de Aspect Leaders and Collaborators            |
+|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |                     Creación de estructura de Sprint Backlog                     |
+|   AV1   | 26-04-2026 | Berrospi Marin, Angel Guillermo |         Creación de estructura de Development Evidence for Sprint Review         |
+|   AV1   | 19-04-2026 | Rocca Leon, Anhelo Rodrigo |                Desarollo del Domain-Driven Software Architecture                 |
+|   AV1   | 19-04-2026 | Rocca Leon, Anhelo Rodrigo |                     Desarollo del Design-Level EventStorming                     |
+|   AV1   | 19-04-2026 | Rocca Leon, Anhelo Rodrigo |               Desarollo del Software Architecture Context Diagram                |
+|   AV1   | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |              Desarollo del Software Architecture Container Diagram               |
+|   AV1   | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |             Desarollo del Software Architecture Components Diagrams              |
+|   AV1   | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |                  Desarollo del Software Object-Oriented Design                   |
+|   AV1   | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |                           Desarollo del Class Diagrams                           |
+|   AV1   | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |                          Desarollo del Database Design                           |
+|   AV1   | 21-04-2026 | Rocca Leon, Anhelo Rodrigo |                         Desarollo del Database Diagrams                          |
+|   AV1   | 24-04-2026 | Rocca Leon, Anhelo Rodrigo |                 Commit de la sección 'Benefits' del Landing Page                 |
+|   AV1   | 24-04-2026 | Rocca Leon, Anhelo Rodrigo |              Commit de la sección 'Call-to-action' del Landing Page              |
+|   AV1   | 26-04-2026 | Rocca Leon, Anhelo Rodrigo |              Desarollo de 1 entrevista para el segmento objetivo 2               |
+|   TB1   | 15-05-2026 | Berrospi Marin, Angel Guillermo |               Desarrollo del mockup del bounded context inventory                |
+|   TB1   | 15-05-2026 | Berrospi Marin, Angel Guillermo |             Desarrollo del mockup del bounded context inventory-Add              |
+|   TB1   | 15-05-2026 | Berrospi Marin, Angel Guillermo |               Desarrollo del mockup del bounded context reporting                |
+|   TB1   | 15-05-2026 | Berrospi Marin, Angel Guillermo |              Desarrollo del wireframe del bounded context inventory              |
+|   TB1   | 15-05-2026 | Berrospi Marin, Angel Guillermo |            Desarrollo del wireframe del bounded context inventory-Add            |
+|   TB1   | 15-05-2026 | Berrospi Marin, Angel Guillermo |              Desarrollo del wireframe del bounded context reporting              |
+|   TB1   | 15-05-2026 | Berrospi Marin, Angel Guillermo |                Desarrollo de código del bounded context inventory                |
+|   TB1   | 15-05-2026 | Berrospi Marin, Angel Guillermo |                Desarrollo de código del bounded context reporting                |
+|   TB1   | 15-05-2026 | Berrospi Marin, Angel Guillermo |              Creación de las estructuras de las tablas del sprint 2              |
+|   TB1   | 15-05-2026 | Mio Mejia, Andy Alejandro |          Actualización y refinamiento de mockups - Analytics Dashboard           |
+|   TB1   | 15-05-2026 | Mio Mejia, Andy Alejandro |         Actualización y refinamiento de wireframe - Analytics Dashboard          |
+|   TB1   | 15-05-2026 | Mio Mejia, Andy Alejandro |          Actualización y mejora de mockups - SignIn Authentication Flow          |
+|   TB1   | 15-05-2026 | Mio Mejia, Andy Alejandro |         Actualización y mejora de wireframe - SignIn Authentication Flow         |
+|   TB1   | 15-05-2026 | Mio Mejia, Andy Alejandro |    Revisión y corrección integral de User Stories - Refinamiento y validación    |
+|   TB1   | 15-05-2026 | Mio Mejia, Andy Alejandro |         Corrección y mejora del Lean UX Canvas - Validación de hipótesis         |
+|   TB1   | 15-05-2026 | Mio Mejia, Andy Alejandro |             Actualización de criterios de aceptación en User Stories             |
+|   TB1   | 15-05-2026 | Mio Mejia, Andy Alejandro | Coordinación y revisión de consistencia entre mockups, wireframes y User Stories |
+|   TB1   | 12-05-2026 | Orellana Rodriguez, Mel Andree |                   Creación de las implementaciones de SafeFlow                   |
+|   TB1   | 12-05-2026 | Orellana Rodriguez, Mel Andree |           Actualización de landing con conexión a la App Web SafeFlow            |
+|   TB1   | 12-05-2026 | Orellana Rodriguez, Mel Andree |                    Creación de las ramas para safeflow-webapp                    |
+|   TB1   | 12-05-2026 | Orellana Rodriguez, Mel Andree |                            Implementación del MockAPI                            |
+|   TB1   | 12-05-2026 | Orellana Rodriguez, Mel Andree |                     Coordinación de tareas para el frontend                      |
+|   TB1   | 12-05-2026 | Orellana Rodriguez, Mel Andree |                   Implementación del Bounded Context Analytics                   |
+|   TB1   | 12-05-2026 | Orellana Rodriguez, Mel Andree |                  Implementación del Bounded Context Monitoring                   |
+|   TB1   | 15-04-2026 | Rocca Leon, Anhelo Rodrigo |                           Búsqueda y pago del MockAPI                            |
+|   TB1   | 15-04-2026 | Rocca Leon, Anhelo Rodrigo |     Implementación del Bounded Context logistics en el frontend de SafeFlow      |
+|   TB1   | 15-04-2026 | Rocca Leon, Anhelo Rodrigo |          Desarollo del mockup y wireframe del bounded context logistics          |
+|   TB1   | 15-04-2026 | Rocca Leon, Anhelo Rodrigo |         Desarrollo del mockup y wireframe del bounded context monitoring         |
+
+
+
 
 
 </div>
@@ -306,7 +313,8 @@ Los integrantes son:
             Realicé la actualización y refinamiento integral de mockups y wireframes para los bounded contexts Analytics y SignUp, mejorando la consistencia visual y la experiencia del usuario. Llevé a cabo la revisión y corrección exhaustiva de User Stories, incluyendo la validación de criterios de aceptación y la alineación con los requisitos del proyecto. Corregí y mejoré el Lean UX Canvas validando hipótesis y asegurando coherencia con los objetivos del producto. Participé activamente en la coordinación del equipo, asegurando que los diseños, wireframes y documentación estuvieran alineados.</li>
             <li><b>AV1 - Mel Andre, Orellana Rodriguez:</b> Contribuí activamente en la organización y desarrollo del proyecto, apoyando en la planificación de tareas y asegurando el cumplimiento de los objetivos establecidos. Participé en la coordinación del equipo para mantener una comunicación clara y efectiva, además de colaborar en la implementación de la landing page y en la estructuración de secciones clave del documento.</li>
            <li><b>TB1 - Mel Andre, Orellana Rodriguez:</b> Contribuí activamente en el desarrollo de SafeFlow mediante la implementación y organización de la aplicación web, colaborando en la conexión de la landing page con el frontend principal. Participé en la creación y gestión de ramas del repositorio safeflow-webapp, en la implementación del MockAPI y en el desarrollo de los bounded contexts Analytics y Monitoring. Además, apoyé en la coordinación de tareas del frontend para asegurar el cumplimiento de los objetivos del proyecto y mantener una comunicación efectiva dentro del equipo.</li>
-                  <li><b>AV1 - Anhelo Rodrigo, Rocca Leon:</b>Complete las tareas que me fueron asignadas y comunique mi progreso en gran parte de ellas. Además, contribuí en otras tareas que me fueron ofrecidas. Mi aporte ayudó a materializar la arquitectura de Safeflow y ayudar un poco en el estudio del público objetivo.</li>
+           <li><b>AV1 - Anhelo Rodrigo, Rocca Leon:</b>Complete las tareas que me fueron asignadas y comunique mi progreso en gran parte de ellas. Además, contribuí en otras tareas que me fueron ofrecidas. Mi aporte ayudó a materializar la arquitectura de Safeflow y ayudar un poco en el estudio del público objetivo.</li>
+          <li><b>TB1 - Anhelo Rodrigo, Rocca Leon:</b>Complete las tareas que me fueron asignadas y comunique mi progreso en gran parte de ellas. Además, contribuí en otras tareas que me fueron ofrecidas..</li>
             <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
             <li><b>AV1 - Anhelo Rodrigo, Rocca Leon:</b>Complete las tareas que me fueron asignadas y comunique mi progreso en gran parte de ellas. Además, contribuí en otras tareas que me fueron ofrecidas. Mi aporte ayudó a materializar la arquitectura de Safeflow y ayudar un poco en el estudio del público objetivo.</li>
             <li><b>AV1 - Andy Alejandro, Mio Mejia:</b> Completé las tareas de diseño de producto asignadas y comuniqué mi progreso de manera efectiva en cada etapa. Además, contribuí en tareas adicionales para fortalecer la identidad visual y estructural del proyecto. Mi aporte ayudó a materializar la interfaz y la experiencia de usuario de Safeflow, definiendo desde los lineamientos de estilo y la arquitectura de información hasta el diseño detallado de los wireframes y mock-ups para la landing page y las aplicaciones web.</li>
@@ -331,7 +339,9 @@ El equipo logró coordinarse de manera progresiva a lo largo del desarrollo del 
             <li><b>AV1 - Mel Andre Orellana Rodriguez:</b>Fomenté un ambiente colaborativo dentro del equipo, promoviendo la participación activa y el cumplimiento de responsabilidades. Me enfoqué en coordinar tareas, apoyar en la resolución de problemas y mantener alineados los objetivos del proyecto, contribuyendo así a la entrega final de manera organizada y eficiente.</li>
           <li><b>TB1 - Mel Andre Orellana Rodriguez:</b> Fomenté un ambiente colaborativo dentro del equipo durante el desarrollo de SafeFlow, promoviendo la participación activa y el cumplimiento de responsabilidades en las tareas del frontend. Me enfoqué en coordinar actividades relacionadas con la implementación de la aplicación web, la integración de la landing page, el desarrollo del MockAPI y los bounded contexts Analytics y Monitoring. Además, apoyé en la organización del repositorio y en la alineación de los objetivos del proyecto para asegurar un desarrollo eficiente y ordenado.</li>        
             <li><b>AV1 - Anhelo Rodrigo Rocca Leon:</b>Participé en la planificación y desarrollo del proyecto, al igual que en las reuniones de equipo programadas. Me asegure de mantener un ambiente respetuoso entre los compañeros y que la solución de las tareas asignadas a mi persona cumplan con las metas establecidas por el equipo.</li>
-            <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
+            <li><b>TB1 - Anhelo Rodrigo Rocca Leon:</b>Participé en la planificación y desarrollo del proyecto, al igual que en la comunicación mediante mensajes de texto. Me asegure de mantener un ambiente respetuoso entre los compañeros y que la solución de las tareas asignadas a mi persona cumplan con las metas establecidas por el equipo.</li>
+            
+<li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
              <li><b>AV1 - Jefferson Bayron Morales Yapuchura:</b> Contribuí a crear un ambiente de trabajo inclusivo y colaborativo participando activamente en todas las coordinaciones. Para mis asignaciones, establecí metas específicas y planifiqué el desarrollo de herramientas como los empathy maps y la user task matrix. Esto me permitió cumplir estrictamente con mis objetivos, entregando un análisis de usuario que facilitó el avance organizado de todo el equipo.</li>
             <li><b>AV1 - TAndy Alejandro Mio Mejia:</b> Participé activamente en la planificación y el diseño de la interfaz del proyecto, así como en todas las reuniones de equipo programadas. Me aseguré de mantener un ambiente colaborativo y respetuoso con mis compañeros, garantizando que el desarrollo de los lineamientos de estilo, la arquitectura de información y los prototipos de Safeflow cumplieran estrictamente con las metas de calidad y los plazos establecidos por el equipo.</li>
             <li><b>AV1 - Jefferson Bayron Morales Yapuchura:</b> Contribuí a crear un ambiente de trabajo inclusivo y colaborativo participando activamente en todas las coordinaciones. Para mis asignaciones, establecí metas específicas y planifiqué el desarrollo de herramientas como los empathy maps y la user task matrix. Esto me permitió cumplir estrictamente con mis objetivos, entregando un análisis de usuario que facilitó el avance organizado de todo el equipo.</li>
