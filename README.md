@@ -58,6 +58,11 @@
 | TB1 | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |      Actualización y refinamiento de wireframe - Alerts      |
 | TB1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Actualizacion de Web Applications Wireframes               |
 | TB1 | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |      Coordinación y revisión de consistencia entre mockups, wireframe |
+| AV1 | 26-04-2026 | Morales Yapuchura, Jefferson Bayron | Desarrollo de 4 entrevistas                 |
+| AV1 |    26-04-2026     | Mio Mejia, Andy Alejandro | Style Guidelines                              |
+| AV1 |    26-04-2026     | Mio Mejia, Andy Alejandro | Information Architecture                           |
+| AV1 |    26-04-2026     | Mio Mejia, Andy Alejandro | Landing Page UI Design                             |
+| AV1 |    26-04-2026     | Mio Mejia, Andy Alejandro | Web Applications UX/UI Design                             |
 | AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                    Descripción de la Startup                     |
 | AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                Creación de la carpeta de Imagenes                |
 | AV1 | 11-04-2026 | Orellana Rodriguez, Mel Andree |                    Desarrollo de User Stories                    |
@@ -144,6 +149,8 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 | Andy Alejandro Mio Mejia    |  |
 | Jefferson Bayron Morales Yapuchura    | Desarrollo de registro de entrevistas, Desarrollo de análisis de entrevistas, Desarrollo de la primera versión de Empathy Maps, Desarrollo de la primera versión de User Personas, Desarrollo de la primera versión de User Journey Mapping, Desarrollo de la primera versión de User Task Matrix, Actualización y mejora de wireframes (SignUp Authentication Flow), Actualización y mejora de mockups (SignUp Authentication Flow), Actualización y mejora de Bounded Context Shared, Actualización y refinamiento de mockups (Alerts), Actualización y refinamiento de wireframe (Alerts), Actualización de Web Applications Wireframes, Coordinación y revisión de consistencia entre mockups y wireframe. |
 
+| Andy Alejandro Mio Mejia    | Desarrollo de los General Style Guidelines, Desarrollo de los Web Style Guidelines, Desarrollo de los Organization Systems, Desarrollo de los Labeling Systems, Desarrollo de los SEO Tags and Meta Tags, Desarrollo de los Searching Systems, Desarrollo de los Navigation Systems, Desarrollo del Landing Page Wireframe, Desarrollo del Landing Page Mock-up, Desarrollo de los Web Applications Wireframes, Desarrollo de los Web Applications Wireflow Diagrams, Desarrollo de los Web Applications Mock-ups y Desarrollo de los Web Applications User Flow Diagrams. |
+| Jefferson Bayron Morales Yapuchura    | Desarrollo de Empathy Maps, Desarrollo de User Personas, Desarrollo de User Journey Mapping, Desarrollo de User Task Matrix y correcion de Domain-Driven Software Architecture. |
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización.
 
@@ -176,14 +183,11 @@ Los integrantes son:
 [Capítulo I: Introducción](#capitulo-i-introduccion)
 
 - [1.1. Startup Profile](#11-startup-profile)
-
-  - [1.1.1. Descripción de la Startup](#111-description-de-la-startup)
-
+  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
   - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-
 - [1.2. Solution Profile](#12-solution-profile)
-  - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-  - [1.2.2 Lean UX Process](#122-lean-ux-process)
+  - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+  - [1.2.2. Lean UX Process](#122-lean-ux-process)
     - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
     - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
     - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
@@ -204,14 +208,14 @@ Los integrantes son:
   - [2.3.2. User Task Matrix](#232-user-task-matrix)
   - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
   - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+- [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+- [2.5. Ubiquitous Language](#25-ubiquitous-language)
 
 [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification-1)
 
-- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-- [3.2. User Stories](#32-user-stories)
-- [3.3. Impact Mapping](#33-impact-mapping)
-- [3.4. Product Backlog](#34-product-backlog)
+- [3.1. User Stories](#31-user-stories)
+- [3.2. Impact Mapping](#32-impact-mapping)
+- [3.3. Product Backlog](#33-product-backlog)
 
 [Capítulo IV: Product Design](#capitulo-iv-product-design-1)
 
@@ -234,63 +238,37 @@ Los integrantes son:
   - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
 - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
 - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-  - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-  - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-  - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
+  - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+  - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+  - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+  - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
 - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
   - [4.7.1. Class Diagrams](#471-class-diagrams)
-  - [4.7.2. Class Dictionary](#472-class-dictionary)
 - [4.8. Database Design](#48-database-design)
-  - [4.8.1. Database Diagram](#481-database-diagram)
+  - [4.8.1. Database Diagrams](#481-database-diagrams)
 
 [Capítulo V: Product Implementation, Validation & Deployment](#capitulo-v-product-implementation-validation-deployment-)
 - [5.1. Software Configuration Management](#51-software-configuration-management)
-  - [5.1.1. Software Development Enviroment Configuration](#511-software-development-enviroment-configuration)
+  - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
   - [5.1.2. Source Code Management](#512-source-code-management)
   - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
   - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
 - [5.2. Landing Page, Service & Application Implementation](#52-landing-page-service--application-implementation)
   - [5.2.1 Sprint 1](#521-sprint-1)
-    - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+    - [5.2.1.1. Sprint Planning](#5211-sprint-planning)
     - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-    - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-    - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-    - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-    - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-    - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-    - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-  - [5.2.2 Sprint 2](#522-sprint-2)
-    - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
-    - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
-    - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
-    - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
-    - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
-    - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
-    - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
-    - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
-  - [5.2.3 Sprint 3](#523-sprint-3)
-    - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
-    - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-    - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
-    - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
-    - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-    - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-    - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
-    - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-  - [5.2.4 Sprint 4](#524-sprint-4)
-    - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
-    - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
-    - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
-    - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
-    - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
-    - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
-    - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
-    - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
-- [5.3 Validation Interviews](#53-validation-interviews)
-  - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
-  - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
-  - [5.3.3 Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-- [5.4 Video About-the-Product](#54-video-about-the-product)
+    - [5.2.1.3. Sprint Backlog](#5213-sprint-backlog)
+    - [5.2.1.4. Development Evidence](#5214-development-evidence)
+    - [5.2.1.5. Execution Evidence](#5215-execution-evidence)
+    - [5.2.1.6. Services Documentation](#5216-services-documentation)
+    - [5.2.1.7. Software Deployment Evidence](#5217-software-deployment-evidence)
+    - [5.2.1.8. Team Collaboration Insights](#5218-team-collaboration-insights)
+ - [5.3. Validation Interviews](#53-validation-interviews)
+   - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+   - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+   - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+ 
+- [5.4. Video About-the-Product](#54-video-about-the-product)
    
       
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
@@ -330,6 +308,8 @@ Los integrantes son:
            <li><b>TB1 - Mel Andre, Orellana Rodriguez:</b> Contribuí activamente en el desarrollo de SafeFlow mediante la implementación y organización de la aplicación web, colaborando en la conexión de la landing page con el frontend principal. Participé en la creación y gestión de ramas del repositorio safeflow-webapp, en la implementación del MockAPI y en el desarrollo de los bounded contexts Analytics y Monitoring. Además, apoyé en la coordinación de tareas del frontend para asegurar el cumplimiento de los objetivos del proyecto y mantener una comunicación efectiva dentro del equipo.</li>
                   <li><b>AV1 - Anhelo Rodrigo, Rocca Leon:</b>Complete las tareas que me fueron asignadas y comunique mi progreso en gran parte de ellas. Además, contribuí en otras tareas que me fueron ofrecidas. Mi aporte ayudó a materializar la arquitectura de Safeflow y ayudar un poco en el estudio del público objetivo.</li>
             <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
+            <li><b>AV1 - Anhelo Rodrigo, Rocca Leon:</b>Complete las tareas que me fueron asignadas y comunique mi progreso en gran parte de ellas. Además, contribuí en otras tareas que me fueron ofrecidas. Mi aporte ayudó a materializar la arquitectura de Safeflow y ayudar un poco en el estudio del público objetivo.</li>
+            <li><b>AV1 - Andy Alejandro, Mio Mejia:</b> Completé las tareas de diseño de producto asignadas y comuniqué mi progreso de manera efectiva en cada etapa. Además, contribuí en tareas adicionales para fortalecer la identidad visual y estructural del proyecto. Mi aporte ayudó a materializar la interfaz y la experiencia de usuario de Safeflow, definiendo desde los lineamientos de estilo y la arquitectura de información hasta el diseño detallado de los wireframes y mock-ups para la landing page y las aplicaciones web.</li>
             <li><b>AV1 - Jefferson Bayron, Morales Yapuchura:</b> Apoyé el liderazgo del grupo dirigiendo la estructuración del perfil de nuestros usuarios. A través de la creación de la primera version de user personas, empathy maps, user journey maps, la user task matrix y el desarollo de 4 entrevistas, proporcioné las bases necesarias para que el equipo pudiera trabajar de manera conjunta y enfocada, guiando el desarrollo funcional y visual del proyecto. </li>
           </ul>
         </td>
@@ -353,6 +333,8 @@ El equipo logró coordinarse de manera progresiva a lo largo del desarrollo del 
             <li><b>AV1 - Anhelo Rodrigo Rocca Leon:</b>Participé en la planificación y desarrollo del proyecto, al igual que en las reuniones de equipo programadas. Me asegure de mantener un ambiente respetuoso entre los compañeros y que la solución de las tareas asignadas a mi persona cumplan con las metas establecidas por el equipo.</li>
             <li><b>AV1 - Tu Nombre:</b> Tus acciones</li>
              <li><b>AV1 - Jefferson Bayron Morales Yapuchura:</b> Contribuí a crear un ambiente de trabajo inclusivo y colaborativo participando activamente en todas las coordinaciones. Para mis asignaciones, establecí metas específicas y planifiqué el desarrollo de herramientas como los empathy maps y la user task matrix. Esto me permitió cumplir estrictamente con mis objetivos, entregando un análisis de usuario que facilitó el avance organizado de todo el equipo.</li>
+            <li><b>AV1 - TAndy Alejandro Mio Mejia:</b> Participé activamente en la planificación y el diseño de la interfaz del proyecto, así como en todas las reuniones de equipo programadas. Me aseguré de mantener un ambiente colaborativo y respetuoso con mis compañeros, garantizando que el desarrollo de los lineamientos de estilo, la arquitectura de información y los prototipos de Safeflow cumplieran estrictamente con las metas de calidad y los plazos establecidos por el equipo.</li>
+            <li><b>AV1 - Jefferson Bayron Morales Yapuchura:</b> Contribuí a crear un ambiente de trabajo inclusivo y colaborativo participando activamente en todas las coordinaciones. Para mis asignaciones, establecí metas específicas y planifiqué el desarrollo de herramientas como los empathy maps y la user task matrix. Esto me permitió cumplir estrictamente con mis objetivos, entregando un análisis de usuario que facilitó el avance organizado de todo el equipo.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
@@ -409,12 +391,12 @@ La plataforma analiza continuamente las condiciones registradas y detecta desvia
 | *Descripción*           | Estudiante de Ingeniería de Software con un enfoque proactivo en la resolución de problemas y el desarrollo de soluciones escalables. Me defino como un entusiasta del aprendizaje continuo, lo que me permite navegar con agilidad entre lenguajes y frameworks emergentes.           |
 | Foto                      | <div algin="center"><img src="assets/chapter-01/Jefferson_Morales_Foto.jpg" alt="Integrante Jefferson" width="400" />  </div>           |
 
-| *Integrante*            |            |
+| *Integrante*            |       Andy Alejandro Mio Mejia     |
 |---------------------------|---------------------------------------------------------------------------------------------------|
-| *Código del Estudiante* |            |
-| *Carrera*               |            |
-| *Descripción*           |            |
-| Foto                      |            |
+| *Código del Estudiante* |     U202218531       |
+| *Carrera*               |     Ingenieria de Software       |
+| *Descripción*           |       Soy estudiante de la carrera de Ingeniería de Software, puedo aportar mucho al equipo, aplicando mis conocimientos en diversos lenguajes de programación     |
+| Foto                      |     <div align="center"><img src="assets/chapter-01/foto-Andy.jpeg">        |
 
 
 ## 1.2. Solution Profile
@@ -438,13 +420,25 @@ En esta parte se implementa el Lean UX Process, abordando la visión del modelo 
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-El estado actual de la gestión de la cadena de frío en las industrias farmacéutica y alimentaria es deficiente debido a la falta de monitoreo en tiempo real y sistemas de trazabilidad integrados. Muchas empresas dependen de registros manuales o dispositivos que solo detectan fallos post-mortem, lo que genera pérdidas económicas y riesgos sanitarios.
+El estado actual de la gestión de la cadena de frío en las industrias farmacéutica y alimentaria es deficiente debido a la falta de monitoreo en tiempo real y sistemas de trazabilidad integrados. Muchas empresas dependen de registros manuales o dispositivos que solo detectan fallos post-mortem, lo que genera pérdidas económicas, riesgos sanitarios y retrasos en la capacidad de respuesta ante incidencias.
+
+Nuestra plataforma ha sido diseñada para permitir a pequeñas y medianas empresas del sector logístico, farmacéutico y alimentario, así como a gestores logísticos, supervisores de calidad y operadores administrativos, gestionar eficientemente el monitoreo de la cadena de frío, desde la supervisión de temperatura en tiempo real hasta el seguimiento y trazabilidad de los productos transportados. A través de esta herramienta digital, buscamos facilitar la administración operativa, mejorar la capacidad de reacción ante anomalías y optimizar la integridad y seguridad de la carga.
 
 ¿Cómo podríamos ofrecer a los gestores logísticos y responsables de calidad una herramienta que proporcione visibilidad completa y alertas preventivas sobre el estado de sus productos, para que puedan intervenir antes de que la temperatura salga del rango permitido y asegurar la integridad de la carga?
 
 #### 1.2.2.2. Lean UX Assumptions
 
 En esta sección se detallan las suposiciones relacionadas con los resultados esperados del sistema de monitoreo en tiempo real de la cadena de frío. Estas suposiciones se organizan en tres categorías: Business Outcomes, que contemplan los beneficios comerciales y mejoras en la gestión logística; User Outcomes, enfocados en cómo las empresas y usuarios se beneficiarán al monitorear y controlar la temperatura de sus productos; y User Outcomes Assumptions, que examinan las necesidades, intereses y comportamientos de los usuarios que fundamentan las suposiciones anteriores. Cada categoría busca garantizar que la plataforma cumpla tanto con los objetivos comerciales como con las expectativas de quienes la utilizarán.
+
+Usuarios del sistema
+- Gerentes logísticos.
+- Supervisores y responsables de calidad.
+- Operadores administrativos.
+- Encargados de almacén y transporte.
+- Empresas farmacéuticas, alimentarias y logísticas que gestionan productos sensibles a cambios de temperatura.
+
+¿Dónde encaja nuestro producto en su trabajo?
+- La plataforma encaja en las operaciones diarias de monitoreo y control de la cadena de frío, permitiendo a los usuarios supervisar la temperatura de los productos en tiempo real, recibir alertas preventivas, gestionar incidencias y consultar reportes históricos desde cualquier lugar mediante una solución centralizada y accesible.
 
 Business Outcomes
 - Creemos que al implementar nuestra plataforma de monitoreo continuo de la cadena de frío basada en IoT, podremos aumentar en un 50% la cantidad de empresas que supervisan en tiempo real la temperatura de sus productos.
@@ -498,8 +492,9 @@ Creemos que al proporcionar un Dashboard de Gestión que centralice todos los co
 Confiamos en que al automatizar el cambio de estado del despacho basado en datos de sensores, eliminaremos el error humano en los registros de calidad. Estaremos en lo cierto cuando el 100% de los despachos completados cuenten con un historial térmico verificado e inalterable.
 
 #### 1.2.2.4. Lean UX Canvas
+El Lean UX Canvas presenta de manera visual y estructurada los principales elementos estratégicos del producto propuesto. En este canvas se resumen los problemas identificados en la gestión de la cadena de frío, los usuarios involucrados, las necesidades del negocio, las hipótesis planteadas, las funcionalidades principales y los resultados esperados. Asimismo, permite organizar las ideas centrales de la solución tecnológica enfocada en el monitoreo en tiempo real, la trazabilidad y la prevención de incidencias en productos sensibles a variaciones de temperatura.
 
- <div align="center"><img src="assets/chapter-01/Lean UX canvas.png" alt="Lean Ux Canvas" width="400" /> </div>
+ <div align="center"><img src="assets/chapter-01/Lean UX canvas mejorado.png" alt="Lean Ux Canvas" width="400" /> </div>
 
 ## 1.3. Segmentos objetivo
 
@@ -813,6 +808,37 @@ Sebastian es un Jefe de Aseguramiento de la Calidad con 10 años de experiencia 
 
 Esta falta de monitoreo en tiempo real ha causado pérdidas económicas de hasta 50 mil dólares y daños reputacionales severos. Sebastian es un perfil altamente analítico que sufre con la demora de los datos y el caos administrativo de las auditorías sanitarias (que le toman hasta 3 días de trabajo). Valora por encima de todo la integridad inalterable de los datos y espera que SafeFlow le proporcione alertas preventivas y un dashboard centralizado para reducir mermas, lo cual impactaría directamente en sus KPIs y bonificaciones profesionales.
 
+<img src="assets/chapter-02/Interview-picture-2.png" />
+
+**Entrevista 2:**
+- **Nombres y apellidos:** Marlon Vilca
+- **Edad:** 27 años
+- **Distrito:** Jesus Maria
+
+- **Inicio:** 00:00
+- **Duración:** 09:30
+- **URL:** https://youtu.be/ffD4qivNFuk
+
+**Resumen:**
+Marlon es un Analista de Aseguramiento de la Calidad con 4 años de experiencia en el sector farmacéutico. Su gestión se centra en asegurar que los productos críticos cumplan con la normativa sanitaria manteniéndolos entre 2°C y 8°C. Actualmente, enfrenta una falta de monitoreo en la nube, calificando el proceso de transporte como una "caja negra total" , donde solo puede hacer un análisis post-mortem mediante la descarga manual de dataloggers físicos a través de USB.  
+
+Esta falta de visibilidad causó anteriormente la pérdida de un lote valorizado en decenas de miles de dólares. Marlon tiene un perfil analítico que se frustra con la demora de la información y el desorden de las auditorías sanitarias, que le exigen hasta 2 o 3 días de trabajo manual. Considera no negociable la integridad inalterable de los datos y priorizaría un dashboard con alertas críticas activas para reducir las mermas , lo cual le quitaría estrés operativo e impactaría positivamente en su evaluación de desempeño y sus KPIs.
+
+
+<img src="assets/chapter-02/Interview-picture-3.png" />
+
+**Entrevista 3:**
+- **Nombres y apellidos:** Joan Aguirre
+- **Edad:** 26 años
+- **Distrito:** Surquillo
+
+- **Inicio:** 00:00
+- **Duración:** 07:32
+- **URL:** https://youtu.be/ZWq9LLy3t9c
+
+**Resumen:**
+El entrevistado es un Jefe de Aseguramiento de la Calidad de 26 años con 3 años de experiencia en el sector farmacéutico. Su responsabilidad absoluta es garantizar la integridad biológica de productos críticos manteniéndolos entre 2°C y 8°C para cumplir con la normativa de DIGEMID. Siendo un profesional netamente analítico, su mayor debilidad actual es que el transporte es una "caja negra" sin monitoreo en la nube. Al depender de dataloggers físicos, las fallas se detectan de forma post-mortem tras descargar la información por USB, reaccionando cuando el producto ya está perdido. Esta situación ha ocasionado pérdidas de hasta 50 mil dólares y severos daños reputacionales en el pasado , además de generarle un proceso caótico de 2 a 3 días de trabajo para consolidar evidencias en auditorías. Considera como "no negociable" la integridad inalterable de los datos para respaldar las operaciones ante el Ministerio de Salud. Priorizaría un dashboard con "Alertas Críticas Activas" y proyecta que reducir las mermas en un 20% impactaría directa y positivamente en sus KPIs y bonos de desempeño.
+
 ---
 
 #### Segmento objetivo #2: Operadores logísticos (3PL / transporte especializado)
@@ -822,7 +848,7 @@ Esta falta de monitoreo en tiempo real ha causado pérdidas económicas de hasta
 <img src="assets/chapter-02/interview2.png"/>
 
 
-- **Entrevista 1:**
+**Entrevista 4:**
 - **Nombres y apellidos:** Maria Ruiz
 - **Edad:** 28 años
 - **Distrito:** Los Olivos
@@ -835,6 +861,39 @@ Esta falta de monitoreo en tiempo real ha causado pérdidas económicas de hasta
 Maria es una Supervisora de Operaciones y Flota de 28 años que gestiona la logística de transporte especializado. Su flujo de trabajo actual es altamente dependiente de herramientas informales (pizarras acrílicas y fotos por WhatsApp), lo que genera un desorden administrativo y falta de control sobre la carga. Su mayor problema es la vulnerabilidad ante reclamos de clientes, ya que no cuenta con pruebas digitales en tiempo real para demostrar que el frío se mantuvo correctamente durante la ruta, dependiendo de la vista del conductor sobre visores externos.
 
 Valora la rapidez y la simplicidad; para ella, la digitalización es necesaria para ganar clientes corporativos exigentes, pero teme a la resistencia tecnológica de sus conductores. Espera que SafeFlow sea una herramienta intuitiva (tipo WhatsApp) que emita alertas de texto críticas y visualización en tiempo real sobre mapas, eliminando las 5 horas semanales que su equipo pierde procesando datos manualmente desde memorias USB.
+
+---
+
+<img src="assets/chapter-02/Interview-picture-5.png" />
+
+**Entrevista 5:**
+- **Nombres y apellidos:** Silvia Leon
+- **Edad:** 52 años
+- **Distrito:** Surquillo
+
+- **Inicio:** 0:10
+- **Duración:** 10:11
+- **URL:** https://youtu.be/w3bmDZ1fEZ8
+
+**Resumen:**
+Silvia es una Jefa de Operaciones de 52 años con formación universitaria que lidera la logística de transporte de carga de terceros de alto valor. Su flujo de trabajo actual es un modelo híbrido que aún depende fuertemente de la gestión manual: planifica rutas en Excel, coordina entregas por WhatsApp y depende de que los conductores envíen fotos de guías físicas y sellos para confirmar la recepción.
+
+Silvia busca una transición hacia una operación 100% digital que sea vista como una inversión para evitar multas y pérdidas. Valora críticamente un sistema que actualice el estado térmico automáticamente cada 5 minutos en un mapa interactivo, una herramienta lo suficientemente sencilla para vencer la resistencia tecnológica de los conductores y un sistema que combine el mapeo visual con alertas de tipo texto automáticas.
+
+
+<img src="assets/chapter-02/Interview-picture-4.png" />
+
+**Entrevista 6:**
+- **Nombres y apellidos:** Henry Ruiz
+- **Edad:** 26 años
+- **Distrito:** Surquillo
+
+- **Inicio:** 00:00
+- **Duración:** 08:33
+- **URL:** https://youtu.be/6a17Hf1BH-g
+
+**Resumen:**
+El entrevistado es un Supervisor de Operaciones y Flota de 26 años. Su gestión se centra en coordinar los despachos diarios, supervisar a los conductores en ruta y asegurar que la carga llegue en buenas condiciones. Actualmente, enfrenta un proceso altamente manual y dependiente de WhatsApp, Excel y guías de remisión físicas en papel para gestionar las entregas y reportar incidencias. Señala que los conductores, quienes presentan resistencia a aplicaciones complejas, carecen de alertas de temperatura en la cabina, lo que convierte el tránsito en una "caja negra" y ocasiona que los problemas se detecten demasiado tarde. Esta falta de evidencia digital en tiempo real los deja vulnerables ante reclamos de clientes y penalidades. A nivel administrativo, su equipo pierde unas 5 horas semanales descargando datos manualmente desde USBs. Valora la implementación de un mapa interactivo con alertas automáticas de texto para mejorar la visibilidad y recuperar competitividad , enfatizando que la solución debe ser tan sencilla e intuitiva como WhatsApp para lograr la adopción por parte de los conductores.
 
 ---
 
@@ -918,7 +977,6 @@ La siguiente matriz presenta las tareas identificadas para los segmentos objetiv
 
 <img src="assets/chapter-02/Empathy_Mapping_Supervisores de Operaciones y Flota.png"/>
 
-### 2.3.5. As-is Scenario Mapping
 
 ## 2.4. Big Picture EventStorming.
 
@@ -949,10 +1007,8 @@ La siguiente matriz presenta las tareas identificadas para los segmentos objetiv
 
 
 # Capítulo III: Requirements Specification
-## 3.1. To-Be Scenario Mapping
 
-
-## 3.2. User Stories
+## 3.1. User Stories
 
 <div align="center">
 
@@ -992,63 +1048,63 @@ La siguiente matriz presenta las tareas identificadas para los segmentos objetiv
 
 | ID    | Título                              | Descripción                                                                 | Criterios de Aceptación                                                                 | Epic  |
 |-------|-------------------------------------|-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------|-------|
-| US-01 | Registrar producto                  | Como usuario, quiero registrar productos con sus rangos de temperatura para garantizar su correcta conservación | Dado que ingreso los datos del producto, cuando guardo la información, entonces el sistema registra el producto correctamente con su rango de temperatura | EP-01 |
-| US-02 | Registrar ingreso de stock          | Como usuario, quiero registrar el ingreso de productos al inventario para llevar el control de cantidades disponibles | Dado un producto existente, cuando registro una cantidad, entonces el sistema actualiza el inventario correctamente | EP-01 |
-| US-03 | Visualizar temperatura en tiempo real | Como usuario, quiero visualizar la temperatura en tiempo real para detectar posibles anomalías | Dado que existen datos de temperatura, cuando accedo al sistema, entonces puedo visualizar los valores actualizados en tiempo real | EP-02 |
-| US-04 | Detectar anomalías de temperatura   | Como sistema, quiero detectar automáticamente temperaturas fuera del rango permitido para prevenir riesgos en los productos | Dado una temperatura fuera del rango permitido, cuando el sistema la evalúa, entonces genera una alerta automáticamente | EP-02 |
-| US-05 | Generar alertas                    | Como sistema, quiero generar alertas automáticas para notificar anomalías en la cadena de frío | Dado una anomalía detectada, cuando ocurre, entonces se crea una alerta con mensaje, tipo y fecha | EP-03 |
-| US-06 | Gestionar alertas                  | Como usuario, quiero visualizar y resolver alertas para tomar acciones correctivas oportunas | Dado una alerta activa, cuando la reviso, entonces puedo marcarla como resuelta | EP-03 |
-| US-07 | Monitorear transporte              | Como usuario, quiero monitorear la temperatura durante el transporte para evitar pérdidas | Dado un despacho en tránsito, cuando se registran temperaturas, entonces se asocian al envío correspondiente | EP-04 |
-| US-08 | Gestionar usuarios                 | Como administrador, quiero gestionar usuarios para controlar el acceso al sistema | Dado un usuario, cuando se crea o edita, entonces se guarda correctamente | EP-05 |
-| US-09 | Cambiar estado del producto        | Como sistema, quiero actualizar el estado del producto para reflejar su condición actual | Dado que un producto presenta riesgo, cuando se detecta una anomalía, entonces su estado cambia a “En Riesgo” | EP-01 |
-| US-10 | Consultar inventario               | Como usuario, quiero visualizar el inventario disponible para conocer el estado de los productos | Dado que accedo al módulo de inventario, cuando consulto, entonces visualizo productos con cantidad y estado | EP-01 |
-| US-11 | Asociar temperatura a despacho     | Como sistema, quiero asociar registros de temperatura a un despacho para monitorear el transporte | Dado un despacho activo, cuando se registra una temperatura, entonces se vincula al despacho correspondiente | EP-02 |
-| US-12 | Identificar origen de anomalía     | Como sistema, quiero identificar si una anomalía ocurrió en almacén o transporte para tomar decisiones | Dado un registro de temperatura fuera de rango, cuando se evalúa, entonces se identifica su origen | EP-02 |
-| US-13 | Visualizar dashboard              | Como usuario, quiero ver un resumen general del sistema para tomar decisiones rápidas | Dado que accedo al sistema, cuando ingreso al dashboard, entonces visualizo indicadores clave | EP-05 |
-| US-14 | Editar producto                   | Como usuario, quiero editar la información de un producto para mantener datos actualizados | Dado un producto existente, cuando modifico sus datos, entonces se actualiza correctamente | EP-01 |
-| US-15 | Eliminar producto                 | Como usuario, quiero eliminar productos que ya no se utilizan para mantener el inventario ordenado | Dado un producto seleccionado, cuando confirmo la eliminación, entonces se elimina del sistema | EP-01 |
-| US-16 | Registrar ubicación del producto  | Como usuario, quiero asignar una ubicación al producto para saber dónde se encuentra | Dado un producto, cuando asigno una ubicación, entonces se guarda correctamente | EP-01 |
-| US-17 | Visualizar historial de temperatura | Como usuario, quiero ver el historial de temperaturas para analizar comportamientos | Dado un producto, cuando consulto su historial, entonces se muestran registros con fecha y hora | EP-02 |
-| US-18 | Controlar acceso por rol          | Como sistema, quiero restringir accesos según el rol del usuario para mayor seguridad | Dado un usuario con rol definido, cuando accede al sistema, entonces solo visualiza funciones permitidas | EP-05 |
-| US-19 | Registrar lote de producto        | Como usuario, quiero registrar el lote de un producto para asegurar su trazabilidad | Dado un producto, cuando ingreso el lote, entonces se guarda correctamente | EP-01 |
-| US-20 | Consultar productos en riesgo     | Como usuario, quiero visualizar productos en estado de riesgo para tomar acciones rápidas | Dado productos con estado “En Riesgo”, cuando consulto, entonces se listan correctamente | EP-01 |
-| US-21 | Validar rango de temperatura      | Como sistema, quiero validar automáticamente el rango permitido de temperatura para cada producto | Dado un registro de temperatura, cuando se evalúa, entonces se compara con el rango definido | EP-02 |
-| US-22 | Registrar origen de temperatura   | Como sistema, quiero identificar el origen del registro (manual o simulado) para análisis | Dado un registro de temperatura, cuando se guarda, entonces se almacena su origen | EP-02 |
-| US-23 | Notificar múltiples usuarios      | Como sistema, quiero enviar alertas a varios usuarios para asegurar una respuesta rápida | Dado una alerta generada, cuando ocurre, entonces se notifica a los usuarios asignados | EP-03 |
-| US-24 | Actualizar estado de entrega      | Como usuario, quiero marcar un despacho como entregado para completar el proceso logístico | Dado un despacho en tránsito, cuando finaliza, entonces cambia a estado “Entregado” | EP-04 |
-| US-25 | Consultar estado de despacho      | Como usuario, quiero ver el estado de los despachos para monitorear envíos | Dado despachos registrados, cuando consulto, entonces visualizo su estado actual | EP-04 |
-| US-26 | Visualizar landing page           | Como visitante, quiero visualizar la landing page para conocer la solución SafeFlow | Dado que ingreso al sitio web, cuando carga la página, entonces visualizo la información principal | EP-06 |
-| US-27 | Ver propuesta de valor            | Como visitante, quiero entender los beneficios del sistema para evaluar su utilidad | Dado que accedo a la landing, cuando reviso el contenido, entonces visualizo la propuesta de valor claramente | EP-06 |
-| US-28 | Navegar por secciones             | Como visitante, quiero navegar por diferentes secciones para explorar el contenido | Dado que estoy en la landing, cuando navego, entonces accedo a cada sección | EP-06 |
-| US-29 | Visualizar características        | Como visitante, quiero ver las funcionalidades del sistema para conocer sus capacidades | Dado que accedo a la sección correspondiente, cuando la reviso, entonces visualizo funcionalidades principales | EP-06 |
-| US-30 | Registrarse en la plataforma      | Como visitante, quiero registrarme para acceder al sistema | Dado que ingreso mis datos, cuando los confirmo, entonces se crea una cuenta correctamente | EP-05 |
-| US-31 | Iniciar sesión                   | Como usuario, quiero iniciar sesión para acceder a la plataforma | Dado que ingreso mis credenciales, cuando son correctas, entonces accedo al sistema | EP-05 |
-| US-32 | Contactar a la empresa           | Como visitante, quiero enviar un mensaje para solicitar información o soporte | Dado que completo el formulario, cuando lo envío, entonces el mensaje se registra correctamente | EP-06 |
-| US-33 | Visualizar testimonios           | Como visitante, quiero ver testimonios para confiar en la solución | Dado que accedo a la sección, cuando la reviso, entonces visualizo experiencias de usuarios | EP-06 |
-| US-34 | Acceder desde dispositivos móviles | Como usuario, quiero acceder desde mi celular para usar la plataforma en cualquier lugar | Dado que ingreso desde un dispositivo móvil, cuando navego, entonces la interfaz se adapta correctamente | EP-06 |
-| US-35 | Ver llamada a la acción (CTA)    | Como visitante, quiero ver botones claros para registrarme o probar el sistema | Dado que estoy en la landing, cuando visualizo la página, entonces encuentro botones visibles | EP-06 |
-| US-36 | Configurar rangos personalizados | Como usuario, quiero definir rangos de temperatura personalizados para distintos productos | Dado un producto, cuando configuro rangos, entonces se guardan correctamente | EP-02 |
-| US-37 | Simular cambios de temperatura   | Como usuario, quiero simular datos de temperatura para probar el sistema | Dado el modo simulación activo, cuando se ejecuta, entonces se generan datos automáticamente | EP-02 |
-| US-38 | Cancelar despacho               | Como usuario, quiero cancelar un despacho para evitar envíos incorrectos | Dado un despacho pendiente, cuando lo cancelo, entonces cambia a estado “Cancelado” | EP-04 |
-| US-39 | Reprogramar entrega             | Como usuario, quiero reprogramar entregas para adaptarme a cambios logísticos | Dado un despacho, cuando modifico la fecha, entonces se actualiza correctamente | EP-04 |
-| US-40 | Mostrar recomendaciones         | Como sistema, quiero sugerir acciones para reducir riesgos en la cadena de frío | Dado un problema detectado, cuando se analiza, entonces se muestra una recomendación | EP-05 |
-| US-41 | Validar datos ingresados        | Como sistema, quiero validar los datos para evitar errores de ingreso | Dado datos incorrectos, cuando intento guardar, entonces se muestra un error | EP-05 |
-| US-42 | Cerrar sesión                  | Como usuario, quiero cerrar sesión para proteger mi información | Dado una sesión activa, cuando cierro sesión, entonces se finaliza correctamente | EP-05 |
-| US-43 | Visualizar video demostrativo   | Como visitante, quiero ver un video demo para entender cómo funciona el sistema | Dado la landing, cuando accedo, entonces puedo reproducir un video | EP-06 |
-| US-44 | Comparar planes del servicio    | Como visitante, quiero comparar planes para elegir la mejor opción | Dado la sección de precios, cuando la reviso, entonces veo comparaciones claras | EP-06 |
-| US-45 | Duplicar producto              | Como usuario, quiero duplicar un producto para registrar rápidamente similares | Dado un producto existente, cuando lo duplico, entonces se crea uno nuevo con los mismos datos | EP-01 |
-| US-46 | Marcar producto como desechado | Como usuario, quiero marcar productos como desechados para reflejar pérdidas | Dado un producto en riesgo, cuando lo marco, entonces cambia a estado “Desechado” | EP-01 |
-| US-47 | Validar condiciones antes del envío | Como sistema, quiero validar la temperatura antes de enviar productos para evitar riesgos | Dado un despacho, cuando se genera, entonces se verifica la condición térmica | EP-04 |
-| US-48 | Visualizar equipo de trabajo    | Como visitante, quiero conocer el equipo para generar confianza | Dado la landing, cuando navego, entonces veo la sección del equipo | EP-06 |
-| US-49 | Cambiar idioma                | Como usuario, quiero cambiar el idioma para una mejor comprensión | Dado la configuración, cuando selecciono un idioma, entonces cambia la interfaz | EP-05 |
-| US-50 | Ver estado del sistema        | Como usuario, quiero ver si el sistema está operativo para confiar en el servicio | Dado el sistema, cuando accedo, entonces visualizo su estado actual | EP-05 |
-| US-51 | Asociar múltiples productos a despacho | Como usuario, quiero enviar varios productos en un solo despacho | Dado varios productos, cuando genero un despacho, entonces se agrupan correctamente | EP-04 |
-| US-52 | Integrar con sensores IoT     | Como sistema, quiero recibir datos de sensores para automatizar el monitoreo | Dado un sensor activo, cuando envía datos, entonces se registran automáticamente | EP-02 |
-| US-53 | Registrar auditorías          | Como usuario, quiero registrar auditorías para cumplimiento normativo | Dado una auditoría, cuando la registro, entonces se guarda la información | EP-05 |
-| US-54 | Ver cumplimiento de normativas | Como usuario, quiero verificar el cumplimiento para evitar sanciones | Dado datos registrados, cuando consulto, entonces visualizo el cumplimiento | EP-05 |
-| US-55 | Visualizar alertas en dashboard | Como usuario, quiero ver alertas en el panel principal para reaccionar rápido | Dado alertas activas, cuando ingreso al dashboard, entonces se muestran destacadas | EP-05 |
+| US-01 | Registrar producto                  | Como usuario, quiero registrar productos con sus rangos de temperatura para garantizar su correcta conservación | **E1-Éxito:** Dado que ingreso datos válidos (nombre, categoría, rango), Cuando guardo la información, Entonces el sistema registra el producto correctamente. **E2-Error:** Dado que dejo campos obligatorios vacíos, Cuando intento guardar, Entonces el sistema muestra error indicando campos requeridos. **E3-Error:** Dado que defino rango inválido (min > max), Cuando intento guardar, Entonces muestra error "Rango de temperatura inválido". **E4-Alterno:** Dado que existe producto con mismo nombre, Cuando intento registrarlo, Entonces muestra advertencia "Este producto ya existe" con opción duplicar. | EP-01 |
+| US-02 | Registrar ingreso de stock          | Como usuario, quiero registrar el ingreso de productos al inventario para llevar el control de cantidades disponibles | **E1-Éxito:** Dado que selecciono producto existente e ingreso cantidad válida, Cuando guardo, Entonces el inventario se actualiza correctamente. **E2-Error:** Dado que ingreso cantidad cero o negativa, Cuando intento guardar, Entonces muestra error "Cantidad debe ser mayor a cero". **E3-Error:** Dado que el producto fue eliminado, Cuando intento registrar ingreso, Entonces muestra error "Producto no encontrado". | EP-01 |
+| US-03 | Visualizar temperatura en tiempo real | Como usuario, quiero visualizar la temperatura en tiempo real para detectar posibles anomalías | **E1-Éxito:** Dado que existen sensores activos conectados, Cuando accedo al dashboard, Entonces visualizo temperaturas actualizadas cada 5 segundos. **E2-Alterno:** Dado que la temperatura cambia fuera del rango permitido, Cuando se detecta el cambio, Entonces destaca en color rojo con ícono de alerta. **E3-Alterno:** Dado que no hay sensores activos, Cuando intento visualizar, Entonces muestra mensaje "Sin sensores disponibles". **E4-Error:** Dado que se pierde conexión del sensor, Cuando ocurre la desconexión, Entonces muestra última lectura + estado "Desconectado". | EP-02 |
+| US-04 | Detectar anomalías de temperatura   | Como sistema, quiero detectar automáticamente temperaturas fuera del rango permitido para prevenir riesgos en los productos | **E1-Error:** Dado que se registra temperatura fuera del rango definido, Cuando se detecta la anomalía, Entonces marca automáticamente como "En Riesgo" + prepara alerta. **E2-Error:** Dado que se registran 3+ lecturas anómalas consecutivas, Cuando se confirma el patrón, Entonces escala a "Crítico" + notifica a supervisores. **E3-Alterno:** Dado que temperatura está dentro de tolerancia (±2°C), Cuando se registra, Entonces guarda sin alerta pero marca como "Advertencia". | EP-02 |
+| US-05 | Generar alertas                    | Como sistema, quiero generar alertas automáticas para notificar anomalías en la cadena de frío | **E1-Éxito:** Dado que se detecta una anomalía, Cuando genera alerta, Entonces crea alerta con ID único y estado "Activa". **E2-Éxito:** Dado que hay múltiples destinatarios configurados, Cuando genera alerta, Entonces enruta a todos y notifica en sus perfiles. **E3-Alterno:** Dado que ocurren alertas recurrentes en 1 hora, Cuando se detecta patrón, Entonces agrupa + muestra resumen en lugar de múltiples alertas. | EP-03 |
+| US-06 | Gestionar alertas                  | Como usuario, quiero visualizar y resolver alertas para tomar acciones correctivas oportunas | **E1-Éxito:** Dado que existen alertas activas en el sistema, Cuando accedo a alertas, Entonces visualizo lista con descripción, severidad y fecha. **E2-Éxito:** Dado que reviso una alerta, Cuando hago clic en ella, Entonces puedo marcarla como "Resuelta" + se archiva automáticamente. **E3-Alterno:** Dado que no hay alertas activas, Cuando accedo, Entonces muestra mensaje "Sin alertas activas" + histórico desarchivado. | EP-03 |
+| US-07 | Monitorear transporte              | Como usuario, quiero monitorear la temperatura durante el transporte para evitar pérdidas | **E1-Éxito:** Dado que creo un despacho y asigno sensor, Cuando se registran temperaturas, Entonces se vinculan correctamente al despacho en tránsito. **E2-Alterno:** Dado que hay múltiples lecturas de un sensor, Cuando accedo al historial, Entonces se agrupan y muestran ordenadas por timestamp. **E3-Error:** Dado que el sensor falla o se desconecta, Cuando deja de enviar datos, Entonces muestra estado "Desconectado" y alerta al usuario. | EP-04 |
+| US-08 | Gestionar usuarios                 | Como administrador, quiero gestionar usuarios para controlar el acceso al sistema | **E1-Éxito:** Dado que completo formulario con datos válidos y selecciono rol, Cuando guardo usuario, Entonces se crea correctamente y puede iniciar sesión. **E2-Error:** Dado que ingreso un email que ya existe en el sistema, Cuando intento guardar, Entonces muestra error "Email ya registrado en el sistema". **E3-Éxito:** Dado que deseo actualizar datos de un usuario existente, Cuando edito y guardo, Entonces los cambios se reflejan inmediatamente. **E4-Éxito:** Dado que intento eliminar un usuario, Cuando solicito eliminar, Entonces pide confirmación y al confirmar lo desactiva. | EP-05 |
+| US-09 | Cambiar estado del producto        | Como sistema, quiero actualizar el estado del producto para reflejar su condición actual | **E1-Alterno:** Dado que se detecta una anomalía de temperatura, Cuando el sistema confirma anomalía, Entonces cambia automáticamente estado a "En Riesgo". **E2-Alterno:** Dado que se resuelve la anomalía y temperatura vuelve a rango, Cuando se normaliza, Entonces cambia estado a "Normal". **E3-Error:** Dado que se detectan más de 3 anomalías consecutivas, Cuando se confirma patrón crítico, Entonces cambia estado a "Desechado" automáticamente. | EP-01 |
+| US-10 | Consultar inventario               | Como usuario, quiero visualizar el inventario disponible para conocer el estado de los productos | **E1-Éxito:** Dado que existen productos registrados en el sistema, Cuando accedo a inventario, Entonces visualizo lista con nombre, cantidad, estado y rango de temperatura. **E2-Alterno:** Dado que no hay productos registrados, Cuando accedo a inventario, Entonces muestra lista vacía con mensaje "Sin productos" y botón agregar. **E3-Éxito:** Dado que aplico filtro por estado (Normal/En Riesgo/Desechado), Cuando filtro, Entonces muestra solo productos con ese estado. | EP-01 |
+| US-11 | Asociar temperatura a despacho     | Como sistema, quiero asociar registros de temperatura a un despacho para monitorear el transporte | **E1-Éxito:** Dado que existe despacho activo y sensor asignado, Cuando se registra temperatura, Entonces se vincula correctamente al despacho correspondiente. **E2-Alterno:** Dado que hay múltiples sensores, Cuando se registran temperaturas, Entonces cada una se asocia al despacho correcto. **E3-Error:** Dado que no existe despacho activo, Cuando intenta registrar temperatura, Entonces muestra error "Despacho no encontrado". | EP-02 |
+| US-12 | Identificar origen de anomalía     | Como sistema, quiero identificar si una anomalía ocurrió en almacén o transporte para tomar decisiones | **E1-Éxito:** Dado que se detecta anomalía con sensor en almacén, Cuando se registra, Entonces marca origen "Almacén". **E2-Éxito:** Dado que se detecta anomalía con sensor en despacho, Cuando se registra, Entonces marca origen "Transporte". **E3-Alterno:** Dado que no hay metadatos del sensor, Cuando se evalúa, Entonces marca como "Origen desconocido". | EP-02 |
+| US-13 | Visualizar dashboard              | Como usuario, quiero ver un resumen general del sistema para tomar decisiones rápidas | **E1-Éxito:** Dado que he iniciado sesión autenticado, Cuando accedo al dashboard, Entonces visualizo indicadores clave (productos, alertas, despachos). **E2-Alterno:** Dado que tengo permisos limitados (operador), Cuando accedo, Entonces veo solo indicadores permitidos para mi rol. **E3-Alterno:** Dado que no hay datos disponibles, Cuando carga, Entonces muestra placeholders + sugerencias de acción. | EP-05 |
+| US-14 | Editar producto                   | Como usuario, quiero editar la información de un producto para mantener datos actualizados | **E1-Éxito:** Dado que selecciono un producto existente, Cuando modifico sus datos válidos, Entonces se actualiza correctamente en el sistema. **E2-Error:** Dado que intento dejar campos obligatorios vacíos, Cuando guardo, Entonces muestra error de validación. **E3-Alterno:** Dado que cambio el rango de temperatura, Cuando guardo, Entonces aplica retroactivamente a registros sin anomalía aún. | EP-01 |
+| US-15 | Eliminar producto                 | Como usuario, quiero eliminar productos que ya no se utilizan para mantener el inventario ordenado | **E1-Éxito:** Dado que selecciono un producto sin registros activos, Cuando confirmo eliminación, Entonces se elimina del sistema + se confirma acción. **E2-Alterno:** Dado que el producto tiene registros en historial, Cuando intento eliminar, Entonces pide confirmación + advierte que perderá historial. **E3-Error:** Dado que el producto está en un despacho activo, Cuando intento eliminar, Entonces muestra error "No se puede eliminar producto en uso". | EP-01 |
+| US-16 | Registrar ubicación del producto  | Como usuario, quiero asignar una ubicación al producto para saber dónde se encuentra | **E1-Éxito:** Dado que ingreso ubicación válida (almacén, pasillo, estánte), Cuando guardo, Entonces se registra correctamente. **E2-Alterno:** Dado que cambio la ubicación, Cuando guardo, Entonces registra cambio en historial de auditoría. **E3-Error:** Dado que la ubicación no existe, Cuando intento guardar, Entonces muestra error "Ubicación no válida". | EP-01 |
+| US-17 | Visualizar historial de temperatura | Como usuario, quiero ver el historial de temperaturas para analizar comportamientos | **E1-Éxito:** Dado que existe producto con historial de registros, Cuando accedo al historial, Entonces muestra lista ordenada por fecha/hora con valores y estados. **E2-Alterno:** Dado que un producto no tiene registros, Cuando intento visualizar, Entonces muestra mensaje "Sin registros de temperatura". **E3-Éxito:** Dado que aplico filtro por rango de fechas, Cuando filtro, Entonces muestra solo registros dentro del rango seleccionado. | EP-02 |
+| US-18 | Controlar acceso por rol          | Como sistema, quiero restringir accesos según el rol del usuario para mayor seguridad | **E1:** Usuario Supervisor → Visualiza solo funciones permitidas. **E2:** Usuario Operador → Acceso limitado a registros. **E3:** Usuario Admin → Acceso completo. **E4:** Intenta acceder sin permiso → Muestra error 403. | EP-05 |
+| US-19 | Registrar lote de producto        | Como usuario, quiero registrar el lote de un producto para asegurar su trazabilidad | **E1-Éxito:** Dado que ingreso número de lote válido, Cuando guardo, Entonces se registra correctamente vinculado al producto. **E2-Error:** Dado que dejo el campo de lote vacío, Cuando intento guardar, Entonces muestra error "Lote es obligatorio". **E3-Alterno:** Dado que existe lote duplicado, Cuando intento registrar, Entonces muestra advertencia "Lote ya registrado" con opción actualizar. | EP-01 |
+| US-20 | Consultar productos en riesgo     | Como usuario, quiero visualizar productos en estado de riesgo para tomar acciones rápidas | **E1-Éxito:** Dado que existen productos con estado "En Riesgo", Cuando consulto, Entonces se listan con información de anomalía + temperatura actual. **E2-Alterno:** Dado que no hay productos en riesgo, Cuando consulto, Entonces muestra mensaje "Sin productos en riesgo". **E3-Éxito:** Dado que hago clic en un producto en riesgo, Cuando accedo, Entonces visualizo detalles + historial de anomalías. | EP-01 |
+| US-21 | Validar rango de temperatura      | Como sistema, quiero validar automáticamente el rango permitido de temperatura para cada producto | **E1-Éxito:** Dado que se registra temperatura dentro del rango, Cuando se evalúa, Entonces la compara + marca como "Normal". **E2-Error:** Dado que se registra temperatura fuera del rango, Cuando se evalúa, Entonces marca como "Fuera de rango" + genera alerta. **E3-Alterno:** Dado que la temperatura está en zona de tolerancia, Cuando se evalúa, Entonces marca como "Advertencia" pero no genera alerta crítica. | EP-02 |
+| US-22 | Registrar origen de temperatura   | Como sistema, quiero identificar el origen del registro (manual o simulado) para análisis | **E1-Éxito:** Dado que llega dato de sensor IoT, Cuando se registra, Entonces se almacena origen como "Sensor". **E2-Éxito:** Dado que usuario registra manualmente, Cuando guarda, Entonces se almacena origen como "Manual". **E3-Alterno:** Dado que entra dato de simulación, Cuando se procesa, Entonces se almacena origen como "Simulado" + marca claramente. | EP-02 |
+| US-23 | Notificar múltiples usuarios      | Como sistema, quiero enviar alertas a varios usuarios para asegurar una respuesta rápida | **E1-Éxito:** Dado que se genera alerta + existen múltiples usuarios asignados, Cuando se crea, Entonces se envía a todos por correo + notificación en app. **E2-Éxito:** Dado que usuario desactiva notificaciones, Cuando se genera alerta, Entonces respeta preferencia + registra en lista de alertas. **E3-Error:** Dado que falla envío de correo, Cuando intenta notificar, Entonces registra error + reintenta. | EP-03 |
+| US-24 | Actualizar estado de entrega      | Como usuario, quiero marcar un despacho como entregado para completar el proceso logístico | **E1:** Despacho en tránsito → Cambia a "Entregado" + registra fecha/hora. **E2:** Sin autorización → Muestra error de permisos. **E3:** Despacho ya entregado → Muestra advertencia. | EP-04 |
+| US-25 | Consultar estado de despacho      | Como usuario, quiero ver el estado de los despachos para monitorear envíos | **E1-Éxito:** Dado que existen despachos registrados, Cuando consulto, Entonces visualizo lista con estado actual, producto + temperatura. **E2-Alterno:** Dado que no hay despachos, Cuando consulto, Entonces muestra mensaje "Sin despachos" + botón crear. **E3-Éxito:** Dado que filtro por estado (Pendiente/En tránsito/Entregado), Cuando filtro, Entonces muestra solo despachos con ese estado. | EP-04 |
+| US-26 | Visualizar landing page           | Como visitante, quiero visualizar la landing page para conocer la solución SafeFlow | **E1-Éxito:** Dado que accedo a la página sin autenticar, Cuando carga, Entonces visualiza información principal en < 3 segundos. **E2-Alterno:** Dado que accedo desde dispositivo móvil, Cuando accedo, Entonces se adapta correctamente al tamaño de pantalla. **E3-Éxito:** Dado que hay mucho contenido, Cuando carga, Entonces muestra indicador de progreso. | EP-06 |
+| US-27 | Ver propuesta de valor            | Como visitante, quiero entender los beneficios del sistema para evaluar su utilidad | **E1-Éxito:** Dado que accedo a sección de beneficios, Cuando leo contenido, Entonces visualizo propuesta de valor clara + impacto cuantificado. **E2-Éxito:** Dado que reviso beneficios, Cuando leo, Entonces entiende cómo soluciona el problema. **E3-Éxito:** Dado que comparo con competencia, Cuando reviso, Entonces identifica diferenciadores clave. | EP-06 |
+| US-28 | Navegar por secciones             | Como visitante, quiero navegar por diferentes secciones para explorar el contenido | **E1-Éxito:** Dado que estoy en landing, Cuando navego por menú, Entonces accedo a cada sección sin errores. **E2-Alterno:** Dado que uso breadcrumb o botones de navegación, Cuando hago clic, Entonces vuelvo a sección anterior correctamente. **E3-Alterno:** Dado que accedo desde móvil, Cuando navego, Entonces menú se adapta correctamente. | EP-06 |
+| US-29 | Visualizar características        | Como visitante, quiero ver las funcionalidades del sistema para conocer sus capacidades | **E1-Éxito:** Dado que accedo a sección de características, Cuando visualizo, Entonces se listan funcionalidades principales con descripciones. **E2-Éxito:** Dado que reviso descripción de característica, Cuando leo, Entonces entiende utilidad + beneficio. **E3-Alterno:** Dado que no hay características para mostrar, Cuando intento acceder, Entonces muestra mensaje explicativo. | EP-06 |
+| US-30 | Registrarse en la plataforma      | Como visitante, quiero registrarme para acceder al sistema | **E1:** Datos válidos (nombre, email, contraseña fuerte, acepta términos) → Cuenta creada + email confirmación. **E2:** Email existente → Error "Email ya registrado" + opciones login/recuperar. **E3:** Contraseña débil → Error con requisitos. **E4:** Sin aceptar términos → Error + botón deshabilitado. | EP-05 |
+| US-31 | Iniciar sesión                   | Como usuario, quiero iniciar sesión para acceder a la plataforma | **E1:** Credenciales correctas → Accede a dashboard + sesión activa. **E2:** Contraseña incorrecta → Error "Credenciales inválidas" + permanece en login. **E3:** Email no registrado → Error "Usuario no encontrado" + sugiere registrarse. **E4:** 5 intentos fallidos → Bloquea cuenta 30min + sugiere recuperar. | EP-05 |
+| US-32 | Contactar a la empresa           | Como visitante, quiero enviar un mensaje para solicitar información o soporte | **E1:** Completa formulario válido → Se registra correctamente. **E2:** Campos obligatorios vacíos → Error de validación. **E3:** Email inválido → Error de formato. | EP-06 |
+| US-33 | Visualizar testimonios           | Como visitante, quiero ver testimonios para confiar en la solución | **E1-Éxito:** Dado que accedo a sección de testimonios, Cuando visualizo, Entonces muestra experiencias reales de usuarios con foto + nombre. **E2-Alterno:** Dado que hay testimonios en vídeo, Cuando visualizo, Entonces puedo reproducir directamente. **E3-Alterno:** Dado que no hay testimonios aún, Cuando intento acceder, Entonces muestra mensaje "Próximamente" o alterna a resenas. | EP-06 |
+| US-34 | Acceder desde dispositivos móviles | Como usuario, quiero acceder desde mi celular para usar la plataforma en cualquier lugar | **E1-Éxito:** Dado que accedo desde smartphone, Cuando carga, Entonces interfaz se adapta correctamente en resolución 375px. **E2-Éxito:** Dado que accedo desde tablet, Cuando carga, Entonces se optimiza para pantalla mediana. **E3-Éxito:** Dado que navego en móvil, Cuando interactuo, Entonces todos los botones son accesibles + textura >44px. | EP-06 |
+| US-35 | Ver llamada a la acción (CTA)    | Como visitante, quiero ver botones claros para registrarme o probar el sistema | **E1-Éxito:** Dado que accedo a landing, Cuando visualizo, Entonces encuentro botón CTA destacado + visible sin scroll. **E2-Éxito:** Dado que hago clic en CTA, Cuando interactuo, Entonces me lleva a formulario de registro o demo. **E3-Alterno:** Dado que hay múltiples CTAs, Cuando visualizo, Entonces distingue entre "Probar" + "Registrarse". | EP-06 |
+| US-36 | Configurar rangos personalizados | Como usuario, quiero definir rangos de temperatura personalizados para distintos productos | **E1-Éxito:** Dado que ingreso rango mín. y máx. válidos, Cuando guardo, Entonces se registra + se aplica a futuras mediciones. **E2-Error:** Dado que ingreso rango inválido (mín > máx), Cuando intento guardar, Entonces muestra error descriptivo. **E3-Alterno:** Dado que cambio rango existente, Cuando guardo, Entonces pregunta si aplicar retroactivamente. | EP-02 |
+| US-37 | Simular cambios de temperatura   | Como usuario, quiero simular datos de temperatura para probar el sistema | **E1-Éxito:** Dado que activo modo simulación, Cuando lo configuro, Entonces genera datos automáticamente cada 10 seg. **E2-Éxito:** Dado que configuro parámetros de simulación, Cuando ejecuto, Entonces respeta rango especificado. **E3-Alterno:** Dado que desactivo simulación, Cuando lo hago, Entonces vuelve a datos reales + limpia datos simulados. | EP-02 |
+| US-38 | Cancelar despacho               | Como usuario, quiero cancelar un despacho para evitar envíos incorrectos | **E1-Éxito:** Dado que un despacho está en estado Pendiente, Cuando solicito cancelación, Entonces cambia a "Cancelado" + registra fecha de cancelación. **E2-Error:** Dado que despacho ya está en tránsito, Cuando intento cancelar, Entonces muestra error "No se puede cancelar despacho en tránsito". **E3-Alterno:** Dado que cancelo con motivo, Cuando guardo, Entonces registra observación + la muestra en historial. | EP-04 |
+| US-39 | Reprogramar entrega             | Como usuario, quiero reprogramar entregas para adaptarme a cambios logísticos | **E1-Éxito:** Dado que un despacho está planificado, Cuando modifico la fecha, Entonces se actualiza correctamente + notifica destinatario. **E2-Alterno:** Dado que hay despachos en tránsito, Cuando intento reprogramar, Entonces pide confirmación del cambio. **E3-Error:** Dado que fecha es anterior a hoy, Cuando intento guardar, Entonces muestra error "Fecha no válida". | EP-04 |
+| US-40 | Mostrar recomendaciones         | Como sistema, quiero sugerir acciones para reducir riesgos en la cadena de frío | **E1-Éxito:** Dado que se detecta patrón de anomalía recurrente, Cuando se analiza, Entonces muestra recomendación: "Revisar calibración del sensor" o "Ajustar rango de temperatura". **E2-Éxito:** Dado que hay múltiples productos en riesgo, Cuando se evalúa, Entonces recomienda acción inmediata. **E3-Alterno:** Dado que no hay problemas, Cuando consulta, Entonces muestra mensaje "Sistema operando correctamente". | EP-05 |
+| US-41 | Validar datos ingresados        | Como sistema, quiero validar los datos para evitar errores de ingreso | **E1-Éxito:** Dado que se ingresan datos válidos, Cuando se valida, Entonces permite guardar sin restricciones. **E2-Error:** Dado que hay campos requeridos vacíos, Cuando se valida, Entonces muestra error "[Campo] es obligatorio". **E3-Error:** Dado que se ingresa formato inválido (ej: email), Cuando se valida, Entonces muestra error descriptivo + ejemplo correcto. | EP-05 |
+| US-42 | Cerrar sesión                  | Como usuario, quiero cerrar sesión para proteger mi información | **E1:** Hace clic en cerrar sesión → Sesión se finaliza + redirige a login. **E2:** Sesión expira → Cierra automáticamente + notifica usuario. **E3:** Vuelve atrás en navegador → No permite acceso sin autenticar. | EP-05 |
+| US-43 | Visualizar video demostrativo   | Como visitante, quiero ver un video demo para entender cómo funciona el sistema | **E1-Éxito:** Dado que accedo a landing, Cuando busco sección de video, Entonces encuentro reproductor embebido + visible. **E2-Éxito:** Dado que hago clic en play, Cuando reproduzco, Entonces video carga sin errores + tiene 1-3 min de duración. **E3-Alterno:** Dado que está en móvil, Cuando reproduzco, Entonces se adapta + permite pantalla completa. | EP-06 |
+| US-44 | Comparar planes del servicio    | Como visitante, quiero comparar planes para elegir la mejor opción | **E1-Éxito:** Dado que accedo a sección de precios, Cuando visualizo, Entonces muestra tabla comparativa con planes (Básico/Profesional/Empresarial). **E2-Éxito:** Dado que reviso características, Cuando comparo, Entonces identifica diferencias clave entre planes. **E3-Éxito:** Dado que hago clic en plan, Cuando selecciono, Entonces me lleva a suscripción o contacto. | EP-06 |
+| US-45 | Duplicar producto              | Como usuario, quiero duplicar un producto para registrar rápidamente similares | **E1-Éxito:** Dado que selecciono un producto existente, Cuando hago clic en duplicar, Entonces crea nuevo producto con mismos datos + rango de temperatura. **E2-Éxito:** Dado que deseo cambiar datos del duplicado, Cuando edito, Entonces puedo modificar antes de guardar. **E3-Alterno:** Dado que duplico producto, Cuando guardo, Entonces muestra confirmación + sugiere asignar nueva ubicación. | EP-01 |
+| US-46 | Marcar producto como desechado | Como usuario, quiero marcar productos como desechados para reflejar pérdidas | **E1-Éxito:** Dado que tengo un producto en riesgo, Cuando decido descartarlo, Entonces cambia a estado "Desechado" + registra fecha + motivo. **E2-Alterno:** Dado que confirmo descarte, Cuando guardo, Entonces registra en historial + genera reporte de pérdida. **E3-Error:** Dado que intento descartar producto sin anomalía, Cuando intento guardar, Entonces pide confirmación de acción. | EP-01 |
+| US-47 | Validar condiciones antes del envío | Como sistema, quiero validar la temperatura antes de enviar productos para evitar riesgos | **E1:** Despacho con temperatura normal → Se genera sin restricciones. **E2:** Despacho con temperatura en riesgo → Muestra advertencia + pide confirmación. **E3:** Sin datos de temperatura → Bloquea envío y sugiere completar. | EP-04 |
+| US-48 | Visualizar equipo de trabajo    | Como visitante, quiero conocer el equipo para generar confianza | **E1-Éxito:** Dado que accedo a sección "Equipo", Cuando visualizo, Entonces muestra integrantes con foto + nombre + rol + experiencia. **E2-Alterno:** Dado que hay más de 6 personas, Cuando visualizo, Entonces agrupa o hace paginable. **E3-Alterno:** Dado que hago clic en miembro, Cuando interactuo, Entonces muestra perfil completo + redes sociales. | EP-06 |
+| US-49 | Cambiar idioma                | Como usuario, quiero cambiar el idioma para una mejor comprensión | **E1-Éxito:** Dado que estoy en la aplicación, Cuando accedo a configuración + selecciono idioma (ES/EN), Entonces interfaz cambia inmediatamente. **E2-Éxito:** Dado que cambio idioma, Cuando guardo, Entonces preferencia persiste en siguientes sesiones. **E3-Alterno:** Dado que accedo desde otro dispositivo, Cuando inicio sesión, Entonces respeta idioma anterior. | EP-05 |
+| US-50 | Ver estado del sistema        | Como usuario, quiero ver si el sistema está operativo para confiar en el servicio | **E1-Éxito:** Dado que accedo a página de estado, Cuando visualizo, Entonces muestra indicador de operación (Verde/Amarillo/Rojo). **E2-Éxito:** Dado que hay mantenimiento programado, Cuando consulto, Entonces muestra aviso + fecha de finalización. **E3-Alterno:** Dado que hay incidente, Cuando reviso, Entonces muestra detalles + tiempo estimado de resolución. | EP-05 |
+| US-51 | Asociar múltiples productos a despacho | Como usuario, quiero enviar varios productos en un solo despacho | **E1-Éxito:** Dado que selecciono 2+ productos válidos, Cuando creo despacho, Entonces agrupa correctamente + muestra lista de items. **E2-Alterno:** Dado que algunos productos tienen rangos diferentes, Cuando se agrupa, Entonces registra rango más restrictivo para el despacho. **E3-Error:** Dado que intento crear despacho sin productos, Cuando intento guardar, Entonces muestra error "Debe seleccionar al menos un producto". | EP-04 |
+| US-52 | Integrar con sensores IoT     | Como sistema, quiero recibir datos de sensores para automatizar el monitoreo | **E1:** Sensor activo envia datos → Se registran automáticamente. **E2:** Datos inválidos → Se rechazan y registran error. **E3:** Sensor desconectado → Sistema detecta y alerta. | EP-02 |
+| US-53 | Registrar auditías          | Como usuario, quiero registrar auditías para cumplimiento normativo | **E1-Éxito:** Dado que realizo auditoria, Cuando registro información, Entonces se guarda con fecha/hora + usuario que registró. **E2-Alterno:** Dado que documento hallazgos, Cuando guardo, Entonces se registra en historial inmutable. **E3-Éxito:** Dado que descargo reporte de auditorías, Cuando exporto, Entonces genera PDF con todos los registros. | EP-05 |
+| US-54 | Ver cumplimiento de normativas | Como usuario, quiero verificar el cumplimiento para evitar sanciones | **E1-Éxito:** Dado que he registrado datos completos, Cuando consulto cumplimiento, Entonces visualiza porcentaje de conformidad + detalles por norma. **E2-Alterno:** Dado que hay no conformidades, Cuando reviso, Entonces muestra qué falta + cómo corregir. **E3-Éxito:** Dado que descargo reporte de conformidad, Cuando exporto, Entonces genera certificación en PDF con firma digital. | EP-05 |
+| US-55 | Visualizar alertas en dashboard | Como usuario, quiero ver alertas en el panel principal para reaccionar rápido | **E1:** Alertas activas → Se muestran destacadas con color. **E2:** Sin alertas → Muestra estado "Sin alertas". **E3:** Hace clic en alerta → Navega a detalles. | EP-05 |
 
-## 3.3. Impact Mapping
+## 3.2. Impact Mapping
 
 * Gestor de Calidad
 
@@ -1058,7 +1114,7 @@ La siguiente matriz presenta las tareas identificadas para los segmentos objetiv
 
 <img src="assets/chapter-03/Impact map_supervisora_de_flota.png"/>
 
-## 3.4. Product Backlog
+## 3.3. Product Backlog
 
 <table style="width:100%; border-collapse: collapse;">
   <thead>
@@ -1068,7 +1124,7 @@ La siguiente matriz presenta las tareas identificadas para los segmentos objetiv
       <th style="border: 1px solid #dddddd; padding: 8px;">Título</th>
       <th style="border: 1px solid #dddddd; padding: 8px;">Descripción</th>
       <th style="border: 1px solid #dddddd; padding: 8px;">Story Points (1/2/3/5/8)</th>
-    </tr>
+    </tr>+
   </thead>
   <tbody>
     <tr><td><b>1</b></td><td>US-26</td><td>Visualizar landing page</td><td>Como visitante, quiero visualizar la landing page para conocer la solución SafeFlow.</td><td style="text-align: center;">2</td></tr>
@@ -1485,35 +1541,61 @@ Con este sistema, SafeFlow proporciona navegación intuitiva y eficiente que per
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 
-#### Home
-<img src="assets/chapter-04/Home.png"/>
 
-#### About-Us
-<img src="assets/chapter-04/About-Us.png"/>
+<div align="center"> <img src="assets/chapter-04/wireframe01.png"/> </div>
+<div align="center">*Es la portada principal del sitio. Presenta un menú de navegación superior, una sección de bienvenida con un título grande y un botón de acción, seguida de una zona de tres columnas para destacar servicios o conceptos clave.*</div>
 
-#### Suscribes
-<img src="assets/chapter-04/Suscribe.png"/>
 
-#### Features
-<img src="assets/chapter-04/Features.png"/>
+<div align="center"> <img src="assets/chapter-04/wireframe02.png"/> </div>
+<div align="center">*Una sección enfocada en contenido visual. Muestra un reproductor de video central con botones de interacción y, debajo, una cuadrícula de tres bloques de texto para explicar beneficios específicos.*</div>
+
+
+<div align="center"> <img src="assets/chapter-04/wireframe03.png"/> </div>
+<div align="center">*Un diseño que combina texto e imágenes de forma asimétrica. Se divide en dos partes: una cuadrícula superior para detalles técnicos y una sección inferior que utiliza iconos numerados junto a una imagen lateral.*</div>
+
+
+<div align="center"> <img src="assets/chapter-04/wireframe04.png"/> </div>
+<div align="center">*Un esquema diseñado para el desglose detallado. Presenta tres columnas verticales largas, ideales para mostrar listas de características, planes de precios o especificaciones de diferentes categorías.*</div>
+
+<div align="center"> <img src="assets/chapter-04/wireframe05.png"/> </div>
+<div align="center">*Una composición visual que incluye dos grandes contenedores de imágenes a la izquierda con una lista de elementos a la derecha, además de un carrusel o deslizador de imágenes en la parte inferior.*</div>
+
+<div align="center"> <img src="assets/chapter-04/wireframe06.png"/> </div>
+<div align="center">*Un diseño funcional que presenta cuatro bloques de información con iconos en la parte superior y una sección de "acordeones" o pestañas desplegables en la parte inferior para resolver dudas.*</div>
+
+<div align="center"> <img src="assets/chapter-04/wireframe07.png"/> </div>
+<div align="center">*El cierre del sitio. Contiene un formulario de contacto con mapa e información de ubicación, seguido de un pie de página (footer) organizado en varias columnas para enlaces institucionales y redes sociales.*</div>
 
 ### 4.3.2. Landing Page Mock-up
 
-### 1. Landing Page Overview & Features
-<div align="center"> <img src="assets/chapter-04/mockup011.png"/>  </div>
-<div align="center">*Esta vista recrea la sección principal (Hero) junto con las características clave y los sectores beneficiados de SafeFlow.*</div>
+### 1. Hero Section Overview
 
-### 2. Operational Process & Key Benefits
-<div align="center"> <img src="assets/chapter-04/mockup12.png"/>  </div>
-<div align="center">*Mockup detallado que ilustra el flujo de funcionamiento (pasos 1-4) y las ventajas competitivas del sistema.*</div>
+<div align="center">Esta vista recrea la barra de navegación y la sección principal (Hero) que contiene el propósito de nuestra solución
+ junto con la propuesta de valor, botón preeliminar para visualizar la demo de nuestra web y para agendar reunión con nosotros, y el impacto que puede nuestra
+solución tener en el área laboral de nuestros clientes.</div>
 
-### 3. Business Strategy & Development Team
-<div align="center"> <img src="assets/chapter-04/mockup13.png"/>  </div>
-<div align="center">*Sección final que muestra los modelos de suscripción, el equipo de ingeniería a cargo y el banner de contacto (Footer).*</div>
+<div align="center"> <img src="assets/chapter-04/hero-mockup.png"/>  </div>
 
+### 2. Operational Flow and Key Benefits
 
+<div align="center">Mockup detallado que ilustra las principales características de SafeFlow, como este funciona de forma breve 
+y las tecnologías que componieron el desarrollo de la solución.</div>
 
+<div align="center"> <img src="assets/chapter-04/fuctionality-mockup.png"/>  </div>
 
+### 3. SafeFlow Benefits & Development Team
+
+<div align="center">Penúltima sección que muestra 3 distintos modelos de suscripción con sus detalles, ventajas que provee nuestra solución,
+el equipo de ingeniería a cargo y los principales sectores laborales beneficiados por SafeFlow.</div>
+
+<div align="center"> <img src="assets/chapter-04/benefits&team-mockup.png"/>  </div>
+
+## 4. FAQ, Contact and Footer
+
+<div align="center">Última sección de la landing page que muestra las preguntas frecuentes, el formulario de contacto y 
+el footer con información del producto</div>
+
+<div align="center"> <img src="assets/chapter-04/faq-contact-footer-mockup.png"/>  </div>
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
@@ -2399,38 +2481,54 @@ En este Sprint, el equipo se ha enfocado en el diseño, maquetación y despliegu
 A continuación, se presentan las capturas de pantalla que sirven como evidencia de la implementación funcional del sitio:
 
 ### A. Portada y Propuesta de Valor
-![Hero Section](assets/chapter-05/image_hero.jpeg)
+![Hero Section](assets/chapter-05/Homepage.png)
 *Sección principal que comunica el "Control Total de tu Cadena de Frío" y facilita el acceso inmediato a la demo.*
 
-### B. Funcionalidades y Operatividad
+![ValueProposition](assets/chapter-05/value-proposition.png)
+*Sección que comunica la propuesta de valor de SafeFlow y muestra una futura vista al dashboard de nuestra solución.*
 
-![Features](assets/chapter-05/image_features.jpeg)
-*Detalle de las herramientas técnicas como Dashboard y Alertas.*
+### B. Impacto y Funcionalidades
 
+![Impact](assets/chapter-05/SafeFlow-Impact.png)
+*Sección que comunica el impacto tangible que los clientes pueden esperar al implementar SafeFlow en sus operaciones de cadena de frío.*
 
-![How it works](assets/chapter-05/image_how_it_works.jpeg)
- *Flujo paso a paso del proceso de monitoreo con sensores IoT.* 
+![Features](assets/chapter-05/Main-features.png)
+*Sección que destaca las funcionalidades clave de SafeFlow, como monitoreo en tiempo real, alertas inteligentes y análisis predictivo.*
 
+### C. Operatividad y Tecnología
 
-### C. Estrategia de Negocio y Sectores
-![Pricing](assets/chapter-05/image_pricing.jpeg)
-*Modelos de suscripción (Essential, Professional, Enterprise) diseñados para diferentes escalas de operación.*
+![How it works](assets/chapter-05/how-it-works.png)
+*Sección que explica de manera visual y sencilla el funcionamiento de SafeFlow, desde la instalación de sensores IoT hasta la generación de reportes y alertas.*
 
-![Sectors](assets/chapter-05/image_sectors.jpeg)
-*Identificación de las industrias clave donde SafeFlow garantiza el cumplimiento normativo.*
+![Technology](assets/chapter-05/Technology-used.png)
+*Sección que detalla las tecnologías utilizadas en el desarrollo de SafeFlow, incluyendo IoT, análisis de datos, arquitectura de software y seguridad de autenticación.*
 
-### D. Confianza y Equipo
-![Testimonials](assets/chapter-05/image_testimonials.jpeg)
-*Validación de terceros mediante testimonios de sectores farmacéuticos y logísticos.*
+### D. Subscripciones y Ventajas Principales de SafeFlow
+![Pricing](assets/chapter-05/Pricing.png)
+*Modelos de suscripción (Essential, Professional, Enterprise) diseñados para diferentes escalas de operación y cada uno presenta detalles de sus beneficios.*
 
-![Team](assets/chapter-05/image_team.jpeg)
+![Advantages](assets/chapter-05/Main-Benefits.png)
+*Sección que resalta las ventajas competitivas de SafeFlow, como la reducción de pérdidas, mejora en la eficiencia operativa y cumplimiento normativo.*
+
+### E. Equipo y Sectores beneficiados de SafeFlow
+
+![Team](assets/chapter-05/SafeFlow-Team.png)
 *Presentación del equipo de ingeniería responsable del desarrollo del software.*
 
+![Sectors](assets/chapter-05/Beneficiary-Sectors.png)
+*Sección que muestra los sectores beneficiarios de SafeFlow, incluyendo farmacéutico, logístico, alimentario y otros.*
 
-### E. Cierre y Call to Action (CTA)
-![Footer and CTA](assets/chapter-05/image_footer_cta.jpeg)
-*Banner final de conversión diseñado para capturar leads mediante el botón "Solicitar Demo Gratuita", junto con la navegación secundaria y enlaces legales del proyecto.*
 
+### F. Cierre 
+
+![FAQ](assets/chapter-05/Faq-SafeFlow.png)
+*Sección de preguntas frecuentes que aborda las dudas más comunes de los usuarios potenciales al momento de adquirir SafeFlow.*
+
+![Contact-and-CTA](assets/chapter-05/Contact-SafeFlow.png)
+*Sección final que invita a los usuarios a contactar al equipo de ventas o solicitar una demo personalizada, con un formulario de contacto integrado.*
+
+![Footer](assets/chapter-05/Footer.png)
+*Pie de página con información de contacto, secciones de la página, enlace a Github y derechos de autor.*
 
 ## 3. Video de Demostración y Navegación
 Para observar la fluidez de la navegación, la respuesta de los elementos interactivos y la explicación detallada de cada sección, se ha preparado el siguiente material audiovisual:
@@ -2475,7 +2573,30 @@ URL de despliegue del Landing Page: [Landing Page Desplegado](https://upc-pre-20
 
 # Conclusiones y recomendaciones
 
+## Conclusiones
+
+La gestión de la cadena de frío constituye un desafío crítico en sectores como el farmacéutico y logístico, donde mantener condiciones térmicas adecuadas es fundamental para preservar la calidad y seguridad de los productos. A partir del análisis realizado, se evidenció que muchas organizaciones aún dependen de métodos tradicionales o herramientas limitadas que no permiten un monitoreo continuo ni una trazabilidad eficiente durante el transporte.
+
+Las entrevistas realizadas a los segmentos objetivo permitieron identificar problemas recurrentes como la falta de visibilidad en tiempo real, la detección tardía de incidencias y la dificultad para generar evidencia confiable durante auditorías. Estos factores no solo generan pérdidas económicas significativas, sino que también afectan la confianza de los clientes y el cumplimiento de normativas sanitarias.
+
+En este contexto, la solución propuesta, SafeFlow, responde a estas necesidades mediante la integración de tecnologías IoT, monitoreo en tiempo real, generación de alertas automáticas y dashboards centralizados. Estas funcionalidades permiten a los usuarios anticiparse a posibles fallas, mejorar la toma de decisiones y optimizar la gestión de la cadena logística.
+
+Asimismo, la aplicación de la metodología Lean UX permitió estructurar el desarrollo del producto en función de las necesidades reales de los usuarios, validando hipótesis y asegurando que la solución propuesta tenga un enfoque centrado en el usuario. Finalmente, la definición de user stories y el product backlog permitió organizar de manera clara y priorizada las funcionalidades del sistema, facilitando su implementación mediante metodologías ágiles.
+
+## Recomendaciones
+
+Se recomienda implementar y validar la solución SafeFlow en entornos reales mediante pruebas piloto con empresas del sector farmacéutico y logístico, con el fin de evaluar su desempeño y obtener retroalimentación directa de los usuarios. Esto permitirá identificar oportunidades de mejora y ajustar la solución a necesidades específicas del mercado.
+
+Asimismo, es importante continuar con el desarrollo de integraciones con sensores IoT reales para garantizar la precisión y confiabilidad de los datos recolectados durante el monitoreo de la cadena de frío. Esto fortalecerá la propuesta de valor del sistema y permitirá una supervisión más efectiva.
+
+También se recomienda mejorar continuamente la experiencia de usuario (UX/UI), priorizando interfaces simples, intuitivas y accesibles, especialmente considerando que algunos usuarios pueden tener un nivel limitado de alfabetización digital.
+
+Por otro lado, se sugiere integrar la plataforma con sistemas empresariales existentes, como ERP o sistemas de gestión logística, con el objetivo de facilitar su adopción en organizaciones y evitar la duplicidad de procesos.
+
+Finalmente, se recomienda considerar la escalabilidad de la solución hacia otros sectores que requieran control de condiciones ambientales, como la industria alimentaria o biotecnológica, ampliando así el alcance y sostenibilidad del proyecto.
+
 # Video About-the-Team
+
 
 # Bibliografía
 - Ministerio de Salud del Perú. (2000). Taller sobre planificación, administración y evaluación: Módulo III. Cadena de frío. https://www.gob.pe/institucion/minsa/informes-publicaciones/352804-taller-sobre-planificacion-administracion-y-evaluacion-modulo-iii-cadena-de-frio
