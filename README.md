@@ -1213,7 +1213,22 @@ URL de despliegue del Landing Page: [Landing Page Desplegado](https://upc-pre-20
 
 #### 5.2.2.6 Services Documentation Evidence for Sprint Review
 
+Durante el presente Sprint, se desarrollaron y documentaron diversos endpoints que forman parte de los servicios backend de la aplicación. Estos endpoints permiten la interacción entre el cliente y el servidor, facilitando operaciones clave como la consulta de datos, la gestión de dispositivos, la visualización de niveles de radiación y la administración de usuarios.
+</br> 
+</br> 
+</br>
 
+1.Panel principal del proyecto SafeFlow desplegado en Netlify. Se visualiza el estado general del sitio y las opciones de configuración y análisis. 
+<div algin="center"><img src="assets/chapter-05/Evidencia-sprint2-1.jpeg" alt="deployment4" width="900" />  
+</div> </br> </br> 
+2.Registro del proceso de despliegue exitoso en Netlify. Todas las etapas de inicialización, compilación y publicación fueron completadas correctamente.
+<div algin="center"><img src="assets/chapter-05/Evidencia-sprint2-2.jpeg" alt="deployment4" width="900" />  
+</div> </br> </br> 
+3.Pantalla de inicio de sesión de la plataforma SafeFlow. Permite a los usuarios autenticarse o crear una nueva cuenta para acceder al sistema. 
+<div algin="center"><img src="assets/chapter-05/Evidencia-sprint2-3.jpeg" alt="deployment4" width="900" />  
+</div> </br> </br>
+4.Configuración de los endpoints del API en MockAPI para el proyecto SafeFlow. Se muestran los recursos creados para inventario, logística y monitoreo del sistema.
+<div algin="center"><img src="assets/chapter-05/Evidencia-sprint2-4.jpeg.png" alt="deployment4" width="900" />  </div>
 
 
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review
