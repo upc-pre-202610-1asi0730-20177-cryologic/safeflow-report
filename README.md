@@ -830,6 +830,13 @@ Está diseñado para la toma de decisiones estratégicas y auditorías.
 
 <div align="center"> <img src="assets/chapter-04/mockup-reporting.png"/>  </div>
 
+### 6. Módulo de Logistics
+
+Este mockup presenta la pantalla principal de SafeFlow al dirigirse al módulo Logistics
+
+<div align="center"> <img src="assets/chapter-04/mockup-logistics-screen.png"/>  </div>
+
+
 
 ###  Design System aplicado
 
