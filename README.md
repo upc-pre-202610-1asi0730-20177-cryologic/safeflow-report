@@ -1419,9 +1419,223 @@ Además, se realizaron revisiones constantes de commits en GitHub y análisis de
 
 ### 5.2.3. Sprint 3
 #### 5.2.3.1. Sprint Planning 3
+
+
+<table>
+  <tr>
+    <th colspan="5">Sprint #</th>
+    <th colspan="8">Sprint 3</th>
+  </tr>
+  <tr>
+    <td colspan="13">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8">6:00 PM</td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">Reunion por Meet</td>
+  </tr>
+  <tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8">Mel Andre Orellana</td>
+  </tr>
+  <tr>
+    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="8">Anhelo Rodrigo Rocca, Andy Alejandro Mio, Mel Andre Orellana, Angel Berrospi Marin, Jefferson Bayron</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 2 Review Summary</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 2 Retrospective Summary</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="13">Sprint Goal & User Stories</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 3 Goal</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 3 Velocity</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8"></td>
+  </tr>
+</table>
+
 #### 5.2.3.2. Aspect Leaders and Collaborators
+
+
+<div align="center">
+  <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 13px; text-align: center;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="border: 1px solid #dddddd; padding: 10px;">Team Member (Last Name, First Name)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Inventory  (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Logistics</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Monitoring(L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Alerts</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Reporting</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Analytics</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodriguez, Mel Andree</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">melandree8</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+       <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+       <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Bayron	Morales, Jefferson</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Fenfito</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>     
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Berrospi Marin, Angel Guillermo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Alejandro	Mio, Andy</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">AndyMio17</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+        <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Rodrigo Rocca, Anhelo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">RoccaA4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
 #### 5.2.3.3. Sprint Backlog 3
+
+| Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+
+
 #### 5.2.3.4. Development Evidence for Sprint Review
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+       <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+       <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+       <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+       <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+       <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+       <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
 #### 5.2.3.5. Execution Evidence for Sprint Review
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
