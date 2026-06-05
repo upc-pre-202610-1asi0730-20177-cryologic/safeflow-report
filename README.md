@@ -1728,7 +1728,7 @@ Segmento Objetivo 2: Operadores logísticos (3PL / transporte especializado)
 
 
 
-**Entrevista 4:**
+**Entrevista 2:**
 - **Nombres y apellidos:** Maria Ruiz
 - **Edad:** 28 años
 - **Distrito:** Los Olivos
