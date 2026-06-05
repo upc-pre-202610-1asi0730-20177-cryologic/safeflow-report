@@ -1642,7 +1642,106 @@ Además, se realizaron revisiones constantes de commits en GitHub y análisis de
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 ### 5.3. Validation Interviews
 #### 5.3.1. Diseño de Entrevistas
+
+Segmento Objetivo 1: Empresas del sector farmacéutico
+
+1. Al revisar la lista de productos farmacéuticos, ¿considera que la visualización explícita de las columnas MIN TEMP y MAX TEMP para productos como la Insulina Glargina 2°C a 8°C o la Vacuna Pfizer COVID-19 -90°C a -60°C facilita el control rápido del inventario regulado?
+
+2. Si necesita ingresar un nuevo lote de medicamentos al sistema, ¿el botón azul "+ Add inventory item" ubicado en la esquina superior derecha le resulta visible y predecible para iniciar el registro regulatorio?
+
+3. La tabla muestra datos de trazabilidad técnica como BATCH / LOT, EXPIRY DATE y LOCATION. Desde la perspectiva de una inspección de calidad, ¿considera que el orden y la terminología de estas columnas son limpios y libres de ambigüedad?
+
+4. En el módulo de Logistics, la pantalla muestra el envío S003 (Vacuna Pfizer COVID-19) con un estado de In transit y una temperatura actual de -18.5°C. ¿El uso del color rojo y el ícono de peligro en el recuadro térmico le comunican eficazmente que el producto está fuera de su rango permitido?
+
+5. En el módulo de Monitoring, las tarjetas detallan el rango objetivo en la parte inferior (ej. Target range: 2.0 - 8.0°C). ¿Considera que colocar esta métrica fija de comparación ayuda a detectar desviaciones sin necesidad de recordar los parámetros de cada producto?
+
+6. Al observar las tarjetas de monitoreo, ¿es fácil identificar al PERSON IN CHARGE, al DRIVER OR OPERATOR y el WAREHOUSE de origen para iniciar un proceso de contención ante una falla de frío?
+
+7. En la sección superior de Alertas, el contador de "Out of range (detected)" marca 1. ¿La tarjeta roja detallada de la Vacuna Pfizer COVID-19 con su temperatura actual en -18.5°C le proporciona la información suficiente para entender la gravedad de la excursión térmica?
+
+8. La alerta del despacho S003 expone el campo de contacto del conductor encargado (Contact: 965874123). ¿Considera que la inclusión directa de este enlace telefónico agiliza el tiempo de reacción para la mitigación del riesgo en la carga?
+
+9. La tarjeta principal describe que el "SafeFlow consolidated report (single PDF)" incluye los envíos, inventarios, bitácoras térmicas e incidencias. ¿La descripción detallada de los elementos incluidos le ayuda a predecir con exactitud el contenido del documento antes de generarlo?
+
+10. Al observar la tabla de "Recent exports", el documento aparece con un indicador verde de "Ready" y un botón de "Download". ¿El flujo de dos pasos (Generate y luego Download) le parece claro para la obtención de sus evidencias de auditoría?
+
+11. En el panel de Analytics, la barra superior muestra un selector de idioma (ES / EN). Si cambia la configuración regional, ¿espera que la consistencia de los datos técnicos de los medicamentos y las temperaturas se mantenga intacta?
+
+12. El menú lateral izquierdo utiliza íconos planos al lado de términos directos como Analytics, Inventory, Logistics, Monitoring, Alerts, Reporting. ¿Considera que el diseño iconográfico se correlaciona lógicamente con las tareas analíticas de su área?
+
+13. En la esquina inferior izquierda se observa el indicador System status: Operational. Como usuario que depende de la disponibilidad del sistema para auditorías, ¿esta señalización sutil le otorga la confianza necesaria en la estabilidad de la plataforma?
+
+
+Segmento Objetivo 2: Operadores logísticos (3PL / transporte especializado)
+
+1. En la parte superior del Dashboard de Analytics, observa cuatro tarjetas de resumen (Total shipments: 4, Completed deliveries: 0, In transit: 2, Delayed: 0). ¿Estos contadores numéricos de alto nivel le permiten evaluar el estado de la operación diaria en sus primeros 5 segundos de visualización?
+
+2. En la sección inferior derecha "Fleet performance", se listan los conductores (Miguel, Diego Fernández) indicando su estado (On route, Available). ¿Esta lista simplificada le facilita la asignación de nuevos fletes según la disponibilidad actual del personal?
+
+3. La tabla de "Recent shipments" muestra el envío S004 con destino a Almacen A bajo el estado amarillo de "Pending". ¿El uso de etiquetas de colores (Pending, In transit) le ayuda a priorizar los despachos que aún no han salido de la base?
+
+4. Al seleccionar el envío S001 en la lista de despachos, se despliega a la izquierda la sección de "Active tracking". ¿El diagrama vertical que conecta el STORAGE LOCATION (Almacen A) con el CURRENT LOCATION (Awaiting handling) describe de forma clara la etapa exacta en la que está la carga?
+
+5. En el panel de Active tracking, el recuadro verde de estatus térmico muestra el texto: "Allowed range: 15.0°C – 25.0°C". ¿Considera útil que el sistema le muestre el rango operativo permitido directamente en la tarjeta de seguimiento del viaje del conductor?
+
+6. En la barra superior derecha de Logistics, se encuentran tres botones diferenciados: "New destination", "Driver or operator" y el botón azul de "+ New shipment". ¿La distribución de estos botones le facilita las tareas recurrentes de planificación y alta de rutas?
+
+7. Al monitorear las unidades en tiempo real, observa que la tarjeta del despacho S004 (Paracetamol Jarabe) está marcada con una etiqueta verde de "SAFE" a pesar de registrar 22.5°C. Al verificar abajo que su Target range es de 15.0 - 30.0°C, ¿le queda claro que el viaje progresa sin novedades operativas?
+
+8. En contraste, el despacho S003 muestra una etiqueta roja de "AT RISK" con una temperatura de -18.5°C. ¿Siente que el contraste visual entre las tarjetas verdes (SAFE) y las tarjetas rojas (AT RISK) es suficiente para identificar qué unidades de la flota requieren su atención inmediata?
+
+9. Dentro del detalle de la alerta activa para el despacho S003, se muestran dos botones de acción en el extremo derecho: "Under observation" y "Solved". ¿La presencia y el diseño de estas opciones le sugieren claramente cómo registrar que ya está gestionando la incidencia con el chofer?
+
+10. En la parte superior de la pantalla de Alertas, los contadores muestran "Open thermal alerts: 1" e "Out of range (detected): 1". Si presiona el botón "Solved" en la alerta activa, ¿espera que estos indicadores cambien automáticamente a cero?
+
+11. En la pantalla de Reporting, la tabla de "Recent exports" muestra que un reporte fue generado "Today, 09:14" con el formato PDF. Para sus tareas administrativas de cierre de mes, ¿este registro histórico le ayuda a controlar qué informes ya fueron entregados a la gerencia?
+
+12. En la esquina inferior izquierda de todas las pantallas de la plataforma se ubica un botón interactivo llamado "Collapse" con el ícono de una flecha hacia la izquierda. Si hace clic en él, ¿deduce correctamente que el menú lateral se encogerá para otorgarle un mayor espacio de trabajo a los mapas y tablas?
+
+13. En la esquina inferior izquierda del navegador, la barra de estado del sistema muestra la dirección local de desarrollo (localhost:5173/analytics). Sabiendo que es una aplicación web, ¿considera que el rendimiento y la velocidad de cambio entre los módulos laterales son adecuados para el flujo rápido que exige la supervisión de transportes?
+
+
 #### 5.3.2. Registro de Entrevistas
+
+#### Segmento objetivo #1: Empresas del sector farmacéutico
+
+---
+
+**Entrevista 1:**
+- **Nombres y apellidos:** Sebastian Mendoza
+- **Edad:** 35 años
+- **Distrito:** San Borja
+
+- **Inicio:** 0:10
+- **Duración:** 8:45
+- **URL:** 
+
+**Resumen:**
+
+
+---
+
+#### Segmento objetivo #2: Operadores logísticos (3PL / transporte especializado)
+
+---
+
+
+
+
+**Entrevista 4:**
+- **Nombres y apellidos:** Maria Ruiz
+- **Edad:** 28 años
+- **Distrito:** Los Olivos
+
+- **Inicio:** 0:15
+- **Duración:** 05:47
+- **URL:** 
+
+**Resumen:**
+
+
+---
+
 #### 5.3.3. Evaluaciones según heurísticas
 ### 5.4. Video About-the-Product
 
