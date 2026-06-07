@@ -1551,16 +1551,16 @@ Además, se realizaron revisiones constantes de commits en GitHub y análisis de
 
 | Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
-
+| Sprint 3 | **US-01** | Registrar producto | T-01 | Diseño del Modelo de Datos | Crear la entidad relacional de Producto con sus restricciones de rangos de temperatura mínimos y máximos en la BD. | 3 | Andy Alejandro Mio Mejia | To Do |
+| Sprint 3 | **US-01** | Registrar producto | T-02 | Desarrollo del CRUD de Producto | Implementar los endpoints REST de creación y validaciones de negocio en el Backend (rango min < max, campos obligatorios). | 6 | Mel Andree Orellana Rodriguez | To Do |
+| Sprint 3 | **US-04** | Detectar anomalías de temperatura | T-03 | Lógica del Servicio de Verificación | Desarrollar el algoritmo backend para interceptar lecturas y cambiar estados automáticamente a "En Riesgo" o "Crítico". | 8 | Angel Guillermo Berrospi Marin | To Do |
+| Sprint 3 | **US-09** | Cambiar estado del producto | T-04 | Automatización de Estados de Entidad | Implementar la máquina de estados en el backend para la transición automática a "Desechado" al acumular 3+ anomalías. | 5 | Anhelo Rodrigo Rocca Leon | To Do |
+| Sprint 3 | **US-11** | Asociar temperatura a despacho | T-05 | Modelo de Datos Relacional de Despachos | Diseñar tablas y claves foráneas en la BD para vincular la telemetría de sensores a un ID de despacho específico. | 4 | Jefferson Bayron Morales Yapuchura | To Do |
+| Sprint 3 | **US-11** | Asociar temperatura a despacho | T-06 | API de Asociación y Filtros | Implementar lógica transaccional que valide la existencia del despacho activo antes de inyectar las métricas de temperatura. | 6 | Andy Alejandro Mio Mejia | To Do |
+| Sprint 3 | **US-52** | Integrar con sensores IoT | T-07 | Endpoint de Ingesta de Datos (IoT) | Crear un controlador optimizado en el Backend para recibir flujos constantes de payloads JSON provenientes de sensores masivos. | 7 | Mel Andree Orellana Rodriguez | To Do |
+| Sprint 3 | **US-52** | Integrar con sensores IoT | T-08 | Validación de Payload y Excepciones | Desarrollar filtros de seguridad y parseo para rechazar datos corruptos de sensores caídos y registrar logs de error. | 4 | Angel Guillermo Berrospi Marin | To Do |
+| Sprint 3 | **US-55** | Visualizar alertas en dashboard | T-09 | Infraestructura del Bounded Context Analytics | Configurar la separación de capas de base de datos y esquemas para persistencia exclusiva del módulo Analytics. | 5 | Anhelo Rodrigo Rocca Leon | To Do |
+| Sprint 3 | **US-55** | Visualizar alertas en dashboard | T-10 | Infraestructura del Bounded Context Monitoring | Configurar esquemas de base de datos y pipes de consulta de eventos en tiempo real para el módulo de Monitoreo. | 6 | Jefferson Bayron Morales Yapuchura | To Do |
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
