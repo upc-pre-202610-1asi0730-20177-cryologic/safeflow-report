@@ -128,6 +128,16 @@
 |   TB1   | 15-04-2026 | Rocca Leon, Anhelo Rodrigo |     Implementación del Bounded Context logistics en el frontend de SafeFlow      |
 |   TB1   | 15-04-2026 | Rocca Leon, Anhelo Rodrigo |          Desarollo del mockup y wireframe del bounded context logistics          |
 |   TB1   | 15-04-2026 | Rocca Leon, Anhelo Rodrigo |         Desarrollo del mockup y wireframe del bounded context monitoring         |
+|   AV2   | 06-06-2026 | Mel Andree, Orellana Rodriguez |         Desarrollo en el Backend el Modulo de  Analytics                      |
+|   AV2   | 06-06-2026 | Mel Andree, Orellana Rodriguez |         Desarrollo en el Backend el Modulo de  Analytics                      |
+|   AV2   | 06-06-2026 | Mel Andree, Orellana Rodriguez |         Desarrollo en el Backend el Modulo de  Monitoring                    |
+|   AV2   | 06-06-2026 | Mel Andree, Orellana Rodriguez |         Desarrollo de la Estrucutra del Proyecto Base Backend                 |
+|   AV2   | 06-06-2026 | Mel Andree, Orellana Rodriguez |         Organización de Tareas para el AV2                                    |
+|   AV2   | 06-06-2026 | Mel Andree, Orellana Rodriguez |         Desarrollo del Video del Trabajo Social ( 1 Parte )                   |
+
+
+
+
 
 
 
