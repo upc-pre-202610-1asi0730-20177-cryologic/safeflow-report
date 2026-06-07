@@ -1753,6 +1753,10 @@ Segmento Objetivo 2: Operadores logísticos (3PL / transporte especializado)
 #### 5.3.3. Evaluaciones según heurísticas
 ### 5.4. Video About-the-Product
 
+El video "About-the-Product" (Sobre el Producto) funciona como una demostración audiovisual concisa y de alto impacto, diseñada para mostrar la propuesta de valor central, la arquitectura y la funcionalidad en vivo de la solución **SafeFlow**. Este video conecta visualmente los desafíos de la cadena de frío y el monitoreo ambiental con la respuesta automatizada de nuestro software. A través de un recorrido profesional, se demuestra cómo la ingesta de datos de sensores IoT en tiempo real, la detección algorítmica de anomalías y las notificaciones automatizadas operan dentro de una plataforma unificada y confiable para mitigar riesgos y prevenir pérdidas logísticas.
+
+- **Video About the Product**:  [https://youtu.be/Kb1i16M4o-Q](https://youtu.be/Kb1i16M4o-Q)
+
 
 
 
