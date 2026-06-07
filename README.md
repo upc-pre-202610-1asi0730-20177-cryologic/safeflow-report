@@ -1420,18 +1420,17 @@ Además, se realizaron revisiones constantes de commits en GitHub y análisis de
 ### 5.2.3. Sprint 3
 #### 5.2.3.1. Sprint Planning 3
 
-
 <table>
   <tr>
     <th colspan="5">Sprint #</th>
     <th colspan="8">Sprint 3</th>
   </tr>
   <tr>
-    <td colspan="13">Sprint Planning Background</td>
+    <td colspan="13"><b>Sprint Planning Background</b></td>
   </tr>
   <tr>
     <td colspan="5">Date</td>
-    <td colspan="8"></td>
+    <td colspan="8">06-06-2026</td>
   </tr>
   <tr>
     <td colspan="5">Time</td>
@@ -1443,34 +1442,34 @@ Además, se realizaron revisiones constantes de commits en GitHub y análisis de
   </tr>
   <tr>
     <td colspan="5">Prepared By</td>
-    <td colspan="8">Mel Andre Orellana</td>
+    <td colspan="8">Mel Andree Orellana Rodriguez</td>
   </tr>
   <tr>
     <td colspan="5">Attendees (to planning meeting)</td>
-    <td colspan="8">Anhelo Rodrigo Rocca, Andy Alejandro Mio, Mel Andre Orellana, Angel Berrospi Marin, Jefferson Bayron</td>
+    <td colspan="8">Andy Alejandro Mio Mejia, Mel Andree Orellana Rodriguez, Angel Guillermo Berrospi Marin, Anhelo Rodrigo Rocca Leon, Jefferson Bayron Morales Yapuchura</td>
   </tr>
   <tr>
     <td colspan="5">Sprint 2 Review Summary</td>
-    <td colspan="8"></td>
+    <td colspan="8">Se completó con éxito el diseño y despliegue de la Landing Page responsiva conectada a la estructura base de SafeFlow Web App. Se validó el diseño visual, la propuesta de valor y se implementó el MockAPI inicial para las primeras pruebas del frontend.</td>
   </tr>
   <tr>
     <td colspan="5">Sprint 2 Retrospective Summary</td>
-    <td colspan="8"></td>
+    <td colspan="8">Buen acoplamiento en el diseño de interfaces y organización. Como oportunidad de mejora, se identificó la necesidad de definir los esquemas de base de datos con mayor anticipación para evitar retrasos en la lógica del negocio. Compromiso de mejorar el flujo de commits.</td>
   </tr>
   <tr>
-    <td colspan="13">Sprint Goal & User Stories</td>
+    <td colspan="13"><b>Sprint Goal & User Stories</b></td>
   </tr>
   <tr>
     <td colspan="5">Sprint 3 Goal</td>
-    <td colspan="8"></td>
+    <td colspan="8">"Develop and implement the core Backend architecture and relational data model of the solution, achieving automatic temperature range validation, and the isolation of the Analytics and Monitoring Bounded Contexts."</td>
   </tr>
   <tr>
     <td colspan="5">Sprint 3 Velocity</td>
-    <td colspan="8"></td>
+    <td colspan="8">43 Horas</td>
   </tr>
   <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8"></td>
+    <td colspan="8">26 Story Points </td>
   </tr>
 </table>
 
@@ -1557,7 +1556,6 @@ Además, se realizaron revisiones constantes de commits en GitHub y análisis de
 | Sprint 3 | **US-09** | Cambiar estado del producto | T-04 | Automatización de Estados de Entidad | Implementar la máquina de estados en el backend para la transición automática a "Desechado" al acumular 3+ anomalías. | 5 | Anhelo Rodrigo Rocca Leon | To Do |
 | Sprint 3 | **US-11** | Asociar temperatura a despacho | T-05 | Modelo de Datos Relacional de Despachos | Diseñar tablas y claves foráneas en la BD para vincular la telemetría de sensores a un ID de despacho específico. | 4 | Jefferson Bayron Morales Yapuchura | To Do |
 | Sprint 3 | **US-11** | Asociar temperatura a despacho | T-06 | API de Asociación y Filtros | Implementar lógica transaccional que valide la existencia del despacho activo antes de inyectar las métricas de temperatura. | 6 | Andy Alejandro Mio Mejia | To Do |
-| Sprint 3 | **US-52** | Integrar con sensores IoT | T-07 | Endpoint de Ingesta de Datos (IoT) | Crear un controlador optimizado en el Backend para recibir flujos constantes de payloads JSON provenientes de sensores masivos. | 7 | Mel Andree Orellana Rodriguez | To Do |
 | Sprint 3 | **US-52** | Integrar con sensores IoT | T-08 | Validación de Payload y Excepciones | Desarrollar filtros de seguridad y parseo para rechazar datos corruptos de sensores caídos y registrar logs de error. | 4 | Angel Guillermo Berrospi Marin | To Do |
 | Sprint 3 | **US-55** | Visualizar alertas en dashboard | T-09 | Infraestructura del Bounded Context Analytics | Configurar la separación de capas de base de datos y esquemas para persistencia exclusiva del módulo Analytics. | 5 | Anhelo Rodrigo Rocca Leon | To Do |
 | Sprint 3 | **US-55** | Visualizar alertas en dashboard | T-10 | Infraestructura del Bounded Context Monitoring | Configurar esquemas de base de datos y pipes de consulta de eventos en tiempo real para el módulo de Monitoreo. | 6 | Jefferson Bayron Morales Yapuchura | To Do |
