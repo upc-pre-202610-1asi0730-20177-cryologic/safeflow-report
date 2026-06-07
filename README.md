@@ -1577,20 +1577,28 @@ Además, se realizaron revisiones constantes de commits en GitHub y análisis de
   </thead>
   <tbody>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>melandree8/safeflow-platform</td>
+      <td>develop</td>
+      <td>084f4a24ebfc2c7d68533489c402283b7a76a71f</td>
+      <td>feat: add safeflow backend base structure</td>
+      <td>Implement Structure</td>
+      <td>06/06/2026</td>
     </tr>
-       <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+ <tr>
+      <td>melandree8/safeflow-platform</td>
+      <td>feature/analytics</td>
+      <td>882cddacad39fee7386fe2a54a04e45189a9b796</td>
+      <td>refactor(analytics): flatten analytics module structure</td>
+      <td>Implement Module Analytics</td>
+      <td>06/06/2026</td>
+    </tr>
+  <tr>
+      <td>melandree8/safeflow-platform</td>
+      <td>feature/environmental-monitoring</td>
+      <td>f13133e760418bd2c81c11c7f9c9b3a76924a036</td>
+      <td>feat: environmental monitoring module</td>
+      <td>Implement Module Monitoring</td>
+      <td>06/06/2026</td>
     </tr>
        <tr>
       <td></td>
