@@ -1732,6 +1732,7 @@ Segmento Objetivo 2: Operadores logísticos (3PL / transporte especializado)
 ---
 
 
+<img src="assets/chapter-05/pictureSG2-validation-interview.png" />
 
 
 **Entrevista 2:**
@@ -1739,12 +1740,12 @@ Segmento Objetivo 2: Operadores logísticos (3PL / transporte especializado)
 - **Edad:** 28 años
 - **Distrito:** Los Olivos
 
-- **Inicio:** 0:15
-- **Duración:** 05:47
-- **URL:** 
+- **Inicio:** 0:03
+- **Duración:** 15:49
+- **URL:** https://drive.google.com/file/d/1iUOWHJb6_7Rg9v7kS77kCz5PIBycWJzS/view?usp=sharing
 
 **Resumen:**
-
+El Supervisor de Operaciones y Logística confirma que la plataforma es sumamente práctica y directa para la gestión diaria del transporte. Destaca que los contadores numéricos del dashboard y el fuerte contraste visual entre las tarjetas verdes (SAFE) y rojas (AT RISK) le permiten evaluar la flota en segundos y priorizar las emergencias térmicas sin perder tiempo. Asimismo, valora la claridad de la línea de tiempo vertical para rastrear los estados de la carga, la visualización del rango permitido y la simplificación en la asignación de conductores disponibles. Finalmente, valida que funciones como los estados de incidencias (Under observation / Solved), el menú colapsable para ganar espacio y la velocidad de respuesta del sistema optimizan drásticamente su ritmo de trabajo y el control administrativo mensual.
 
 ---
 
