@@ -1604,7 +1604,7 @@ Además, se realizaron revisiones constantes de commits en GitHub y análisis de
       <td>86b85a927a70a6a887203677b8e4d7d9ed4ac102</td>
       <td>feat: complete the bounded context reporting and use the architecture ddd. </td>
       <td>Create the structure domain driven segin for the bounded context reporting .</td>
-      <td>16/04/2026</td>
+      <td>12/06/2026</td>
     </tr>
        <tr>
       <td></td>
