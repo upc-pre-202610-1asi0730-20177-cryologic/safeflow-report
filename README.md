@@ -1599,12 +1599,12 @@ Además, se realizaron revisiones constantes de commits en GitHub y análisis de
       <td>06/06/2026</td>
     </tr>
        <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Guille-berrs/safeflow-platform</td>
+      <td>feature/reporting</td>
+      <td>86b85a927a70a6a887203677b8e4d7d9ed4ac102</td>
+      <td>feat: complete the bounded context reporting and use the architecture ddd. </td>
+      <td>Create the structure domain driven segin for the bounded context reporting .</td>
+      <td>16/04/2026</td>
     </tr>
        <tr>
       <td></td>
@@ -1713,16 +1713,19 @@ Segmento Objetivo 2: Operadores logísticos (3PL / transporte especializado)
 
 ---
 
+<img src="assets/chapter-05/pictureSG1-validation-interview.png" />
+
+
 **Entrevista 1:**
 - **Nombres y apellidos:** Sebastian Mendoza
 - **Edad:** 35 años
 - **Distrito:** San Borja
 
-- **Inicio:** 0:10
-- **Duración:** 8:45
-- **URL:** 
+- **Inicio:** 0:01
+- **Duración:** 15:16
+- **URL:** https://upcedupe-my.sharepoint.com/:v:/r/personal/u202114701_upc_edu_pe/Documents/Entrevista-Segmento1-ValidationInterview.mp4?csf=1&web=1&e=D0E00Z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-**Resumen:**
+**Resumen:** El Gestor de Aseguramiento de Calidad valida positivamente el diseño visual y la terminología técnica de la interfaz de "SafeFlow", destacando que la visualización explícita de los rangos de temperatura y las alertas críticas en color rojo previenen fallos humanos en productos de cadena de frío estricta. Asimismo, resalta que la inclusión de números de contacto clickeables y la estructura de las tarjetas de emergencia agilizan drásticamente los tiempos de respuesta y traslados ante contingencias críticas. Por otro lado, la traducción selectiva de etiquetas que preserva intactos los nombres de los medicamentos y el indicador visual de conexión activa garantizan la trazabilidad e infunden tranquilidad durante los procesos de auditoría regulatoria. Finalmente, valora positivamente los estados de control como "Ready" en las descargas de PDFs, ya que aseguran la consolidación sin errores de un alto volumen de datos históricos que servirán como evidencia legal válida.
 
 
 ---
