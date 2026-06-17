@@ -59,6 +59,11 @@
 |   TB1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                   Actualizacion de Web Applications Wireframes                   |
 |   TB1   | 15-05-2026 | Morales Yapuchura, Jefferson Bayron |         Coordinación y revisión de consistencia entre mockups, wireframe         |
 |   TB1   | 26-04-2026 | Morales Yapuchura, Jefferson Bayron |                           Desarrollo de 4 entrevistas                            |
+|   AV2   | 16-06-2026 | Morales Yapuchura, Jefferson Bayron |         Desarrollo del Video del Trabajo Social ( Parte 5 )                      |
+|   AV2   | 16-06-2026 | Morales Yapuchura, Jefferson Bayron |         Desarrollo en el Backend el Modulo de Alerts                             |
+|   AV2   | 16-06-2026 | Morales Yapuchura, Jefferson Bayron |         Realicé Validation Interviews                                            |
+|   AV2   | 16-06-2026 | Morales Yapuchura, Jefferson Bayron |         Realicé registro de entrevistas                                          |
+|   AV2   | 16-06-2026 | Morales Yapuchura, Jefferson Bayron |         Realicé el deployment del Backend                                        |
 |   AV1   | 26-04-2026 | Mio Mejia, Andy Alejandro |                                 Style Guidelines                                 |
 |   AV1   | 26-04-2026 | Mio Mejia, Andy Alejandro |                             Information Architecture                             |
 |   AV1   | 26-04-2026 | Mio Mejia, Andy Alejandro |                              Landing Page UI Design                              |
