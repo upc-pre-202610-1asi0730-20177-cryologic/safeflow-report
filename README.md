@@ -1644,6 +1644,47 @@ Además, se realizaron revisiones constantes de commits en GitHub y análisis de
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+
+Esta sección expone los endpoints que componen los servicios backend de la plataforma, los cuales han sido completamente estructurados, programados en el entorno de la aplicación y expuestos para el consumo del cliente.
+
+#### Introducción y Logros
+Se implementó y estructuró el código de enrutamiento y lógica de controladores utilizando .NET, exponiendo los contratos de la API bajo la especificación OpenAPI 3.0 (OAS 3.0) para el sistema `safeflow-backend` versión 1.0. Esto garantiza que las aplicaciones cliente puedan consumir de forma estructurada los recursos de alertas, monitoreo, inventario y logística con validaciones de esquema transparentes.
+
+#### Tabla de Endpoints Documentados
+
+| Módulo / Tag | Verbo HTTP | Sintaxis de Llamada | Descripción / Acción | Parámetros |
+| :--- | :--- | :--- | :--- | :--- |
+| **Alerts** | **GET** | `/api/alerts/dashboard` | Obtiene las métricas agregadas para el panel de alertas. | Ninguno |
+| **Alerts** | **GET** | `/api/alerts` | Lista todas las alertas registradas en el sistema. | Ninguno |
+| **Alerts** | **POST** | `/api/alerts` | Registra una nueva alerta en la plataforma. | Request Body |
+| **Alerts** | **PATCH** | `/api/alerts/{id}/resolve` | Resuelve o cierra una alerta específica por su identificador. | `{id}` (Path) |
+| **Analytics** | **GET** | `/api/analytics/dashboard` | Recupera datos consolidados para análisis estadístico. | Ninguno |
+| **EnvironmentalMonitoring** | **GET** | `/api/monitoring/dashboard` | Retorna los estados actuales del monitoreo ambiental. | Ninguno |
+| **InventoryItems** | **GET** | `/api/inventory/items` | Obtiene la lista completa de ítems de inventario. | Ninguno |
+| **InventoryItems** | **POST** | `/api/inventory/items` | Agrega un nuevo ítem al inventario del sistema. | Request Body |
+| **InventoryItems** | **GET** | `/api/inventory/items/{id}` | Recupera el detalle de un ítem de inventario específico. | `{id}` (Path) |
+| **InventoryItems** | **PUT** | `/api/inventory/items/{id}` | Actualiza los datos generales de un ítem de inventario. | `{id}` (Path) / Body |
+| **InventoryItems** | **DELETE** | `/api/inventory/items/{id}` | Elimina de forma lógica o física un ítem de inventario. | `{id}` (Path) |
+| **LogisticsChoferes** | **GET** | `/api/logistics/choferes` | Lista todos los choferes registrados en el módulo logístico. | Ninguno |
+| **LogisticsChoferes** | **POST** | `/api/logistics/choferes` | Registra un nuevo chofer en el sistema. | Request Body |
+| **LogisticsChoferes** | **PUT** | `/api/logistics/choferes/{id}` | Modifica la información técnica o personal de un chofer. | `{id}` (Path) / Body |
+| **LogisticsChoferes** | **DELETE** | `/api/logistics/choferes/{id}` | Da de baja a un chofer específico del registro. | `{id}` (Path) |
+| **LogisticsDestinos** | **GET** | `/api/logistics/destinos` | Lista las ubicaciones o puntos de destino logísticos. | Ninguno |
+| **LogisticsDestinos** | **POST** | `/api/logistics/destinos` | Añade un nuevo punto de destino a la base de datos. | Request Body |
+| **LogisticsDestinos** | **PUT** | `/api/logistics/destinos/{id}` | Actualiza los detalles de dirección o coordenadas de un destino. | `{id}` (Path) / Body |
+| **LogisticsDestinos** | **DELETE** | `/api/logistics/destinos/{id}` | Remueve un punto de destino del catálogo logístico. | `{id}` (Path) |
+| **LogisticsShipments** | **GET** | `/api/logistics/shipments` | Obtiene la lista de embarques, despachos o cargamentos. | Ninguno |
+| **LogisticsShipments** | **POST** | `/api/logistics/shipments` | Crea u ordena un nuevo despacho dentro de la plataforma. | Request Body |
+| **Reporting** | **GET** | `/api/reporting/dashboard` | Extrae métricas e informes generales para reportes de gestión. | Ninguno |
+
+#### Evidencia de Interacción con OpenAPI
+Como evidencia del correcto funcionamiento y visualización de la especificación técnica de la API, se anexan las capturas de la interfaz gráfica de Swagger correspondientes a los archivos. En ellas se constata la exposición pública de los contratos y la pasarela interactiva de pruebas levantada sobre el dominio de producción de la Web App de Azure.
+
+#### Trazabilidad del Repositorio
+*   **URL del Repositorio de Web Services:** [https://github.com/upc-pre-202610-1asi0730-20177-cryologic-systems/safeflow-platform](https://github.com/upc-pre-202610-1asi0730-20177-cryologic-systems/safeflow-platform)
+
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 
