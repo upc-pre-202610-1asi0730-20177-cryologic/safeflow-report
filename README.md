@@ -1765,6 +1765,21 @@ Para garantizar un entorno aislado, tolerante a fallos y con alta disponibilidad
 *   **URL del Repositorio de GitHub:** `https://github.com/upc-pre-202610-1asi0730-20177-cryologic-systems/safeflow-platform`
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
+
+
+En esta sección se describe cómo el equipo ha desarrollado las actividades de implementación durante el Sprint 3, evidenciando la colaboración en el desarrollo del proyecto.
+
+Durante este sprint, el equipo de SafeFlow trabajó de manera estrictamente coordinada utilizando metodologías ágiles y herramientas avanzadas de control de versiones como GitHub para asegurar la entrega exitosa del producto. La colaboración en este ciclo migró de la fase de maquetación local hacia un ecosistema de despliegue continuo, lo cual requirió una comunicación constante entre los integrantes, una distribución efectiva de tareas técnicas y un seguimiento milimétrico del progreso mediante el marco de trabajo Scrum.
+
+Cada miembro del equipo participó activamente en la implementación de los distintos componentes del sistema. El esfuerzo colaborativo se centró en la programación y estructuración del Backend utilizando .NET, la exposición y documentación exhaustiva de contratos mediante OpenAPI/Swagger, y el aprovisionamiento de la infraestructura en la nube utilizando Microsoft Azure (servidor de base de datos relacional MySQL y entornos de ejecución en App Services). 
+
+Asimismo, la sinergia del equipo fue clave para configurar con éxito el pipeline de integración y despliegue continuo (CI/CD) a través de GitHub Actions. Esto permitió que las revisiones constantes de commits bajo estándares profesionales, el análisis conjunto de código y las pruebas de consumo de servicios en producción garantizaran que todos los integrantes contribuyeran equitativamente en la consolidación de los productos clave definidos para este sprint: la API de servicios completamente operativa en la nube y la base de datos cloud enlazada al aplicativo.
+
+<div algin="center"><img src="assets/chapter-05/team-colaboration-3.png" alt="team-colaboration-3" width="900" />  </div>        
+
+<div algin="center"><img src="assets/chapter-05/commits3.png" alt="commits3" width="900" />  </div>        
+
+
 ### 5.3. Validation Interviews
 #### 5.3.1. Diseño de Entrevistas
 
