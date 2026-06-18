@@ -1643,6 +1643,19 @@ Además, se realizaron revisiones constantes de commits en GitHub y análisis de
 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
+
+Durante el desarrollo de este Sprint, el foco principal estuvo orientado en la validación funcional del sistema y la integración de la capa de presentación con el servidor de servicios desplegado en la nube de Azure. A continuación, se detalla el estado operacional de la plataforma:
+
+#### Resumen de Logros Funcionales
+* **Consumo de Servicios en Producción:** Se migró con éxito toda la persistencia simulada local de la aplicación hacia el consumo directo del dominio público de nuestra API (`https://safeflow-api-chbaa6fxbbdja6b2.southeastasia-01.azurewebsites.net`).
+* **Sincronización de Módulos Core:** Las vistas de usuario finales logran inyectar, actualizar y listar en tiempo real los registros del sistema (como la gestión de alertas, ítems de inventario y el estado logístico de los despachos) interactuando directamente con la base de datos cloud `safeflow_db`.
+* **Estabilidad del Entorno:** Se validó la correcta recepción de códigos de estado HTTP estándar (`200 OK`, `210 Created`) en el cliente, asegurando una experiencia de usuario fluida y libre de interrupciones de conectividad.
+
+#### Capturas de Pantalla Requeridas para el Informe
+* *[Insertar aquí la captura del Dashboard Principal / Interfaz de Usuario de SafeFlow cargando datos dinámicos]*
+  > **Nota:** Se sugiere incluir una captura de pantalla donde se observe el aplicativo en funcionamiento (por ejemplo, mostrando la lista de ítems de inventario o el panel de alertas) con las herramientas de desarrollo del navegador abiertas (F12, pestaña Network) para evidenciar que las peticiones se realizan exitosamente hacia el dominio de Azure App Services.
+
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 
