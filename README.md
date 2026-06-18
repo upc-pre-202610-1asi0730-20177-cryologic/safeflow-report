@@ -139,11 +139,10 @@
 |   AV2   | 06-06-2026 | Mel Andree, Orellana Rodriguez |         Desarrollo de la Estrucutra del Proyecto Base Backend                 |
 |   AV2   | 06-06-2026 | Mel Andree, Orellana Rodriguez |         Organización de Tareas para el AV2                                    |
 |   AV2   | 06-06-2026 | Mel Andree, Orellana Rodriguez |         Desarrollo del Video del Trabajo Social ( 1 Parte )                   |
-
-
-
-
-
+|   AV2   | 12-06-2026 | Berrospi Marin, Angel Guillermo |        Desarrollo de Entrevistas                                             |
+|   AV2   | 12-06-2026 | Berrospi Marin, Angel Guillermo |        Desarrollo del Backend el modulo de reporting                        |
+|   AV2   | 18-06-2026 | Berrospi Marin, Angel Guillermo |        Desarrollo de video social                                           | 
+|   AV2   | 18-06-2026 | Berrospi Marin, Angel Guillermo |        Desarrollo de video about the team                                   |
 
 
 
