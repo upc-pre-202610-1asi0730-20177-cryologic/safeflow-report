@@ -1645,6 +1645,71 @@ Además, se realizaron revisiones constantes de commits en GitHub y análisis de
 #### 5.2.3.5. Execution Evidence for Sprint Review
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+
+En esta sección se detalla el proceso completo de arquitectura, aprovisionamiento de infraestructura en la nube y automatización de despliegue continuo desarrollado durante este Sprint.
+
+#### Introducción
+Para garantizar un entorno aislado, tolerante a fallos y con alta disponibilidad, se configuraron dos recursos principales dentro del grupo de recursos `safeflow` en **Microsoft Azure**: una instancia administrada de base de datos relacional MySQL y un entorno de ejecución basado en App Services para la API del backend. Todo el ciclo de vida se automatizó vinculando el código fuente con flujos de CI/CD.
+
+#### Flujo Técnico de Aprovisionamiento y Evidencias
+
+**1. Despliegue de la Persistencia de Datos (Azure Database for MySQL)**
+*   Se seleccionó la creación de un servidor flexible en la plataforma de Azure con el fin de obtener control predictivo sobre los costos, ventanas de mantenimiento y resiliencia de almacenamiento. Este paso inicial se observa en el archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue1Backend.jpeg" alt="deployment1" width="900" />  </div>        
+
+*   Posteriormente, en la pestaña de aspectos básicos, se configuraron los datos del proyecto asignando la suscripción *Azure for Students* y el grupo de recursos unificado `safeflow`, tal como se documenta en la vista del archivo. 
+
+<div algin="center"><img src="assets/chapter-05/despliegue2Backend.jpeg" alt="deployment2" width="900" />  </div>        
+
+*   Una vez completada la inicialización, se obtuvo el panel general del servidor bautizado como `safeflowdb`, ubicado estratégicamente en la región de *Southeast Asia*, operando sobre la versión de motor MySQL 8.4 y un plan de cómputo *Burstable, B1ms*, como se constata en el archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue3Backend.jpeg" alt="deployment3" width="900" />  </div>        
+
+
+**2. Seguridad de Red y Creación de Esquema de Datos**
+*   Con la finalidad de conectar herramientas externas de administración y ejecutar scripts de migración de datos, se accedió a la sección de redes para añadir una regla de firewall denominada `MiComputadoraLocal` asociada a la dirección IP pública del desarrollador (`38.25.17.80`). Este proceso se visualiza en el archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue4Backend.jpeg" alt="deployment4" width="900" />  </div>        
+
+  
+*   Con el acceso asegurado, se inicializó el espacio de trabajo relacional del negocio, creando con éxito el esquema lógico denominado `safeflow_db` dentro del servidor cloud, evidenciado en el archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue5Backend.jpeg" alt="deployment5" width="900" />  </div>        
+
+
+**3. Despliegue del Servidor Web de la Aplicación (Azure App Services)**
+*   Completada la base de datos, se procedió con la creación de la Web App en el panel de App Services asignando el mismo grupo de recursos compartido, como se muestra en la configuración del archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue6Backend.jpeg" alt="deployment6" width="900" />  </div>        
+
+
+  
+*   En las especificaciones del entorno, se definió la publicación mediante código de la solución, seleccionando la región de *Canada Central*, un sistema operativo *Linux* y un plan de precios de categoría *Basic B1*, documentado en el archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue7Backend.jpeg" alt="deployment7" width="900" />  </div>        
+
+  
+*   El aprovisionamiento final concluyó exitosamente con la Web App denominada `safeflow-api` en estado *Running* (Activo). En su panel principal se confirma el stack tecnológico correspondiente a *Dotnetcore - 10.0* y la sincronización correcta con el repositorio oficial, visible en el archivo.
+<div algin="center"><img src="assets/chapter-05/despliegue8Backend.jpeg" alt="deployment8" width="900" />  </div>        
+
+
+**4. Gestión Segura de Credenciales y Automatización de CI/CD**
+*   Para evitar malas prácticas de seguridad de software, se inyectaron las credenciales de base de datos directamente en las variables del panel cloud. Específicamente, se configuró la cadena de conexión cifrada bajo la llave de configuración `ConnectionStrings__DefaultConnection` dentro de las variables de entorno de la Web App, tal como figura en el archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue9Backend.jpeg" alt="deployment9" width="900" />  </div>        
+
+  
+*   Finalmente, para cerrar el flujo de desarrollo, se automatizó el pipeline mediante un archivo de workflow de GitHub Actions denominado `main_safeflow-api.yml`. Cada confirmación de cambio en la rama principal desencadena una compilación automatizada (etapa *build* de 27s) seguida de una actualización en producción (etapa *deploy* de 39s), lo cual culminó con éxito en un tiempo de ejecución total de 1 minuto y 19 segundos bajo el commit hash `2e833b3`. Toda esta trazabilidad se encuentra registrada en el archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue10Backend.jpeg" alt="deployment10" width="900" />  </div>        
+
+
+#### Enlaces Oficiales del Entorno de Production
+*   **Dominio público de la API Desplegada:** `https://safeflow-api-chbaa6fxbbdja6b2.southeastasia-01.azurewebsites.net`
+*   **URL del Repositorio de GitHub:** `https://github.com/upc-pre-202610-1asi0730-20177-cryologic-systems/safeflow-platform`
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 ### 5.3. Validation Interviews
 #### 5.3.1. Diseño de Entrevistas
