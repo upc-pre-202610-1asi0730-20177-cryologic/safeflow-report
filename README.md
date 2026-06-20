@@ -1607,12 +1607,12 @@ Además, se realizaron revisiones constantes de commits en GitHub y análisis de
       <td>12/06/2026</td>
     </tr>
        <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>AndyMio17/safeflow-platform</td>
+      <td>feature/inventory</td>
+      <td>817add63e450fba4dab6e6e7228d8d553f5aa488</td>
+      <td>fix: add bounded context and code of inventory</td>
+      <td>Create the structure domain driven segin for the bounded context inventory .</td>
+      <td>12/06/2026</td>
     </tr>
        <tr>
       <td></td>
