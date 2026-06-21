@@ -1615,29 +1615,54 @@ Además, se realizaron revisiones constantes de commits en GitHub y análisis de
       <td>12/06/2026</td>
     </tr>
        <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>RoccaA4/safeflow-platform</td>
+      <td>feature/logistics</td>
+      <td>19fed0647ea91b145553ef8fcfaf25cd78fbcf47</td>
+      <td>feat(logistics): add logistics domain model aggregates</td>
+      <td>-</td>
+      <td>11/06/2026</td>
     </tr>
        <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>RoccaA4/safeflow-platform</td>
+      <td>feature/logistics</td>
+      <td>9b199dd54bbb55d6b3e8d0632466df842673326e</td>
+      <td>feat(logistics): add query repository interface for logistics domain</td>
+      <td>-</td>
+      <td>11/06/2026</td>
     </tr>
        <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>RoccaA4/safeflow-platform</td>
+      <td>feature/logistics</td>
+      <td>736141c5e4516fc5425511a2eb7a7d210992ad1d</td>
+      <td>feat(logistics): implement REST API layer with controllers, repository, and assemblers. Documentation was also implemented</td>
+      <td>-</td>
+      <td>11/06/2026</td>
     </tr>
+    <tr>
+      <td>RoccaA4/safeflow-platform</td>
+      <td>feature/logistics</td>
+      <td>d08ff93acb2f7236e96daff219bb33631577e937</td>
+      <td>feat(logistics): add command and query services for logistics operations, including destination and driver management</td>
+      <td>-</td>
+      <td>11/06/2026</td>
+    </tr>
+     <tr>
+      <td>RoccaA4/safeflow-platform</td>
+      <td>feature/logistics</td>
+      <td>76a6e99f38b05b7f4ac3798a2af53925becc1d28</td>
+      <td>feat(logistics): add command and query service interfaces for logistics operations, including destination and driver management</td>
+      <td>-</td>
+      <td>11/06/2026</td>
+    </tr>
+     <tr>
+      <td>RoccaA4/safeflow-platform</td>
+      <td>feature/logistics</td>
+      <td>1e30fd99045a8d2f0c930ac7216259f3c029debd</td>
+      <td>docs(logistics): add XML documentation to domain aggregates and query repository</td>
+      <td>-</td>
+      <td>12/06/2026</td>
+    </tr>
+      
   </tbody>
 </table>
 
