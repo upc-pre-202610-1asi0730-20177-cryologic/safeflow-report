@@ -1662,7 +1662,38 @@ Además, se realizaron revisiones constantes de commits en GitHub y análisis de
       <td>-</td>
       <td>12/06/2026</td>
     </tr>
-      
+    <tr>
+    <td>Fenfito/safeflow-platform</td>
+      <td>feature/alerts</td>
+      <td>25daaa205a286c40b6f01e1f532c2066fdbc5e1a</td>
+      <td>feat(alerts): implement AlertsController for managing alerts via REST API</td>
+      <td>-</td>
+      <td>10/06/2026</td>
+    </tr>
+    <tr>
+    <td>Fenfito/safeflow-platform</td>
+      <td>feature/alerts</td>
+      <td>164d8ece047c1bb36525170b099af85e00a35f88</td>
+      <td>feat(alerts): implement AlertRepository for managing alerts</td>
+      <td>-</td>
+      <td>10/06/2026</td>
+    </tr>
+    <tr>
+    <td>Fenfito/safeflow-platform</td>
+      <td>feature/alerts</td>
+      <td>8ca216d7773e333f7f736c5910d9c913c28e80a5</td>
+      <td>feat(alerts): add Alert aggregate for alert management</td>
+      <td>-</td>
+      <td>10/06/2026</td>
+    </tr>
+      <tr>
+    <td>Fenfito/safeflow-platform</td>
+      <td>feature/alerts</td>
+      <td>6c8eae1387ea3e8316701c19371fa6b7e731c506</td>
+      <td>feat(alerts): implement AlertCommandService for handling alert commands</td>
+      <td>-</td>
+      <td>10/06/2026</td>
+    </tr>
   </tbody>
 </table>
 
