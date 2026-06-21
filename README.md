@@ -147,7 +147,10 @@
 |   AV2   | 19-06-2026 | Mio mejia, Andy Alejandro |        Desplegar Backend                                 |
 |   AV2   | 19-06-2026 | Mio mejia, Andy Alejandro |        Desarrollo de video social                                 |
 |   AV2   | 19-06-2026 | Mio mejia, Andy Alejandro |        Desarrollo de video about the team                                 |                     
-
+|   AV2   | 11-06-2026 | Rocca Leon, Anhelo Rodrigo |        Desarrollo del Backend el modulo de Logistics                           |
+|   AV2   | 20-06-2026 | Rocca Leon, Anhelo Rodrigo |        Desarrollo de uno de los videos para el trabajo Social Responsibility                        |
+|   AV2   | 20-06-2026 | Rocca Leon, Anhelo Rodrigo |        Desarrollo de uno del video About-The-Team                      |
+|   AV2   | 21-06-2026 | Rocca Leon, Anhelo Rodrigo |        Desarrollo parcial del cápitulo 5.2.3.4 Development Evidence for Sprint Review                     |
 
 </div>
 
