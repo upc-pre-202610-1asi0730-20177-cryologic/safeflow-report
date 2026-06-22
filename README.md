@@ -2970,6 +2970,14 @@ URL de despliegue del Landing Page: [Landing Page Desplegado](https://upc-pre-20
       <td>-.</td>
       <td>15/05/2026</td>
     </tr>
+      <tr>
+      <td>Fenfito/safeflow-webapp</td>
+      <td>feature/alerts</td>
+      <td>65f7053fefcf817375fb7a097bb50b5c2cf38a5c</td>
+      <td>feat(alerts): implement alerts bounded context</td>
+      <td>-.</td>
+      <td>15/05/2026</td>
+    </tr>
   </tbody>
 </table>
 
@@ -3127,6 +3135,549 @@ Además, se realizaron revisiones constantes de commits en GitHub y análisis de
 
 
 <div algin="center"><img src="assets/chapter-05/team-colaboration-1.png" alt="deployment4" width="900" />  </div>
+
+
+
+### 5.2.3. Sprint 3
+#### 5.2.3.1. Sprint Planning 3
+
+<table>
+  <tr>
+    <th colspan="5">Sprint #</th>
+    <th colspan="8">Sprint 3</th>
+  </tr>
+  <tr>
+    <td colspan="13"><b>Sprint Planning Background</b></td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8">06-06-2026</td>
+  </tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8">6:00 PM</td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">Reunion por Meet</td>
+  </tr>
+  <tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8">Mel Andree Orellana Rodriguez</td>
+  </tr>
+  <tr>
+    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="8">Andy Alejandro Mio Mejia, Mel Andree Orellana Rodriguez, Angel Guillermo Berrospi Marin, Anhelo Rodrigo Rocca Leon, Jefferson Bayron Morales Yapuchura</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 2 Review Summary</td>
+    <td colspan="8">Se completó con éxito el diseño y despliegue de la Landing Page responsiva conectada a la estructura base de SafeFlow Web App. Se validó el diseño visual, la propuesta de valor y se implementó el MockAPI inicial para las primeras pruebas del frontend.</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 2 Retrospective Summary</td>
+    <td colspan="8">Buen acoplamiento en el diseño de interfaces y organización. Como oportunidad de mejora, se identificó la necesidad de definir los esquemas de base de datos con mayor anticipación para evitar retrasos en la lógica del negocio. Compromiso de mejorar el flujo de commits.</td>
+  </tr>
+  <tr>
+    <td colspan="13"><b>Sprint Goal & User Stories</b></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 3 Goal</td>
+    <td colspan="8">"Develop and implement the core Backend architecture and relational data model of the solution, achieving automatic temperature range validation, and the isolation of the Analytics and Monitoring Bounded Contexts."</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 3 Velocity</td>
+    <td colspan="8">43 Horas</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8">26 Story Points </td>
+  </tr>
+</table>
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+
+<div align="center">
+  <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 13px; text-align: center;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="border: 1px solid #dddddd; padding: 10px;">Team Member (Last Name, First Name)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Inventory  (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Logistics</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Monitoring(L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Alerts</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Reporting</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Analytics</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodriguez, Mel Andree</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">melandree8</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+       <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+       <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Bayron	Morales, Jefferson</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Fenfito</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>     
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Berrospi Marin, Angel Guillermo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Alejandro	Mio, Andy</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">AndyMio17</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+        <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Rodrigo Rocca, Anhelo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">RoccaA4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+#### 5.2.3.3. Sprint Backlog 3
+
+| Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Sprint 3 | **US-01** | Registrar producto | T-01 | Diseño del Modelo de Datos | Crear la entidad relacional de Producto con sus restricciones de rangos de temperatura mínimos y máximos en la BD. | 3 | Andy Alejandro Mio Mejia | To Do |
+| Sprint 3 | **US-01** | Registrar producto | T-02 | Desarrollo del CRUD de Producto | Implementar los endpoints REST de creación y validaciones de negocio en el Backend (rango min < max, campos obligatorios). | 6 | Mel Andree Orellana Rodriguez | To Do |
+| Sprint 3 | **US-04** | Detectar anomalías de temperatura | T-03 | Lógica del Servicio de Verificación | Desarrollar el algoritmo backend para interceptar lecturas y cambiar estados automáticamente a "En Riesgo" o "Crítico". | 8 | Angel Guillermo Berrospi Marin | To Do |
+| Sprint 3 | **US-09** | Cambiar estado del producto | T-04 | Automatización de Estados de Entidad | Implementar la máquina de estados en el backend para la transición automática a "Desechado" al acumular 3+ anomalías. | 5 | Anhelo Rodrigo Rocca Leon | To Do |
+| Sprint 3 | **US-11** | Asociar temperatura a despacho | T-05 | Modelo de Datos Relacional de Despachos | Diseñar tablas y claves foráneas en la BD para vincular la telemetría de sensores a un ID de despacho específico. | 4 | Jefferson Bayron Morales Yapuchura | To Do |
+| Sprint 3 | **US-11** | Asociar temperatura a despacho | T-06 | API de Asociación y Filtros | Implementar lógica transaccional que valide la existencia del despacho activo antes de inyectar las métricas de temperatura. | 6 | Andy Alejandro Mio Mejia | To Do |
+| Sprint 3 | **US-52** | Integrar con sensores IoT | T-08 | Validación de Payload y Excepciones | Desarrollar filtros de seguridad y parseo para rechazar datos corruptos de sensores caídos y registrar logs de error. | 4 | Angel Guillermo Berrospi Marin | To Do |
+| Sprint 3 | **US-55** | Visualizar alertas en dashboard | T-09 | Infraestructura del Bounded Context Analytics | Configurar la separación de capas de base de datos y esquemas para persistencia exclusiva del módulo Analytics. | 5 | Anhelo Rodrigo Rocca Leon | To Do |
+| Sprint 3 | **US-55** | Visualizar alertas en dashboard | T-10 | Infraestructura del Bounded Context Monitoring | Configurar esquemas de base de datos y pipes de consulta de eventos en tiempo real para el módulo de Monitoreo. | 6 | Jefferson Bayron Morales Yapuchura | To Do |
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>melandree8/safeflow-platform</td>
+      <td>develop</td>
+      <td>084f4a24ebfc2c7d68533489c402283b7a76a71f</td>
+      <td>feat: add safeflow backend base structure</td>
+      <td>Implement Structure</td>
+      <td>06/06/2026</td>
+    </tr>
+ <tr>
+      <td>melandree8/safeflow-platform</td>
+      <td>feature/analytics</td>
+      <td>882cddacad39fee7386fe2a54a04e45189a9b796</td>
+      <td>refactor(analytics): flatten analytics module structure</td>
+      <td>Implement Module Analytics</td>
+      <td>06/06/2026</td>
+    </tr>
+  <tr>
+      <td>melandree8/safeflow-platform</td>
+      <td>feature/environmental-monitoring</td>
+      <td>f13133e760418bd2c81c11c7f9c9b3a76924a036</td>
+      <td>feat: environmental monitoring module</td>
+      <td>Implement Module Monitoring</td>
+      <td>06/06/2026</td>
+    </tr>
+       <tr>
+      <td>Guille-berrs/safeflow-platform</td>
+      <td>feature/reporting</td>
+      <td>86b85a927a70a6a887203677b8e4d7d9ed4ac102</td>
+      <td>feat: complete the bounded context reporting and use the architecture ddd. </td>
+      <td>Create the structure domain driven segin for the bounded context reporting .</td>
+      <td>12/06/2026</td>
+    </tr>
+       <tr>
+      <td>AndyMio17/safeflow-platform</td>
+      <td>feature/inventory</td>
+      <td>817add63e450fba4dab6e6e7228d8d553f5aa488</td>
+      <td>fix: add bounded context and code of inventory</td>
+      <td>Create the structure domain driven segin for the bounded context inventory .</td>
+      <td>12/06/2026</td>
+    </tr>
+       <tr>
+      <td>RoccaA4/safeflow-platform</td>
+      <td>feature/logistics</td>
+      <td>19fed0647ea91b145553ef8fcfaf25cd78fbcf47</td>
+      <td>feat(logistics): add logistics domain model aggregates</td>
+      <td>-</td>
+      <td>11/06/2026</td>
+    </tr>
+       <tr>
+      <td>RoccaA4/safeflow-platform</td>
+      <td>feature/logistics</td>
+      <td>9b199dd54bbb55d6b3e8d0632466df842673326e</td>
+      <td>feat(logistics): add query repository interface for logistics domain</td>
+      <td>-</td>
+      <td>11/06/2026</td>
+    </tr>
+       <tr>
+      <td>RoccaA4/safeflow-platform</td>
+      <td>feature/logistics</td>
+      <td>736141c5e4516fc5425511a2eb7a7d210992ad1d</td>
+      <td>feat(logistics): implement REST API layer with controllers, repository, and assemblers. Documentation was also implemented</td>
+      <td>-</td>
+      <td>11/06/2026</td>
+    </tr>
+    <tr>
+      <td>RoccaA4/safeflow-platform</td>
+      <td>feature/logistics</td>
+      <td>d08ff93acb2f7236e96daff219bb33631577e937</td>
+      <td>feat(logistics): add command and query services for logistics operations, including destination and driver management</td>
+      <td>-</td>
+      <td>11/06/2026</td>
+    </tr>
+     <tr>
+      <td>RoccaA4/safeflow-platform</td>
+      <td>feature/logistics</td>
+      <td>76a6e99f38b05b7f4ac3798a2af53925becc1d28</td>
+      <td>feat(logistics): add command and query service interfaces for logistics operations, including destination and driver management</td>
+      <td>-</td>
+      <td>11/06/2026</td>
+    </tr>
+     <tr>
+      <td>RoccaA4/safeflow-platform</td>
+      <td>feature/logistics</td>
+      <td>1e30fd99045a8d2f0c930ac7216259f3c029debd</td>
+      <td>docs(logistics): add XML documentation to domain aggregates and query repository</td>
+      <td>-</td>
+      <td>12/06/2026</td>
+    </tr>
+    <tr>
+    <td>Fenfito/safeflow-platform</td>
+      <td>feature/alerts</td>
+      <td>25daaa205a286c40b6f01e1f532c2066fdbc5e1a</td>
+      <td>feat(alerts): implement AlertsController for managing alerts via REST API</td>
+      <td>-</td>
+      <td>10/06/2026</td>
+    </tr>
+    <tr>
+    <td>Fenfito/safeflow-platform</td>
+      <td>feature/alerts</td>
+      <td>164d8ece047c1bb36525170b099af85e00a35f88</td>
+      <td>feat(alerts): implement AlertRepository for managing alerts</td>
+      <td>-</td>
+      <td>10/06/2026</td>
+    </tr>
+    <tr>
+    <td>Fenfito/safeflow-platform</td>
+      <td>feature/alerts</td>
+      <td>8ca216d7773e333f7f736c5910d9c913c28e80a5</td>
+      <td>feat(alerts): add Alert aggregate for alert management</td>
+      <td>-</td>
+      <td>10/06/2026</td>
+    </tr>
+      <tr>
+    <td>Fenfito/safeflow-platform</td>
+      <td>feature/alerts</td>
+      <td>6c8eae1387ea3e8316701c19371fa6b7e731c506</td>
+      <td>feat(alerts): implement AlertCommandService for handling alert commands</td>
+      <td>-</td>
+      <td>10/06/2026</td>
+    </tr>
+  </tbody>
+</table>
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+Durante el desarrollo de este Sprint, el foco principal estuvo orientado en la validación funcional del sistema y la integración de la capa de presentación con el servidor de servicios desplegado en la nube de Azure. A continuación, se detalla el estado operacional de la plataforma:
+
+#### Resumen de Logros Funcionales
+* **Consumo de Servicios en Producción:** Se migró con éxito toda la persistencia simulada local de la aplicación hacia el consumo directo del dominio público de nuestra API (`https://safeflow-api-chbaa6fxbbdja6b2.southeastasia-01.azurewebsites.net`).
+* **Sincronización de Módulos Core:** Las vistas de usuario finales logran inyectar, actualizar y listar en tiempo real los registros del sistema (como la gestión de alertas, ítems de inventario y el estado logístico de los despachos) interactuando directamente con la base de datos cloud `safeflow_db`.
+* **Estabilidad del Entorno:** Se validó la correcta recepción de códigos de estado HTTP estándar (`200 OK`, `210 Created`) en el cliente, asegurando una experiencia de usuario fluida y libre de interrupciones de conectividad.
+
+#### Capturas de Pantalla Requeridas para el Informe
+<div algin="center"><img src="assets/chapter-05/pantalla-inventory.png" alt="deployment4" width="900" />  </div>        
+  
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+
+Esta sección expone los endpoints que componen los servicios backend de la plataforma, los cuales han sido completamente estructurados, programados en el entorno de la aplicación y expuestos para el consumo del cliente.
+
+#### Introducción y Logros
+Se implementó y estructuró el código de enrutamiento y lógica de controladores utilizando .NET, exponiendo los contratos de la API bajo la especificación OpenAPI 3.0 (OAS 3.0) para el sistema `safeflow-backend` versión 1.0. Esto garantiza que las aplicaciones cliente puedan consumir de forma estructurada los recursos de alertas, monitoreo, inventario y logística con validaciones de esquema transparentes.
+
+#### Tabla de Endpoints Documentados
+
+| Módulo / Tag | Verbo HTTP | Sintaxis de Llamada | Descripción / Acción | Parámetros |
+| :--- | :--- | :--- | :--- | :--- |
+| **Alerts** | **GET** | `/api/alerts/dashboard` | Obtiene las métricas agregadas para el panel de alertas. | Ninguno |
+| **Alerts** | **GET** | `/api/alerts` | Lista todas las alertas registradas en el sistema. | Ninguno |
+| **Alerts** | **POST** | `/api/alerts` | Registra una nueva alerta en la plataforma. | Request Body |
+| **Alerts** | **PATCH** | `/api/alerts/{id}/resolve` | Resuelve o cierra una alerta específica por su identificador. | `{id}` (Path) |
+| **Analytics** | **GET** | `/api/analytics/dashboard` | Recupera datos consolidados para análisis estadístico. | Ninguno |
+| **EnvironmentalMonitoring** | **GET** | `/api/monitoring/dashboard` | Retorna los estados actuales del monitoreo ambiental. | Ninguno |
+| **InventoryItems** | **GET** | `/api/inventory/items` | Obtiene la lista completa de ítems de inventario. | Ninguno |
+| **InventoryItems** | **POST** | `/api/inventory/items` | Agrega un nuevo ítem al inventario del sistema. | Request Body |
+| **InventoryItems** | **GET** | `/api/inventory/items/{id}` | Recupera el detalle de un ítem de inventario específico. | `{id}` (Path) |
+| **InventoryItems** | **PUT** | `/api/inventory/items/{id}` | Actualiza los datos generales de un ítem de inventario. | `{id}` (Path) / Body |
+| **InventoryItems** | **DELETE** | `/api/inventory/items/{id}` | Elimina de forma lógica o física un ítem de inventario. | `{id}` (Path) |
+| **LogisticsChoferes** | **GET** | `/api/logistics/choferes` | Lista todos los choferes registrados en el módulo logístico. | Ninguno |
+| **LogisticsChoferes** | **POST** | `/api/logistics/choferes` | Registra un nuevo chofer en el sistema. | Request Body |
+| **LogisticsChoferes** | **PUT** | `/api/logistics/choferes/{id}` | Modifica la información técnica o personal de un chofer. | `{id}` (Path) / Body |
+| **LogisticsChoferes** | **DELETE** | `/api/logistics/choferes/{id}` | Da de baja a un chofer específico del registro. | `{id}` (Path) |
+| **LogisticsDestinos** | **GET** | `/api/logistics/destinos` | Lista las ubicaciones o puntos de destino logísticos. | Ninguno |
+| **LogisticsDestinos** | **POST** | `/api/logistics/destinos` | Añade un nuevo punto de destino a la base de datos. | Request Body |
+| **LogisticsDestinos** | **PUT** | `/api/logistics/destinos/{id}` | Actualiza los detalles de dirección o coordenadas de un destino. | `{id}` (Path) / Body |
+| **LogisticsDestinos** | **DELETE** | `/api/logistics/destinos/{id}` | Remueve un punto de destino del catálogo logístico. | `{id}` (Path) |
+| **LogisticsShipments** | **GET** | `/api/logistics/shipments` | Obtiene la lista de embarques, despachos o cargamentos. | Ninguno |
+| **LogisticsShipments** | **POST** | `/api/logistics/shipments` | Crea u ordena un nuevo despacho dentro de la plataforma. | Request Body |
+| **Reporting** | **GET** | `/api/reporting/dashboard` | Extrae métricas e informes generales para reportes de gestión. | Ninguno |
+
+#### Evidencia de Interacción con OpenAPI
+Como evidencia del correcto funcionamiento y visualización de la especificación técnica de la API, se anexan las capturas de la interfaz gráfica de Swagger correspondientes a los archivos. En ellas se constata la exposición pública de los contratos y la pasarela interactiva de pruebas levantada sobre el dominio de producción de la Web App de Azure.
+
+#### Trazabilidad del Repositorio
+*   **URL del Repositorio de Web Services:** [https://github.com/upc-pre-202610-1asi0730-20177-cryologic-systems/safeflow-platform](https://github.com/upc-pre-202610-1asi0730-20177-cryologic-systems/safeflow-platform)
+
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+
+En esta sección se detalla el proceso completo de arquitectura, aprovisionamiento de infraestructura en la nube y automatización de despliegue continuo desarrollado durante este Sprint.
+
+#### Introducción
+Para garantizar un entorno aislado, tolerante a fallos y con alta disponibilidad, se configuraron dos recursos principales dentro del grupo de recursos `safeflow` en **Microsoft Azure**: una instancia administrada de base de datos relacional MySQL y un entorno de ejecución basado en App Services para la API del backend. Todo el ciclo de vida se automatizó vinculando el código fuente con flujos de CI/CD.
+
+#### Flujo Técnico de Aprovisionamiento y Evidencias
+
+**1. Despliegue de la Persistencia de Datos (Azure Database for MySQL)**
+*   Se seleccionó la creación de un servidor flexible en la plataforma de Azure con el fin de obtener control predictivo sobre los costos, ventanas de mantenimiento y resiliencia de almacenamiento. Este paso inicial se observa en el archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue1Backend.jpeg" alt="deployment1" width="900" />  </div>        
+
+*   Posteriormente, en la pestaña de aspectos básicos, se configuraron los datos del proyecto asignando la suscripción *Azure for Students* y el grupo de recursos unificado `safeflow`, tal como se documenta en la vista del archivo. 
+
+<div algin="center"><img src="assets/chapter-05/despliegue2Backend.jpeg" alt="deployment2" width="900" />  </div>        
+
+*   Una vez completada la inicialización, se obtuvo el panel general del servidor bautizado como `safeflowdb`, ubicado estratégicamente en la región de *Southeast Asia*, operando sobre la versión de motor MySQL 8.4 y un plan de cómputo *Burstable, B1ms*, como se constata en el archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue3Backend.jpeg" alt="deployment3" width="900" />  </div>        
+
+
+**2. Seguridad de Red y Creación de Esquema de Datos**
+*   Con la finalidad de conectar herramientas externas de administración y ejecutar scripts de migración de datos, se accedió a la sección de redes para añadir una regla de firewall denominada `MiComputadoraLocal` asociada a la dirección IP pública del desarrollador (`38.25.17.80`). Este proceso se visualiza en el archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue4Backend.jpeg" alt="deployment4" width="900" />  </div>        
+
+  
+*   Con el acceso asegurado, se inicializó el espacio de trabajo relacional del negocio, creando con éxito el esquema lógico denominado `safeflow_db` dentro del servidor cloud, evidenciado en el archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue5Backend.jpeg" alt="deployment5" width="900" />  </div>        
+
+
+**3. Despliegue del Servidor Web de la Aplicación (Azure App Services)**
+*   Completada la base de datos, se procedió con la creación de la Web App en el panel de App Services asignando el mismo grupo de recursos compartido, como se muestra en la configuración del archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue6Backend.jpeg" alt="deployment6" width="900" />  </div>        
+
+
+  
+*   En las especificaciones del entorno, se definió la publicación mediante código de la solución, seleccionando la región de *Canada Central*, un sistema operativo *Linux* y un plan de precios de categoría *Basic B1*, documentado en el archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue7Backend.jpeg" alt="deployment7" width="900" />  </div>        
+
+  
+*   El aprovisionamiento final concluyó exitosamente con la Web App denominada `safeflow-api` en estado *Running* (Activo). En su panel principal se confirma el stack tecnológico correspondiente a *Dotnetcore - 10.0* y la sincronización correcta con el repositorio oficial, visible en el archivo.
+<div algin="center"><img src="assets/chapter-05/despliegue8Backend.jpeg" alt="deployment8" width="900" />  </div>        
+
+
+**4. Gestión Segura de Credenciales y Automatización de CI/CD**
+*   Para evitar malas prácticas de seguridad de software, se inyectaron las credenciales de base de datos directamente en las variables del panel cloud. Específicamente, se configuró la cadena de conexión cifrada bajo la llave de configuración `ConnectionStrings__DefaultConnection` dentro de las variables de entorno de la Web App, tal como figura en el archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue9Backend.jpeg" alt="deployment9" width="900" />  </div>        
+
+  
+*   Finalmente, para cerrar el flujo de desarrollo, se automatizó el pipeline mediante un archivo de workflow de GitHub Actions denominado `main_safeflow-api.yml`. Cada confirmación de cambio en la rama principal desencadena una compilación automatizada (etapa *build* de 27s) seguida de una actualización en producción (etapa *deploy* de 39s), lo cual culminó con éxito en un tiempo de ejecución total de 1 minuto y 19 segundos bajo el commit hash `2e833b3`. Toda esta trazabilidad se encuentra registrada en el archivo.
+
+<div algin="center"><img src="assets/chapter-05/despliegue10Backend.jpeg" alt="deployment10" width="900" />  </div>        
+
+
+#### Enlaces Oficiales del Entorno de Production
+*   **Dominio público de la API Desplegada:** `https://safeflow-api-chbaa6fxbbdja6b2.southeastasia-01.azurewebsites.net`
+*   **URL del Repositorio de GitHub:** `https://github.com/upc-pre-202610-1asi0730-20177-cryologic-systems/safeflow-platform`
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+
+En esta sección se describe cómo el equipo ha desarrollado las actividades de implementación durante el Sprint 3, evidenciando la colaboración en el desarrollo del proyecto.
+
+Durante este sprint, el equipo de SafeFlow trabajó de manera estrictamente coordinada utilizando metodologías ágiles y herramientas avanzadas de control de versiones como GitHub para asegurar la entrega exitosa del producto. La colaboración en este ciclo migró de la fase de maquetación local hacia un ecosistema de despliegue continuo, lo cual requirió una comunicación constante entre los integrantes, una distribución efectiva de tareas técnicas y un seguimiento milimétrico del progreso mediante el marco de trabajo Scrum.
+
+Cada miembro del equipo participó activamente en la implementación de los distintos componentes del sistema. El esfuerzo colaborativo se centró en la programación y estructuración del Backend utilizando .NET, la exposición y documentación exhaustiva de contratos mediante OpenAPI/Swagger, y el aprovisionamiento de la infraestructura en la nube utilizando Microsoft Azure (servidor de base de datos relacional MySQL y entornos de ejecución en App Services). 
+
+Asimismo, la sinergia del equipo fue clave para configurar con éxito el pipeline de integración y despliegue continuo (CI/CD) a través de GitHub Actions. Esto permitió que las revisiones constantes de commits bajo estándares profesionales, el análisis conjunto de código y las pruebas de consumo de servicios en producción garantizaran que todos los integrantes contribuyeran equitativamente en la consolidación de los productos clave definidos para este sprint: la API de servicios completamente operativa en la nube y la base de datos cloud enlazada al aplicativo.
+
+<div algin="center"><img src="assets/chapter-05/team-colaboration-3.png" alt="team-colaboration-3" width="900" />  </div>        
+
+<div algin="center"><img src="assets/chapter-05/commits3.png" alt="commits3" width="900" />  </div>        
+
+
+### 5.3. Validation Interviews
+#### 5.3.1. Diseño de Entrevistas
+
+Segmento Objetivo 1: Empresas del sector farmacéutico
+
+1. Al revisar la lista de productos farmacéuticos, ¿considera que la visualización explícita de las columnas MIN TEMP y MAX TEMP para productos como la Insulina Glargina 2°C a 8°C o la Vacuna Pfizer COVID-19 -90°C a -60°C facilita el control rápido del inventario regulado?
+
+2. Si necesita ingresar un nuevo lote de medicamentos al sistema, ¿el botón azul "+ Add inventory item" ubicado en la esquina superior derecha le resulta visible y predecible para iniciar el registro regulatorio?
+
+3. La tabla muestra datos de trazabilidad técnica como BATCH / LOT, EXPIRY DATE y LOCATION. Desde la perspectiva de una inspección de calidad, ¿considera que el orden y la terminología de estas columnas son limpios y libres de ambigüedad?
+
+4. En el módulo de Logistics, la pantalla muestra el envío S003 (Vacuna Pfizer COVID-19) con un estado de In transit y una temperatura actual de -18.5°C. ¿El uso del color rojo y el ícono de peligro en el recuadro térmico le comunican eficazmente que el producto está fuera de su rango permitido?
+
+5. En el módulo de Monitoring, las tarjetas detallan el rango objetivo en la parte inferior (ej. Target range: 2.0 - 8.0°C). ¿Considera que colocar esta métrica fija de comparación ayuda a detectar desviaciones sin necesidad de recordar los parámetros de cada producto?
+
+6. Al observar las tarjetas de monitoreo, ¿es fácil identificar al PERSON IN CHARGE, al DRIVER OR OPERATOR y el WAREHOUSE de origen para iniciar un proceso de contención ante una falla de frío?
+
+7. En la sección superior de Alertas, el contador de "Out of range (detected)" marca 1. ¿La tarjeta roja detallada de la Vacuna Pfizer COVID-19 con su temperatura actual en -18.5°C le proporciona la información suficiente para entender la gravedad de la excursión térmica?
+
+8. La alerta del despacho S003 expone el campo de contacto del conductor encargado (Contact: 965874123). ¿Considera que la inclusión directa de este enlace telefónico agiliza el tiempo de reacción para la mitigación del riesgo en la carga?
+
+9. La tarjeta principal describe que el "SafeFlow consolidated report (single PDF)" incluye los envíos, inventarios, bitácoras térmicas e incidencias. ¿La descripción detallada de los elementos incluidos le ayuda a predecir con exactitud el contenido del documento antes de generarlo?
+
+10. Al observar la tabla de "Recent exports", el documento aparece con un indicador verde de "Ready" y un botón de "Download". ¿El flujo de dos pasos (Generate y luego Download) le parece claro para la obtención de sus evidencias de auditoría?
+
+11. En el panel de Analytics, la barra superior muestra un selector de idioma (ES / EN). Si cambia la configuración regional, ¿espera que la consistencia de los datos técnicos de los medicamentos y las temperaturas se mantenga intacta?
+
+12. El menú lateral izquierdo utiliza íconos planos al lado de términos directos como Analytics, Inventory, Logistics, Monitoring, Alerts, Reporting. ¿Considera que el diseño iconográfico se correlaciona lógicamente con las tareas analíticas de su área?
+
+13. En la esquina inferior izquierda se observa el indicador System status: Operational. Como usuario que depende de la disponibilidad del sistema para auditorías, ¿esta señalización sutil le otorga la confianza necesaria en la estabilidad de la plataforma?
+
+
+Segmento Objetivo 2: Operadores logísticos (3PL / transporte especializado)
+
+1. En la parte superior del Dashboard de Analytics, observa cuatro tarjetas de resumen (Total shipments: 4, Completed deliveries: 0, In transit: 2, Delayed: 0). ¿Estos contadores numéricos de alto nivel le permiten evaluar el estado de la operación diaria en sus primeros 5 segundos de visualización?
+
+2. En la sección inferior derecha "Fleet performance", se listan los conductores (Miguel, Diego Fernández) indicando su estado (On route, Available). ¿Esta lista simplificada le facilita la asignación de nuevos fletes según la disponibilidad actual del personal?
+
+3. La tabla de "Recent shipments" muestra el envío S004 con destino a Almacen A bajo el estado amarillo de "Pending". ¿El uso de etiquetas de colores (Pending, In transit) le ayuda a priorizar los despachos que aún no han salido de la base?
+
+4. Al seleccionar el envío S001 en la lista de despachos, se despliega a la izquierda la sección de "Active tracking". ¿El diagrama vertical que conecta el STORAGE LOCATION (Almacen A) con el CURRENT LOCATION (Awaiting handling) describe de forma clara la etapa exacta en la que está la carga?
+
+5. En el panel de Active tracking, el recuadro verde de estatus térmico muestra el texto: "Allowed range: 15.0°C – 25.0°C". ¿Considera útil que el sistema le muestre el rango operativo permitido directamente en la tarjeta de seguimiento del viaje del conductor?
+
+6. En la barra superior derecha de Logistics, se encuentran tres botones diferenciados: "New destination", "Driver or operator" y el botón azul de "+ New shipment". ¿La distribución de estos botones le facilita las tareas recurrentes de planificación y alta de rutas?
+
+7. Al monitorear las unidades en tiempo real, observa que la tarjeta del despacho S004 (Paracetamol Jarabe) está marcada con una etiqueta verde de "SAFE" a pesar de registrar 22.5°C. Al verificar abajo que su Target range es de 15.0 - 30.0°C, ¿le queda claro que el viaje progresa sin novedades operativas?
+
+8. En contraste, el despacho S003 muestra una etiqueta roja de "AT RISK" con una temperatura de -18.5°C. ¿Siente que el contraste visual entre las tarjetas verdes (SAFE) y las tarjetas rojas (AT RISK) es suficiente para identificar qué unidades de la flota requieren su atención inmediata?
+
+9. Dentro del detalle de la alerta activa para el despacho S003, se muestran dos botones de acción en el extremo derecho: "Under observation" y "Solved". ¿La presencia y el diseño de estas opciones le sugieren claramente cómo registrar que ya está gestionando la incidencia con el chofer?
+
+10. En la parte superior de la pantalla de Alertas, los contadores muestran "Open thermal alerts: 1" e "Out of range (detected): 1". Si presiona el botón "Solved" en la alerta activa, ¿espera que estos indicadores cambien automáticamente a cero?
+
+11. En la pantalla de Reporting, la tabla de "Recent exports" muestra que un reporte fue generado "Today, 09:14" con el formato PDF. Para sus tareas administrativas de cierre de mes, ¿este registro histórico le ayuda a controlar qué informes ya fueron entregados a la gerencia?
+
+12. En la esquina inferior izquierda de todas las pantallas de la plataforma se ubica un botón interactivo llamado "Collapse" con el ícono de una flecha hacia la izquierda. Si hace clic en él, ¿deduce correctamente que el menú lateral se encogerá para otorgarle un mayor espacio de trabajo a los mapas y tablas?
+
+13. En la esquina inferior izquierda del navegador, la barra de estado del sistema muestra la dirección local de desarrollo (localhost:5173/analytics). Sabiendo que es una aplicación web, ¿considera que el rendimiento y la velocidad de cambio entre los módulos laterales son adecuados para el flujo rápido que exige la supervisión de transportes?
+
+
+#### 5.3.2. Registro de Entrevistas
+
+#### Segmento objetivo #1: Empresas del sector farmacéutico
+
+---
+
+<img src="assets/chapter-05/pictureSG1-validation-interview.png" />
+
+
+**Entrevista 1:**
+- **Nombres y apellidos:** Sebastian Mendoza
+- **Edad:** 35 años
+- **Distrito:** San Borja
+
+- **Inicio:** 0:01
+- **Duración:** 15:16
+- **URL:** https://upcedupe-my.sharepoint.com/:v:/r/personal/u202114701_upc_edu_pe/Documents/Entrevista-Segmento1-ValidationInterview.mp4?csf=1&web=1&e=D0E00Z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+**Resumen:** El Gestor de Aseguramiento de Calidad valida positivamente el diseño visual y la terminología técnica de la interfaz de "SafeFlow", destacando que la visualización explícita de los rangos de temperatura y las alertas críticas en color rojo previenen fallos humanos en productos de cadena de frío estricta. Asimismo, resalta que la inclusión de números de contacto clickeables y la estructura de las tarjetas de emergencia agilizan drásticamente los tiempos de respuesta y traslados ante contingencias críticas. Por otro lado, la traducción selectiva de etiquetas que preserva intactos los nombres de los medicamentos y el indicador visual de conexión activa garantizan la trazabilidad e infunden tranquilidad durante los procesos de auditoría regulatoria. Finalmente, valora positivamente los estados de control como "Ready" en las descargas de PDFs, ya que aseguran la consolidación sin errores de un alto volumen de datos históricos que servirán como evidencia legal válida.
+
+
+---
+
+#### Segmento objetivo #2: Operadores logísticos (3PL / transporte especializado)
+
+---
+
+
+<img src="assets/chapter-05/pictureSG2-validation-interview.png" />
+
+
+**Entrevista 2:**
+- **Nombres y apellidos:** Maria Ruiz
+- **Edad:** 28 años
+- **Distrito:** Los Olivos
+
+- **Inicio:** 0:03
+- **Duración:** 15:49
+- **URL:** https://drive.google.com/file/d/1iUOWHJb6_7Rg9v7kS77kCz5PIBycWJzS/view?usp=sharing
+
+**Resumen:**
+El Supervisor de Operaciones y Logística confirma que la plataforma es sumamente práctica y directa para la gestión diaria del transporte. Destaca que los contadores numéricos del dashboard y el fuerte contraste visual entre las tarjetas verdes (SAFE) y rojas (AT RISK) le permiten evaluar la flota en segundos y priorizar las emergencias térmicas sin perder tiempo. Asimismo, valora la claridad de la línea de tiempo vertical para rastrear los estados de la carga, la visualización del rango permitido y la simplificación en la asignación de conductores disponibles. Finalmente, valida que funciones como los estados de incidencias (Under observation / Solved), el menú colapsable para ganar espacio y la velocidad de respuesta del sistema optimizan drásticamente su ritmo de trabajo y el control administrativo mensual.
+
+---
+
+#### 5.3.3. Evaluaciones según heurísticas
+### 5.4. Video About-the-Product
+
+El video "About-the-Product" (Sobre el Producto) funciona como una demostración audiovisual concisa y de alto impacto, diseñada para mostrar la propuesta de valor central, la arquitectura y la funcionalidad en vivo de la solución **SafeFlow**. Este video conecta visualmente los desafíos de la cadena de frío y el monitoreo ambiental con la respuesta automatizada de nuestro software. A través de un recorrido profesional, se demuestra cómo la ingesta de datos de sensores IoT en tiempo real, la detección algorítmica de anomalías y las notificaciones automatizadas operan dentro de una plataforma unificada y confiable para mitigar riesgos y prevenir pérdidas logísticas.
+
+- **Video About the Product**:  [Enlace Video About the Product](https://youtu.be/Kb1i16M4o-Q)
+
+
+
+
+
+
+
+
+
+
 
 
 
