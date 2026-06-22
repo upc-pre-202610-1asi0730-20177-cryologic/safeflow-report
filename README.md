@@ -1716,9 +1716,8 @@ Durante el desarrollo de este Sprint, el foco principal estuvo orientado en la v
 * **Estabilidad del Entorno:** Se validó la correcta recepción de códigos de estado HTTP estándar (`200 OK`, `210 Created`) en el cliente, asegurando una experiencia de usuario fluida y libre de interrupciones de conectividad.
 
 #### Capturas de Pantalla Requeridas para el Informe
-* *[Insertar aquí la captura del Dashboard Principal / Interfaz de Usuario de SafeFlow cargando datos dinámicos]*
-  > **Nota:** Se sugiere incluir una captura de pantalla donde se observe el aplicativo en funcionamiento (por ejemplo, mostrando la lista de ítems de inventario o el panel de alertas) con las herramientas de desarrollo del navegador abiertas (F12, pestaña Network) para evidenciar que las peticiones se realizan exitosamente hacia el dominio de Azure App Services.
-
+<div algin="center"><img src="assets/chapter-05/pantalla-inventory.png" alt="deployment4" width="900" />  </div>        
+  
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
