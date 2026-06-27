@@ -1842,6 +1842,187 @@ Asimismo, la sinergia del equipo fue clave para configurar con éxito el pipelin
 
 <div algin="center"><img src="assets/chapter-05/commits3.png" alt="commits3" width="900" />  </div>        
 
+### 5.2.4. Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+<table>
+  <tr>
+    <th colspan="5">Sprint #</th>
+    <th colspan="8"></th>
+  </tr>
+  <tr>
+    <td colspan="13"><b>Sprint Planning Background</b></td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 2 Review Summary</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 2 Retrospective Summary</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="13"><b>Sprint Goal & User Stories</b></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 3 Goal</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 3 Velocity</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8"></td>
+  </tr>
+</table>
+
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+
+
+
+<div align="center">
+  <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 13px; text-align: center;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="border: 1px solid #dddddd; padding: 10px;">Team Member (Last Name, First Name)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Inventory (L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Logistics</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Monitoring(L/C)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Alerts</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Reporting</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module Analytics</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+#### 5.2.4.3. Sprint Backlog 4
+
+| Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+
+
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
 
 ### 5.3. Validation Interviews
 #### 5.3.1. Diseño de Entrevistas
