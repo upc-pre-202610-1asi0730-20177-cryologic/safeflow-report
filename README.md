@@ -206,7 +206,25 @@ Los integrantes son:
 
   </br>
 
-<div align="center"><img src="assets/student-profile/commit.png" alt="evidencia" width="1100" /> </div> 
+### Github Collaboration  Informe
+
+<div algin="center"><img src="assets/student-profile/collaboration 1.png" alt="collaboration 1" width="700" />  </div>        
+
+
+### Github Collaboration  Landing
+
+<div algin="center"><img src="assets/student-profile/collaboration 2.png" alt="collaboration 2" width="700" />  </div>        
+
+
+### Github Collaboration  Frontend
+
+<div algin="center"><img src="assets/student-profile/collaboration 3.png" alt="collaboration 3" width="700" />  </div>        
+
+### Github Collaboration  Backend
+
+<div algin="center"><img src="assets/student-profile/collaboration 4.png" alt="collaboration 4" width="700" />  </div>        
+
+
 
 # Contenido
 
