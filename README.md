@@ -2145,18 +2145,7 @@ El video "About-the-Product" (Sobre el Producto) funciona como una demostración
 
 - **Video About the Product**:  [Enlace Video About the Product](https://youtu.be/Kb1i16M4o-Q)
 
-
-
-
-
-
-
-
-
-
-
-
-
+<div algin="center"><img src="assets/chapter-05/img-about-the-product.jpeg" alt="About the Product" width="900" />  </div>        
 
 # Conclusiones y recomendaciones
 
