@@ -2014,6 +2014,14 @@ Asimismo, la sinergia del equipo fue clave para configurar con éxito el pipelin
       <td></td>
       <td></td>
     </tr>
+    <tr>
+    <td>AndyMio17/safeflow-report</td>
+      <td>develop</td>
+      <td>81b8cf59b76bed69e8a2a2f27a3937ed4052fa43</td>
+      <td>docs: agregando informacion en registro de versiones y Student Outcome</td>
+      <td>Implement content</td>
+      <td>28/06/2026</td>
+    </tr>
   </tbody>
 </table>
 
