@@ -3479,7 +3479,7 @@ Se implementó y estructuró el código de enrutamiento y lógica de controlador
 Como evidencia del correcto funcionamiento y visualización de la especificación técnica de la API, se anexan las capturas de la interfaz gráfica de Swagger correspondientes a los archivos. En ellas se constata la exposición pública de los contratos y la pasarela interactiva de pruebas levantada sobre el dominio de producción de la Web App de Azure.
 
 #### Trazabilidad del Repositorio
-*   **URL del Repositorio de Web Services:** [https://github.com/upc-pre-202610-1asi0730-20177-cryologic-systems/safeflow-platform](https://github.com/upc-pre-202610-1asi0730-20177-cryologic-systems/safeflow-platform)
+*   **URL del Repositorio de Web Services:** [https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-platform](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-platform)
 
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
