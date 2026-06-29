@@ -1849,48 +1849,48 @@ Asimismo, la sinergia del equipo fue clave para configurar con éxito el pipelin
 <table>
   <tr>
     <th colspan="5">Sprint #</th>
-    <th colspan="8"></th>
+    <th colspan="8">Sprint 4</th>
   </tr>
   <tr>
     <td colspan="13"><b>Sprint Planning Background</b></td>
   </tr>
   <tr>
     <td colspan="5">Date</td>
-    <td colspan="8"></td>
+    <td colspan="8">03-07-2026</td>
   </tr>
   <tr>
     <td colspan="5">Time</td>
-    <td colspan="8"></td>
+    <td colspan="8">4:00</td>
   </tr>
   <tr>
     <td colspan="5">Location</td>
-    <td colspan="8"></td>
+    <td colspan="8">Reunion por Meet</td>
   </tr>
   <tr>
     <td colspan="5">Prepared By</td>
-    <td colspan="8"></td>
+    <td colspan="8">Mel Andree Orellana Rodriguez</td>
   </tr>
   <tr>
     <td colspan="5">Attendees (to planning meeting)</td>
-    <td colspan="8"></td>
+    <td colspan="8">Andy Alejandro Mio Mejia, Mel Andree Orellana Rodriguez, Angel Guillermo Berrospi Marin, Anhelo Rodrigo Rocca Leon, Jefferson Bayron Morales Yapuchura</td>
   </tr>
   <tr>
-    <td colspan="5">Sprint 2 Review Summary</td>
-    <td colspan="8"></td>
+    <td colspan="5">Sprint 3 Review Summary</td>
+    <td colspan="8">Se completó con éxito la transición de los diseños base hacia el desarrollo de los componentes de software (Frontend y Backend). Se validó la integración inicial de la base de datos relacional (MySQL) para evitar los retrasos detectados en el ciclo anterior y se presentaron los primeros flujos de geolocalización e interfaz funcional de la aplicación móvil. Las observaciones del Product Owner se centraron en refinar el consumo de servicios y la estabilidad del backend para el siguiente sprint.</td>
   </tr>
   <tr>
-    <td colspan="5">Sprint 2 Retrospective Summary</td>
-    <td colspan="8"></td>
+    <td colspan="5">Sprint 3 Retrospective Summary</td>
+    <td colspan="8">Se cumplió el compromiso de definir los esquemas de la base de datos con anticipación, lo que permitió un desarrollo del backend mucho más fluido, y se logró una mayor consistencia y orden en el flujo de commits del equipo.</td>
   </tr>
   <tr>
     <td colspan="13"><b>Sprint Goal & User Stories</b></td>
   </tr>
   <tr>
-    <td colspan="5">Sprint 3 Goal</td>
-    <td colspan="8"></td>
+    <td colspan="5">Sprint 4 Goal</td>
+    <td colspan="8">The development of the landing page and the web application's core structural layout was successfully completed. The team validated the responsive design, user interface components, and confirmed that the mock API endpoints work correctly for initial frontend testing.</td>
   </tr>
   <tr>
-    <td colspan="5">Sprint 3 Velocity</td>
+    <td colspan="5">Sprint 4 Velocity</td>
     <td colspan="8"></td>
   </tr>
   <tr>
