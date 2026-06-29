@@ -2007,12 +2007,36 @@ Asimismo, la sinergia del equipo fue clave para configurar con éxito el pipelin
   </thead>
   <tbody>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>melandree8/safeflow-report</td>
+      <td>develop</td>
+      <td>edf35f2b822a65d84d9c53becd5aa49b48f22d4b</td>
+      <td>docs: add collaboration images to the document</td>
+      <td>Implement content</td>
+      <td>29/06/2026</td>
+    </tr>
+        <tr>
+      <td>melandree8/safeflow-report</td>
+      <td>develop</td>
+      <td>00d9d5f33d40f8251920d47bd9a20fa1c1e00bb2</td>
+      <td>docs: add collaboration evidence images to assets</td>
+      <td>Implement content</td>
+      <td>29/06/2026</td>
+    </tr>
+        <tr>
+      <td>melandree8/safeflow-report</td>
+      <td>develop</td>
+      <td>e22142dde0c4c6838b3fada5b89b1df6df11cf7e</td>
+      <td>docs: update project repository links</td>
+      <td>update content</td>
+      <td>29/06/2026</td>
+    </tr>
+         <tr>
+      <td>melandree8/safeflow-report</td>
+      <td>develop</td>
+      <td>9287b215dbe26e678e13565126e9e38150c13961</td>
+      <td>docs: update and improve project documentation</td>
+      <td>update content</td>
+      <td>29/06/2026</td>
     </tr>
     <tr>
     <td>AndyMio17/safeflow-report</td>
