@@ -175,8 +175,11 @@ El uso de repositorios específicos por subcomponente también contribuyó a man
 
 A continuación, se detallan los repositorios utilizados a lo largo del proyecto:
 
-#### Link del repositorio del Reporte: [https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-report](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-report)
-#### Link del repositorio de la Landing Page:  [https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website)
+#### Link del Repositorio del Reporte: [Repositorio del Informe](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-report)
+#### Link del Repositorio de la Landing Page:  [Repositorio del Landing](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website)
+#### Link del Repositorio del Frontend:  [Repositorio del Frontend](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website)
+#### Link del Repositorio del Backend:  [Repositorio del Backend](https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website)
+
 
   <br>
 
