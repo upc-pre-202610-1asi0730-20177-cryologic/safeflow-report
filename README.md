@@ -3718,8 +3718,8 @@ Finalmente, se recomienda considerar la escalabilidad de la solución hacia otro
 
 El video "About-the-Team" (Sobre el Equipo) presenta la sinergia multidisciplinaria y las competencias técnicas del equipo de ingeniería detrás de SafeFlow. Este espacio audiovisual destaca cómo convergen nuestras habilidades en desarrollo de software, arquitectura de sistemas e integración de soluciones basadas en datos para materializar una plataforma robusta y escalable. A través de una breve presentación de cada miembro, se evidencia el compromiso, los roles estratégicos y la visión compartida que impulsaron el diseño y la ejecución técnica de este proyecto, demostrando que la solidez de SafeFlow radica tanto en su arquitectura como en el capital humano que la respalda.
 
-- **Video About the Team**:  [Enlace Video About the Team](https://www.youtube.com/watch?v=gA09U8rBMpM&feature=youtu.be)  
-![](assets/chapter-05/About-The-Team-Photo.png)
+- **Video About the Team**:  [Enlace Video About the Team](https://www.youtube.com/watch?v=gA09U8rBMpM&feature=youtu.be)
+<img src="assets/chapter-05/About-The-Team-Photo.png"/>
 
 # Bibliografía
 - Ministerio de Salud del Perú. (2000). Taller sobre planificación, administración y evaluación: Módulo III. Cadena de frío. https://www.gob.pe/institucion/minsa/informes-publicaciones/352804-taller-sobre-planificacion-administracion-y-evaluacion-modulo-iii-cadena-de-frio
