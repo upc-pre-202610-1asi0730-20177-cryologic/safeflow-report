@@ -1968,11 +1968,55 @@ interfaces y enumeraciones, junto con atributos, métodos, visibilidad, relacion
 ##### Class Dictionary - Bounded Context: Notificaciones
 <img src="assets/chapter-04/Notification_ClassDirectory.PNG">
 
-## 4.8. Database Design
-### 4.8.1. Database Diagram
-En esta sección se elaboró el Database Diagram de SafeFlow, representando las tablas principales, sus atributos, 
-tipos de datos, claves primarias y foráneas, así como las relaciones entre ellas. El diseño se centró en la eficiencia para 
-consultas críticas de monitoreo y control de temperatura en la cadena de frío.
+## 4.8. Database Design  
+En esta sección se presenta el diseño de base de datos de SafeFlow. El diseño busca separar las entidades según su responsabilidad funcional dentro de la solución. 
+Asimismo, se han definido tablas con claves primarias y foráneas, además de relaciones explícitas entre entidades para reflejar la estructura lógica del dominio.
+En síntesis, este modelo de datos considera entidades para la gestión de productos e inventario, el monitoreo de sensores y detección de anomalías, la administración de envíos y entregas, y el módulo de notificaciones.
+
+### 4.8.1. Database Diagram  
+A continuación se explicará la distribución de los bounded context dentro del diagrama de la base de datos de SafeFlow:  
+  
+#### 1. Inventory
+Este bounded context concentra la información relacionada con los productos que maneja la plataforma, sus lotes, reglas de temperatura y el estado del inventario. 
+La entidad 'product' actúa como tabla central y almacena los datos generales de cada producto, como nombre, descripción, categoría, unidad de medida, estado de activación y marcas de auditoría.
+
+A partir de product se relacionan otras entidades que amplían su información:
+
+ - temperature_range, que define el rango térmico permitido para cada producto.
+ - product_batch, que registra los lotes de producción, fechas de producción y vencimiento, cantidad y estado.
+ - inventory_record, que almacena el nivel actual de existencias y su ubicación.
+ - threshold_rule, que establece los límites de temperatura y el tiempo crítico permitido para cada producto.
+
+Estas tablas están conectadas mediante claves foráneas hacia product, ya que de esta manera la información de lotes, inventario y reglas térmicas siempre esté asociada a un producto existente.
+#### 2. Monitoring  
+Este bounded context gestiona el registro de sensores, sus lecturas y el análisis de posibles incidentes. 
+La entidad sensor representa cada dispositivo físico instalado en una ubicación específica, incluyendo su número de serie y estado operativo.
+
+Las lecturas generadas por los sensores se almacenan en sensor_reading, donde se registra el momento de captura, la temperatura, la humedad y el estado de la lectura.
+Esta tabla se relaciona con sensor mediante una clave foránea. Además, sensor_reading se vincula con threshold_rule, lo que permite evaluar si los valores registrados se encuentran dentro de los rangos esperados para un producto determinado.
+
+Cuando una lectura supera los parámetros establecidos, puede generarse un anomaly_event, que almacena la fecha de detección, la causa y el nivel de severidad. 
+A la par, cada anomalía puede originar una alert, donde se registra el mensaje emitido, el estado de resolución, la severidad y la fecha de cierre, si corresponde.
+
+#### 3. Logistics  
+Este bounded context administra la operación logística asociada a los despachos. La entidad driver almacena la información de los conductores, incluyendo nombre completo, número de licencia, teléfono y disponibilidad.
+
+La tabla shipment representa cada envío realizado por el sistema y se relaciona con la entidad driver mediante una clave foránea, ya que asi cada despacho pueda asociarse con el conductor responsable. 
+En esta entidad se registran datos como código de seguimiento, fechas de despacho y entrega, origen, destino, duración estimada y estado del envío.
+
+Por su parte, shipment_item detalla los productos incluidos dentro de cada envío. Esta tabla se conecta con shipment y también con product_batch, 
+lo que permite rastrear exactamente qué lote fue trasladado en cada operación logística. Finalmente, delivery_confirmation almacena la confirmación de entrega, incluyendo fecha de confirmación, nombre del receptor, evidencia de entrega y estado. 
+#### 4. Notifications  
+Este bounded context centraliza la comunicación automática del sistema con sus usuarios o destinatarios. La tabla notification_template almacena plantillas reutilizables con nombre, contenido, canal de envío y marcas de auditoría. 
+
+La entidad notification_recipient registra a las personas que pueden recibir notificaciones, con datos como nombre completo, correo, teléfono y canal preferido. 
+La tabla alert_subscription permite indicar si un destinatario está suscrito o no a alertas.
+
+La entidad notification representa cada mensaje generado por el sistema y se relaciona con notification_template, notification_recipient y alert. 
+De esta manera, cada notificación queda asociada al contenido usado, al receptor y al evento que la originó. 
+
+Database Diagram:
+  
 <img src="assets/chapter-04/SafeFlow_Database_Diagram.png">
 
 
