@@ -3778,3 +3778,72 @@ El video "About-the-Team" (Sobre el Equipo) presenta la sinergia multidisciplina
 
 
 # Anexos
+
+En esta sección se incluyen materiales complementarios que respaldan el desarrollo del proyecto SafeFlow. 
+Cada anexo inicia en una nueva página y su título se presenta en mayúsculas, siguiendo la nomenclatura establecida para esta sección
+
+<div style="page-break-after: always;"></div>
+
+### ANEXO A. VIDEOS DE EXPOSICIONES
+
+En este anexo se presenta el registro progresivo de los videos de exposición correspondientes a cada entrega del proyecto. A medida que avanza el desarrollo de SafeFlow, se incorporan nuevos enlaces que permiten consultar la evidencia audiovisual de las presentaciones realizadas. Esta relación se actualizará de forma acumulativa en cada entrega.
+
+| Entrega | Título del video          | Hipervínculo  |
+| ------- | ------------------------- |---------------|
+| AV1     | Exposición AV1 - SafeFlow | [enlace 1](#) |
+| TB1     | Exposición TB1 - SafeFlow | [enlace 2](#) |
+| AV2     | Exposición AV2 - SafeFlow | [enlace 3](#) |
+
+<div style="page-break-after: always;"></div>
+
+### ANEXO B. EVIDENCIAS ADICIONALES
+
+En este anexo presenta la evidencia de la organización creada en GitHub para el desarrollo del proyecto SafeFlow. 
+
+La organización permitió centralizar la administración del código fuente, facilitar el control de versiones mediante Git y GitHub, 
+y mantener una separación adecuada. Asimismo, favoreció la coordinación entre los integrantes del equipo durante todas las etapas de desarrollo.
+
+<div align="center">
+
+Figura B.1. Organización de GitHub del proyecto SafeFlow y repositorios asociados.
+
+![](assets/chapter-05/GitHub-organization-evidence.png)
+
+</div>
+
+<div align="center">
+
+Figura B.2. Repositorios asociados a la organización de GitHub del proyecto SafeFlow
+
+![](assets/chapter-05/repositories-evidence.png)
+
+</div>
+
+<div align="center">
+
+Figura B.3. Integrantes del equipo dentro de la organización de GitHub.
+
+![](assets/chapter-05/members-evidence.png)
+</div>
+
+<div style="page-break-after: always;"></div>
+
+### ANEXO C. MATERIAL COMPLEMENTARIO
+
+En este anexo se recopilan los principales recursos digitales utilizados durante el desarrollo de SafeFlow. Estos enlaces permiten acceder a los repositorios del proyecto, aplicaciones desplegadas y material audiovisual desarrollado como parte de las diferentes entregas.
+
+| Recurso                                     | Descripción                                               | Enlace                                                                     |
+| ------------------------------------------- |-----------------------------------------------------------|----------------------------------------------------------------------------|
+| Repositorio del Reporte                     | Repositorio principal del documento del proyecto          | *https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-report* |
+| Repositorio de la Landing Page              | Código fuente de la página de información del proyecto    | *https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-website* |
+| Repositorio de la Aplicación Web (Frontend) | Código fuente de la interfaz principal del sistema        | *https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-webapp* |
+| Repositorio del Backend                     | Código fuente de la API y lógica de negocio               | *https://github.com/upc-pre-202610-1asi0730-20177-cryologic/safeflow-platform* |
+| Landing Page desplegada                     | Versión publicada de la landing page de SafeFlow          | *https://upc-pre-202610-1asi0730-20177-cryologic.github.io/safeflow-website/* |
+| Aplicación Web desplegada                   | Versión publicada de la aplicación web de SafeFlow        | *https://safeflow0.netlify.app/login?next=/analytics*                      |
+| Backend desplegado                          | Servicio backend publicado en la nube                     | *https://safeflow-api-chbaa6fxbbdja6b2.southeastasia-01.azurewebsites.net*             |
+| Video About the Product                     | Video de presentación del producto                        | *https://www.youtube.com/watch?v=Kb1i16M4o-Q*                                          |
+| Video About the Team                        | Video de presentación del equipo                          | *https://www.youtube.com/watch?v=gA09U8rBMpM*                                          |
+| Herramientas de diseño                      | Recursos utilizados para diseño y prototipado             | *https://www.figma.com/design/BNOvhoeCvJ2AjuPAZiBkJT/WebGeeks?node-id=162-61*      |
+
+
+
