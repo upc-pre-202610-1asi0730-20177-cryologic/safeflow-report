@@ -3780,7 +3780,6 @@ El video "About-the-Team" (Sobre el Equipo) presenta la sinergia multidisciplina
 # Anexos
 
 En esta sección se incluyen materiales complementarios que respaldan el desarrollo del proyecto SafeFlow. 
-Cada anexo inicia en una nueva página y su título se presenta en mayúsculas, siguiendo la nomenclatura establecida para esta sección
 
 <div style="page-break-after: always;"></div>
 
