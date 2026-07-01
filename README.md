@@ -2115,7 +2115,17 @@ Durante el desarrollo se implementó la arquitectura de enrutamiento junto con l
 Como evidencia del adecuado funcionamiento y de la correcta publicación de la documentación técnica de la API, se incluyen las capturas de pantalla de la interfaz de Swagger correspondientes a los distintos recursos implementados. Estas imágenes demuestran que los contratos de la API se encuentran disponibles y que la consola interactiva para realizar pruebas está desplegada sobre el dominio de producción de la aplicación web alojada en Azure.
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
 #### 5.2.4.8. Team Collaboration Insights during Sprint
+
+En esta sección se presenta la forma en que el equipo llevó a cabo las actividades de implementación correspondientes al **Sprint 4**, el cual representó la etapa final del desarrollo del proyecto. Durante este sprint se realizaron los últimos ajustes e integraciones del **frontend** y **backend**, consolidando todas las funcionalidades planificadas y dejando el sistema completamente operativo para su entrega.
+
+A lo largo de este ciclo, el equipo de **SafeFlow** trabajó de manera coordinada aplicando metodologías ágiles y utilizando **GitHub** como herramienta principal para el control de versiones y la colaboración. La comunicación constante entre los integrantes permitió organizar eficientemente las tareas, dar seguimiento al progreso mediante el marco de trabajo **Scrum** y asegurar la integración de los componentes desarrollados.
+
+Cada miembro participó activamente en la implementación y validación de los diferentes módulos del sistema. En esta fase se completaron los últimos retoques del **frontend**, se finalizaron los servicios del **backend** desarrollados con **.NET** y se integró completamente el módulo de **autenticación**, permitiendo el registro e inicio de sesión mediante **JWT** para garantizar el acceso seguro a la plataforma. Asimismo, se verificó la documentación de la API mediante **OpenAPI/Swagger** y se consolidó la infraestructura desplegada en **Microsoft Azure**, incluyendo la base de datos **MySQL** y los servicios alojados en **App Services**.
+
+<div algin="center"><img src="assets/chapter-05/isignt-backend.png" alt="Backend" width="900" />  </div>        
+
 
 
 ### 5.3. Validation Interviews
