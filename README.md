@@ -2055,6 +2055,24 @@ Asimismo, la sinergia del equipo fue clave para configurar con éxito el pipelin
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
+Durante este Sprint, el trabajo se centró en comprobar el correcto funcionamiento de la aplicación y fortalecer la integración entre la interfaz de usuario y los servicios backend desplegados en Microsoft Azure. Como resultado, se verificó el desempeño de los módulos principales y su comunicación con la infraestructura en la nube.
+
+### Resumen de Logros Funcionales
+
+- **Integración con servicios en producción:** Se sustituyó por completo el almacenamiento simulado utilizado en las primeras etapas del desarrollo por el consumo directo de la API desplegada en producción, permitiendo que la aplicación interactúe con el dominio público del backend.
+
+- **Conectividad de los módulos principales:** Las diferentes funcionalidades de la plataforma permiten registrar, consultar y actualizar información en tiempo real, incluyendo la gestión de alertas, los elementos de inventario y las operaciones logísticas, utilizando la base de datos **safeflow_db** alojada en la nube.
+
+- **Verificación de estabilidad:** Se validó el correcto intercambio de respuestas HTTP entre el cliente y el servidor, comprobando la recepción de códigos de estado exitosos, como **200 OK** y **201 Created**, lo que asegura una comunicación estable y una experiencia de usuario continua.
+
+### Capturas de Pantalla Requeridas para el Informe
+
+
+
+
+
+
+
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
 Esta sección presenta los endpoints desarrollados para los servicios backend de la plataforma. Cada uno de ellos ha sido diseñado, implementado y documentado para permitir su integración con el cliente mediante una interfaz estandarizada.
