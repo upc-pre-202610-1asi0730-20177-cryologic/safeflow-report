@@ -2054,7 +2054,48 @@ Asimismo, la sinergia del equipo fue clave para configurar con éxito el pipelin
 
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
+
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Esta sección presenta los endpoints desarrollados para los servicios backend de la plataforma. Cada uno de ellos ha sido diseñado, implementado y documentado para permitir su integración con el cliente mediante una interfaz estandarizada.
+
+### Introducción y Logros
+
+Durante el desarrollo se implementó la arquitectura de enrutamiento junto con la lógica de los controladores utilizando .NET. Asimismo, la API fue documentada bajo el estándar OpenAPI 3.0 (OAS 3.0) para la versión 1.0 del sistema **safeflow-backend**, permitiendo que las aplicaciones cliente accedan de manera organizada a los módulos de alertas, monitoreo, inventario y logística. Esta documentación facilita la validación de solicitudes y respuestas, mejorando la interoperabilidad entre los diferentes componentes del sistema.
+
+### Tabla de Endpoints Documentados
+
+| Módulo / Tag | Verbo HTTP | Sintaxis de Llamada | Descripción / Acción | Parámetros | Auth |
+|--------------|------------|---------------------|----------------------|------------|------|
+| Authentication | POST | `/api/authentication/sign-up` | Registra un nuevo usuario en la plataforma. | Request Body (username, password) | No |
+| Authentication | POST | `/api/authentication/sign-in` | Valida las credenciales del usuario y genera un token JWT. | Request Body (username, password) | No |
+| Alerts | GET | `/api/alerts/dashboard` | Obtiene las métricas agregadas para el panel de alertas. | Ninguno | Sí |
+| Alerts | GET | `/api/alerts` | Lista todas las alertas registradas en el sistema. | Ninguno | Sí |
+| Alerts | POST | `/api/alerts` | Registra una nueva alerta en la plataforma. | Request Body | Sí |
+| Alerts | PATCH | `/api/alerts/{id}/resolve` | Resuelve o cierra una alerta específica por su identificador. | `{id}` (Path) | Sí |
+| Analytics | GET | `/api/analytics/dashboard` | Recupera datos consolidados para análisis estadístico. | Ninguno | Sí |
+| EnvironmentalMonitoring | GET | `/api/monitoring/dashboard` | Retorna los estados actuales del monitoreo ambiental (KPIs y tarjetas). | Ninguno | Sí |
+| InventorySnapshot | GET | `/api/inventory` | Obtiene un resumen consolidado del inventario, logística, monitoreo y alertas. | Ninguno | Sí |
+| InventoryItems | GET | `/api/inventory/items` | Obtiene la lista completa de ítems de inventario. | Ninguno | Sí |
+| InventoryItems | GET | `/api/inventory/items/{id}` | Recupera el detalle de un ítem de inventario específico. | `{id}` (Path) | Sí |
+| InventoryItems | POST | `/api/inventory/items` | Agrega un nuevo ítem (producto y línea de stock) al inventario. | Request Body | Sí |
+| InventoryItems | POST | `/api/inventory/items/stock-line` | Agrega una nueva línea de stock a un producto existente. | Request Body (`idProducto`, `location`, `qty`, etc.) | Sí |
+| InventoryItems | PUT | `/api/inventory/items/{id}` | Actualiza los datos generales de un ítem de inventario. | `{id}` (Path) / Body | Sí |
+| InventoryItems | DELETE | `/api/inventory/items/{id}` | Elimina una línea de inventario utilizando su identificador. | `{id}` (Path) | Sí |
+| LogisticsChoferes | GET | `/api/logistics/choferes` | Lista todos los choferes registrados en el módulo logístico. | Ninguno | Sí |
+| LogisticsChoferes | POST | `/api/logistics/choferes` | Registra un nuevo chofer en el sistema. | Request Body | Sí |
+| LogisticsChoferes | PUT | `/api/logistics/choferes/{id}` | Modifica la información técnica o personal de un chofer. | `{id}` (Path) / Body | Sí |
+| LogisticsChoferes | DELETE | `/api/logistics/choferes/{id}` | Da de baja a un chofer específico del registro. | `{id}` (Path) | Sí |
+| LogisticsDestinos | GET | `/api/logistics/destinos` | Lista las ubicaciones o puntos de destino logísticos. | Ninguno | Sí |
+| LogisticsDestinos | POST | `/api/logistics/destinos` | Añade un nuevo punto de destino a la base de datos. | Request Body | Sí |
+| LogisticsDestinos | PUT | `/api/logistics/destinos/{id}` | Actualiza los detalles de dirección o coordenadas de un destino. | `{id}` (Path) / Body | Sí |
+| LogisticsDestinos | DELETE | `/api/logistics/destinos/{id}` | Remueve un punto de destino del catálogo logístico. | `{id}` (Path) | Sí |
+| LogisticsShipments | GET | `/api/logistics/shipments` | Obtiene la lista de embarques, despachos o cargamentos. | Ninguno | Sí |
+| LogisticsShipments | POST | `/api/logistics/shipments` | Crea u ordena un nuevo despacho dentro de la plataforma. | Request Body | Sí |
+| Reporting | GET | `/api/reporting/dashboard` | Extrae métricas e informes generales para reportes de gestión. | Ninguno | Sí |
+
+Como evidencia del adecuado funcionamiento y de la correcta publicación de la documentación técnica de la API, se incluyen las capturas de pantalla de la interfaz de Swagger correspondientes a los distintos recursos implementados. Estas imágenes demuestran que los contratos de la API se encuentran disponibles y que la consola interactiva para realizar pruebas está desplegada sobre el dominio de producción de la aplicación web alojada en Azure.
+
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
