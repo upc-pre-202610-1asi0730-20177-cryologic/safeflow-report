@@ -1983,17 +1983,16 @@ Asimismo, la sinergia del equipo fue clave para configurar con éxito el pipelin
 #### 5.2.4.3. Sprint Backlog 4
 
 | Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
-
+| :---: | :---: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
+| **Sprint 4** | US-30 | Registrarse en la plataforma | T-IAM-01 | Diseño de vista de Registro (Vue.js) | Crear el formulario de registro con validaciones de campos obligatorios y fortaleza de contraseña en el frontend. | 6 | Andy Alejandro Mio Mejia | Completado |
+| **Sprint 4** | US-30 | Registrarse en la plataforma | T-IAM-02 | API Endpoint de Registro (Spring Boot) | Implementar el controlador y servicio para registrar usuarios, encriptar contraseñas (BCrypt) y validar correos duplicados en MySQL. | 8 | Mel Andree Orellana Rodriguez | Completado |
+| **Sprint 4** | US-31 | Iniciar sesión | T-IAM-03 | Interfaz de Login (Vue.js) | Diseñar la vista de inicio de sesión, manejo de estados de error (credenciales inválidas) y almacenamiento local del token. | 6 | Andy Alejandro Mio Mejia | Completado |
+| **Sprint 4** | US-31 | Iniciar sesión | T-IAM-04 | Autenticación con JWT (Spring Security) | Configurar Spring Security para validar credenciales, generar el token JWT y manejar el bloqueo de cuenta tras 5 intentos fallidos. | 12 | Mel Andree Orellana Rodriguez | Completado |
+| **Sprint 4** | US-18 | Controlar acceso por rol | T-IAM-05 | Configuración de Roles y Permisos | Definir entidades de Roles (Admin, Supervisor, Operador) en la base de datos y proteger endpoints con `@PreAuthorize`. | 8 | Mel Andree Orellana Rodriguez | Completado |
+| **Sprint 4** | US-18 | Controlar acceso por rol | T-IAM-06 | Guardias de navegación (Vue Router) | Implementar *Navigation Guards* en el frontend para restringir el acceso a vistas protegidas según el rol del usuario conectado. | 6 | Andy Alejandro Mio Mejia | Completado |
+| **Sprint 4** | US-42 | Cerrar sesión | T-IAM-07 | Lógica de Logout (Front/Back) | Implementar la destrucción del token en el cliente, redirección al login y control de expiración automática de sesión. | 4 | Mel Andree Orellana Rodriguez | Completado |
+| **Sprint 4** | Módulo IAM | Pruebas y Seguridad | T-IAM-08 | Pruebas de integración del flujo IAM | Realizar pruebas completas del flujo de autenticación (Postman/Cypress) y verificar el manejo de errores HTTP 401 y 403. | 6 | Mel Andree Orellana Rodriguez | Completado |
+| **Sprint 4** | Infraestructura | Despliegue de la Aplicación | T-DEP-01 | Configuración de Entorno de Producción | Configurar variables de entorno, propiedades de Spring Boot para producción y preparar los scripts de base de datos MySQL en la nube. | 8 | Andy Alejandro Mio Mejia | Completado |
 
 
 #### 5.2.4.4. Development Evidence for Sprint Review
