@@ -1903,8 +1903,6 @@ Asimismo, la sinergia del equipo fue clave para configurar con éxito el pipelin
 #### 5.2.4.2. Aspect Leaders and Collaborators
 
 
-
-
 <div align="center">
   <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 13px; text-align: center;">
     <thead>
@@ -1917,58 +1915,64 @@ Asimismo, la sinergia del equipo fue clave para configurar con éxito el pipelin
         <th style="border: 1px solid #dddddd; padding: 10px;">Module Alerts</th>
         <th style="border: 1px solid #dddddd; padding: 10px;">Module Reporting</th>
         <th style="border: 1px solid #dddddd; padding: 10px;">Module Analytics</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">Module IAM</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodriguez, Mel Andree</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">melandree8</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Bayron Morales, Jefferson</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Fenfito</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>     
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Berrospi Marin, Angel Guillermo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Guille-berrs</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Alejandro Mio, Andy</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">AndyMio17</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Rodrigo Rocca, Anhelo</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">RoccaA4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; font-weight: bold;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
       </tr>
     </tbody>
   </table>
