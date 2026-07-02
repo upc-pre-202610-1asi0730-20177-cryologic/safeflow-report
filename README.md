@@ -2141,6 +2141,83 @@ Como evidencia del adecuado funcionamiento y de la correcta publicación de la d
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
+En esta sección se presenta el proceso de diseño de la infraestructura, el aprovisionamiento de los recursos en la nube y la configuración del flujo de despliegue continuo realizados durante este Sprint, evidenciando la puesta en producción de la aplicación.
+
+### Introducción
+
+Con el objetivo de contar con una infraestructura estable, segura y disponible para la ejecución de la plataforma, se implementaron dos servicios principales dentro del grupo de recursos `safeflow` en **Microsoft Azure**: un servidor administrado de **Azure Database for MySQL** y una **Web App** mediante **Azure App Services** para alojar la API desarrollada en .NET. Además, se integró el repositorio del proyecto con un proceso automatizado de **Integración y Despliegue Continuo (CI/CD)** para facilitar las actualizaciones de la aplicación.
+
+
+#### **1. Implementación de la Base de Datos en Azure**
+
+- Como primera etapa, se creó un servidor flexible de **Azure Database for MySQL**, seleccionando una configuración que permitiera optimizar la administración de costos, las tareas de mantenimiento y la disponibilidad del almacenamiento. Este procedimiento se muestra en el siguiente archivo.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue1Backend.jpeg" alt="deployment1" width="900"/>
+</div>
+
+- Posteriormente, durante la configuración inicial, se asignó la suscripción **Azure for Students** y se vinculó el servidor al grupo de recursos `safeflow`, asegurando que todos los servicios del proyecto permanecieran organizados dentro del mismo entorno. La configuración se aprecia en el siguiente archivo.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue2Backend.jpeg" alt="deployment2" width="900"/>
+</div>
+
+- Finalizada la creación del recurso, el servidor **safeflowdb** quedó operativo en la región **Southeast Asia**, utilizando el motor **MySQL 8.4** y el plan de cómputo **Burstable B1ms**, tal como se evidencia en la siguiente captura.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue3Backend.jpeg" alt="deployment3" width="900"/>
+</div>
+
+#### **2. Configuración de Seguridad y Base de Datos**
+
+- Para permitir la conexión desde herramientas externas y facilitar la ejecución de migraciones, se configuró una regla de firewall denominada `MiComputadoraLocal`, autorizando el acceso desde la dirección IP pública del equipo de desarrollo. Este procedimiento se observa en la siguiente evidencia.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue4Backend.jpeg" alt="deployment4" width="900"/>
+</div>
+
+- Una vez habilitado el acceso al servidor, se creó el esquema relacional `safeflow_db`, el cual almacena la información utilizada por la aplicación en producción. La creación del esquema puede observarse en el siguiente archivo.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue5Backend.jpeg" alt="deployment5" width="900"/>
+</div>
+
+#### **3. Despliegue de la API mediante Azure App Services**
+
+- Después de completar la configuración de la base de datos, se procedió con la creación de una **Web App** en **Azure App Services**, utilizando el mismo grupo de recursos para centralizar la administración de la infraestructura. La configuración inicial se muestra en el siguiente archivo.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue6Backend.jpeg" alt="deployment6" width="900"/>
+</div>
+
+- Durante la creación del servicio se definió una publicación basada en código, seleccionando la región **Canada Central**, el sistema operativo **Linux** y el plan de hospedaje **Basic B1**, configuración que se aprecia en la siguiente evidencia.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue7Backend.jpeg" alt="deployment7" width="900"/>
+</div>
+
+- Tras finalizar el aprovisionamiento, la aplicación **safeflow-api** quedó desplegada y en estado **Running**, confirmándose además la utilización del entorno **.NET 10.0** y la correcta conexión con el repositorio oficial del proyecto. Esta información puede observarse en el siguiente archivo.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue8Backend.jpeg" alt="deployment8" width="900"/>
+</div>
+
+#### **4. Configuración de Variables y Automatización del Despliegue**
+
+- Como parte de las buenas prácticas de seguridad, las credenciales de acceso a la base de datos fueron almacenadas mediante variables de entorno dentro de Azure. Para ello se configuró la cadena de conexión utilizando la clave `ConnectionStrings__DefaultConnection`, evitando incluir información sensible directamente en el código fuente. La configuración se muestra en la siguiente evidencia.
+
+<div align="center">
+<img src="assets/chapter-05/despliegue9Backend.jpeg" alt="deployment9" width="900"/>
+</div>
+
+
+
+
+# Falta implementar las ultimas Funcionalidades
+
+
+
+
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
 En esta sección se presenta la forma en que el equipo llevó a cabo las actividades de implementación correspondientes al **Sprint 4**, el cual representó la etapa final del desarrollo del proyecto. Durante este sprint se realizaron los últimos ajustes e integraciones del **frontend** y **backend**, consolidando todas las funcionalidades planificadas y dejando el sistema completamente operativo para su entrega.
