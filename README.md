@@ -1556,6 +1556,19 @@ Además, se realizaron revisiones constantes de commits en GitHub y análisis de
 
 #### 5.2.3.3. Sprint Backlog 3
 
+El objetivo principal del **Sprint 4** es la implementación completa del módulo de **Gestión de Identidad y Acceso (IAM)** de la plataforma, asegurando un entorno seguro y controlado para los diferentes roles del sistema a través de flujos robustos de registro, autenticación y cierre de sesión. De manera simultánea, se contempla la configuración de la infraestructura y el despliegue (*deployment*) inicial de la aplicación, estableciendo las bases del entorno de producción y los pipelines de integración continua.
+
+### Evidencia del Tablero de Control (Trello)
+A continuación, se presenta la captura de pantalla que evidencia la planificación, asignación de responsables y el flujo de trabajo establecido para este sprint en la herramienta Trello, junto con su respectivo acceso público:
+
+**URL del Board Público:** [Enlace al Trello](https://melandres097.atlassian.net/jira/software/projects/KAN/boards/1)
+
+
+<div align="center">
+  <img src="assets/chapter-05/trello.png" alt="trello" width="900" />
+</div>
+
+
 | Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Sprint 3 | **US-01** | Registrar producto | T-01 | Diseño del Modelo de Datos | Crear la entidad relacional de Producto con sus restricciones de rangos de temperatura mínimos y máximos en la BD. | 3 | Andy Alejandro Mio Mejia | To Do |
@@ -1982,6 +1995,20 @@ Asimismo, la sinergia del equipo fue clave para configurar con éxito el pipelin
 
 #### 5.2.4.3. Sprint Backlog 4
 
+El objetivo principal del **Sprint 4** es la implementación completa del módulo de **Gestión de Identidad y Acceso (IAM)** de la plataforma, asegurando un entorno seguro y controlado para los diferentes roles del sistema a través de flujos robustos de registro, autenticación y cierre de sesión. De manera simultánea, se contempla la configuración de la infraestructura y el despliegue (*deployment*) inicial de la aplicación, estableciendo las bases del entorno de producción y los pipelines de integración continua.
+
+### Evidencia del Tablero de Control (Trello)
+A continuación, se presenta la captura de pantalla que evidencia la planificación, asignación de responsables y el flujo de trabajo establecido para este sprint en la herramienta Trello, junto con su respectivo acceso público:
+
+**URL del Board Público:** [Enlace al Trello](https://melandres097.atlassian.net/jira/software/projects/KAN/boards/1)
+
+
+<div align="center">
+  <img src="assets/chapter-05/trello.png" alt="trello" width="900" />
+</div>
+
+### Tabla de Descomposición de Work-items / Tasks
+
 | Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 | :---: | :---: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
 | **Sprint 4** | US-30 | Registrarse en la plataforma | T-IAM-01 | Diseño de vista de Registro (Vue.js) | Crear el formulario de registro con validaciones de campos obligatorios y fortaleza de contraseña en el frontend. | 6 | Andy Alejandro Mio Mejia | Completado |
@@ -1993,6 +2020,7 @@ Asimismo, la sinergia del equipo fue clave para configurar con éxito el pipelin
 | **Sprint 4** | US-42 | Cerrar sesión | T-IAM-07 | Lógica de Logout (Front/Back) | Implementar la destrucción del token en el cliente, redirección al login y control de expiración automática de sesión. | 4 | Mel Andree Orellana Rodriguez | Completado |
 | **Sprint 4** | Módulo IAM | Pruebas y Seguridad | T-IAM-08 | Pruebas de integración del flujo IAM | Realizar pruebas completas del flujo de autenticación (Postman/Cypress) y verificar el manejo de errores HTTP 401 y 403. | 6 | Mel Andree Orellana Rodriguez | Completado |
 | **Sprint 4** | Infraestructura | Despliegue de la Aplicación | T-DEP-01 | Configuración de Entorno de Producción | Configurar variables de entorno, propiedades de Spring Boot para producción y preparar los scripts de base de datos MySQL en la nube. | 8 | Andy Alejandro Mio Mejia | Completado |
+
 
 
 #### 5.2.4.4. Development Evidence for Sprint Review
@@ -2066,9 +2094,6 @@ Durante este Sprint, el trabajo se centró en comprobar el correcto funcionamien
 - **Verificación de estabilidad:** Se validó el correcto intercambio de respuestas HTTP entre el cliente y el servidor, comprobando la recepción de códigos de estado exitosos, como **200 OK** y **201 Created**, lo que asegura una comunicación estable y una experiencia de usuario continua.
 
 ### Capturas de Pantalla Requeridas para el Informe
-
-
-
 
 
 
